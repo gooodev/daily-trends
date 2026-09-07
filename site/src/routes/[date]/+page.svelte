@@ -93,25 +93,6 @@
 									{/if}
 								</div>
 								<p class="text-base-content/80">{item.summary_ja}</p>
-								{#if item.bullets?.length}
-									<div class="collapse-arrow collapse mt-2 bg-base-200">
-										<input type="checkbox" />
-										<div class="collapse-title text-sm font-medium">詳細を見る</div>
-										<div class="collapse-content text-sm">
-											<ul class="list-disc space-y-1 pl-5">
-												{#each item.bullets as bullet}
-													<li>{bullet}</li>
-												{/each}
-											</ul>
-											{#if item.implication}
-												<p class="mt-2">
-													<span class="font-semibold">業務への示唆:</span>
-													{item.implication}
-												</p>
-											{/if}
-										</div>
-									</div>
-								{/if}
 							</div>
 						</div>
 					{/each}

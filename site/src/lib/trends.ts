@@ -2,8 +2,6 @@ export type TrendItem = {
 	title_ja: string;
 	url: string;
 	summary_ja: string;
-	bullets: string[];
-	implication: string;
 };
 
 export type TrendCategory = {

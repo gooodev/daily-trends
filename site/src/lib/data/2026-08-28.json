@@ -7,30 +7,22 @@
         {
           "title_ja": "Claude Codeの規律をhookに降ろしたらHaikuでも壊れなくなった",
           "url": "https://zenn.dev/yui/articles/97597aa13b9802",
-          "summary_ja": "プロンプトでの指示だけでは徹底されなかった開発規律を、Claude CodeのHook機能で強制する運用に切り替えたところ、安価なHaikuモデルでも品質が安定した事例。エージェント運用のガードレール設計の実践例として参考になる。",
-          "bullets": [],
-          "implication": ""
+          "summary_ja": "プロンプトでの指示だけでは徹底されなかった開発規律を、Claude CodeのHook機能で強制する運用に切り替えたところ、安価なHaikuモデルでも品質が安定した事例。エージェント運用のガードレール設計の実践例として参考になる。"
         },
         {
           "title_ja": "ローカル開発やめませんか？Claude Code/Cursorで開発の8割をクラウドに移した話",
           "url": "https://zenn.dev/sc30gsw/articles/953334f11df507",
-          "summary_ja": "ローカル環境ではなくクラウド上でClaude Code/Cursorを動かす開発フローに切り替え、開発作業の8割をクラウド化した事例。エージェント駆動開発における開発環境設計の一つの解として、社内展開時の参考になる。",
-          "bullets": [],
-          "implication": ""
+          "summary_ja": "ローカル環境ではなくクラウド上でClaude Code/Cursorを動かす開発フローに切り替え、開発作業の8割をクラウド化した事例。エージェント駆動開発における開発環境設計の一つの解として、社内展開時の参考になる。"
         },
         {
           "title_ja": "複数チームで1つのClaude Codeプラグインマーケットプレイスを育てる",
           "url": "https://techblog.zozo.com/entry/cc-plugin-marketplace",
-          "summary_ja": "ZOZOが複数チーム横断でClaude Codeのスキル・プラグインを共有するマーケットプレイスを整備した事例。組織的なエージェントスキル設計・ガバナンスの実践例として、社内AI活用の展開設計に応用できる。",
-          "bullets": [],
-          "implication": ""
+          "summary_ja": "ZOZOが複数チーム横断でClaude Codeのスキル・プラグインを共有するマーケットプレイスを整備した事例。組織的なエージェントスキル設計・ガバナンスの実践例として、社内AI活用の展開設計に応用できる。"
         },
         {
           "title_ja": "AI駆動開発を組織で促すために",
           "url": "https://speakerdeck.com/lycorptech_jp/aidlc-aidd-workshop",
-          "summary_ja": "AIDLC(AI-Driven Life Cycle)やAI駆動開発(AIDD)を組織に浸透させるためのワークショップ資料。開発プロセス変革を現場から広げる工夫が紹介されている。",
-          "bullets": [],
-          "implication": ""
+          "summary_ja": "AIDLC(AI-Driven Life Cycle)やAI駆動開発(AIDD)を組織に浸透させるためのワークショップ資料。開発プロセス変革を現場から広げる工夫が紹介されている。"
         }
       ]
     },
@@ -40,30 +32,22 @@
         {
           "title_ja": "人月で稼ぐSIerは、あと数年で詰む",
           "url": "https://zenn.dev/jnch/articles/18cf3f1893ee5b",
-          "summary_ja": "生成AIによる生産性向上が人月単価ビジネスの前提を崩しつつあるとの指摘。プリセールス・提案の現場でも従来の工数見積もりモデルの説明が難しくなる局面が増えており、提案戦略の見直しの参考になる。",
-          "bullets": [],
-          "implication": ""
+          "summary_ja": "生成AIによる生産性向上が人月単価ビジネスの前提を崩しつつあるとの指摘。従来の工数見積もりモデルの説明が難しくなる局面が増えており、ビジネスモデルの見直しを考える上での論点となる。"
         },
         {
           "title_ja": "1000人調査で判明、生成AIへの慎重姿勢が「勝手利用」を招く実態",
           "url": "https://www.sbbit.jp/document/sp/24293",
-          "summary_ja": "企業側が生成AI活用に慎重・禁止的な姿勢を取るほど、従業員が無許可でAIを利用する「シャドーAI」が広がるという調査結果。顧客への生成AIガバナンス提案時のチェックリストとして有用。",
-          "bullets": [],
-          "implication": ""
+          "summary_ja": "企業側が生成AI活用に慎重・禁止的な姿勢を取るほど、従業員が無許可でAIを利用する「シャドーAI」が広がるという調査結果。顧客への生成AIガバナンス提案時のチェックリストとして有用。"
         },
         {
           "title_ja": "Meta従業員を大量解雇しAIに置き換えようとした「Project OT」が破綻",
           "url": "https://gigazine.net/news/20260827-meta-zuckerberg-replace-staff-ai-imploded/",
-          "summary_ja": "Metaが社内でAIによる人員置き換えを急進的に進めようとした「Project OT」が機能不全に陥り頓挫した経緯の分析。生成AI時代の性急な人員戦略・組織設計の失敗事例として、経営層への提案時の反面教師になる。",
-          "bullets": [],
-          "implication": ""
+          "summary_ja": "Metaが社内でAIによる人員置き換えを急進的に進めようとした「Project OT」が機能不全に陥り頓挫した経緯の分析。生成AI時代の性急な人員戦略・組織設計の失敗事例として、経営層への提案時の反面教師になる。"
         },
         {
           "title_ja": "「それ、今やる必要ある？」と言われたときのセキュリティ施策の通し方",
           "url": "https://zenn.dev/gangy/articles/04597efe1b64c5",
-          "summary_ja": "優先度の低いと見なされがちなセキュリティ施策を組織内でどう通すかの実践論。顧客企業へのセキュリティ提案時の合意形成・説得材料の組み立て方として参考になる。",
-          "bullets": [],
-          "implication": ""
+          "summary_ja": "優先度の低いと見なされがちなセキュリティ施策を組織内でどう通すかの実践論。顧客企業へのセキュリティ提案時の合意形成・説得材料の組み立て方として参考になる。"
         }
       ]
     },
@@ -73,23 +57,17 @@
         {
           "title_ja": "サイバー能力を持つAIエージェントはVMに封じ込められない",
           "url": "https://blog.trailofbits.com/2026/08/26/vms-wont-contain-cyber-capable-agents/",
-          "summary_ja": "高度な攻撃能力を持つAIエージェントに対し、仮想マシンによる隔離だけでは不十分だとするTrail of Bitsの分析。AIエージェントのサンドボックス設計・権限設計を検討する際の重要な論点。",
-          "bullets": [],
-          "implication": ""
+          "summary_ja": "高度な攻撃能力を持つAIエージェントに対し、仮想マシンによる隔離だけでは不十分だとするTrail of Bitsの分析。AIエージェントのサンドボックス設計・権限設計を検討する際の重要な論点。"
         },
         {
           "title_ja": "AIインフラへの攻撃、90日間のハニーポット観測結果",
           "url": "https://www.wiz.io/blog/ai-infrastructure-honeypot",
-          "summary_ja": "LiteLLMやMCPサーバーなどAI基盤を狙ったRCEや認証情報窃取キャンペーンを90日間のハニーポット観測で可視化したWizの報告。AIインフラのセキュリティ提案・検証時の脅威モデルとして参照できる。",
-          "bullets": [],
-          "implication": ""
+          "summary_ja": "LiteLLMやMCPサーバーなどAI基盤を狙ったRCEや認証情報窃取キャンペーンを90日間のハニーポット観測で可視化したWizの報告。AIインフラのセキュリティ提案・検証時の脅威モデルとして参照できる。"
         },
         {
           "title_ja": "OpenAIがHugging Faceを誤ってハッキングした件の分析報告",
           "url": "https://gigazine.net/news/20260827-openai-hugging-face-incident-report/",
-          "summary_ja": "OpenAIがテスト目的でHugging Faceの環境に意図せず侵入してしまったインシデントの分析。Dockerも同事案を題材に、AIエージェントを大規模に統制・監視する仕組みの必要性を論じており、権限管理の甘さが招くリスクの実例。",
-          "bullets": [],
-          "implication": ""
+          "summary_ja": "OpenAIがテスト目的でHugging Faceの環境に意図せず侵入してしまったインシデントの分析。Dockerも同事案を題材に、AIエージェントを大規模に統制・監視する仕組みの必要性を論じており、権限管理の甘さが招くリスクの実例。"
         }
       ]
     },
@@ -99,16 +77,12 @@
         {
           "title_ja": "MacBook Pro 128GBでローカルLLMがついに実用になった(Qwen3.8 Flash Next実測)",
           "url": "https://zenn.dev/jtechjapan_pub/articles/local-llm-qwen-flash-next-eval",
-          "summary_ja": "メモリ128GB搭載のMacBook Proでローカル動作するQwen3.8 Flash Nextモデルの実測レポート。ローカルLLMがクラウド依存を減らす選択肢として実用段階に入りつつあることを示す事例。",
-          "bullets": [],
-          "implication": ""
+          "summary_ja": "メモリ128GB搭載のMacBook Proでローカル動作するQwen3.8 Flash Nextモデルの実測レポート。ローカルLLMがクラウド依存を減らす選択肢として実用段階に入りつつあることを示す事例。"
         },
         {
           "title_ja": "ローカルLLM実行ツールOllamaがClaude Desktopに対応",
           "url": "https://forest.watch.impress.co.jp/docs/news/2135971.html",
-          "summary_ja": "ローカルLLM実行環境として広く使われるOllamaがClaude Desktopとの連携に対応。クラウドAPIとローカルモデルを併用する開発・検証環境の選択肢が広がる。",
-          "bullets": [],
-          "implication": ""
+          "summary_ja": "ローカルLLM実行環境として広く使われるOllamaがClaude Desktopとの連携に対応。クラウドAPIとローカルモデルを併用する開発・検証環境の選択肢が広がる。"
         }
       ]
     },
@@ -118,16 +92,12 @@
         {
           "title_ja": "TypeScript 7.0正式リリース発表(Go移植で10倍高速)",
           "url": "https://devblogs.microsoft.com/typescript/announcing-typescript-7-0/",
-          "summary_ja": "TypeScriptコンパイラをGo言語でネイティブ移植し、ビルド速度を大幅に高速化したTypeScript 7.0が正式リリース。大規模TypeScriptプロジェクトの開発体験を大きく改善する節目のアップデート。",
-          "bullets": [],
-          "implication": ""
+          "summary_ja": "TypeScriptコンパイラをGo言語でネイティブ移植し、ビルド速度を大幅に高速化したTypeScript 7.0が正式リリース。大規模TypeScriptプロジェクトの開発体験を大きく改善する節目のアップデート。"
         },
         {
           "title_ja": "Claw Patrol: エージェント向けオープンソースセキュリティファイアウォール",
           "url": "https://deno.com/blog/clawpatrol",
-          "summary_ja": "Denoが、HTTPだけでなくAIエージェントの通信全般を検査対象とするオープンソースのセキュリティファイアウォールを公開。AIエージェント時代のネットワーク境界防御の新しいアプローチとして注目。",
-          "bullets": [],
-          "implication": ""
+          "summary_ja": "Denoが、HTTPだけでなくAIエージェントの通信全般を検査対象とするオープンソースのセキュリティファイアウォールを公開。AIエージェント時代のネットワーク境界防御の新しいアプローチとして注目。"
         }
       ]
     },
@@ -137,9 +107,7 @@
         {
           "title_ja": "優秀なエンジニアが書くDesign Docは何が違うのか？",
           "url": "https://www.pospome.work/entry/2026/08/24/223309",
-          "summary_ja": "優れたエンジニアのDesign Docに共通する構成・書き方の特徴を分析した記事。顧客向け技術提案書や社内稟議資料の質を高めるヒントとしても応用できる。",
-          "bullets": [],
-          "implication": ""
+          "summary_ja": "優れたエンジニアのDesign Docに共通する構成・書き方の特徴を分析した記事。顧客向け技術提案書や社内稟議資料の質を高めるヒントとしても応用できる。"
         }
       ]
     }

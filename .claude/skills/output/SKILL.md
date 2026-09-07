@@ -1,11 +1,11 @@
 ---
 name: output
-description: "トレンドネタ収集（出力レイヤー）。収集済み JSON（一覧+全件の詳細要約を含む）を出力プロファイルの形式に整形し、SvelteKit サイトのデータファイルへ1回の書き込みで出力する。収集・詳細要約自体は collect が行う。"
+description: "トレンドネタ収集（出力レイヤー）。収集済み JSON（一覧+全件の要約を含む）を出力プロファイルの形式に整形し、SvelteKit サイトのデータファイルへ1回の書き込みで出力する。収集・要約生成自体は collect が行う。"
 ---
 
 # トレンドネタ収集（出力レイヤー）
 
-`collect` が集めた記事情報（一覧用の短い要約と、全記事分の詳細要約の両方を含む）を、`output-profile.md`（このスキルと同じディレクトリ）に従って `site/src/lib/data/YYYY-MM-DD.json` へ書き込む。ソース巡回・興味度判定・重複統合・本文取得などの収集ロジックは持たない（`collect` の責務）。
+`collect` が集めた記事情報（記事一覧と全記事分の要約）を、`output-profile.md`（このスキルと同じディレクトリ）に従って `site/src/lib/data/YYYY-MM-DD.json` へ書き込む。ソース巡回・興味度判定・重複統合・本文取得などの収集ロジックは持たない（`collect` の責務）。
 
 ## 実行手順
 
@@ -26,8 +26,8 @@ description: "トレンドネタ収集（出力レイヤー）。収集済み JS
 
 - `items` を先頭から順に処理する（配列順 = カテゴリ順→記事順のまま維持）
 - 同じ `category` の記事をひとつの `categories[].items` にまとめる
-- 各記事は `title_ja` / `url` / `summary_ja` / `bullets` / `implication` のみを転記する（チェック状態のような絞り込みは存在しない。収集 JSON に載っている記事は全件がここに入る）
-- `interest` / `merged_urls` / `fetch_status` / `note` は出力に含めない。ただし `fetch_status: "fallback"` または `note` が空でない場合は、その記事の `bullets` の末尾にひとつの項目として注記を足してから `note` 自体は落とす
+- 各記事は `title_ja` / `url` / `summary_ja` のみを転記する（チェック状態のような絞り込みは存在しない。収集 JSON に載っている記事は全件がここに入る）
+- `interest` / `merged_urls` / `fetch_status` / `note` は出力に含めない。ただし `fetch_status: "fallback"` または `note` が空でない場合は、その旨を `summary_ja` の末尾に簡潔に付記してから `note` 自体は落とす
 
 ## 注意事項
 

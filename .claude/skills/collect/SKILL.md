@@ -1,11 +1,11 @@
 ---
 name: collect
-description: "トレンドネタ収集（収集レイヤー）。はてブ・Hacker News 等から人気記事を収集し、重複統合・興味度判定した上で、公開する全件について本文取得・詳細要約まで行い JSON として出力する。保存先・出力形式には関知しない。トリガーは「トレンド収集」「trends collect」など。通常は `/output` から自動的に呼び出される。"
+description: "トレンドネタ収集（収集レイヤー）。はてブ・Hacker News 等から人気記事を収集し、重複統合・興味度判定した上で、公開する全件について本文取得・要約生成まで行い JSON として出力する。保存先・出力形式には関知しない。トリガーは「トレンド収集」「trends collect」など。通常は `/output` から自動的に呼び出される。"
 ---
 
 # トレンドネタ収集（収集レイヤー）
 
-サイトから人気記事を収集し、興味領域とのマッチング・重複統合を行った上で、**公開対象に決まった全件について本文を取得し詳細要約まで生成**し、**JSON ファイル**として出力する。保存先ディレクトリやファイル名・見出しレベルなど「どこに・どう書くか」は関知しない（`/output` 等の出力レイヤー側の責務）。このスキル単体では vault の存在を前提にしない。
+サイトから人気記事を収集し、興味領域とのマッチング・重複統合を行った上で、**公開対象に決まった全件について本文を取得し要約を生成**し、**JSON ファイル**として出力する。保存先ディレクトリやファイル名・見出しレベルなど「どこに・どう書くか」は関知しない（`/output` 等の出力レイヤー側の責務）。
 
 ## 出力先
 
@@ -142,7 +142,7 @@ curl -s -H "User-Agent: neta-trend-collector/1.0 (trend analysis tool)" \
 - 例: 「Qwen 3.7 発表（gigazine）」と「Qwen 3.7 reddit 反応」→ 1 件
 - 似ているが事案が違う場合（例: NGINX 0-day と Defender 0-day）は別項目のまま残す
 
-代表記事の選び方（優先順）: 1. 日本語ソース 2. 一次情報・公式発表 3. より詳細・深掘りされている方 4. 業務文脈（`guidance.md` の「## 業務文脈」）で参照しやすい方。統合された他記事の要点は代表記事の要約に 1〜2 句だけ織り込み、URL は `merged_urls` に記録する。
+代表記事の選び方（優先順）: 1. 日本語ソース 2. 一次情報・公式発表 3. より詳細・深掘りされている方。統合された他記事の要点は代表記事の要約に 1〜2 句だけ織り込み、URL は `merged_urls` に記録する。
 
 **件数確定**: 全エントリーは載せない。`guidance.md` の「## 収集上限」を目安に、関連性の高い記事のみに絞り込む。ここで**公開する記事リストを確定する**（手順 4 の本文取得はこの確定リストに対してのみ行う。無駄な取得を避けるため、絞り込み前の候補全件には行わない）。
 
@@ -151,7 +151,7 @@ curl -s -H "User-Agent: neta-trend-collector/1.0 (trend analysis tool)" \
 - カテゴリは固定リストではない。当日の記事に合わせて適切に切る。1 カテゴリ 2〜3 件しか無いなら近接カテゴリに統合してよい
 - 記事の並び順がそのまま出力順（カテゴリ順→記事順）になる。カテゴリ順は関連性の高いものから（ユーザー興味領域に直結するカテゴリを上に）
 
-### 4. 詳細取得（確定リストの全件が対象）
+### 4. 要約生成（確定リストの全件が対象）
 
 手順 3 で確定したリストの**全記事**について、本文を取得し要約を生成する（チェック等による絞り込みは行わない。独立した記事は並列で取得してよい）。
 
@@ -163,11 +163,7 @@ curl -s -H "User-Agent: neta-trend-collector/1.0 (trend analysis tool)" \
 - **取得失敗時**（ペイウォール・ブロック・404 等）→ はてブコメントページ（`https://b.hatena.ne.jp/entry/{URL}`）や Web 検索で内容を補完し、`note` に「※本文取得不可のため {補完元} から要約」と記録する。それでも情報が足りなければ手順 1〜2 で得たタイトル・スニペットのみから簡潔な要約に留め、`fetch_status: "failed"` とする
 - サンドボックス環境では curl がネットワーク制限で失敗することがある。その場合は `dangerouslyDisableSandbox: true` で実行する
 
-**1 回の本文取得から、要約の粒度違いを 2 つとも生成する**（同じ記事に二度アクセスしない）:
-
-- `summary_ja`（1〜2 文）: 記事内容のサマリ。何が書かれているか・なぜ重要か（業務文脈との接続）を端的に。タイトルの繰り返しは禁止
-- `bullets`（5〜8 点）: 記事の主要な論点・事実。数字・固有名詞（製品名・企業名・バージョン・CVE 番号等）は具体的に保持する。タイトルの繰り返しは禁止
-- `implication`（1 文）: 業務への示唆。`guidance.md` の「## 業務文脈」を参照し、プリセールス・顧客提案・kintone・エンタープライズ・生成AI活用などの文脈と接続する
+`summary_ja`（1〜2 文）: 記事内容のサマリ。何が書かれているか・なぜ重要かを端的に。タイトルの繰り返しは禁止。詳細な論点列挙（bullets）や個別の業務示唆（implication）は生成しない。
 
 `fetch_status`: `ok`（本文取得成功）/ `fallback`（補完元から要約）/ `failed`（本文取得失敗・簡潔な要約のみ）。`note`: 補完元の注記が必要なときだけ記載、無ければ空文字列。
 
@@ -177,11 +173,11 @@ curl -s -H "User-Agent: neta-trend-collector/1.0 (trend analysis tool)" \
 
 **タイトル**: 全て日本語。英語ソースは翻訳して掲載。意訳可だが固有名詞（製品名・人名・CVE 番号）は保持。
 
-**フォーマット**（`schema: "trends-collect/2"`。手順 4 で追加した `bullets` / `implication` / `fetch_status` / `note` を含む）:
+**フォーマット**（`schema: "trends-collect/3"`。手順 4 で追加した `summary_ja` / `fetch_status` / `note` を含む）:
 
 ```json
 {
-  "schema": "trends-collect/2",
+  "schema": "trends-collect/3",
   "date": "YYYY-MM-DD",
   "items": [
     {
@@ -189,11 +185,9 @@ curl -s -H "User-Agent: neta-trend-collector/1.0 (trend analysis tool)" \
       "url": "https://...",
       "source": "hatena",
       "category": "AI/エージェント開発・実装",
-      "summary_ja": "記事内容のサマリを1〜2文で。業務文脈との接続を含めると良い。",
+      "summary_ja": "記事内容のサマリを1〜2文で。",
       "interest": 3,
       "merged_urls": [],
-      "bullets": ["論点・事実 1", "論点・事実 2"],
-      "implication": "業務への示唆を1行で",
       "fetch_status": "ok",
       "note": ""
     }
@@ -209,6 +203,8 @@ curl -s -H "User-Agent: neta-trend-collector/1.0 (trend analysis tool)" \
 - `merged_urls`: 重複統合で代表に吸収された URL（無ければ空配列）
 - `stats.collected`: 巡回で見つかった全記事数（統合前）、`stats.published`: `items` に採用した件数（= 手順 4 で本文取得した件数）
 
+`fetch_status`/`note` は補完元の注記が必要なときだけ使う内部フィールド（出力レイヤーで `summary_ja` に統合されて落とされる）。
+
 ## 注意事項
 
 - WebFetch ツールを使用して情報を取得
@@ -219,7 +215,7 @@ curl -s -H "User-Agent: neta-trend-collector/1.0 (trend analysis tool)" \
 - **Reddit は Reddit コメントページの完全 URL（`https://www.reddit.com/r/subreddit/comments/...`形式）を使用**
 - **Reddit のタイトルは日本語に翻訳**
 - Reddit API レート制限に注意（1 分あたり 60 リクエスト程度）
-- 要約文（`summary_ja` / `bullets` / `implication`）は通常の日本語で書く（圧縮口調にしない）。英語記事も要約は日本語
+- 要約文（`summary_ja`）は通常の日本語で書く（圧縮口調にしない）。英語記事も要約は日本語
 - 投票数（ups）/コメント数が高い記事を優先（**指標自体は JSON に載せない**。重要度判定のためだけに使う）
 - ポイント数/ブックマーク数が高い記事は特に注目
 - **サンドボックス環境の注意**: Bash の curl（interests API・Reddit）や Python スクリプト（HF Papers・Zenn・Qiita）はサンドボックスのネットワーク制限で名前解決に失敗することがある。その場合は `dangerouslyDisableSandbox: true` で実行する

@@ -2,11 +2,9 @@
 
 日々の技術トレンドネタ収集ログ。SvelteKit 製サイトとして GitHub Pages で公開し、PC を問わずブラウザから閲覧できるようにしたもの。
 
-もとは `~/vault`（Obsidian）内で運用していた `daily-trends` / `daily-trends-collect` 系スキルの出力先を、この公開用リポジトリに差し替えた派生。
-
 ## 使い方
 
-Claude Code（ローカル・Claude Code on the web どちらでも）でこのリポジトリを開き、`/output` と発話するとその日のトレンドネタを収集し、一覧と全記事分の詳細要約を `site/src/lib/data/YYYY-MM-DD.json` に1回で書き込む。手動でのチェック・絞り込みステップは無い（無人実行前提のため、収集された記事は全件詳細要約まで自動生成される）。
+Claude Code（ローカル・Claude Code on the web どちらでも）でこのリポジトリを開き、`/output` と発話するとその日のトレンドネタを収集し、記事一覧と要約を `site/src/lib/data/YYYY-MM-DD.json` に1回で書き込む。手動でのチェック・絞り込みステップは無い（無人実行前提のため、収集された記事は全件自動で要約まで生成される）。
 
 - `/output`: トレンドネタ収集（`collect` を内部で呼び出す）・`site/src/lib/data/YYYY-MM-DD.json` への一覧＋詳細要約の出力
 
@@ -15,10 +13,10 @@ Claude Code（ローカル・Claude Code on the web どちらでも）でこの�
 ## 構成
 
 - `site/`: SvelteKit 製フロントエンド（Vite + Tailwind CSS + daisyUI + Iconify、`@sveltejs/adapter-static` で静的書き出し）
-  - `site/src/lib/data/*.json`: 日別のトレンドデータ（一覧＋詳細要約を含む）。ホームで日付一覧、`/[date]` で当日分を表示。各記事に「興味あり」の星ボタンあり
+  - `site/src/lib/data/*.json`: 日別のトレンドデータ（一覧＋要約を含む）。ホームで日付一覧、`/[date]` で当日分を表示。各記事に「興味あり」の星ボタンあり
   - `site/src/routes/admin/`: 興味プロファイル（情報ソース・興味フラグ）の管理 UI（トークン認証）
 - `.claude/skills/output/`: 出力レイヤー（収集 JSON を `site/src/lib/data/` に書き込む）
-- `.claude/skills/collect/`: 収集レイヤー（巡回・重複統合・興味度判定に加え、公開対象全件の本文取得・詳細要約生成まで行う）。`guidance.md` に業務文脈・収集上限・カテゴリ粒度メモを置く（興味領域・収集ソース自体は D1 側）
+- `.claude/skills/collect/`: 収集レイヤー（巡回・重複統合・興味度判定に加え、公開対象全件の本文取得・要約生成まで行う）。`guidance.md` に収集上限・カテゴリ粒度メモを置く（興味領域・収集ソース自体は D1 側）
 - `.trends-work/`（gitignore 対象）: 収集の中間 JSON
 - `db/`: Cloudflare D1 のスキーマ・シード。`schema.sql`/`seed.sql`（興味フラグ・情報ソース）、`schema_marks.sql`（記事ごとの「興味あり」マーク用テーブル、追加分）
 - `worker/`: D1 の内容を JSON で返す Cloudflare Worker（`daily-trends-interests-api`）のソース
@@ -48,6 +46,5 @@ cd worker && pnpm exec wrangler secret put ADMIN_TOKEN
 ## 注意
 
 - `.claude/skills/collect/scripts/` の Python スクリプト（Zenn・Qiita・HF Papers 取得）を使う場合は、初回のみ `scripts/README.md` の手順で venv を作成する
-- 収集対象の全記事について本文取得・詳細要約まで行うため、チェック式の絞り込みだった頃より1回の実行にかかる時間・WebFetch 呼び出し数が増える
+- 収集対象の全記事について本文取得・要約まで行うため、チェック式の絞り込みだった頃より1回の実行にかかる時間・WebFetch 呼び出し数が増える
 - スケジュールルーティンから起動されるセッションは、処理をバックグラウンドの subagent に委譲したままターンを終了すると、その結果が失われる（ルーティンはターン完了時点で成功扱いになるため）。全工程を同一ターン内で完了させること
-- 興味プロファイルは vault 版（`interests.md`、ファイルベース）とこのリポジトリ（D1）とでデータ源が別。vault 側の `/trends-tune` はファイルを更新するだけで D1 には反映されない。D1 側を見直す場合は `db/seed.sql` を編集して再実行する

@@ -14,14 +14,14 @@
 
 ## ファイル形式
 
-`collect` が出力する `trends-collect-YYYY-MM-DD.json`（`schema: trends-collect/2`。フラットな `items` 配列、`category` フィールド、`interest`/`merged_urls`/`fetch_status`/`note` などの内部フィールドを含む）を、公開用に**カテゴリでグルーピングし、内部フィールドを落とした** JSON へ変換して書き込む。
+`collect` が出力する `trends-collect-YYYY-MM-DD.json`（`schema: trends-collect/3`。フラットな `items` 配列、`category` フィールド、`interest`/`merged_urls`/`fetch_status`/`note` などの内部フィールドを含む）を、公開用に**カテゴリでグルーピングし、内部フィールドを落とした** JSON へ変換して書き込む。
 
 **変換ルール**:
 
 - `items` を先頭から順に処理する（配列順 = カテゴリ順→記事順、この順序をそのまま維持する）
 - 同じ `category` の記事をひとつの `categories[].items` にまとめる（`categories` の順序 = 各カテゴリの初出順）
-- 各記事から `title_ja` / `url` / `summary_ja` / `bullets` / `implication` だけを転記する
-- `interest` / `merged_urls` / `fetch_status` / `note` はここでは出力しない（内部フィールド）。ただし `fetch_status` が `fallback` または `note` が空でない場合は、`bullets` の末尾にその注記を通常の一項目として追加してから `note` 自体は落とす
+- 各記事から `title_ja` / `url` / `summary_ja` だけを転記する
+- `interest` / `merged_urls` / `fetch_status` / `note` はここでは出力しない（内部フィールド）。ただし `fetch_status` が `fallback` または `note` が空でない場合は、その旨を `summary_ja` の末尾に簡潔に付記してから `note` 自体は落とす
 
 **フォーマット**（スキーマ名は特に持たない。SvelteKit 側の型は `site/src/lib/trends.ts` の `TrendDay` を正とする）:
 
@@ -35,9 +35,7 @@
         {
           "title_ja": "日本語タイトル",
           "url": "https://...",
-          "summary_ja": "記事内容のサマリを1〜2文で。業務文脈との接続を含めると良い。",
-          "bullets": ["論点・事実 1", "論点・事実 2"],
-          "implication": "業務への示唆を1行で"
+          "summary_ja": "記事内容のサマリを1〜2文で。"
         }
       ]
     }
@@ -63,8 +61,3 @@
 - `site/src/lib/data/*.json` に追加・コミット・push すると、`.github/workflows/deploy.yml`（push トリガー）が `site/` をビルドし GitHub Pages にデプロイする（数分のタイムラグあり）
 - Claude Code on the web からこのリポジトリに対して `/output` を実行した場合も、変更をコミット・push するところまで行うこと（push しないとサイトに反映されない。ビルド自体は GitHub Actions 側が行うため、ローカルで `pnpm run build` する必要はない）
 - **全工程を1回のセッション内で同期的に完了させること**。バックグラウンドの subagent に処理を委譲してターンを終了すると、スケジュールルーティンはそのターンの完了時点で「成功」扱いになり、委譲先が後から出す結果は誰にも回収されない
-
-## vault 版との違い・運用上の注意
-
-- `~/vault`（Obsidian）にも同種のスキル一式があるが、そちらは Jekyll ではなく Obsidian のノート（Markdown）に書き、「収集→一覧をノートに書く→ユーザーが興味のある記事をチェック→チェック済みだけ詳細取得」という手動キュレーション込みの運用（`daily-trends-detail` 等の追加スキルを使う）。このリポジトリは無人実行が前提のため、そのステップを省いて全件を自動で詳細要約まで行う設計にしている
-- 興味プロファイル（興味領域・収集ソース）はこのリポジトリでは Cloudflare D1 + Worker API を正本としており、vault 側の `interests.md`（ファイルベース）とはデータ源が異なる。vault 側の `/trends-tune` はチェック履歴からファイルを更新するだけで D1 には反映されない。D1 側を見直したい場合は `db/schema.sql` `db/seed.sql`（またはリポジトリの `wrangler d1 execute` コマンド）で直接更新する
