@@ -2,7 +2,7 @@
 
 `output` `collect` が「どこに・どの形式で書くか」の判定に使う正本。SvelteKit（`site/`）+ GitHub Actions + GitHub Pages 向けの設定。
 
-このリポジトリは全自動運用（Claude Code on the web のスケジュールルーティンから毎朝実行）を前提としており、手動チェックによる絞り込みステップは無い。収集された記事は全件、一覧用の要約と詳細要約の両方を含む1つの JSON ファイルとして書き込む。
+このリポジトリは全自動運用（Claude Code on the web のスケジュールルーティンから毎朝実行）を前提としており、手動チェックによる絞り込みステップは無い。収集された記事は全件、要約を含む1つの JSON ファイルとして書き込む。
 
 ## 保存先
 
@@ -50,6 +50,12 @@
 
 `.trends-work/` は `.gitignore` 対象（コミットしない中間ファイル）。
 
+## 既出記事の索引
+
+- 場所: リポジトリルートの `trends-published-urls.txt`（1行1 URL、重複無し）
+- 用途: `collect` の既出除外（過去に掲載した記事を再掲しない）が参照する索引。`site/src/lib/data/*.json` を毎回全件走査する代わりに、この単一ファイルと照合することで掲載日数が増えても走査コストが増大しないようにしている
+- 更新: `output` が `site/src/lib/data/YYYY-MM-DD.json` を書き込むたびに、その日の `url` を差分追記する（`output/SKILL.md` 手順 4）。通常のコミット対象（`.gitignore` 対象ではない）
+
 ## 収集プロファイルの場所
 
 - 興味領域・収集ソース: Cloudflare D1 + Worker API（`https://daily-trends-interests-api.gooodev.workers.dev/`）
@@ -57,7 +63,7 @@
 
 ## 公開の仕組み
 
-- サイト本体は `site/`（SvelteKit + `@sveltejs/adapter-static`）。ホームで日付一覧、`/[date]` で当日分の一覧＋詳細要約を表示する
+- サイト本体は `site/`（SvelteKit + `@sveltejs/adapter-static`）。ホームで日付一覧、`/[date]` で当日分の一覧＋要約を表示する
 - `site/src/lib/data/*.json` に追加・コミット・push すると、`.github/workflows/deploy.yml`（push トリガー）が `site/` をビルドし GitHub Pages にデプロイする（数分のタイムラグあり）
 - Claude Code on the web からこのリポジトリに対して `/output` を実行した場合も、変更をコミット・push するところまで行うこと（push しないとサイトに反映されない。ビルド自体は GitHub Actions 側が行うため、ローカルで `pnpm run build` する必要はない）
 - **全工程を1回のセッション内で同期的に完了させること**。バックグラウンドの subagent に処理を委譲してターンを終了すると、スケジュールルーティンはそのターンの完了時点で「成功」扱いになり、委譲先が後から出す結果は誰にも回収されない

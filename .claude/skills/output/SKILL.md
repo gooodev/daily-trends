@@ -29,6 +29,13 @@ description: "トレンドネタ収集（出力レイヤー）。収集済み JS
 - 各記事は `title_ja` / `url` / `summary_ja` のみを転記する（チェック状態のような絞り込みは存在しない。収集 JSON に載っている記事は全件がここに入る）
 - `interest` / `merged_urls` / `fetch_status` / `note` は出力に含めない。ただし `fetch_status: "fallback"` または `note` が空でない場合は、その旨を `summary_ja` の末尾に簡潔に付記してから `note` 自体は落とす
 
+### 4. 既出索引の更新
+
+書き込んだ `items` の `url` を、リポジトリルートの `trends-published-urls.txt`（`collect` の既出除外が参照する索引。1行1 URL、重複無し）に追記する。
+
+- 既存の索引に無い URL だけを追記し、追記後は重複排除・ソートしてから保存する（例: `cat <新規URL群> trends-published-urls.txt | sort -u -o trends-published-urls.txt`）
+- ファイルが存在しない場合は、その場で `site/src/lib/data/*.json` 全件から URL を集めて新規作成した上で今回分も加える（初回のみ発生。以後は差分追記のみで済む）
+
 ## 注意事項
 
 - **保存先・ファイル形式は `output-profile.md` が正本**。このファイルを差し替えれば別環境・別形式に対応できる
