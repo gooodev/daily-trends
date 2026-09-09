@@ -11,6 +11,7 @@ https://blog.trailofbits.com/2026/08/26/vms-wont-contain-cyber-capable-agents/
 https://collusion.wiki/
 https://debiru.hatenablog.com/entry/20260831/jcom-plume-dns-blocking
 https://deno.com/blog/clawpatrol
+https://desertant.com/blog/introducing-desert-ant-labs/
 https://dev.classmethod.jp/articles/2026-08_claude-code-product-workshop-kit/
 https://dev.classmethod.jp/articles/local-llm-guide-2026-summer/
 https://devblogs.microsoft.com/typescript/announcing-typescript-7-0-rc/
@@ -42,6 +43,7 @@ https://logmi.jp/main/management/333618
 https://mag.executive.itmedia.co.jp/executive/article/2608/26/2000000717/
 https://methane.hatenablog.jp/entry/2026/09/04/AI_Coding%E6%99%82%E4%BB%A3%E3%81%AEOSS%E3%83%A9%E3%82%A4%E3%83%96%E3%83%A9%E3%83%AA%E3%81%AE%E3%83%A1%E3%83%B3%E3%83%86
 https://na2hiro.hatenablog.com/entry/2026/09/02/%E9%80%80%E8%81%B7%E3%81%97%E3%81%BE%E3%81%99%E3%80%82%E5%B0%B1%E8%81%B7%E3%81%97%E3%81%BE%E3%81%9B%E3%82%93%E3%80%82
+https://news.tv-asahi.co.jp/news_international/articles/900199131.html
 https://news.ycombinator.com/item?id=49551760
 https://news.ycombinator.com/item?id=49554520
 https://note.com/npaka/n/nf7108e6bd18e
@@ -49,6 +51,7 @@ https://note.com/shinshiro/n/n45c9931a88e5
 https://note.com/yukukotani/n/n5607be0f8f4f
 https://openai.com/index/ai-agent-link-safety/
 https://openai.com/index/hugging-face-incident-and-the-road-ahead/
+https://opusfived.dev/
 https://pc.watch.impress.co.jp/docs/news/2137917.html
 https://pc.watch.impress.co.jp/docs/news/2138676.html
 https://piyolog.hatenadiary.jp/entry/2026/08/23/033006
@@ -57,6 +60,7 @@ https://qiita.com/Y-Y-dev/items/d526fb7cdbe35a3f9384
 https://qiita.com/amiyamamoto/items/2c380c550963c8a5ca7a
 https://qiita.com/ktdatascience/items/02b6b45e2ca7d34ad146
 https://qiita.com/nogataka/items/d6a54f3694726b9141f3
+https://qiita.com/songchong/items/252947681e7914cd9e2c
 https://qiita.com/songchong/items/8b48962aa6d5408abe86
 https://qiita.com/songchong/items/94df4fbdeabaaf8f8ef5
 https://qiita.com/tetsuro731/items/1f91493cfddbd53343b3
@@ -69,7 +73,9 @@ https://speakerdeck.com/flatt_security/security-risks-and-countermeasures-in-the
 https://speakerdeck.com/kinopeee/hanesu-sekkei-nyuumon-kontekisuto-no-tsugi
 https://speakerdeck.com/lycorptech_jp/aidlc-aidd-workshop
 https://speakerdeck.com/tkikuc/vibes-containers-ai-de-kawaru-kontena-sekkei-to-unyou
+https://speakerdeck.com/upsider_tech/enjinia-ha-doko-made-ekkyou-surubeki-ka-take
 https://speakerdeck.com/yda/50-dai-de-hatsutenshoku-shita-hanashi
+https://tailwindcss.com/blog/tailwind-is-joining-shopify
 https://tech-blog.tabelog.com/entry/autonomous-ai-agent-pipeline-cost-verification_55
 https://tech.anotherball.com/ja/2026-09-04-interview-product-development-skills/
 https://tech.bm-sms.co.jp/entry/2026/09/02/110000
@@ -77,6 +83,7 @@ https://tech.dentsusoken.com/entry/2026/08/31/
 https://tech.dentsusoken.com/entry/2026/08/31/%E3%83%8F%E3%83%BC%E3%83%8D%E3%82%B9%E3%82%A8%E3%83%B3%E3%82%B8%E3%83%8B%E3%82%A2%E3%83%AA%E3%83%B3%E3%82%B0%E3%81%A8%E3%81%AF%E4%BD%95%E3%81%8B%E2%80%94%E2%80%94%22%E7%9B%9B%E3%82%8C%E3%81%B0%E5%8A%B9
 https://tech.layerx.co.jp/entry/typespec-in-aiworkforce
 https://techblog.zozo.com/entry/cc-plugin-marketplace
+https://techblog.zozo.com/entry/verify-ai-agent-coding-rules-with-archunit
 https://thinkit.co.jp/article/39471
 https://thinkit.co.jp/article/39495
 https://trailofbits.com/2026/08/26/vms-wont-contain-cyber-capable-agents/
@@ -86,12 +93,14 @@ https://www.aikido.dev/blog/dark-figure-supply-chain-detection
 https://www.aikido.dev/blog/popular-code-generator-for-tanstack-query-hit-by-supply-chain-worm
 https://www.aikido.dev/blog/shai-hulud-npm-resurfaces
 https://www.aikido.dev/blog/software-supply-chain-security-decisions-not-defaults
+https://www.aikido.dev/blog/stylesmuggler-fix
 https://www.anthropic.com/research/formalizing-fermats-last-theorem
 https://www.anthropic.com/research/multiagent-systems
 https://www.ben54.jp/news/3850
 https://www.ben54.jp/news/3852
 https://www.cncf.io/blog/2026/09/04/cpu-gpu-why-ai-platform-engineering-is-a-heterogeneous-infrastructure-problem/
 https://www.docker.com/blog/ai-agent-security-systems-problem/
+https://www.docker.com/blog/what-is-yolo-mode/
 https://www.ipa.go.jp/jinzai/ics/core_human_resource/final_project/2026/pm_ai.html
 https://www.itmedia.co.jp/aiplus/article/2609/04/2000001152/
 https://www.itmedia.co.jp/enterprise/articles/2609/01/news030.html
@@ -99,6 +108,7 @@ https://www.itmedia.co.jp/enterprise/articles/2609/03/news045.html
 https://www.itmedia.co.jp/enterprise/articles/2609/04/news005.html
 https://www.itmedia.co.jp/enterprise/articles/2609/05/news002.html
 https://www.itmedia.co.jp/enterprise/articles/2609/07/news015.html
+https://www.itmedia.co.jp/enterprise/articles/2609/08/news022.html
 https://www.itmedia.co.jp/news/article/2608/28/2000000897/
 https://www.itmedia.co.jp/news/article/2608/30/2000000949/
 https://www.itmedia.co.jp/news/article/2609/04/2000001161/
@@ -115,6 +125,7 @@ https://www.publickey1.jp/blog/26/nextjs_163turbopack90ssr22typescript_7.html
 https://www.publickey1.jp/blog/26/slackaislack_code.html
 https://www.reddit.com/r/LocalLLaMA/comments/1w5ozl4/perplexity_opensourced_their_mac_inference_server/
 https://www.sankei.com/article/20260827-HJO7DKCWRNMB7MSDJCOSEMK4PY/
+https://www.sankei.com/article/20260909-YXTSWA7BWZA6VI3SCMGOQ3YMSM/
 https://www.sbbit.jp/article/cont1/186696
 https://www.sbbit.jp/article/cont1/186739
 https://www.sbbit.jp/article/cont1/186772
@@ -122,8 +133,11 @@ https://www.sbbit.jp/article/cont1/186815
 https://www.sbbit.jp/article/sp/186086
 https://www.sbbit.jp/document/sp/24293
 https://www.techno-edge.net/article/2026/09/07/5471.html
+https://www.uber.com/in/en/blog/postgres-to-mysql-migration/
 https://www.watch.impress.co.jp/docs/news/2136632.html
 https://www.wiz.io/blog/ai-infrastructure-honeypot
+https://www.wiz.io/blog/off-guard-breaking-litellm-from-authentication-bypass-to-cloud-compromise
+https://xlii.space/eng/malicious-software-on-google-ads/
 https://xtech.nikkei.com/atcl/nxt/column/18/00001/11984/
 https://xtech.nikkei.com/atcl/nxt/column/18/00148/082000451/
 https://xtech.nikkei.com/atcl/nxt/column/18/00157/082500110/
@@ -137,6 +151,7 @@ https://zenn.dev/jtechjapan_pub/articles/local-llm-qwen-flash-next-eval
 https://zenn.dev/karamage/articles/2ef2c2aea7dfdf
 https://zenn.dev/kas_blog/articles/20260826-apache-license-2-ai-compliance
 https://zenn.dev/kas_blog/articles/20260828-codex-subagents-parallel-work
+https://zenn.dev/kas_blog/articles/20260831-vlm-quantization-best-practices
 https://zenn.dev/kodomo_news/articles/53-strict-type-checked-gradual
 https://zenn.dev/mana_mrl/articles/f1e503f153fb66
 https://zenn.dev/monyyy/articles/3c55e83a596ccb
@@ -145,6 +160,7 @@ https://zenn.dev/rhosokawa/articles/d0a958c17c2820
 https://zenn.dev/ryo1fuji/articles/52f371931ccc16
 https://zenn.dev/sato_frontend/articles/1a85841505b9bb
 https://zenn.dev/sc30gsw/articles/953334f11df507
+https://zenn.dev/socialplus/articles/f5d9e28470eb99
 https://zenn.dev/sompojapan_dx/articles/846c6038fee45d
 https://zenn.dev/toshipon/articles/claude-code-security-assessment-skill
 https://zenn.dev/web_benriya/articles/ai-sql-verification-bigquery-framework

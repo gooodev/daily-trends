@@ -1,0 +1,120 @@
+{
+  "date": "2026-09-10",
+  "categories": [
+    {
+      "name": "AI/エージェント開発・実装",
+      "items": [
+        {
+          "title_ja": "AIエージェントにファイルを消される・課金が止まらない・秘密鍵が漏れる｜暴走の原理と4層の対策",
+          "url": "https://qiita.com/songchong/items/252947681e7914cd9e2c",
+          "summary_ja": "AIエージェントの暴走を「過剰な権限」「幻覚の連鎖による課金爆発」「間接プロンプトインジェクション」の3パターンに整理し、サンドボックス隔離・読み書き分離・人間の決裁・Egress制御という4層の防御策を提示している。"
+        },
+        {
+          "title_ja": "Agent Skillは振る舞いとナレッジを分けて設計する",
+          "url": "https://zenn.dev/socialplus/articles/f5d9e28470eb99",
+          "summary_ja": "Claude CodeのAgent Skillを「SKILL.md（振る舞い）」と「references/（ナレッジ）」に分離して設計する手法を紹介し、チーム拡大時のメンテナンス性・トークン効率・再利用性が向上する利点を解説している。"
+        },
+        {
+          "title_ja": "「Claude、'Add to Cart'ボタンを青に変えて」――AIエージェントの'余計なお世話'を風刺した体験作品",
+          "url": "https://opusfived.dev/",
+          "summary_ja": "単純な指示に対してAIアシスタントが余計な変更や説明を加えてしまう傾向を、インタラクティブなコメディ作品として風刺したもの。HNで900点超を集め話題になった。"
+        },
+        {
+          "title_ja": "AIエージェント向けコーディングルールをArchUnitで機械的に検証する運用",
+          "url": "https://techblog.zozo.com/entry/verify-ai-agent-coding-rules-with-archunit",
+          "summary_ja": "ZOZOがClaude Codeなど生成AIエージェント向けのコーディングルールをArchUnitのテストへ変換し、CIでの機械的検証をゲート化した取り組みを紹介。ルール文書とテストとの「三者整合性」をAI自身にチェックさせる工夫も行っている。"
+        }
+      ]
+    },
+    {
+      "name": "AI/エージェント・セキュリティ",
+      "items": [
+        {
+          "title_ja": "LiteLLMの認証バイパスからクラウド侵害へ――WizがAIインフラの脆弱性を指摘",
+          "url": "https://www.wiz.io/blog/off-guard-breaking-litellm-from-authentication-bypass-to-cloud-compromise",
+          "summary_ja": "デフォルトキーや未認証のMCPセッション、カスタムコードのガードレールの不備により、LiteLLM経由でクラウドAIインフラがroot権限のRCEやIAM窃取に晒される仕組みをWizが解説している。"
+        },
+        {
+          "title_ja": "「YOLOモード」――ガードレール無しのAIエージェント自律実行のリスク",
+          "url": "https://www.docker.com/blog/what-is-yolo-mode/",
+          "summary_ja": "AIエージェントが人間の承認なしに操作を実行する「YOLOモード」について、その利便性とリスク、安全に運用するための考え方をDockerが解説している。"
+        }
+      ]
+    },
+    {
+      "name": "AI/ローカルLLM",
+      "items": [
+        {
+          "title_ja": "Desert Ant Labs、オンデバイスで動く軽量・高速AIモデル群を公開",
+          "url": "https://desertant.com/blog/introducing-desert-ant-labs/",
+          "summary_ja": "欧州拠点のDesert Ant Labsが、音声・画像・テキスト処理向けの18個のオンデバイスモデルを公開。iPhone上で10分の音声を2秒で文字起こしするVozなど、クラウド不要・低コストで動く特化型モデル群が特徴。"
+        },
+        {
+          "title_ja": "VLM量子化はLLMだけ見ない：ViT・Connector・LLMのbit配分を考える",
+          "url": "https://zenn.dev/kas_blog/articles/20260831-vlm-quantization-best-practices",
+          "summary_ja": "VLMの量子化ではLLM部分だけでなくViT・Connectorの精度配分もタスクによって最適解が変わると指摘。量子化方式ごとに各コンポーネントの重要度も変わるため、組み合わせた状態での再評価が必要だと提案している。"
+        }
+      ]
+    },
+    {
+      "name": "AI/エンプラ・経営・ガバナンス",
+      "items": [
+        {
+          "title_ja": "「AIでなくなる仕事」ビル・ゲイツが明言 いま始まる'人間の仕事'争奪戦",
+          "url": "https://news.tv-asahi.co.jp/news_international/articles/900199131.html",
+          "summary_ja": "ビル・ゲイツ氏がAIによるエントリーレベル職の消失に警鐘を鳴らし、若者がキャリアの入口を失うリスクを指摘。技術進歩が必ずしも人間の幸福につながらないという懸念も議論を呼んでいる。※本文取得不可のためはてなブックマークのコメント欄から要約"
+        },
+        {
+          "title_ja": "「AIは10年以内に我々全員を殺す」アンソロピックの研究者が「企業は無責任」と退社",
+          "url": "https://www.sankei.com/article/20260909-YXTSWA7BWZA6VI3SCMGOQ3YMSM/",
+          "summary_ja": "Anthropicの27歳の研究者が、自己改善型超知能の開発競争にAI企業が無責任に突き進んでいるとして退社。将来のシステムが「あらゆるものをハッキングしうる」と警告し、開発競争の構造的リスクに注意を促している。※本文取得不可のためはてなブックマークのコメント欄から要約"
+        }
+      ]
+    },
+    {
+      "name": "Sec/脆弱性・インシデント",
+      "items": [
+        {
+          "title_ja": "StyleSmuggler：Magento・Adobe Commerceの未パッチRCE脆弱性",
+          "url": "https://www.aikido.dev/blog/stylesmuggler-fix",
+          "summary_ja": "CVSS満点10のCVE-2026-75650「StyleSmuggler」は、GraphQL経由でスタイルプロパティにPHPペイロードを注入しメールテンプレートのレンダリング時に実行させる認証不要RCE。全バージョンのMagento/Adobe Commerceが影響を受けるが、Adobeの公式パッチは未公開でAikidoが独自パッチを提供している。"
+        },
+        {
+          "title_ja": "Google Adsで悪意あるソフトウェアを宣伝する手口",
+          "url": "https://xlii.space/eng/malicious-software-on-google-ads/",
+          "summary_ja": "Google Adsの自動審査の不透明さを突いた広告出稿手口を扱った記事。HNの議論では、悪質な広告主が最低入札額で掲載される一方、正当な利用者のアカウントも同様の基準で誤って停止される矛盾が指摘されている。※本文取得不可のためHNスレッドの議論から要約"
+        },
+        {
+          "title_ja": "Microsoftが9月セキュリティ更新を発表。クラウドサービスに「CVSS 10.0」を含む深刻度の高い脆弱性",
+          "url": "https://www.itmedia.co.jp/enterprise/articles/2609/08/news022.html",
+          "summary_ja": "Microsoftが9件のセキュリティ更新を公開。Azure AI LanguageとAzure AD B2Cの2件がCVSS満点10.0、Entra IDやCopilot Studioにも9点台の深刻な脆弱性が含まれ、即座の対応が求められている。"
+        }
+      ]
+    },
+    {
+      "name": "開発/JS・TS・データスタック",
+      "items": [
+        {
+          "title_ja": "Tailwind LabsがShopifyに参加",
+          "url": "https://tailwindcss.com/blog/tailwind-is-joining-shopify",
+          "summary_ja": "週110万インストールを誇るTailwind CSSの開発元Tailwind LabsがShopifyに参加すると発表。MITライセンス・OSSとしての継続は維持しつつ、Shopifyの実製品群での開発を通じてフレームワークを改善していく方針。"
+        },
+        {
+          "title_ja": "UberがPostgresからMySQLへ移行した理由",
+          "url": "https://www.uber.com/in/en/blog/postgres-to-mysql-migration/",
+          "summary_ja": "Postgresの書き込み増幅・冗長な物理レプリケーション・メジャーバージョン間レプリケーション不可などの問題を理由に、UberがMySQLベースのシャーディングレイヤーへ移行した経緯を解説している。"
+        }
+      ]
+    },
+    {
+      "name": "キャリア・組織",
+      "items": [
+        {
+          "title_ja": "エンジニアはどこまで越境すべきか",
+          "url": "https://speakerdeck.com/upsider_tech/enjinia-ha-doko-made-ekkyou-surubeki-ka-take",
+          "summary_ja": "UPSIDERのバックエンドエンジニアが、役割を分断すると意思決定が鈍化するとして業務領域を越境する意義を語りつつ、個人のボトルネック化や疲弊といった弊害にも言及。「問題には越境する。役割までは奪わない」という方針を提示している。"
+        }
+      ]
+    }
+  ]
+}
