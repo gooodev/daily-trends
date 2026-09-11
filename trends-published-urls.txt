@@ -28,6 +28,10 @@ https://gigazine.net/news/20260905-docubrowser/
 https://gigazine.net/news/20260907-microsoft-project-zenith/
 https://gigazine.net/news/20260907-openai-agents-german-wiki-incident/
 https://gigazine.net/news/20260908-ai-cheating-vs-whistleblowing/
+https://gigazine.net/news/20260911-deepseek-v4-1-flash/
+https://gigazine.net/news/20260911-openai-agents-api/
+https://gigazine.net/news/20260911-yue2-music-generation-ai/
+https://gihyo.jp/book/2026/978-4-297-15875-0
 https://github.com/argonautlabsai/deltafin
 https://github.com/ayghri/i-have-adhd
 https://huggingface.co/papers/2609.01437
@@ -37,15 +41,21 @@ https://jbpress.ismedia.jp/articles/-/96703
 https://joisino.hatenablog.com/entry/kasu
 https://kaminashi-developer.hatenablog.jp/entry/2026/09/07/ai-era-engineer-interviews
 https://kawasin73.hatenablog.com/entry/2026/09/05/092056
+https://kubernetes.io/blog/2026/09/08/kubernetes-v1-37-advancing-workload-aware-scheduling/
 https://leaddev.com/ai/meta-tried-to-shrink-engineering-teams-around-ai
 https://levtech.jp/media/detail_911/
 https://logmi.jp/main/management/333618
 https://mag.executive.itmedia.co.jp/executive/article/2608/26/2000000717/
+https://markezine.jp/news/detail/77595
 https://methane.hatenablog.jp/entry/2026/09/04/AI_Coding%E6%99%82%E4%BB%A3%E3%81%AEOSS%E3%83%A9%E3%82%A4%E3%83%96%E3%83%A9%E3%83%AA%E3%81%AE%E3%83%A1%E3%83%B3%E3%83%86
 https://na2hiro.hatenablog.com/entry/2026/09/02/%E9%80%80%E8%81%B7%E3%81%97%E3%81%BE%E3%81%99%E3%80%82%E5%B0%B1%E8%81%B7%E3%81%97%E3%81%BE%E3%81%9B%E3%82%93%E3%80%82
 https://news.tv-asahi.co.jp/news_international/articles/900199131.html
 https://news.ycombinator.com/item?id=49551760
 https://news.ycombinator.com/item?id=49554520
+https://news.ycombinator.com/item?id=49621546
+https://news.ycombinator.com/item?id=49652105
+https://news.ycombinator.com/item?id=49656225
+https://news.ycombinator.com/item?id=49656471
 https://note.com/npaka/n/nf7108e6bd18e
 https://note.com/shinshiro/n/n45c9931a88e5
 https://note.com/yukukotani/n/n5607be0f8f4f
@@ -77,6 +87,7 @@ https://speakerdeck.com/upsider_tech/enjinia-ha-doko-made-ekkyou-surubeki-ka-tak
 https://speakerdeck.com/yda/50-dai-de-hatsutenshoku-shita-hanashi
 https://tailwindcss.com/blog/tailwind-is-joining-shopify
 https://tech-blog.tabelog.com/entry/autonomous-ai-agent-pipeline-cost-verification_55
+https://tech-blog.voicy.jp/entry/2026/09/10/183722
 https://tech.anotherball.com/ja/2026-09-04-interview-product-development-skills/
 https://tech.bm-sms.co.jp/entry/2026/09/02/110000
 https://tech.dentsusoken.com/entry/2026/08/31/
@@ -89,6 +100,7 @@ https://thinkit.co.jp/article/39495
 https://trailofbits.com/2026/08/26/vms-wont-contain-cyber-capable-agents/
 https://voluntas.ghost.io/2026-08-second-half-llm/
 https://www.aikido.dev/blog/compromised-flutter-package-on-pub-dev-contains-xcsset-malware
+https://www.aikido.dev/blog/cve-spike-remediation-problem
 https://www.aikido.dev/blog/dark-figure-supply-chain-detection
 https://www.aikido.dev/blog/popular-code-generator-for-tanstack-query-hit-by-supply-chain-worm
 https://www.aikido.dev/blog/shai-hulud-npm-resurfaces
@@ -99,6 +111,7 @@ https://www.anthropic.com/research/multiagent-systems
 https://www.ben54.jp/news/3850
 https://www.ben54.jp/news/3852
 https://www.cncf.io/blog/2026/09/04/cpu-gpu-why-ai-platform-engineering-is-a-heterogeneous-infrastructure-problem/
+https://www.digital.go.jp/news/2026-0911-01
 https://www.docker.com/blog/ai-agent-security-systems-problem/
 https://www.docker.com/blog/what-is-yolo-mode/
 https://www.ipa.go.jp/jinzai/ics/core_human_resource/final_project/2026/pm_ai.html
@@ -114,6 +127,7 @@ https://www.itmedia.co.jp/news/article/2608/30/2000000949/
 https://www.itmedia.co.jp/news/article/2609/04/2000001161/
 https://www.itmedia.co.jp/news/article/2609/04/2000001167/
 https://www.itmedia.co.jp/news/article/2609/06/2000001202/
+https://www.itmedia.co.jp/news/article/2609/11/2000001409/
 https://www.m3tech.blog/entry/2026/08/25/080000
 https://www.m3tech.blog/entry/2026/08/26/110000
 https://www.m3tech.blog/entry/embulk-to-dlt-dbt
@@ -121,6 +135,7 @@ https://www.pospome.work/entry/2026/08/24/223309
 https://www.publickey1.jp/blog/26/duckdbducklabsawsduckdbmit.html
 https://www.publickey1.jp/blog/26/jetbrainsmacjunie_localclaude_sonnet_45rtx5909.html
 https://www.publickey1.jp/blog/26/mcpaihttp.html
+https://www.publickey1.jp/blog/26/net_11netaot.html
 https://www.publickey1.jp/blog/26/nextjs_163turbopack90ssr22typescript_7.html
 https://www.publickey1.jp/blog/26/slackaislack_code.html
 https://www.reddit.com/r/LocalLLaMA/comments/1w5ozl4/perplexity_opensourced_their_mac_inference_server/
@@ -136,6 +151,7 @@ https://www.techno-edge.net/article/2026/09/07/5471.html
 https://www.uber.com/in/en/blog/postgres-to-mysql-migration/
 https://www.watch.impress.co.jp/docs/news/2136632.html
 https://www.wiz.io/blog/ai-infrastructure-honeypot
+https://www.wiz.io/blog/artifactory-under-attack-in-the-wild-exploitation-of-cve-2026-42016-cve-2026-4201
 https://www.wiz.io/blog/off-guard-breaking-litellm-from-authentication-bypass-to-cloud-compromise
 https://xlii.space/eng/malicious-software-on-google-ads/
 https://xtech.nikkei.com/atcl/nxt/column/18/00001/11984/

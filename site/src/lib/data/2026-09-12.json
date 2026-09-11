@@ -1,0 +1,120 @@
+{
+  "date": "2026-09-12",
+  "categories": [
+    {
+      "name": "AI/エージェント開発・実装",
+      "items": [
+        {
+          "title_ja": "OpenRouter経由のLLM呼び出しはプロバイダーで性能が激変する",
+          "url": "https://news.ycombinator.com/item?id=49621546",
+          "summary_ja": "同じモデルでもOpenRouter経由の呼び出しはプロバイダーによって性能が大きく異なり、ツール呼び出しのエラー率が100倍近く開くケースがあると報告された。コメント欄では品質のばらつきを批判する声が多く、本番運用ではプロバイダーを固定すべきという意見が支持されている。"
+        },
+        {
+          "title_ja": "トークン削減ツールRTKはAIコーディングを本当に安くするのか",
+          "url": "https://news.ycombinator.com/item?id=49656471",
+          "summary_ja": "トークン削減ツール「RTK」の効果を検証したベンチマークでは、削減率はわずか5%で大半が特定タスク由来、除外すると1%未満にとどまったと報告された。コメント欄では同種のトークン節約手法の多くが実質的な効果に乏しいとの指摘が相次いでいる。"
+        },
+        {
+          "title_ja": "OpenAI、Codexと同じハーネスでAIエージェントを構築できる「Agents API」を公開",
+          "url": "https://gigazine.net/news/20260911-openai-agents-api/",
+          "summary_ja": "OpenAIがコーディングエージェントCodexと同じハーネスを外部開発者にも公開する「Agents API」のパブリックベータを開始した。プロンプト整形やツール呼び出しの複雑な実装を肩代わりすることで、企業向けAIエージェントの開発が簡素化される。"
+        },
+        {
+          "title_ja": "AIエージェント開発の知識地図",
+          "url": "https://gihyo.jp/book/2026/978-4-297-15875-0",
+          "summary_ja": "AIエージェントの仕組みから開発・運用のポイントまでを体系的にまとめた書籍。基本構造や開発フレームワークに加え、ガバナンスやセキュリティといった実務上の課題も扱っている。"
+        }
+      ]
+    },
+    {
+      "name": "Sec/脆弱性・インシデント",
+      "items": [
+        {
+          "title_ja": "デジタル庁の政府共通基盤GSSに不正アクセス、24.6万件の個人情報流出の可能性",
+          "url": "https://www.digital.go.jp/news/2026-0911-01",
+          "summary_ja": "デジタル庁が運用する政府共通業務基盤GSSがVPN機器の脆弱性を突かれて侵入され、職員・関係者の氏名やメールアドレスなど約24.6万件の個人情報が流出した可能性があると公表された。侵入は5月下旬に始まり6月25日に不審な大量アクセスを検知、7月9日に不正アクセスと確認、公表まで2カ月半を要した。"
+        },
+        {
+          "title_ja": "JFrog Artifactoryの脆弱性3件が実際に悪用され、攻撃者が管理者権限を奪取",
+          "url": "https://www.wiz.io/blog/artifactory-under-attack-in-the-wild-exploitation-of-cve-2026-42016-cve-2026-4201",
+          "summary_ja": "Wiz Researchは、JFrog Artifactoryの3件の脆弱性(CVE-2026-42016等)が組み合わされて実際に悪用されていることを確認した。攻撃者は認証をバイパスして管理者権限を奪い、バックドア設置や不正プラグイン展開など侵害後の活動を行っている。"
+        },
+        {
+          "title_ja": "CVE報告件数の急増は「発見の効率化」が原因、真の課題は修復速度",
+          "url": "https://www.aikido.dev/blog/cve-spike-remediation-problem",
+          "summary_ja": "CVE報告件数の増加は実際のリスク悪化ではなく、AIによる脆弱性発見の効率化が主因だと同社は指摘する。真の課題は発見数ではなく、業界全体で既知の脆弱性を迅速に修正できていない「修復速度」にあるという主張。"
+        }
+      ]
+    },
+    {
+      "name": "AI/エンプラ・経営・ガバナンス",
+      "items": [
+        {
+          "title_ja": "Anthropic、Claudeの利用を18歳以上に制限する年齢確認を導入",
+          "url": "https://news.ycombinator.com/item?id=49656225",
+          "summary_ja": "Anthropicは年齢確認サービスYotiを用いて、Claudeの利用を18歳以上に制限する方針を発表した。個人データはAnthropicには渡されない設計だが、コメント欄では規制リスク回避が主目的との見方が多い。"
+        },
+        {
+          "title_ja": "電通グループ4社、生成AI時代の購買行動モデル「AIJES」を提唱",
+          "url": "https://markezine.jp/news/detail/77595",
+          "summary_ja": "電通グループ4社が、生成AI時代の消費者購買行動を捉える新たなモデル「AIJES」を提唱したと報じられている。（本文取得不可のため見出しからの要約）"
+        },
+        {
+          "title_ja": "生成AIで偽造した精巧なレシート画像が経費精算の脅威に",
+          "url": "https://www.itmedia.co.jp/news/article/2609/11/2000001409/",
+          "summary_ja": "生成AIで作られた精巧な偽レシート画像が経費精算の不正リスクとして浮上している。マネーフォワードは偽造の見破りが困難だとして、決済データとの突合やコーポレートカード活用など、レシート自体に依存しない仕組みづくりを推奨している。"
+        }
+      ]
+    },
+    {
+      "name": "AI/ローカルLLM",
+      "items": [
+        {
+          "title_ja": "「DeepSeek-V4.1-Flash」、複数ベンチマークでClaude Opus 5を上回るオープンモデルとして登場",
+          "url": "https://gigazine.net/news/20260911-deepseek-v4-1-flash/",
+          "summary_ja": "中国DeepSeekが公開したオープンモデル「DeepSeek-V4.1-Flash」は複数のベンチマークでClaude Opus 5やGPT-5.6 Solを上回る性能を示した。5520億パラメータのMoE構成でKVキャッシュを効率化し、低コストなAPIとHugging Face等での無料配布を両立している。"
+        },
+        {
+          "title_ja": "無料の音楽生成AI「YuE2」が公開、日本語ボーカルにも対応",
+          "url": "https://gigazine.net/news/20260911-yue2-music-generation-ai/",
+          "summary_ja": "Multimodal Art Projectionが音楽生成AI「YuE2」を無料公開した。テキストだけでなくABC記譜法の楽譜からも作曲でき、日本語ボーカルにも対応、CC BY-NC 4.0ライセンスで配布されている。"
+        }
+      ]
+    },
+    {
+      "name": "開発/JS・TS・インフラ",
+      "items": [
+        {
+          "title_ja": "Kubernetes v1.37、ワークロード対応スケジューリングが前進",
+          "url": "https://kubernetes.io/blog/2026/09/08/kubernetes-v1-37-advancing-workload-aware-scheduling/",
+          "summary_ja": "Kubernetes v1.37でワークロード対応スケジューリングが前進し、WorkloadおよびPodGroup APIがベータに昇格してギャングスケジューリングが標準化された。多段階のトポロジー制約に対応する新API「CompositePodGroup」も追加され、JobSetやLeaderWorkerSetなど分散ワークロードのネイティブなスケジューリング支援が強化された。"
+        },
+        {
+          "title_ja": ".NET 11のリリース候補版が公開、非同期ネイティブ対応やAOT最適化を強化",
+          "url": "https://www.publickey1.jp/blog/26/net_11netaot.html",
+          "summary_ja": ".NET 11のリリース候補版が公開され、非同期処理のネイティブ対応やプロセッサ数上限の撤廃、JIT/AOTコンパイラの最適化による性能向上が図られている。2年間サポートの通常版として2026年11月に正式リリース予定。"
+        }
+      ]
+    },
+    {
+      "name": "キャリア・組織",
+      "items": [
+        {
+          "title_ja": "Voicy、AI時代に対応し職種区分を廃止する組織改革で開発速度10倍に",
+          "url": "https://tech-blog.voicy.jp/entry/2026/09/10/183722",
+          "summary_ja": "Voicyの開発責任者は、AI時代に対応するため半年間でiOS/Android/Web/バックエンドという職種区分を廃止して「プロダクトエンジニア」に一本化するなど、3つの構造改革を実施した。AIが書きやすいコード設計や自動テスト基盤の整備、社内業務AI基盤の構築も合わせて進めた結果、品質を保ちながら開発速度が10倍に向上したという。"
+        }
+      ]
+    },
+    {
+      "name": "その他",
+      "items": [
+        {
+          "title_ja": "Google、フィンランドの原発電力を22年間・最大50%購入する契約を締結",
+          "url": "https://news.ycombinator.com/item?id=49652105",
+          "summary_ja": "Googleはフィンランドのロヴィーサ原子力発電所の発電容量最大50%を22年間にわたり購入する契約を締結した。低排出電力と冷涼な気候を理由にデータセンター立地としてフィンランドが選ばれており、コメント欄では北欧の電力供給余力や地域間の価格変動性が話題になっている。"
+        }
+      ]
+    }
+  ]
+}
