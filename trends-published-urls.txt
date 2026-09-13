@@ -1,4 +1,6 @@
 https://amix-design.com/tl/web-darkp/
+https://article.auone.jp/090465f4-bbd4-4e07-8236-ac82cebd9552
+https://ashunar0.dev/posts/does-your-project-need-nextjs/
 https://atmarkit.itmedia.co.jp/ait/articles/2608/28/news020.html
 https://atmarkit.itmedia.co.jp/ait/articles/2608/28/news041.html
 https://atmarkit.itmedia.co.jp/ait/articles/2608/31/news035.html
@@ -16,6 +18,7 @@ https://dev.classmethod.jp/articles/2026-08_claude-code-product-workshop-kit/
 https://dev.classmethod.jp/articles/local-llm-guide-2026-summer/
 https://devblogs.microsoft.com/typescript/announcing-typescript-7-0-rc/
 https://devblogs.microsoft.com/typescript/announcing-typescript-7-0/
+https://developers.cyberagent.co.jp/blog/archives/64920/
 https://docs.getdbt.com/blog/dbt-mcp-server-claude
 https://engineering.atspotify.com/2026/9/portal-by-spotify-cut-my-claude-code-token-usage-by-90
 https://findy-code.io/media/articles/list-yuma_prog
@@ -33,6 +36,7 @@ https://gigazine.net/news/20260911-deepseek-v4-1-flash/
 https://gigazine.net/news/20260911-misuse-of-ai/
 https://gigazine.net/news/20260911-openai-agents-api/
 https://gigazine.net/news/20260911-yue2-music-generation-ai/
+https://gigazine.net/news/20260913-wireguard-easy/
 https://gihyo.jp/book/2026/978-4-297-15875-0
 https://github.com/argonautlabsai/deltafin
 https://github.com/ayghri/i-have-adhd
@@ -59,13 +63,19 @@ https://news.ycombinator.com/item?id=49551760
 https://news.ycombinator.com/item?id=49554520
 https://news.ycombinator.com/item?id=49621546
 https://news.ycombinator.com/item?id=49652105
+https://news.ycombinator.com/item?id=49653311
 https://news.ycombinator.com/item?id=49656225
 https://news.ycombinator.com/item?id=49656471
 https://news.ycombinator.com/item?id=49672510
+https://news.ycombinator.com/item?id=49678969
+https://news.ycombinator.com/item?id=49684356
+https://news.ycombinator.com/item?id=49686445
 https://note.com/kirik/n/n8e7920167c3f
 https://note.com/npaka/n/nf7108e6bd18e
 https://note.com/shinshiro/n/n45c9931a88e5
+https://note.com/takahiroanno/n/n4accbde18d56
 https://note.com/yubais/n/nd4505991a6d6
+https://note.com/yuiseki/n/nabf4625e58bc
 https://note.com/yukukotani/n/n5607be0f8f4f
 https://openai.com/index/ai-agent-link-safety/
 https://openai.com/index/hugging-face-incident-and-the-road-ahead/
@@ -78,6 +88,7 @@ https://piyolog.hatenadiary.jp/entry/2026/09/11/220855
 https://qiita.com/Y-Y-dev/items/d526fb7cdbe35a3f9384
 https://qiita.com/amiyamamoto/items/2c380c550963c8a5ca7a
 https://qiita.com/infra365/items/aa30a54fc6f0849385a7
+https://qiita.com/jiis-sasaki/items/7affa2e2ef22ebf93fa6
 https://qiita.com/ktdatascience/items/02b6b45e2ca7d34ad146
 https://qiita.com/nogataka/items/d6a54f3694726b9141f3
 https://qiita.com/songchong/items/252947681e7914cd9e2c
@@ -129,6 +140,7 @@ https://www.docker.com/blog/what-is-yolo-mode/
 https://www.fnn.jp/articles/-/1112450
 https://www.ipa.go.jp/jinzai/ics/core_human_resource/final_project/2026/pm_ai.html
 https://www.itmedia.co.jp/aiplus/article/2609/04/2000001152/
+https://www.itmedia.co.jp/aiplus/article/2609/11/2000001400/
 https://www.itmedia.co.jp/business/articles/2609/11/news072.html
 https://www.itmedia.co.jp/enterprise/articles/2609/01/news030.html
 https://www.itmedia.co.jp/enterprise/articles/2609/03/news045.html
@@ -147,6 +159,7 @@ https://www.jiji.com/jc/article?k=2026091100447&g=flash
 https://www.m3tech.blog/entry/2026/08/25/080000
 https://www.m3tech.blog/entry/2026/08/26/110000
 https://www.m3tech.blog/entry/embulk-to-dlt-dbt
+https://www.nikkei.com/article/DGXZQOGN122UY0S6A910C2000000/
 https://www.nikkei.com/article/DGXZQOSG120C30S6A910C2000000/
 https://www.pospome.work/entry/2026/08/24/223309
 https://www.publickey1.jp/blog/26/duckdbducklabsawsduckdbmit.html
@@ -154,6 +167,7 @@ https://www.publickey1.jp/blog/26/jetbrainsmacjunie_localclaude_sonnet_45rtx5909
 https://www.publickey1.jp/blog/26/mcpaihttp.html
 https://www.publickey1.jp/blog/26/net_11netaot.html
 https://www.publickey1.jp/blog/26/nextjs_163turbopack90ssr22typescript_7.html
+https://www.publickey1.jp/blog/26/rustcctstier_1.html
 https://www.publickey1.jp/blog/26/slackaislack_code.html
 https://www.reddit.com/r/LocalLLaMA/comments/1w5ozl4/perplexity_opensourced_their_mac_inference_server/
 https://www.sankei.com/article/20260827-HJO7DKCWRNMB7MSDJCOSEMK4PY/
@@ -184,6 +198,7 @@ https://zenn.dev/facraft/articles/aws-org-security-for-enterprise-saas
 https://zenn.dev/finatext/articles/dbt-snowflake-and-tag
 https://zenn.dev/gangy/articles/04597efe1b64c5
 https://zenn.dev/gitmame00/articles/a8f5f300d4ea86
+https://zenn.dev/hampen2929/books/claude-code-production-guide
 https://zenn.dev/jnch/articles/18cf3f1893ee5b
 https://zenn.dev/jtechjapan_pub/articles/local-llm-qwen-flash-next-eval
 https://zenn.dev/karamage/articles/2ef2c2aea7dfdf

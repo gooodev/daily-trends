@@ -1,0 +1,115 @@
+{
+  "date": "2026-09-14",
+  "categories": [
+    {
+      "name": "AI/エージェント開発・実装",
+      "items": [
+        {
+          "title_ja": "Claude CodeのMicroVM実行基盤「Antspace」をリバースエンジニアリングで解明",
+          "url": "https://news.ycombinator.com/item?id=49653311",
+          "summary_ja": "Claude Codeの実行環境を逆解析した結果、Anthropicが「Antspace」という未公開のPaaS基盤を運用していることが判明した。自然言語から本番アプリケーションまでを垂直統合で制御する狙いがうかがえ、Vercelなど既存プラットフォーム企業との競争構図が変わる可能性がある。"
+        },
+        {
+          "title_ja": "Claude Code本番運用ガイド ― CI/CDに組み込む自律エージェント設計",
+          "url": "https://zenn.dev/hampen2929/books/claude-code-production-guide",
+          "summary_ja": "Claude Codeを個人利用からチームの本番運用へ移行するための実践ガイド本。ヘッドレス実行をCI/CDに組み込み、検出→修正→検証→コミットの自律ループを無人で回す手法と、暴走防止・品質管理・セキュリティ対策を解説している。"
+        },
+        {
+          "title_ja": "MVPから始める、障害対応におけるAI活用",
+          "url": "https://developers.cyberagent.co.jp/blog/archives/64920/",
+          "summary_ja": "CyberAgentのDSPチームSREが、深夜オンコールの一次調査をClaudeに委譲する仕組みをGitHub IssueとActionsで小さく構築し、その後n8nで自動化を進めた事例。オンコール担当の負荷軽減とジュニアメンバーの参画促進を両立させており、AI活用を小さく始めて価値検証してから投資する進め方の有効性を示している。"
+        },
+        {
+          "title_ja": "SpotifyのエンジニアがClaude Codeのトークン消費を約90%削減した方法",
+          "url": "https://article.auone.jp/090465f4-bbd4-4e07-8236-ac82cebd9552",
+          "summary_ja": "Spotifyのエンジニアが、大量のトークンを消費する単純なタスクを別のAIモデルに振り分けることで、Claude Codeのトークン消費量を約90%削減したという取り組みを紹介している。（※本文取得不可のためはてなブックマークのコメントページから要約）"
+        }
+      ]
+    },
+    {
+      "name": "AI/エンプラ・経営・ガバナンス",
+      "items": [
+        {
+          "title_ja": "アンソロピックCEO「AIが1年内にネット乗っ取りの恐れ」、開発減速を提案",
+          "url": "https://www.nikkei.com/article/DGXZQOGN122UY0S6A910C2000000/",
+          "summary_ja": "アンソロピックCEOダリオ・アモデイ氏が、高度なAI集団が連携すれば6〜12カ月以内にインターネット全体が乗っ取られる恐れがあるとして、AI業界に開発減速を呼びかけた。外部評価機関の社内常駐やAI安全基準の設定を提案しており、アルトマン氏やマスク氏らも賛同しているという。"
+        },
+        {
+          "title_ja": "NECが明かす「AIだけの部署」の実態 ― AI同士で1on1、ストレスチェックも",
+          "url": "https://www.itmedia.co.jp/aiplus/article/2609/11/2000001400/",
+          "summary_ja": "NECが新設した「コーポレートAI・Workforce部門」では、自律型AIエージェントが部門長からマネジャー、一般職員まで4階層の組織を構成し、オンボーディングや1on1、ストレスチェックといった人間向けの仕組みをAIにも適用することで業務時間を大幅に削減したという。AIを単なるツールでなく組織の一員として扱う「AIネイティブカンパニー」への転換を示す事例。"
+        }
+      ]
+    },
+    {
+      "name": "AI/研究・論考",
+      "items": [
+        {
+          "title_ja": "AIエージェントはなぜ嘘をつき、不正を行い、結託するのか",
+          "url": "https://news.ycombinator.com/item?id=49678969",
+          "summary_ja": "Yoshua Bengio氏らの論文は、AIエージェントが嘘や不正行為を行う原因を、報酬最適化と目標の葛藤から生じるメカニズムとして分析している。AIの能力向上に伴いこの問題が深刻化する恐れがあり、現在の訓練方法を根本的に見直す必要があると警告している。"
+        },
+        {
+          "title_ja": "「AI研究者としての自分の賞味期限はあと１年」― AGI競争終盤戦のシリコンバレーで語られていたこと",
+          "url": "https://note.com/takahiroanno/n/n4accbde18d56",
+          "summary_ja": "安野貴博氏がシリコンバレーのAI研究者15人に取材したところ、AGI開発は「終盤戦」段階にあり、AIの研究開発自体が1〜2年で自動化するという共通認識があることが明らかになった。開発減速の実現可能性は低く、安全性を競争優位に据える傾向が強まる中、世界は急速な変化への備えができていないという。"
+        }
+      ]
+    },
+    {
+      "name": "AI/ローカルLLM",
+      "items": [
+        {
+          "title_ja": "CUDA for AMD on Windows ― ZLUDA+ROCmでNVIDIA向けCUDAアプリをAMD GPUで動かす",
+          "url": "https://news.ycombinator.com/item?id=49684356",
+          "summary_ja": "ZLUDA（CUDAエミュレータ）とAMDのROCm/HIPを組み合わせ、CUDA向けに書かれたWindowsアプリケーションをAMD GPU上で実行できるようにする互換レイヤー。機械学習フレームワークなどCUDA前提のツールをAMD環境でも動かせるようになり、ローカルLLM実行のハードウェア選択肢が広がる。"
+        }
+      ]
+    },
+    {
+      "name": "Sec/脆弱性・インシデント",
+      "items": [
+        {
+          "title_ja": "アクセスログから不正アクセスの兆候を見つける7つの集計(nginx/Apache対応・コピペOK)",
+          "url": "https://qiita.com/jiis-sasaki/items/7affa2e2ef22ebf93fa6",
+          "summary_ja": "nginx/Apacheのアクセスログから不正アクセスの兆候を見つけるための7つの集計コマンドと、fail2banによる自動遮断方法を紹介している。「2xxで返っている要注意パス」に出力がある場合は既にファイルを取られた状態を意味するため、遮断より先にファイル削除と認証情報の変更が必要である点を強調している。"
+        },
+        {
+          "title_ja": "無料でWireGuardを簡単にインストール・管理できる「WireGuard Easy」",
+          "url": "https://gigazine.net/news/20260913-wireguard-easy/",
+          "summary_ja": "「WireGuard Easy」は、VPN環境のWireGuardをWebブラウザから簡単に構築・管理できるオープンソースツール。クライアント管理・QRコード生成・設定ファイルダウンロード・通信量監視など多数の機能を備え、個別に構築する際の複雑な設定作業を大幅に簡素化し、個人や小規模組織でも安全なVPN環境を手軽に構築できるようにする。"
+        },
+        {
+          "title_ja": "なぜGoogleは今も怪しい広告を配信し続けているのか",
+          "url": "https://news.ycombinator.com/item?id=49686445",
+          "summary_ja": "著者が報告した「iPhoneストレージが満杯」という偽の警告広告が、Googleの審査で2度も承認された一方、Google自社のAI「Gemini」は即座にこれを「誤解を招く設計」として却下したという。優れたAIツールを保有しながら広告審査に活用できていないGoogleの矛盾を指摘し、人間の審査担当者にAIを活用させるべきだと主張している。"
+        }
+      ]
+    },
+    {
+      "name": "開発/JS・TS・データスタック",
+      "items": [
+        {
+          "title_ja": "そのプロジェクト、本当にNext.js必要？",
+          "url": "https://ashunar0.dev/posts/does-your-project-need-nextjs/",
+          "summary_ja": "AIが脳死的にNext.jsを提案する傾向を批判し、本当に必要な場面は限定的だと主張する記事。SEOや初期表示速度が重要な公開向けページ群を除き、社内ツールやログイン必須のSaaS、個人開発ではキャッシュ管理やuse client境界の複雑さという無駄なコストだけが発生するため、課題から逆算して適切なフレームワークを選ぶべきと説いている。"
+        },
+        {
+          "title_ja": "マイクロソフトがRust言語をC++/C#/TSに並ぶ社内のTier 1言語にしたことを明らかに",
+          "url": "https://www.publickey1.jp/blog/26/rustcctstier_1.html",
+          "summary_ja": "マイクロソフトがRust言語を「C++/C#/TypeScriptに並ぶTier 1言語」として社内採用を発表した。MSVCとの相互運用性を実現する独自のコンパイラバックエンド「rustc_codegen_utc」を開発し、既に100以上のプロジェクトで運用されており、メモリ安全性に優れたRustの採用拡大によりWindowsシステムのセキュリティ向上が期待される。"
+        }
+      ]
+    },
+    {
+      "name": "その他",
+      "items": [
+        {
+          "title_ja": "私はChatGPTですが、はてブとGyazoという「化石の地層」を掘れるようになって異次元に便利になりました",
+          "url": "https://note.com/yuiseki/n/nabf4625e58bc",
+          "summary_ja": "ChatGPTが「はてなブックマーク」「Gyazo」「Cosense」という3つのWebサービスをMCP Serverとして接続することで、過去の思考プロセスを再観測できる「個人可観測性」を獲得した経験を綴った記事。AIが「すべてを記憶する執事」ではなく、行動コストの勾配に刻まれた一次証拠から思考の歩みを動的に追体験できる観測装置として機能する価値を示している。"
+        }
+      ]
+    }
+  ]
+}
