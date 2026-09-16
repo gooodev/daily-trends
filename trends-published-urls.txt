@@ -7,6 +7,7 @@ https://atmarkit.itmedia.co.jp/ait/articles/2608/28/news041.html
 https://atmarkit.itmedia.co.jp/ait/articles/2608/31/news035.html
 https://atmarkit.itmedia.co.jp/ait/articles/2609/02/news038.html
 https://atmarkit.itmedia.co.jp/ait/articles/2609/16/news013.html
+https://atmarkit.itmedia.co.jp/ait/articles/2609/17/news006.html
 https://azukiazusa.dev/blog/zod-compile-validation/
 https://blog.cloudflare.com/mcp-security-updates/
 https://blog.flatt.tech/entry/package_registry_history
@@ -15,6 +16,7 @@ https://blog.shibayu36.org/entry/2026/08/30/173000
 https://blog.trailofbits.com/2026/08/26/vms-wont-contain-cyber-capable-agents/
 https://claude.com/blog/agentic-coding-is-straining-ci-heres-how-we-scaled-test-impact-analysis-at-anthropic
 https://collusion.wiki/
+https://corp.helpfeel.com/news/news-20260916-1
 https://debiru.hatenablog.com/entry/20260831/jcom-plume-dns-blocking
 https://deno.com/blog/clawpatrol
 https://desertant.com/blog/introducing-desert-ant-labs/
@@ -22,6 +24,7 @@ https://dev.classmethod.jp/articles/2026-08_claude-code-product-workshop-kit/
 https://dev.classmethod.jp/articles/local-llm-guide-2026-summer/
 https://devblogs.microsoft.com/typescript/announcing-typescript-7-0-rc/
 https://devblogs.microsoft.com/typescript/announcing-typescript-7-0/
+https://developer.feedforce.jp/entry/2026/09/15/122838
 https://developers.cyberagent.co.jp/blog/archives/64920/
 https://docs.getdbt.com/blog/dbt-mcp-server-claude
 https://engineering.atspotify.com/2026/9/portal-by-spotify-cut-my-claude-code-token-usage-by-90
@@ -50,12 +53,14 @@ https://huggingface.co/blog/bartowski/per-tensor-layout-maps-for-gguf-quantizati
 https://huggingface.co/blog/ibm-granite/granite-4-2
 https://huggingface.co/papers/2609.01437
 https://internet.watch.impress.co.jp/docs/column/security/2138390.html
+https://internet.watch.impress.co.jp/docs/news/2141538.html
 https://japan.zdnet.com/article/35252229/
 https://jbpress.ismedia.jp/articles/-/96703
 https://joisino.hatenablog.com/entry/kasu
 https://kaminashi-developer.hatenablog.jp/entry/2026/09/07/ai-era-engineer-interviews
 https://kawasin73.hatenablog.com/entry/2026/09/05/092056
 https://kubernetes.io/blog/2026/09/08/kubernetes-v1-37-advancing-workload-aware-scheduling/
+https://kubernetes.io/blog/2026/09/15/kubernetes-v1-37-pod-level-resource-managers-beta/
 https://leaddev.com/ai/meta-tried-to-shrink-engineering-teams-around-ai
 https://levtech.jp/media/detail_911/
 https://logmi.jp/main/management/333618
@@ -65,6 +70,7 @@ https://methane.hatenablog.jp/entry/2026/09/04/AI_Coding%E6%99%82%E4%BB%A3%E3%81
 https://na2hiro.hatenablog.com/entry/2026/09/02/%E9%80%80%E8%81%B7%E3%81%97%E3%81%BE%E3%81%99%E3%80%82%E5%B0%B1%E8%81%B7%E3%81%97%E3%81%BE%E3%81%9B%E3%82%93%E3%80%82
 https://nealle-dev.hatenablog.com/entry/2026/09/11/171745
 https://news.tv-asahi.co.jp/news_international/articles/900199131.html
+https://news.yahoo.co.jp/articles/f0008179ada16d57148d0998c5c2a62872b7bb1a
 https://news.ycombinator.com/item?id=49551760
 https://news.ycombinator.com/item?id=49554520
 https://news.ycombinator.com/item?id=49621546
@@ -78,6 +84,9 @@ https://news.ycombinator.com/item?id=49684356
 https://news.ycombinator.com/item?id=49686445
 https://news.ycombinator.com/item?id=49704132
 https://news.ycombinator.com/item?id=49716476
+https://news.ycombinator.com/item?id=49723408
+https://news.ycombinator.com/item?id=49729412
+https://news.ycombinator.com/item?id=49732931
 https://note.com/kirik/n/n8e7920167c3f
 https://note.com/npaka/n/nf7108e6bd18e
 https://note.com/shinshiro/n/n45c9931a88e5
@@ -95,6 +104,7 @@ https://piyolog.hatenadiary.jp/entry/2026/08/23/033006
 https://piyolog.hatenadiary.jp/entry/2026/09/04/115554
 https://piyolog.hatenadiary.jp/entry/2026/09/11/220855
 https://piyolog.hatenadiary.jp/entry/2026/09/15/141320
+https://piyolog.hatenadiary.jp/entry/2026/09/16/085611
 https://qiita.com/Y-Y-dev/items/d526fb7cdbe35a3f9384
 https://qiita.com/amiyamamoto/items/2c380c550963c8a5ca7a
 https://qiita.com/infra365/items/aa30a54fc6f0849385a7
@@ -104,6 +114,7 @@ https://qiita.com/nogataka/items/d6a54f3694726b9141f3
 https://qiita.com/songchong/items/252947681e7914cd9e2c
 https://qiita.com/songchong/items/8b48962aa6d5408abe86
 https://qiita.com/songchong/items/94df4fbdeabaaf8f8ef5
+https://qiita.com/take-yoda/items/e5d9ce6618523af1ffc5
 https://qiita.com/tetsuro731/items/1f91493cfddbd53343b3
 https://quesma.com/blog/qwen38-27b-quantizations-benchmarked/
 https://satoweb.net/2026/09/p-18390/
@@ -127,12 +138,16 @@ https://tech.dentsusoken.com/entry/2026/08/31/
 https://tech.dentsusoken.com/entry/2026/08/31/%E3%83%8F%E3%83%BC%E3%83%8D%E3%82%B9%E3%82%A8%E3%83%B3%E3%82%B8%E3%83%8B%E3%82%A2%E3%83%AA%E3%83%B3%E3%82%B0%E3%81%A8%E3%81%AF%E4%BD%95%E3%81%8B%E2%80%94%E2%80%94%22%E7%9B%9B%E3%82%8C%E3%81%B0%E5%8A%B9
 https://tech.layerx.co.jp/entry/typespec-in-aiworkforce
 https://tech.smarthr.jp/entry/2026/09/02/120000
+https://tech.smarthr.jp/entry/2026/09/16/110205
 https://techblog.zozo.com/entry/cc-plugin-marketplace
 https://techblog.zozo.com/entry/verify-ai-agent-coding-rules-with-archunit
 https://terrytao.wordpress.com/2026/09/11/a-severe-misalignment-of-ai-in-mathematics/
 https://thinkit.co.jp/article/39471
 https://thinkit.co.jp/article/39495
+https://togetter.com/li/2746142
 https://trailofbits.com/2026/08/26/vms-wont-contain-cyber-capable-agents/
+https://type.jp/et/feature/31685/
+https://updates.gyazo.com/ja/gyazo-henobu-zheng-akusesuniyoruqing-bao-lou-einiguan-suruozhi-rasetoocha-bi-1g9tcc
 https://voluntas.ghost.io/2026-08-second-half-llm/
 https://www.aikido.dev/blog/compromised-flutter-package-on-pub-dev-contains-xcsset-malware
 https://www.aikido.dev/blog/cve-spike-remediation-problem
@@ -152,6 +167,8 @@ https://www.digital.go.jp/news/2026-0911-01
 https://www.docker.com/blog/ai-agent-security-systems-problem/
 https://www.docker.com/blog/what-is-yolo-mode/
 https://www.fnn.jp/articles/-/1112450
+https://www.getdbt.com/blog/dbt-context-engineering
+https://www.getdbt.com/blog/dbt-v2-is-ga
 https://www.ipa.go.jp/jinzai/ics/core_human_resource/final_project/2026/pm_ai.html
 https://www.itmedia.co.jp/aiplus/article/2609/04/2000001152/
 https://www.itmedia.co.jp/aiplus/article/2609/11/2000001400/
@@ -175,6 +192,7 @@ https://www.m3tech.blog/entry/2026/08/26/110000
 https://www.m3tech.blog/entry/embulk-to-dlt-dbt
 https://www.nikkei.com/article/DGXZQOGN122UY0S6A910C2000000/
 https://www.nikkei.com/article/DGXZQOSG120C30S6A910C2000000/
+https://www.nikkei.com/article/DGXZQOUC160I20W6A910C2000000/
 https://www.pospome.work/entry/2026/08/24/223309
 https://www.publickey1.jp/blog/26/duckdbducklabsawsduckdbmit.html
 https://www.publickey1.jp/blog/26/jetbrainsmacjunie_localclaude_sonnet_45rtx5909.html
@@ -186,6 +204,7 @@ https://www.publickey1.jp/blog/26/slackaislack_code.html
 https://www.reddit.com/r/LocalLLaMA/comments/1w5ozl4/perplexity_opensourced_their_mac_inference_server/
 https://www.sankei.com/article/20260827-HJO7DKCWRNMB7MSDJCOSEMK4PY/
 https://www.sankei.com/article/20260909-YXTSWA7BWZA6VI3SCMGOQ3YMSM/
+https://www.sbbit.jp/article/cont1/186613
 https://www.sbbit.jp/article/cont1/186696
 https://www.sbbit.jp/article/cont1/186739
 https://www.sbbit.jp/article/cont1/186772
@@ -213,6 +232,7 @@ https://zenn.dev/finatext/articles/7dbbd9371fe046
 https://zenn.dev/finatext/articles/dbt-snowflake-and-tag
 https://zenn.dev/gangy/articles/04597efe1b64c5
 https://zenn.dev/gitmame00/articles/a8f5f300d4ea86
+https://zenn.dev/hampen2929/books/ai-dev-team-guide
 https://zenn.dev/hampen2929/books/claude-code-production-guide
 https://zenn.dev/jnch/articles/18cf3f1893ee5b
 https://zenn.dev/jtechjapan_pub/articles/local-llm-qwen-flash-next-eval
