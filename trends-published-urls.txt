@@ -45,13 +45,16 @@ https://gigazine.net/news/20260911-openai-agents-api/
 https://gigazine.net/news/20260911-yue2-music-generation-ai/
 https://gigazine.net/news/20260913-wireguard-easy/
 https://gigazine.net/news/20260915-sunk-cost/
+https://gigazine.net/news/20260918-ai-agent-evolve-language/
 https://gihyo.jp/book/2026/978-4-297-15875-0
 https://github.com/argonautlabsai/deltafin
 https://github.com/ayghri/i-have-adhd
 https://huggingface.co/blog/FINAL-Bench/qwen-models
 https://huggingface.co/blog/bartowski/per-tensor-layout-maps-for-gguf-quantization
 https://huggingface.co/blog/ibm-granite/granite-4-2
+https://huggingface.co/blog/quao627/your-inference-server-is-secretly-a-learner-reef
 https://huggingface.co/papers/2609.01437
+https://huggingface.co/papers/2609.20804
 https://internet.watch.impress.co.jp/docs/column/security/2138390.html
 https://internet.watch.impress.co.jp/docs/news/2141538.html
 https://japan.zdnet.com/article/35252229/
@@ -61,6 +64,7 @@ https://kaminashi-developer.hatenablog.jp/entry/2026/09/07/ai-era-engineer-inter
 https://kawasin73.hatenablog.com/entry/2026/09/05/092056
 https://kubernetes.io/blog/2026/09/08/kubernetes-v1-37-advancing-workload-aware-scheduling/
 https://kubernetes.io/blog/2026/09/15/kubernetes-v1-37-pod-level-resource-managers-beta/
+https://kubernetes.io/blog/2026/09/16/kubernetes-v1-37-hardening-container-storage/
 https://leaddev.com/ai/meta-tried-to-shrink-engineering-teams-around-ai
 https://levtech.jp/media/detail_911/
 https://logmi.jp/main/management/333618
@@ -87,6 +91,13 @@ https://news.ycombinator.com/item?id=49716476
 https://news.ycombinator.com/item?id=49723408
 https://news.ycombinator.com/item?id=49729412
 https://news.ycombinator.com/item?id=49732931
+https://news.ycombinator.com/item?id=49748553
+https://news.ycombinator.com/item?id=49750694
+https://news.ycombinator.com/item?id=49752041
+https://news.ycombinator.com/item?id=49757050
+https://news.ycombinator.com/item?id=49757520
+https://news.ycombinator.com/item?id=49759466
+https://news.ycombinator.com/item?id=49760187
 https://note.com/kirik/n/n8e7920167c3f
 https://note.com/npaka/n/nf7108e6bd18e
 https://note.com/shinshiro/n/n45c9931a88e5
@@ -127,6 +138,7 @@ https://speakerdeck.com/kinopeee/hanesu-sekkei-nyuumon-kontekisuto-no-tsugi
 https://speakerdeck.com/lycorptech_jp/aidlc-aidd-workshop
 https://speakerdeck.com/teru0x1/slack-ue-de-infura-o-toraburu-shuto-suru-agentic-platform-engineering-no-daiippo
 https://speakerdeck.com/tkikuc/vibes-containers-ai-de-kawaru-kontena-sekkei-to-unyou
+https://speakerdeck.com/twada/debt-metaphor-in-agentic-engineering-age-202609-edition
 https://speakerdeck.com/upsider_tech/enjinia-ha-doko-made-ekkyou-surubeki-ka-take
 https://speakerdeck.com/yda/50-dai-de-hatsutenshoku-shita-hanashi
 https://tailwindcss.com/blog/tailwind-is-joining-shopify
@@ -136,6 +148,7 @@ https://tech.anotherball.com/ja/2026-09-04-interview-product-development-skills/
 https://tech.bm-sms.co.jp/entry/2026/09/02/110000
 https://tech.dentsusoken.com/entry/2026/08/31/
 https://tech.dentsusoken.com/entry/2026/08/31/%E3%83%8F%E3%83%BC%E3%83%8D%E3%82%B9%E3%82%A8%E3%83%B3%E3%82%B8%E3%83%8B%E3%82%A2%E3%83%AA%E3%83%B3%E3%82%B0%E3%81%A8%E3%81%AF%E4%BD%95%E3%81%8B%E2%80%94%E2%80%94%22%E7%9B%9B%E3%82%8C%E3%81%B0%E5%8A%B9
+https://tech.layerx.co.jp/entry/2026/09/18/185816
 https://tech.layerx.co.jp/entry/typespec-in-aiworkforce
 https://tech.smarthr.jp/entry/2026/09/02/120000
 https://tech.smarthr.jp/entry/2026/09/16/110205
@@ -158,6 +171,7 @@ https://www.aikido.dev/blog/software-supply-chain-security-decisions-not-default
 https://www.aikido.dev/blog/stylesmuggler-fix
 https://www.anthropic.com/research/alignment-assessment-cybersecurity-incidents
 https://www.anthropic.com/research/formalizing-fermats-last-theorem
+https://www.anthropic.com/research/intelligence-targeting-conventional-weapons-capabilities
 https://www.anthropic.com/research/multiagent-systems
 https://www.anthropic.com/threat-intelligence-report-september-2026
 https://www.ben54.jp/news/3850
@@ -189,6 +203,7 @@ https://www.itmedia.co.jp/news/article/2609/11/2000001419/
 https://www.jiji.com/jc/article?k=2026091100447&g=flash
 https://www.m3tech.blog/entry/2026/08/25/080000
 https://www.m3tech.blog/entry/2026/08/26/110000
+https://www.m3tech.blog/entry/2026/09/18/160000
 https://www.m3tech.blog/entry/embulk-to-dlt-dbt
 https://www.nikkei.com/article/DGXZQOGN122UY0S6A910C2000000/
 https://www.nikkei.com/article/DGXZQOSG120C30S6A910C2000000/
@@ -216,6 +231,7 @@ https://www.uber.com/in/en/blog/postgres-to-mysql-migration/
 https://www.watch.impress.co.jp/docs/news/2136632.html
 https://www.wiz.io/blog/ai-infrastructure-honeypot
 https://www.wiz.io/blog/artifactory-under-attack-in-the-wild-exploitation-of-cve-2026-42016-cve-2026-4201
+https://www.wiz.io/blog/building-an-ai-detection-engine-for-agent-intent
 https://www.wiz.io/blog/off-guard-breaking-litellm-from-authentication-bypass-to-cloud-compromise
 https://www.yomiuri.co.jp/national/20260912-GYT1T00002/
 https://www.yomiuri.co.jp/science/20260912-GYT1T00169/
