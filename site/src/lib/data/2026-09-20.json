@@ -1,0 +1,115 @@
+{
+  "date": "2026-09-20",
+  "categories": [
+    {
+      "name": "AI/エージェント開発・実装",
+      "items": [
+        {
+          "title_ja": "意思決定特化AIモデル「Jev」、図解ガイドがはてブで話題に",
+          "url": "https://jev-guide.take-otani.workers.dev/",
+          "summary_ja": "Jevは自然言語の判断をテキスト生成せず型付きの値と確率で返すAIモデルで、応答速度約100msで意思決定ワークフローに組み込める。チケット振り分けやリスク検知などif文で直接使える設計が支持を集めている。"
+        },
+        {
+          "title_ja": "jev-lint、命名やコメントの矛盾をAIで検出する静的解析ツール",
+          "url": "https://zenn.dev/mizchi/articles/jev-lint-intro",
+          "summary_ja": "ast-grepで抽出したコード片をJev APIで判定し、関数名やコメントが実装内容と矛盾していないかをスコアリングして検出するツール。従来の静的解析では拾えない意味的なズレを高速・低コストで見つけられる。"
+        },
+        {
+          "title_ja": "Claude CodeのBash実行をJevで審査、rm -rf ~/ だけを止めるガードフック",
+          "url": "https://zenn.dev/mistletoe/articles/jev-claude-code-guard",
+          "summary_ja": "Claude CodeのPreToolUseフックにJevモデルを組み込み、「不可逆性」「秘密情報アクセス」「依頼範囲外」など5軸で危険度を同時判定する仕組み。rm -rf node_modulesは許可、rm -rf ~/は拒否と文脈に応じて区別できる。"
+        },
+        {
+          "title_ja": "Show HN: CUA-S1、フォーム入力に特化した小型System 1モデル",
+          "url": "https://news.ycombinator.com/item?id=49767564",
+          "summary_ja": "構造化されたフォーム要素からどの値を入力すべきかを素早く判断する、コンピュータ操作タスク向けの小型特化モデル群。Pythonモデルコードや合成データ生成、Cua Driverとの統合オプションを含む。"
+        }
+      ]
+    },
+    {
+      "name": "AI/エンプラ・経営・ガバナンス",
+      "items": [
+        {
+          "title_ja": "企業でJevを使うなら？利用規約・SOC2・保存期間を調べてみた",
+          "url": "https://zenn.dev/yamato_snow/articles/jev-enterprise-security-guide",
+          "summary_ja": "判定特化AI「Jev」を企業導入する際、学習利用の制限とデータ保存は別問題である点やSOC2報告書の閲覧に申請が必要な点など、公開資料からわかる注意点を整理。実装前に架空データでの検証と法務確認を推奨している。"
+        },
+        {
+          "title_ja": "「AIスクレイピングは人類史上最大の労働搾取」、NYT訴訟の法廷書類でMS幹部が発言",
+          "url": "https://news.ycombinator.com/item?id=49768921",
+          "summary_ja": "NYTとの訴訟の法廷書類で、マイクロソフト幹部がAIによるデータ収集を「人類史上最大の労働搾取」と表現し、OpenAI幹部もChatGPTを出版社への「実存的脅威」と認めていたことが明らかになった。著作権コンテンツの無断学習利用を巡る争点を浮き彫りにしている。"
+        }
+      ]
+    },
+    {
+      "name": "Sec/脆弱性・インシデント",
+      "items": [
+        {
+          "title_ja": "「ペンテストの9割は近くAIが担う」、AI時代のセキュリティ診断論",
+          "url": "https://www.aikido.dev/blog/stop-fearing-ai-pentesting",
+          "summary_ja": "セキュリティ研究者Jason Haddix氏は、手動診断はAIが生成するコードの速度に追いつけずコストもかさむため、防御側もAI活用が必須になると主張。ただし人間のメソドロジーを組み込んで初めてAIペンテストは効果を発揮し、専門家の役割は置き換えではなく変化するとしている。"
+        },
+        {
+          "title_ja": "高重大度アラートの過半数は実際の攻撃経路を持たない、Wiz「State of Cloud Risk 2026」",
+          "url": "https://www.wiz.io/blog/cloud-risk-report-2026",
+          "summary_ja": "Wiz Researchの2026年レポートによると、外部接続性や特権などの環境要素を考慮すると初期検出の5割以上が除外されるといい、孤立した脆弱性より特権と到達可能性を備えた攻撃経路の優先対応を推奨。ゼロデイから実悪用までの期間も2年超から21.5日に短縮しているという。"
+        },
+        {
+          "title_ja": "GitHub・GitLab等のログ保持はプラットフォームごとにバラバラ、VCSのDFIR実践ガイド",
+          "url": "https://www.wiz.io/blog/vcs-dfir-threat-hunting-github-gitlab-azure-devops",
+          "summary_ja": "GitHub、GitLab、Bitbucket、Azure DevOpsを対象にしたフォレンジック・インシデント対応ガイド。GitHubはGit読み書きイベントを既定で7日間しか保持しないなど保有期間の差を指摘し、MITRE ATT&CKに基づく監査イベントの検出マトリクスを提供している。"
+        }
+      ]
+    },
+    {
+      "name": "AI/ローカルLLM",
+      "items": [
+        {
+          "title_ja": "140万パラメータの「BananaMind 2 Pro」、SmolLM2の20分の1のトークン数で96%の性能",
+          "url": "https://huggingface.co/blog/Banaxi-Tech/bananamind-2-pro-weve-almost-matched-smollm2-at-20",
+          "summary_ja": "約140万パラメータの小規模言語モデルを、SmolLM2（2兆トークン学習）の20分の1にあたる100億トークンのみで学習し、ベンチマークスコアの96.08%を達成。データ品質とモデル設計の効率化が性能を左右することを示した。"
+        },
+        {
+          "title_ja": "ローカルLLM7モデル比較でQwen3.8-Flash-Nextが満点、鍵は「実環境調査」",
+          "url": "https://qiita.com/nabe2030/items/ad2b6c223e5992ba78e4",
+          "summary_ja": "OpenCodeハーネス上でローカルLLM7モデルをファイルサーバのカタログDB設計課題で比較したところ、SSH接続して実環境を確認する調査行動の有無が明暗を分け、Qwen3.8-Flash-Nextが45点満点を獲得。知識量と実装環境での確認能力は別物であることを示唆している。"
+        }
+      ]
+    },
+    {
+      "name": "開発/JS・TS・データスタック",
+      "items": [
+        {
+          "title_ja": "PostgreSQL向け全文検索拡張「Tin」、競合比8倍以上高速",
+          "url": "https://news.ycombinator.com/item?id=49766611",
+          "summary_ja": "PlanetScaleが公開した「Tin（Text INdex）」は、PostgreSQLのctidを文書識別に直接使い、ビットマップ圧縮とベクトル化で高速化した全文検索インデックス拡張。Boolean表現やフレーズクエリ、ファジーマッチングに対応する。"
+        },
+        {
+          "title_ja": "PlanetScale、PostgreSQLシャーディング自動化の新DB「Neki」で1.18億QPS達成",
+          "url": "https://www.publickey1.jp/blog/26/planetscalepostgresql11800qpsdbneki.html",
+          "summary_ja": "PlanetScaleが発表した新PostgreSQLサービス「Neki」は、シャーディングを自動化し、512シャード・約1.4ペタバイト規模のベンチマークで最大1億1875万QPSを記録。既存のPostgreSQL向けツールやドライバをそのまま使える点が特徴。"
+        }
+      ]
+    },
+    {
+      "name": "キャリア・組織",
+      "items": [
+        {
+          "title_ja": "「AIに任せた品質は誰が見立てるのか」、AI時代のテストマネジメント論",
+          "url": "https://speakerdeck.com/nakanao/ai-ni-makaseta-hinshitsu-ha-dare-ga-mitateru-no-ka-ai-jidai-no-tesuto-manejimento",
+          "summary_ja": "LayerXの中野直樹氏が、AIはテスト作業を担えても品質責任は負えないという前提のもと、テスト計画から成果物レビューまでの6工程で人が何を決定・委譲・検証すべきかを整理。人の工数制約が外れる一方、判断基準の明文化や責任の所在がより重要になると論じている。"
+        }
+      ]
+    },
+    {
+      "name": "その他",
+      "items": [
+        {
+          "title_ja": "一貫性ハッシングの数学的最適化で100TB超のRAMを削減、Cloudflareの事例",
+          "url": "https://news.ycombinator.com/item?id=49758580",
+          "summary_ja": "Cloudflareは構造体のフィールドサイズ縮小（32bit→16bit）でメモリ使用量を25%削減し、統計的手法でサーバーあたりのハッシュ数を90%減らしても誤差が増えないことを証明。段階的ロールアウトで世界全体から100TB以上のRAMを回収した。"
+        }
+      ]
+    }
+  ]
+}
