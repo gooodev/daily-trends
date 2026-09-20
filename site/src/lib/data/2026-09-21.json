@@ -1,0 +1,115 @@
+{
+  "date": "2026-09-21",
+  "categories": [
+    {
+      "name": "AI/エージェント開発・実装",
+      "items": [
+        {
+          "title_ja": "「Jev」とは　“文章を書かないAI”がなぜ話題に？　元OpenAI研究者が開発",
+          "url": "https://www.itmedia.co.jp/aiplus/article/2609/20/2000001664/",
+          "summary_ja": "Jévは米TypeSafe AIが発表した、文章を生成せず「判断」を構造化データとして返す新型AIモデル。LLMより20〜200倍速く40〜1000倍安いとされ、元OpenAI研究者でInstructGPT共著者のディオゴ・アルメイダ氏が開発した。「スマートなif文」として問題振り分けやデータ分類での活用が想定されている。"
+        },
+        {
+          "title_ja": "Jev のクイックスタート",
+          "url": "https://note.com/npaka/n/n5ac6abd04d67",
+          "summary_ja": "「State → Questions → Typed Decisions」という構造で、Choice/Score/Noulの3種の型を使い高速な判断出力に特化したJevの使い方を解説。ゲーム制御やリスク評価、カスタマーサポート分類など幅広い用途での意思決定自動化に応用できる。"
+        },
+        {
+          "title_ja": "Jevのキラーアプリ、「意味で探すgrep」を作った",
+          "url": "https://zenn.dev/uehaj/articles/jev-semgrep-grep-by-meaning",
+          "summary_ja": "正規表現ではなく自然語の意味を検索条件にできるgrepツールをJevで構築。各行が指定した意味に合致するかをyes/no確率で問い合わせ閾値判定する仕組みで、AND/OR/NOTによる複合条件やベクトル検索が苦手な否定表現も正確に扱える。"
+        },
+        {
+          "title_ja": "エージェントを増やしても賢くならない — graph engineering を Claude Code の Dynamic Workflow だけで実装して分かったこと",
+          "url": "https://qiita.com/banquet_kuma/items/f43a22ab24f219ed0569",
+          "summary_ja": "同じモデルの複数エージェントが同じコンテキストを読むと互いに承認し合う「organized nonsense」問題が発生することが判明。システム外の証拠（実テスト実行）や反証フレーミング、モデル分散といった対策が有効であることを検証した。"
+        }
+      ]
+    },
+    {
+      "name": "AI/ローカルLLM",
+      "items": [
+        {
+          "title_ja": "Jevクローンの Laya をローカルで60fpsで動かせるか？",
+          "url": "https://zenn.dev/mizchi/articles/laya-mlx-60fps",
+          "summary_ja": "Jevと同様の「選択肢にスコアを付けるLLM」のオープンウェイト版LayaをApple SiliconのMLXで動かすと1判断8ms・90判断/秒でローカル60fps超を実現。一方ブラウザ版（WebGPU+ONNX）は初回ロード数分・約20fpsに留まり、embedding tableが647MBの61%を占めるためモバイル対応には追加最適化が必要と分析。HN上でも同種の検証（Mac M4 CoreMLオフラインで45判断/秒）が話題になった。"
+        },
+        {
+          "title_ja": "JevのオープンウェイトモデルOpenJevを開発した話",
+          "url": "https://qiita.com/xeje/items/48c9835a3e5c7b3d5489",
+          "summary_ja": "重みと学習法が非公開のJevに対し、HuggingFace上のQwenやLlamaなど任意のinstructモデルを使って同じ挙動を再現するOpenJevを開発。公式APIとワイヤ互換のため、公式SDKを無改造で使える点が特徴。"
+        }
+      ]
+    },
+    {
+      "name": "Sec/脆弱性・インシデント",
+      "items": [
+        {
+          "title_ja": "パスキーは破られていないのに突破される——デバイスコードフロー攻撃とEntra IDでの対策",
+          "url": "https://techblog.ap-com.co.jp/entry/2026/09/17/103525",
+          "summary_ja": "パスキー自体は暗号学的に強固だが、攻撃者が偽のサインイン画面でデバイスコードフローを開始させ、被害者が正規のパスキー認証を完了すると認証トークンが攻撃者に渡ってしまう「認証フロー全体」を狙った攻撃手法を解説。Entra IDの条件付きアクセスによるデバイスコードフローの入口ブロックと、ID Protectionのリスクベース検知を組み合わせた多層防御が対策として有効。"
+        },
+        {
+          "title_ja": "そのLambda、8分で管理者権限まで奪われます",
+          "url": "https://speakerdeck.com/k1nakayama/sono-lambda-8-bun-de-kanrisha-kengen-made-ubawaremasu",
+          "summary_ja": "2026年2月にSysdigが観測した実際の攻撃事例を分析したスライド。公開S3バケットからの認証情報窃取からLambdaへのコード注入を経て権限昇格に至る6段階のキルチェーンがわずか8分で完了する。IAMポリシーよりも、VPCエンドポイントで信頼できる宛先のみに絞る「ネットワーク経路の設計」こそが攻撃を防ぐ鍵と指摘。"
+        },
+        {
+          "title_ja": "ハッカーがAnthropicのClaudeを使ってOpenAIに侵入",
+          "url": "https://gigazine.net/news/20260919-hack-openai-claude/",
+          "summary_ja": "セキュリティ研究企業Hacktron AIの研究者がClaudeを使い、OpenAIコミュニティフォーラムのHEICファイルアップロード処理にあるバッファオーバーフロー脆弱性を発見・悪用し、OpenAI従業員のアカウント経由で内部コードへのアクセスに成功、6,500ドルの報奨金を獲得した。問題はDiscourse固有ではなくOpenAIのSSO実装に起因すると指摘されている。Anthropic自身も同種の事例を含む複数のセキュリティインシデントについてアラインメント評価を公表している。"
+        }
+      ]
+    },
+    {
+      "name": "AI/エンプラ・経営・ガバナンス",
+      "items": [
+        {
+          "title_ja": "Google、ついに全エンジニアがアンソロピックのClaudeを利用可能に",
+          "url": "https://www.businessinsider.jp/article/2609-google-finally-lets-all-engineers-use-anthropics-claude/",
+          "summary_ja": "Googleが全社エンジニアにアンソロピックのClaudeを開放。自社Geminiに巨額投資しながらもコーディング性能でアンソロピックやOpenAIに後れを取っている状況と、社員からの生産性向上への強い要望が経営判断を後押しした。"
+        },
+        {
+          "title_ja": "全社に OpenCode + LiteLLM を導入してコストを抑えつつ AI 活用を進めている話",
+          "url": "https://zenn.dev/jtcc/articles/7e74fef42580a1",
+          "summary_ja": "約200名の全社員にAIクライアント「OpenCode」とLLMゲートウェイ「LiteLLM」を統合導入。利用モデルを会社側で制御し、月次予算と社員ごとの週次上限を設定することで、導入前の10分の1以下までコストを削減しつつ全社的なAI活用を推進している。"
+        }
+      ]
+    },
+    {
+      "name": "開発/データスタック",
+      "items": [
+        {
+          "title_ja": "Knowledge CatalogでAIエージェントに自社のビジネス文脈を教える",
+          "url": "https://zenn.dev/web_benriya/articles/bigquery-knowledge-catalog-business-context",
+          "summary_ja": "AIエージェントの回答精度が低い根本原因はモデル性能ではなく「判断材料の不足」にあるとし、BigQueryのKnowledge Catalogで指標の定義やテーブルの使い分け、値の意味、既知の落とし穴といった業務知識をMCP経由でエージェントに供給する方法を解説。ビューの列説明はALTERでは設定できずビュー定義の再作成が必要な点や、エージェントが実際に間違えた箇所から優先的に整備する運用の勘所も紹介している。"
+        },
+        {
+          "title_ja": "AI ネイティブなデータ分析基盤を作った話",
+          "url": "https://zenn.dev/pksha/articles/5a1dc6470019d6",
+          "summary_ja": "PKSHAのSREが約1ヶ月でBigQuery・dbt・Lightdashを組み合わせたデータ分析基盤「Laplace」を構築。dbtのschema.ymlを唯一の定義源とするセマンティックレイヤーにより、ビジネスメンバーはBIツール操作不要でセルフサービス分析ができ、MCPサーバ経由でAIからも自然言語で分析可能。権限境界をBI層に置きPIIを隔離することでセキュリティと利便性を両立している。"
+        }
+      ]
+    },
+    {
+      "name": "キャリア・組織",
+      "items": [
+        {
+          "title_ja": "AI時代の「エンジニア」とは？",
+          "url": "https://daiksy.hatenablog.jp/entry/2026/09/16/183544",
+          "summary_ja": "AIが誰でもコード生成できる時代には、エンジニアの専門性は「特定領域における責任と説明責任を持つこと」にシフトすると主張。ユーザー体験・サイト信頼性・コード品質など各領域の責任者が職種の垣根を超えて協働する「プロダクト開発チーム」を理想像として描いている。"
+        }
+      ]
+    },
+    {
+      "name": "その他",
+      "items": [
+        {
+          "title_ja": "16年間放置されていたSQLiteのバグを突き止めた方法",
+          "url": "https://gigazine.net/news/20260920-sqlite-wal-reset-bug/",
+          "summary_ja": "TailscaleがVPN基盤のデータベース破損を調査する中で、トランザクションログパイプラインの構築とVFSシムによるデバッグを駆使し、チェックポイント処理と書き込みトランザクション間のデータ競合が原因だった16年来のSQLiteの潜在バグ「WAL-Resetバグ」を特定、開発者と協力して修正に至った経緯を紹介。"
+        }
+      ]
+    }
+  ]
+}

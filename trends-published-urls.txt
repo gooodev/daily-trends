@@ -17,6 +17,7 @@ https://blog.trailofbits.com/2026/08/26/vms-wont-contain-cyber-capable-agents/
 https://claude.com/blog/agentic-coding-is-straining-ci-heres-how-we-scaled-test-impact-analysis-at-anthropic
 https://collusion.wiki/
 https://corp.helpfeel.com/news/news-20260916-1
+https://daiksy.hatenablog.jp/entry/2026/09/16/183544
 https://debiru.hatenablog.com/entry/20260831/jcom-plume-dns-blocking
 https://deno.com/blog/clawpatrol
 https://desertant.com/blog/introducing-desert-ant-labs/
@@ -46,6 +47,8 @@ https://gigazine.net/news/20260911-yue2-music-generation-ai/
 https://gigazine.net/news/20260913-wireguard-easy/
 https://gigazine.net/news/20260915-sunk-cost/
 https://gigazine.net/news/20260918-ai-agent-evolve-language/
+https://gigazine.net/news/20260919-hack-openai-claude/
+https://gigazine.net/news/20260920-sqlite-wal-reset-bug/
 https://gihyo.jp/book/2026/978-4-297-15875-0
 https://github.com/argonautlabsai/deltafin
 https://github.com/ayghri/i-have-adhd
@@ -105,6 +108,7 @@ https://news.ycombinator.com/item?id=49766611
 https://news.ycombinator.com/item?id=49767564
 https://news.ycombinator.com/item?id=49768921
 https://note.com/kirik/n/n8e7920167c3f
+https://note.com/npaka/n/n5ac6abd04d67
 https://note.com/npaka/n/nf7108e6bd18e
 https://note.com/shinshiro/n/n45c9931a88e5
 https://note.com/takahiroanno/n/n4accbde18d56
@@ -124,6 +128,7 @@ https://piyolog.hatenadiary.jp/entry/2026/09/15/141320
 https://piyolog.hatenadiary.jp/entry/2026/09/16/085611
 https://qiita.com/Y-Y-dev/items/d526fb7cdbe35a3f9384
 https://qiita.com/amiyamamoto/items/2c380c550963c8a5ca7a
+https://qiita.com/banquet_kuma/items/f43a22ab24f219ed0569
 https://qiita.com/infra365/items/aa30a54fc6f0849385a7
 https://qiita.com/jiis-sasaki/items/7affa2e2ef22ebf93fa6
 https://qiita.com/ktdatascience/items/02b6b45e2ca7d34ad146
@@ -134,6 +139,7 @@ https://qiita.com/songchong/items/8b48962aa6d5408abe86
 https://qiita.com/songchong/items/94df4fbdeabaaf8f8ef5
 https://qiita.com/take-yoda/items/e5d9ce6618523af1ffc5
 https://qiita.com/tetsuro731/items/1f91493cfddbd53343b3
+https://qiita.com/xeje/items/48c9835a3e5c7b3d5489
 https://quesma.com/blog/qwen38-27b-quantizations-benchmarked/
 https://satoweb.net/2026/09/p-18390/
 https://scgajge12.hatenablog.com/entry/closed_network_security
@@ -141,6 +147,7 @@ https://speakerdeck.com/22mi/how-to-design-self-improvement-for-ai-agents
 https://speakerdeck.com/akiratom/ai-kudou-kaihatsu-ha-doko-made-kita-no-ka-no-saishin-jittai-chousa-de-yomitoku-genzaichi-devin-con-tokyo
 https://speakerdeck.com/colorful12/gyoumu-jikangai-mo-ai-ni-hatarai-te-morau-hanashi
 https://speakerdeck.com/flatt_security/security-risks-and-countermeasures-in-the-development-and-provision-of-ai-agents
+https://speakerdeck.com/k1nakayama/sono-lambda-8-bun-de-kanrisha-kengen-made-ubawaremasu
 https://speakerdeck.com/kinopeee/hanesu-sekkei-nyuumon-kontekisuto-no-tsugi
 https://speakerdeck.com/lycorptech_jp/aidlc-aidd-workshop
 https://speakerdeck.com/nakanao/ai-ni-makaseta-hinshitsu-ha-dare-ga-mitateru-no-ka-ai-jidai-no-tesuto-manejimento
@@ -160,6 +167,7 @@ https://tech.layerx.co.jp/entry/2026/09/18/185816
 https://tech.layerx.co.jp/entry/typespec-in-aiworkforce
 https://tech.smarthr.jp/entry/2026/09/02/120000
 https://tech.smarthr.jp/entry/2026/09/16/110205
+https://techblog.ap-com.co.jp/entry/2026/09/17/103525
 https://techblog.zozo.com/entry/cc-plugin-marketplace
 https://techblog.zozo.com/entry/verify-ai-agent-coding-rules-with-archunit
 https://terrytao.wordpress.com/2026/09/11/a-severe-misalignment-of-ai-in-mathematics/
@@ -185,6 +193,7 @@ https://www.anthropic.com/research/multiagent-systems
 https://www.anthropic.com/threat-intelligence-report-september-2026
 https://www.ben54.jp/news/3850
 https://www.ben54.jp/news/3852
+https://www.businessinsider.jp/article/2609-google-finally-lets-all-engineers-use-anthropics-claude/
 https://www.cncf.io/blog/2026/09/04/cpu-gpu-why-ai-platform-engineering-is-a-heterogeneous-infrastructure-problem/
 https://www.digital.go.jp/news/2026-0911-01
 https://www.docker.com/blog/ai-agent-security-systems-problem/
@@ -195,6 +204,7 @@ https://www.getdbt.com/blog/dbt-v2-is-ga
 https://www.ipa.go.jp/jinzai/ics/core_human_resource/final_project/2026/pm_ai.html
 https://www.itmedia.co.jp/aiplus/article/2609/04/2000001152/
 https://www.itmedia.co.jp/aiplus/article/2609/11/2000001400/
+https://www.itmedia.co.jp/aiplus/article/2609/20/2000001664/
 https://www.itmedia.co.jp/business/articles/2609/11/news072.html
 https://www.itmedia.co.jp/enterprise/articles/2609/01/news030.html
 https://www.itmedia.co.jp/enterprise/articles/2609/03/news045.html
@@ -263,6 +273,7 @@ https://zenn.dev/gitmame00/articles/a8f5f300d4ea86
 https://zenn.dev/hampen2929/books/ai-dev-team-guide
 https://zenn.dev/hampen2929/books/claude-code-production-guide
 https://zenn.dev/jnch/articles/18cf3f1893ee5b
+https://zenn.dev/jtcc/articles/7e74fef42580a1
 https://zenn.dev/jtechjapan_pub/articles/local-llm-qwen-flash-next-eval
 https://zenn.dev/karamage/articles/2ef2c2aea7dfdf
 https://zenn.dev/kas_blog/articles/20260826-apache-license-2-ai-compliance
@@ -274,8 +285,10 @@ https://zenn.dev/maronsan/articles/nenpi-residency-cost
 https://zenn.dev/mediba/articles/7d0d7d70678546
 https://zenn.dev/mistletoe/articles/jev-claude-code-guard
 https://zenn.dev/mizchi/articles/jev-lint-intro
+https://zenn.dev/mizchi/articles/laya-mlx-60fps
 https://zenn.dev/monyyy/articles/3c55e83a596ccb
 https://zenn.dev/oryo_data/articles/f94473ed24ef95
+https://zenn.dev/pksha/articles/5a1dc6470019d6
 https://zenn.dev/rhosokawa/articles/d0a958c17c2820
 https://zenn.dev/ryo1fuji/articles/52f371931ccc16
 https://zenn.dev/sato_frontend/articles/1a85841505b9bb
@@ -285,7 +298,9 @@ https://zenn.dev/sompojapan_dx/articles/846c6038fee45d
 https://zenn.dev/tan_go238/books/project-management-textbook
 https://zenn.dev/tomatomerde/articles/semantic-conflicts-outside-code
 https://zenn.dev/toshipon/articles/claude-code-security-assessment-skill
+https://zenn.dev/uehaj/articles/jev-semgrep-grep-by-meaning
 https://zenn.dev/web_benriya/articles/ai-sql-verification-bigquery-framework
+https://zenn.dev/web_benriya/articles/bigquery-knowledge-catalog-business-context
 https://zenn.dev/yamato_snow/articles/jev-enterprise-security-guide
 https://zenn.dev/yucco/articles/client-server-logic-drift
 https://zenn.dev/yui/articles/97597aa13b9802
