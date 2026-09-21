@@ -8,6 +8,7 @@ https://atmarkit.itmedia.co.jp/ait/articles/2608/31/news035.html
 https://atmarkit.itmedia.co.jp/ait/articles/2609/02/news038.html
 https://atmarkit.itmedia.co.jp/ait/articles/2609/16/news013.html
 https://atmarkit.itmedia.co.jp/ait/articles/2609/17/news006.html
+https://azukiazusa.dev/blog/json-render-jev/
 https://azukiazusa.dev/blog/zod-compile-validation/
 https://blog.cloudflare.com/mcp-security-updates/
 https://blog.flatt.tech/entry/package_registry_history
@@ -46,12 +47,16 @@ https://gigazine.net/news/20260911-openai-agents-api/
 https://gigazine.net/news/20260911-yue2-music-generation-ai/
 https://gigazine.net/news/20260913-wireguard-easy/
 https://gigazine.net/news/20260915-sunk-cost/
+https://gigazine.net/news/20260917-openai-agents-probed-hugging-face-weaknesses-before-major-hack/
 https://gigazine.net/news/20260918-ai-agent-evolve-language/
 https://gigazine.net/news/20260919-hack-openai-claude/
 https://gigazine.net/news/20260920-sqlite-wal-reset-bug/
 https://gihyo.jp/book/2026/978-4-297-15875-0
 https://github.com/argonautlabsai/deltafin
 https://github.com/ayghri/i-have-adhd
+https://github.com/minorun365/agent-builder-skills
+https://github.com/mizorewww/laya-mlx
+https://harnesstax.github.io/
 https://huggingface.co/blog/Banaxi-Tech/bananamind-2-pro-weve-almost-matched-smollm2-at-20
 https://huggingface.co/blog/FINAL-Bench/qwen-models
 https://huggingface.co/blog/bartowski/per-tensor-layout-maps-for-gguf-quantization
@@ -80,6 +85,7 @@ https://na2hiro.hatenablog.com/entry/2026/09/02/%E9%80%80%E8%81%B7%E3%81%97%E3%8
 https://nealle-dev.hatenablog.com/entry/2026/09/11/171745
 https://news.tv-asahi.co.jp/news_international/articles/900199131.html
 https://news.yahoo.co.jp/articles/f0008179ada16d57148d0998c5c2a62872b7bb1a
+https://news.yahoo.co.jp/expert/articles/cf4dc975624f9a2b29752d9bf154e25ae30739d2
 https://news.ycombinator.com/item?id=49551760
 https://news.ycombinator.com/item?id=49554520
 https://news.ycombinator.com/item?id=49621546
@@ -107,6 +113,8 @@ https://news.ycombinator.com/item?id=49760187
 https://news.ycombinator.com/item?id=49766611
 https://news.ycombinator.com/item?id=49767564
 https://news.ycombinator.com/item?id=49768921
+https://news.ycombinator.com/item?id=49783999
+https://news.ycombinator.com/item?id=49792067
 https://note.com/kirik/n/n8e7920167c3f
 https://note.com/npaka/n/n5ac6abd04d67
 https://note.com/npaka/n/nf7108e6bd18e
@@ -156,7 +164,11 @@ https://speakerdeck.com/tkikuc/vibes-containers-ai-de-kawaru-kontena-sekkei-to-u
 https://speakerdeck.com/twada/debt-metaphor-in-agentic-engineering-age-202609-edition
 https://speakerdeck.com/upsider_tech/enjinia-ha-doko-made-ekkyou-surubeki-ka-take
 https://speakerdeck.com/yda/50-dai-de-hatsutenshoku-shita-hanashi
+https://syu-m-5151.hatenablog.com/entry/2026/09/20/120746
+https://syu-m-5151.hatenablog.com/entry/2026/09/21/104258
 https://tailwindcss.com/blog/tailwind-is-joining-shopify
+https://tech-blog-v2-opal.vercel.app/article/balancing-engineering-and-parenting
+https://tech-blog.rakus.co.jp/entry/20260918/a11y
 https://tech-blog.tabelog.com/entry/autonomous-ai-agent-pipeline-cost-verification_55
 https://tech-blog.voicy.jp/entry/2026/09/10/183722
 https://tech.anotherball.com/ja/2026-09-04-interview-product-development-skills/
@@ -198,10 +210,12 @@ https://www.cncf.io/blog/2026/09/04/cpu-gpu-why-ai-platform-engineering-is-a-het
 https://www.digital.go.jp/news/2026-0911-01
 https://www.docker.com/blog/ai-agent-security-systems-problem/
 https://www.docker.com/blog/what-is-yolo-mode/
+https://www.du-soleil.com/entry/unify-into-google-ai-pro
 https://www.fnn.jp/articles/-/1112450
 https://www.getdbt.com/blog/dbt-context-engineering
 https://www.getdbt.com/blog/dbt-v2-is-ga
 https://www.ipa.go.jp/jinzai/ics/core_human_resource/final_project/2026/pm_ai.html
+https://www.ipa.go.jp/jinzai/ics/core_human_resource/final_project/2026/rcu1hd0000018kkn-att/rcu1hd0000019kwj.pdf
 https://www.itmedia.co.jp/aiplus/article/2609/04/2000001152/
 https://www.itmedia.co.jp/aiplus/article/2609/11/2000001400/
 https://www.itmedia.co.jp/aiplus/article/2609/20/2000001664/
@@ -256,6 +270,7 @@ https://www.wiz.io/blog/cloud-risk-report-2026
 https://www.wiz.io/blog/off-guard-breaking-litellm-from-authentication-bypass-to-cloud-compromise
 https://www.wiz.io/blog/vcs-dfir-threat-hunting-github-gitlab-azure-devops
 https://www.yomiuri.co.jp/national/20260912-GYT1T00002/
+https://www.yomiuri.co.jp/national/20260918-GYT1T00258/
 https://www.yomiuri.co.jp/science/20260912-GYT1T00169/
 https://xlii.space/eng/malicious-software-on-google-ads/
 https://xtech.nikkei.com/atcl/nxt/column/18/00001/11984/
@@ -275,6 +290,7 @@ https://zenn.dev/hampen2929/books/claude-code-production-guide
 https://zenn.dev/jnch/articles/18cf3f1893ee5b
 https://zenn.dev/jtcc/articles/7e74fef42580a1
 https://zenn.dev/jtechjapan_pub/articles/local-llm-qwen-flash-next-eval
+https://zenn.dev/junoha/articles/251a72a244fc67
 https://zenn.dev/karamage/articles/2ef2c2aea7dfdf
 https://zenn.dev/kas_blog/articles/20260826-apache-license-2-ai-compliance
 https://zenn.dev/kas_blog/articles/20260828-codex-subagents-parallel-work
@@ -295,6 +311,7 @@ https://zenn.dev/sato_frontend/articles/1a85841505b9bb
 https://zenn.dev/sc30gsw/articles/953334f11df507
 https://zenn.dev/socialplus/articles/f5d9e28470eb99
 https://zenn.dev/sompojapan_dx/articles/846c6038fee45d
+https://zenn.dev/takumaichida/articles/d4cd24282518be
 https://zenn.dev/tan_go238/books/project-management-textbook
 https://zenn.dev/tomatomerde/articles/semantic-conflicts-outside-code
 https://zenn.dev/toshipon/articles/claude-code-security-assessment-skill
