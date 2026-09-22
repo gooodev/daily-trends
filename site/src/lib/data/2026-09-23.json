@@ -1,0 +1,120 @@
+{
+  "date": "2026-09-23",
+  "categories": [
+    {
+      "name": "AI/エージェント開発・実装",
+      "items": [
+        {
+          "title_ja": "Claude Codeの Plugins は設定したほうがいい",
+          "url": "https://syu-m-5151.hatenablog.com/entry/2026/09/22/124945",
+          "summary_ja": "スキルを複数箇所で使い回す場合、コピー配布ではなくプラグイン化してパッケージ管理することで、更新の自動配信とバージョン管理が実現できる。開発元・配布元・導入先・実行中セッションの4段階を区別して管理する実践的な手法を、ディレクトリ構造からトラブルシューティングまで解説している。"
+        },
+        {
+          "title_ja": "秋のJev祭り",
+          "url": "https://note.com/shi3zblog/n/na7a590b9908e",
+          "summary_ja": "新型言語モデル「Jev」の高速な構造化出力を生かしたゲームやAIアシスタント、ブラウザ拡張機能などが次々と登場している状況を紹介し、著者は動画生成の高速化技術に注目しつつ、一部のベンチマーク結果には疑問を呈している。"
+        },
+        {
+          "title_ja": "Claude Code Routinesを用いてIssueを自動で解消する仕組みを展開した話",
+          "url": "https://tech-blog.rakus.co.jp/entry/20260916/ai",
+          "summary_ja": "ラクスの開発チームがClaude Code Routinesを使い、コード調査から実装・テスト項目書作成までをAIが担当し人間が確認する「Human in the Loop」でGitHub Issue解決を半自動化した取り組みを紹介。開発効率は向上した一方、AI生成コードの妥当性をビジネスロジック観点で検証するレビュー負荷が新たな課題として浮上した。"
+        },
+        {
+          "title_ja": "Show HN: JevBench、typed decision model向けの再現可能なベンチマーク",
+          "url": "https://news.ycombinator.com/item?id=49800574",
+          "summary_ja": "typed decision model（Jev系モデル）向けの再現可能なベンチマーク「JevBench」を公開したShow HN。コメント欄では、Hugging Face上の既存ベンチマークとの結果不一致や、SaaS各社が利用規約に設けている「ベンチマーク禁止」条項の是非が議論されている。"
+        }
+      ]
+    },
+    {
+      "name": "AI/エンプラ・経営・ガバナンス",
+      "items": [
+        {
+          "title_ja": "AI前提の開発組織への移行、約8割が「プロセスの標準化・AI成果の定量化」に課題",
+          "url": "https://prtimes.jp/main/html/rd/p/000000268.000045379.html",
+          "summary_ja": "ファインディ主催「AI×開発組織Summit 2026」申込者500名突破の発表で、約8割の組織が「AIの業務プロセスへの定着と成果測定」を課題と認識しているとの調査結果を紹介。生成AI活用が個人から組織レベルへ進む中、標準化と投資対効果の可視化が経営課題として浮上している。"
+        },
+        {
+          "title_ja": "AIエージェントは「新しいユーザー」になる？",
+          "url": "https://thinkit.co.jp/article/39536",
+          "summary_ja": "AIエージェントが企業システムを自律的に操作する中で「誰が操作したか」を追跡する重要性が高まり、MicrosoftやOktaがAIエージェント自体にIdentityを付与する身分管理手法を提唱していることを解説。OpenAIとHugging Faceのインシデントを引き合いに、IAMでAIエージェントを人間同様の主体として管理する必要性を論じている。"
+        },
+        {
+          "title_ja": "OpenAIやAnthropicなどAIベンダごとのAPIの違いを吸収する「Agent Router」",
+          "url": "https://www.publickey1.jp/blog/26/openaianthropicapiagent_routerlinux_foundation.html",
+          "summary_ja": "Linux Foundation傘下のAgentic AI Foundationに加盟した「Agent Router」（旧Envoy AI Gateway）は、OpenAI・Anthropic・Google等のAPI差異をOpenAI互換の形で吸収し、アプリ変更なしにモデルを切り替えられるようにするソフトウェア。Bloomberg・Tencentなど11社が採用しており、AIベンダ間の相互運用性の業界標準化が期待される。"
+        }
+      ]
+    },
+    {
+      "name": "Sec/脆弱性・インシデント",
+      "items": [
+        {
+          "title_ja": "Graphalgoキャンペーン、TerraformプロバイダーとGoモジュールにも拡大",
+          "url": "https://www.aikido.dev/blog/graphalgo-terraform-go-modules",
+          "summary_ja": "npmから始まった「Graphalgo」キャンペーンがTerraformプロバイダーやGoモジュールにも拡大し、暗号化されたペイロードで高度なRATを配置していることを報告。SlackボットトークンとブロックチェーンのDead Dropを使う双方向C2通信を備え、DevOpsワークステーション経由で本番環境の認証情報を狙う点が特に危険とされる。"
+        },
+        {
+          "title_ja": "なぜSMS認証は弱いと言われるのか",
+          "url": "https://qiita.com/ktdatascience/items/666a82fcdf3dc4af00d7",
+          "summary_ja": "SMS認証と認証アプリ（TOTP）の仕組みの違いを解説し、認証アプリは端末内で計算が完結するのに対しSMS認証は乗っ取り可能な電話番号に依存する弱点があると指摘。ただしどちらも中継フィッシングには対抗できず、構造的に防御できるのはパスキーのみという点を整理している。"
+        },
+        {
+          "title_ja": "SAML: デザインの悪循環（フラクタル状のバッドデザイン）",
+          "url": "https://blog.trailofbits.com/2026/09/21/saml-a-fractal-of-bad-design/",
+          "summary_ja": "SAML認証プロトコルが抱える複雑さと設計上の欠陥を、XMLベースの構造や署名正規化の難しさ、XML署名ラッピング攻撃など5つの観点から詳細に解説し、よりシンプルなOIDCへの移行を推奨している。Hacker Newsでも上位にランクインし話題になった。"
+        }
+      ]
+    },
+    {
+      "name": "AI/ローカルLLM",
+      "items": [
+        {
+          "title_ja": "macOS 27にはローカルLLMが入っている",
+          "url": "https://qiita.com/chibicco/items/ef1a9e40c4cdf15d8e21",
+          "summary_ja": "macOS 27に搭載されたターミナルコマンド「fm」でAppleのFoundation ModelをAPIキー不要・追加インストール不要で直接利用できることを紹介。`fm chat`での対話や`fm respond`での単発質問、画像解析にも対応し、8,192トークンのコンテキストをローカルで扱える点がプライバシー面でも評価されている。"
+        },
+        {
+          "title_ja": "LM Studio・Bionic・Unslothに制限解除版のQwen3.8 27Bや4Bを入れて遊ぶ",
+          "url": "https://zenn.dev/km100/articles/0a482487c9cb0e",
+          "summary_ja": "LM Studio・Bionic・Unslothに制限解除版のQwen3.8（27B/4B）を導入し、RTX搭載PCだけでなくミニPCでも実用的に動作することを検証したレポート。クラウドAIに依存しないローカルLLM運用が現実的な選択肢になりつつあることを示している。"
+        }
+      ]
+    },
+    {
+      "name": "開発/JS・TS・データスタック",
+      "items": [
+        {
+          "title_ja": "JSXを静的HTMLと直接DOM更新へ変換するUIコンパイラ「Irisout」を作った",
+          "url": "https://zenn.dev/mikan_919/articles/irisout-ui-compiler",
+          "summary_ja": "JSXをコンパイル時に解析し、静的HTMLと最小限のDOM更新処理に変換するUIコンパイラ「Irisout」を紹介。状態が影響する画面要素を事前に決定することで仮想DOMを排除し、生成されるJSがgzip後2.5KB程度と非常に小さくなる点が、初期ロード重視のWebアプリで注目される。"
+        },
+        {
+          "title_ja": "Bunでフルスタックアプリを作るには？",
+          "url": "https://zenn.dev/7nohe/articles/guren-bun-fullstack",
+          "summary_ja": "Bun標準のフルスタック開発サーバーは基本機能のみで、データベースアクセス・認証・バリデーション・バックグラウンドジョブなど7つの領域は開発者が自前で用意する必要があると指摘。著者が開発したLaravel型フレームワーク「Guren」は、これらを規約とベストプラクティスで統合し、構成に迷う時間の削減とAIによるコード生成時のレビューのしやすさを狙っている。"
+        }
+      ]
+    },
+    {
+      "name": "キャリア・組織",
+      "items": [
+        {
+          "title_ja": "テックリードとアーキテクトの違い、テックリードとEMの違い",
+          "url": "https://mtx2s.hatenablog.com/entry/2026/09/21/182658",
+          "summary_ja": "「テックリード」という曖昧になりがちな役割を、人事権を持つEM（エンジニアリングマネージャー）や、システム全体の設計方針を主導するアーキテクトとの違いから整理。テックリードはIC（個別貢献者）としてチームに所属し技術的リーダーシップを発揮する立場だと定義し、役割の境界を明確にすることが組織設計や期待値のすり合わせに役立つと論じている。"
+        }
+      ]
+    },
+    {
+      "name": "その他",
+      "items": [
+        {
+          "title_ja": "あらゆるCLIを「jev化」するツール jany を作った",
+          "url": "https://qiita.com/yukihirop/items/e0d8ffb121c1a753075a",
+          "summary_ja": "自然言語の指示からコマンドライン引数を自動生成するRust製CLIツール「jany」を紹介。曖昧な語彙の解釈だけをLLM(Jev)に任せ、明確な部分はルールベースで処理することでfindやcurl、docker runなどの複雑なコマンドを組み立てつつ、実行前に必ず確認できる設計でユーザーが主導権を保てるようにしている。"
+        }
+      ]
+    }
+  ]
+}
