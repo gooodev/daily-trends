@@ -1,0 +1,115 @@
+{
+  "date": "2026-09-24",
+  "categories": [
+    {
+      "name": "AI/エージェント開発・実装",
+      "items": [
+        {
+          "title_ja": "Claude CodeがAGENTS.mdに対応、CLAUDE.md不在時は自動読み込みに",
+          "url": "https://www.publickey1.jp/blog/26/claude_codeagentsmdclaudemd.html",
+          "summary_ja": "Anthropicは9月18日付のClaude Code 2.1.277で、CLAUDE.mdが存在しない場合に代わりAGENTS.mdを読み込む機能を追加した。プロジェクト間で指示書ファイルを共有しやすくなり、OpenAIやGoogleなど他ベンダーのツールとの設定共存も容易になる。なおこの直後、テレメトリ有効時のみAGENTS.mdを読み込んでいた不具合が発覚し、v2.1.281で修正された。"
+        },
+        {
+          "title_ja": "Claude Codeと25時間で駆け抜けた自作AI端末開発記──「制約駆動」でAIの迷走を防ぐ",
+          "url": "https://zenn.dev/charge0315/articles/9008a27f7902b4",
+          "summary_ja": "著者はClaude Codeを使い日本株スクリーニング端末を25時間・27コミットで開発した。カギは「破ってはいけない約束」を6つ定義してAIに自由にやらせない「制約駆動」アプローチと、設計書・タスクリストをリポジトリに永続化して利用制限による中断後も文脈を失わない工夫だった。"
+        },
+        {
+          "title_ja": "Claude.aiのページロードを4.38秒から1.3秒に高速化した話",
+          "url": "https://news.ycombinator.com/item?id=49821196",
+          "summary_ja": "Anthropicのチームはclaude.aiのファーストペイント時間を計測することから始め、静的コンポーザーの追加やコンポーザーのマウント維持、正規表現前の低コスト判定導入など3000以上の変更を積み重ね、4.38秒から約1.3秒まで短縮した。"
+        },
+        {
+          "title_ja": "AIコーディングでCIがボトルネックに──LinearのCI高速化の取り組み",
+          "url": "https://linear.app/now/ci-bottleneck-reworked",
+          "summary_ja": "AI駆動のコーディングで開発速度が上がった一方、CIの検証速度が追いつかずインフラコストが増大する問題が発生。Linearはインフラ増強・ゲートジョブ最適化・セットアップ削減・テスト実行効率化の4施策で、テストスイートが4倍近くに増えたにもかかわらずPR待機時間を6分から5分に短縮し、テストあたりのランナー時間を約半減させた。"
+        }
+      ]
+    },
+    {
+      "name": "AI/エンプラ・経営・ガバナンス",
+      "items": [
+        {
+          "title_ja": "AIガバナンス、98%の企業が策定も実運用に大きなギャップ",
+          "url": "https://www.itmedia.co.jp/enterprise/articles/2609/21/news023.html",
+          "summary_ja": "EYの調査によると98%の企業がAIガバナンスのポリシーを策定している一方、49%が「AIの要件・リスクに合わせたフレームワーク更新ができていない」と回答し、従業員の4人に1人が「ガバナンスの責任が不明確」と指摘。生成AI導入の速度にガバナンス整備が追いついていない実態が明らかになった。"
+        },
+        {
+          "title_ja": "AIエージェントと組むとプロジェクトマネジャーの頭は疲れるが心は健やかになる",
+          "url": "https://xtech.nikkei.com/atcl/nxt/column/18/00166/091600208/",
+          "summary_ja": "AIエージェントを活用したプロジェクトマネジメントでは、定型業務の負担が減り精神的な健やかさが増す一方、判断や調整の質を高く保つための認知的な疲労は従来以上に大きくなるという、体と心で対照的な変化が起きると論じている。"
+        },
+        {
+          "title_ja": "「思考の外注割合を増やし、理解は外注しない」という向き合い方",
+          "url": "https://konifar-zatsu.hatenadiary.jp/entry/2026/09/22/112134",
+          "summary_ja": "著者は「思考は外注できても理解は外注できない」という単純な二分ではなく、両者はグラデーションだと指摘し、AIへの依存度をマネジメント経験のように段階的に調整していく必要があると主張。タスク設計やレポーティングの工夫、継続的な学習によってこの適応を進められるとしている。"
+        }
+      ]
+    },
+    {
+      "name": "Sec/脆弱性・インシデント",
+      "items": [
+        {
+          "title_ja": "新型ワーム「supplychain.local」がnpmとPyPIに出現、認証情報を自動窃取",
+          "url": "https://www.aikido.dev/blog/supplychain-local-memtensor-npm-pypi",
+          "summary_ja": "脅威アクターがnpmの「@memtensor/memos-cloud-openclaw-plugin」とPyPIの「MemoryOS」を侵害し、マルチプラットフォーム対応のマルウェアを注入した。このワームはGitHub Actionsやパッケージ直接公開を経由して他パッケージへ自動拡散し、AWS・GitHub・npm・PyPIなど複数サービスの認証情報を窃取する機能を持つ、極めて危険なサプライチェーン攻撃。"
+        },
+        {
+          "title_ja": "GitLabのメールアドレスに秘密トークン、送信だけでmainブランチにpush可能な脆弱性",
+          "url": "https://www.aikido.dev/blog/gitlab-email-push-to-main",
+          "summary_ja": "GitLabが発行するプライベートなメールアドレスには「glimt-」トークンが埋め込まれておりアカウント全体の認証情報として機能するが、UI上は単なるメールアドレスにしか見えないため強力な資格情報だと認識されにくい。これが漏洩すると、任意のコードを含むパッチメールを送るだけで保護ブランチへのpushやCI/CDジョブ実行、IP制限の回避が可能になる。"
+        },
+        {
+          "title_ja": "Cloudflare、機械学習でECサイトに仕込まれた悪意あるJSキャンペーンを4件検知",
+          "url": "https://blog.cloudflare.com/client-side-security-finds-4-malicious-campaigns/",
+          "summary_ja": "CloudflareのPage Shield MLはグラフニューラルネットワークとLLMを組み合わせ、従来のスキャナーでは見落とされがちな、複雑な実行条件や難読化で検知を逃れるアフィリエイト詐欺・検索劫持・分析ツール無効化など4つの攻撃キャンペーンを実トラフィック上で特定した。"
+        },
+        {
+          "title_ja": "Trail of Bits、AIエージェントを使った6か月間のzkVM監査で400件超の問題を発見",
+          "url": "https://blog.trailofbits.com/2026/09/18/auditing-in-the-age-of-good-enough-ai/",
+          "summary_ja": "Trail of Bitsはゼロ知識VM「Miden」の監査でAIエージェントを活用し、LSPサーバーやデコンパイラ、静的解析エンジン、Lean形式モデルを自作した。6か月間で400以上の型検証問題、Falcon署名を偽造できる高危険度の脆弱性、95個の機械検証済み証明を生成し、AIエージェントが高度な形式検証・監査を効率化できることを実証した。"
+        }
+      ]
+    },
+    {
+      "name": "AI/ローカルLLM",
+      "items": [
+        {
+          "title_ja": "Transformersがllama.cpp量子化フォーマット(GGUF)に対応",
+          "url": "https://huggingface.co/blog/transformers-llama-cpp-quants",
+          "summary_ja": "Hugging FaceのTransformersライブラリがllama.cppのGGUF量子化モデル形式に対応し、`from_pretrained`でGGUFモデルを直接読み込みノートPC上で効率的に実行できるようになった。Apple Siliconで先行対応し、PyTorchの標準APIのままメモリ使用量を抑えつつllama.cppに近い性能を発揮できる。"
+        },
+        {
+          "title_ja": "funes: Lanceで構築したコーディングエージェント向けローカルメモリ",
+          "url": "https://huggingface.co/blog/ariG23498/funes-lance",
+          "summary_ja": "funesはコーディングエージェントの過去セッションを自動でインデックス化し、以前解決した問題の推論を再利用できるローカルメモリツール。Lanceデータベース1つでテキスト・出所情報・ベクトル埋め込みを一元管理し、セマンティック検索とBM25検索をローカルで実行できるほか、資格情報の自動検出でプライバシーにも配慮している。"
+        }
+      ]
+    },
+    {
+      "name": "開発/JS・TS・データスタック",
+      "items": [
+        {
+          "title_ja": "dbt State機能がGA、変更のないモデルの再構築をスキップしコスト削減",
+          "url": "https://www.getdbt.com/blog/dbt-state-is-ga",
+          "summary_ja": "dbt Stateは変更されていないモデルの再構築を自動でスキップ・再利用する機能で、正式リリースにより平均15〜30%のコンピュートコスト削減と開発時のイテレーション高速化が見込める。コード内に鮮度要件(lag_tolerance)を定義することで複雑なジョブスケジューリングも不要になる。"
+        },
+        {
+          "title_ja": "Kubernetes v1.37、未使用PVCの自動検出機能がベータに",
+          "url": "https://kubernetes.io/blog/2026/09/21/kubernetes-v1-37-pvc-last-used-time/",
+          "summary_ja": "Kubernetes v1.37でPersistentVolumeClaimUnusedSinceTime機能がベータに昇格し、PVC保護コントローラが各PVCにUnused条件を付与してポッドから参照されているかを自動追跡できるようになった。使われていないストレージリソースを容易に識別・削除でき、コスト最適化につながる。"
+        }
+      ]
+    },
+    {
+      "name": "キャリア・組織",
+      "items": [
+        {
+          "title_ja": "インシデント対応の「経験値」と「勘」はどこで育つのか",
+          "url": "https://thinkit.co.jp/article/39539",
+          "summary_ja": "AIエージェントがインシデント対応の一次調査を担うようになり、エンジニアの役割は「調査」から「判断」へシフトしている。判断力を支える状況解釈の「フレーム」は自分で一次情報に当たる経験を通じてのみ育つため、並行調査への参加や実インシデントの立ち会い、訓練シナリオなど意図的な経験機会の確保が重要だと論じる。"
+        }
+      ]
+    }
+  ]
+}

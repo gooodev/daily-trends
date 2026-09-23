@@ -10,11 +10,13 @@ https://atmarkit.itmedia.co.jp/ait/articles/2609/16/news013.html
 https://atmarkit.itmedia.co.jp/ait/articles/2609/17/news006.html
 https://azukiazusa.dev/blog/json-render-jev/
 https://azukiazusa.dev/blog/zod-compile-validation/
+https://blog.cloudflare.com/client-side-security-finds-4-malicious-campaigns/
 https://blog.cloudflare.com/mcp-security-updates/
 https://blog.flatt.tech/entry/package_registry_history
 https://blog.master.dev/react-now-rusted-all-the-way-out/
 https://blog.shibayu36.org/entry/2026/08/30/173000
 https://blog.trailofbits.com/2026/08/26/vms-wont-contain-cyber-capable-agents/
+https://blog.trailofbits.com/2026/09/18/auditing-in-the-age-of-good-enough-ai/
 https://blog.trailofbits.com/2026/09/21/saml-a-fractal-of-bad-design/
 https://claude.com/blog/agentic-coding-is-straining-ci-heres-how-we-scaled-test-impact-analysis-at-anthropic
 https://collusion.wiki/
@@ -60,9 +62,11 @@ https://github.com/mizorewww/laya-mlx
 https://harnesstax.github.io/
 https://huggingface.co/blog/Banaxi-Tech/bananamind-2-pro-weve-almost-matched-smollm2-at-20
 https://huggingface.co/blog/FINAL-Bench/qwen-models
+https://huggingface.co/blog/ariG23498/funes-lance
 https://huggingface.co/blog/bartowski/per-tensor-layout-maps-for-gguf-quantization
 https://huggingface.co/blog/ibm-granite/granite-4-2
 https://huggingface.co/blog/quao627/your-inference-server-is-secretly-a-learner-reef
+https://huggingface.co/blog/transformers-llama-cpp-quants
 https://huggingface.co/papers/2609.01437
 https://huggingface.co/papers/2609.20804
 https://internet.watch.impress.co.jp/docs/column/security/2138390.html
@@ -73,11 +77,14 @@ https://jev-guide.take-otani.workers.dev/
 https://joisino.hatenablog.com/entry/kasu
 https://kaminashi-developer.hatenablog.jp/entry/2026/09/07/ai-era-engineer-interviews
 https://kawasin73.hatenablog.com/entry/2026/09/05/092056
+https://konifar-zatsu.hatenadiary.jp/entry/2026/09/22/112134
 https://kubernetes.io/blog/2026/09/08/kubernetes-v1-37-advancing-workload-aware-scheduling/
 https://kubernetes.io/blog/2026/09/15/kubernetes-v1-37-pod-level-resource-managers-beta/
 https://kubernetes.io/blog/2026/09/16/kubernetes-v1-37-hardening-container-storage/
+https://kubernetes.io/blog/2026/09/21/kubernetes-v1-37-pvc-last-used-time/
 https://leaddev.com/ai/meta-tried-to-shrink-engineering-teams-around-ai
 https://levtech.jp/media/detail_911/
+https://linear.app/now/ci-bottleneck-reworked
 https://logmi.jp/main/management/333618
 https://mag.executive.itmedia.co.jp/executive/article/2608/26/2000000717/
 https://markezine.jp/news/detail/77595
@@ -118,6 +125,7 @@ https://news.ycombinator.com/item?id=49768921
 https://news.ycombinator.com/item?id=49783999
 https://news.ycombinator.com/item?id=49792067
 https://news.ycombinator.com/item?id=49800574
+https://news.ycombinator.com/item?id=49821196
 https://note.com/kirik/n/n8e7920167c3f
 https://note.com/npaka/n/n5ac6abd04d67
 https://note.com/npaka/n/nf7108e6bd18e
@@ -196,6 +204,7 @@ https://terrytao.wordpress.com/2026/09/11/a-severe-misalignment-of-ai-in-mathema
 https://thinkit.co.jp/article/39471
 https://thinkit.co.jp/article/39495
 https://thinkit.co.jp/article/39536
+https://thinkit.co.jp/article/39539
 https://togetter.com/li/2746142
 https://trailofbits.com/2026/08/26/vms-wont-contain-cyber-capable-agents/
 https://type.jp/et/feature/31685/
@@ -204,12 +213,14 @@ https://voluntas.ghost.io/2026-08-second-half-llm/
 https://www.aikido.dev/blog/compromised-flutter-package-on-pub-dev-contains-xcsset-malware
 https://www.aikido.dev/blog/cve-spike-remediation-problem
 https://www.aikido.dev/blog/dark-figure-supply-chain-detection
+https://www.aikido.dev/blog/gitlab-email-push-to-main
 https://www.aikido.dev/blog/graphalgo-terraform-go-modules
 https://www.aikido.dev/blog/popular-code-generator-for-tanstack-query-hit-by-supply-chain-worm
 https://www.aikido.dev/blog/shai-hulud-npm-resurfaces
 https://www.aikido.dev/blog/software-supply-chain-security-decisions-not-defaults
 https://www.aikido.dev/blog/stop-fearing-ai-pentesting
 https://www.aikido.dev/blog/stylesmuggler-fix
+https://www.aikido.dev/blog/supplychain-local-memtensor-npm-pypi
 https://www.anthropic.com/research/alignment-assessment-cybersecurity-incidents
 https://www.anthropic.com/research/formalizing-fermats-last-theorem
 https://www.anthropic.com/research/intelligence-targeting-conventional-weapons-capabilities
@@ -225,6 +236,7 @@ https://www.docker.com/blog/what-is-yolo-mode/
 https://www.du-soleil.com/entry/unify-into-google-ai-pro
 https://www.fnn.jp/articles/-/1112450
 https://www.getdbt.com/blog/dbt-context-engineering
+https://www.getdbt.com/blog/dbt-state-is-ga
 https://www.getdbt.com/blog/dbt-v2-is-ga
 https://www.ipa.go.jp/jinzai/ics/core_human_resource/final_project/2026/pm_ai.html
 https://www.ipa.go.jp/jinzai/ics/core_human_resource/final_project/2026/rcu1hd0000018kkn-att/rcu1hd0000019kwj.pdf
@@ -238,6 +250,7 @@ https://www.itmedia.co.jp/enterprise/articles/2609/04/news005.html
 https://www.itmedia.co.jp/enterprise/articles/2609/05/news002.html
 https://www.itmedia.co.jp/enterprise/articles/2609/07/news015.html
 https://www.itmedia.co.jp/enterprise/articles/2609/08/news022.html
+https://www.itmedia.co.jp/enterprise/articles/2609/21/news023.html
 https://www.itmedia.co.jp/news/article/2608/28/2000000897/
 https://www.itmedia.co.jp/news/article/2608/30/2000000949/
 https://www.itmedia.co.jp/news/article/2609/04/2000001161/
@@ -254,6 +267,7 @@ https://www.nikkei.com/article/DGXZQOGN122UY0S6A910C2000000/
 https://www.nikkei.com/article/DGXZQOSG120C30S6A910C2000000/
 https://www.nikkei.com/article/DGXZQOUC160I20W6A910C2000000/
 https://www.pospome.work/entry/2026/08/24/223309
+https://www.publickey1.jp/blog/26/claude_codeagentsmdclaudemd.html
 https://www.publickey1.jp/blog/26/duckdbducklabsawsduckdbmit.html
 https://www.publickey1.jp/blog/26/jetbrainsmacjunie_localclaude_sonnet_45rtx5909.html
 https://www.publickey1.jp/blog/26/mcpaihttp.html
@@ -289,9 +303,11 @@ https://xlii.space/eng/malicious-software-on-google-ads/
 https://xtech.nikkei.com/atcl/nxt/column/18/00001/11984/
 https://xtech.nikkei.com/atcl/nxt/column/18/00148/082000451/
 https://xtech.nikkei.com/atcl/nxt/column/18/00157/082500110/
+https://xtech.nikkei.com/atcl/nxt/column/18/00166/091600208/
 https://xtech.nikkei.com/atcl/nxt/column/18/03723/082000002/
 https://zenn.dev/7nohe/articles/guren-bun-fullstack
 https://zenn.dev/afante/articles/164a494962df54
+https://zenn.dev/charge0315/articles/9008a27f7902b4
 https://zenn.dev/citras/articles/agents-md-what-to-write
 https://zenn.dev/coji/articles/artifactshare-preview-claude-codex-cursor
 https://zenn.dev/facraft/articles/aws-org-security-for-enterprise-saas
