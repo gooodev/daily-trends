@@ -8,6 +8,7 @@ https://atmarkit.itmedia.co.jp/ait/articles/2608/31/news035.html
 https://atmarkit.itmedia.co.jp/ait/articles/2609/02/news038.html
 https://atmarkit.itmedia.co.jp/ait/articles/2609/16/news013.html
 https://atmarkit.itmedia.co.jp/ait/articles/2609/17/news006.html
+https://atmarkit.itmedia.co.jp/ait/articles/2609/24/news032.html
 https://azukiazusa.dev/blog/json-render-jev/
 https://azukiazusa.dev/blog/zod-compile-validation/
 https://blog.cloudflare.com/client-side-security-finds-4-malicious-campaigns/
@@ -15,6 +16,7 @@ https://blog.cloudflare.com/mcp-security-updates/
 https://blog.flatt.tech/entry/package_registry_history
 https://blog.master.dev/react-now-rusted-all-the-way-out/
 https://blog.shibayu36.org/entry/2026/08/30/173000
+https://blog.shibayu36.org/entry/2026/09/24/173000
 https://blog.trailofbits.com/2026/08/26/vms-wont-contain-cyber-capable-agents/
 https://blog.trailofbits.com/2026/09/18/auditing-in-the-age-of-good-enough-ai/
 https://blog.trailofbits.com/2026/09/21/saml-a-fractal-of-bad-design/
@@ -36,6 +38,7 @@ https://engineering.atspotify.com/2026/9/portal-by-spotify-cut-my-claude-code-to
 https://findy-code.io/media/articles/list-yuma_prog
 https://forest.watch.impress.co.jp/docs/news/2135971.html
 https://forest.watch.impress.co.jp/docs/news/2140081.html
+https://forest.watch.impress.co.jp/docs/news/2142932.html
 https://forest.watch.impress.co.jp/docs/review/localai/2137694.html
 https://four.htmx.org/announcements/2026-08-28-htmx-4.0.0-is-released
 https://gigazine.net/news/20260827-meta-zuckerberg-replace-staff-ai-imploded/
@@ -54,7 +57,11 @@ https://gigazine.net/news/20260917-openai-agents-probed-hugging-face-weaknesses-
 https://gigazine.net/news/20260918-ai-agent-evolve-language/
 https://gigazine.net/news/20260919-hack-openai-claude/
 https://gigazine.net/news/20260920-sqlite-wal-reset-bug/
+https://gigazine.net/news/20260924-frontier-ai-control/
+https://gigazine.net/news/20260924-qwen-image-2-1/
+https://gigazine.net/news/20260924-shinyhunters-stole-fbi-data-include-sensitive-information/
 https://gihyo.jp/book/2026/978-4-297-15875-0
+https://github.com/anthropics/code-migration-kit-with-claude-code
 https://github.com/argonautlabsai/deltafin
 https://github.com/ayghri/i-have-adhd
 https://github.com/minorun365/agent-builder-skills
@@ -72,6 +79,7 @@ https://huggingface.co/papers/2609.20804
 https://internet.watch.impress.co.jp/docs/column/security/2138390.html
 https://internet.watch.impress.co.jp/docs/news/2141538.html
 https://japan.zdnet.com/article/35252229/
+https://japan.zdnet.com/article/35252683/
 https://jbpress.ismedia.jp/articles/-/96703
 https://jev-guide.take-otani.workers.dev/
 https://joisino.hatenablog.com/entry/kasu
@@ -146,11 +154,13 @@ https://piyolog.hatenadiary.jp/entry/2026/09/04/115554
 https://piyolog.hatenadiary.jp/entry/2026/09/11/220855
 https://piyolog.hatenadiary.jp/entry/2026/09/15/141320
 https://piyolog.hatenadiary.jp/entry/2026/09/16/085611
+https://portablecode.info/2026/09/23/herdr-annotate-ai-review/
 https://prtimes.jp/main/html/rd/p/000000268.000045379.html
 https://qiita.com/Y-Y-dev/items/d526fb7cdbe35a3f9384
 https://qiita.com/amiyamamoto/items/2c380c550963c8a5ca7a
 https://qiita.com/banquet_kuma/items/f43a22ab24f219ed0569
 https://qiita.com/chibicco/items/ef1a9e40c4cdf15d8e21
+https://qiita.com/hono_ai_labho/items/c9a40e481d4dd9c76fa5
 https://qiita.com/infra365/items/aa30a54fc6f0849385a7
 https://qiita.com/jiis-sasaki/items/7affa2e2ef22ebf93fa6
 https://qiita.com/ktdatascience/items/02b6b45e2ca7d34ad146
@@ -183,6 +193,7 @@ https://speakerdeck.com/yda/50-dai-de-hatsutenshoku-shita-hanashi
 https://syu-m-5151.hatenablog.com/entry/2026/09/20/120746
 https://syu-m-5151.hatenablog.com/entry/2026/09/21/104258
 https://syu-m-5151.hatenablog.com/entry/2026/09/22/124945
+https://syu-m-5151.hatenablog.com/entry/2026/09/23/123604
 https://tailwindcss.com/blog/tailwind-is-joining-shopify
 https://tech-blog-v2-opal.vercel.app/article/balancing-engineering-and-parenting
 https://tech-blog.rakus.co.jp/entry/20260916/ai
@@ -210,6 +221,7 @@ https://trailofbits.com/2026/08/26/vms-wont-contain-cyber-capable-agents/
 https://type.jp/et/feature/31685/
 https://updates.gyazo.com/ja/gyazo-henobu-zheng-akusesuniyoruqing-bao-lou-einiguan-suruozhi-rasetoocha-bi-1g9tcc
 https://voluntas.ghost.io/2026-08-second-half-llm/
+https://www.afpbb.com/articles/-/3654276
 https://www.aikido.dev/blog/compromised-flutter-package-on-pub-dev-contains-xcsset-malware
 https://www.aikido.dev/blog/cve-spike-remediation-problem
 https://www.aikido.dev/blog/dark-figure-supply-chain-detection
@@ -258,6 +270,8 @@ https://www.itmedia.co.jp/news/article/2609/04/2000001167/
 https://www.itmedia.co.jp/news/article/2609/06/2000001202/
 https://www.itmedia.co.jp/news/article/2609/11/2000001409/
 https://www.itmedia.co.jp/news/article/2609/11/2000001419/
+https://www.itmedia.co.jp/news/article/2609/24/2000001694/
+https://www.itmedia.co.jp/news/article/2609/24/2000001708/
 https://www.jiji.com/jc/article?k=2026091100447&g=flash
 https://www.m3tech.blog/entry/2026/08/25/080000
 https://www.m3tech.blog/entry/2026/08/26/110000
@@ -310,6 +324,7 @@ https://zenn.dev/afante/articles/164a494962df54
 https://zenn.dev/charge0315/articles/9008a27f7902b4
 https://zenn.dev/citras/articles/agents-md-what-to-write
 https://zenn.dev/coji/articles/artifactshare-preview-claude-codex-cursor
+https://zenn.dev/dmmdata/articles/dbt-state-event-driven-data-marts
 https://zenn.dev/facraft/articles/aws-org-security-for-enterprise-saas
 https://zenn.dev/finatext/articles/7dbbd9371fe046
 https://zenn.dev/finatext/articles/dbt-snowflake-and-tag
@@ -329,6 +344,7 @@ https://zenn.dev/km100/articles/0a482487c9cb0e
 https://zenn.dev/kodomo_news/articles/53-strict-type-checked-gradual
 https://zenn.dev/mana_mrl/articles/f1e503f153fb66
 https://zenn.dev/maronsan/articles/nenpi-residency-cost
+https://zenn.dev/matsutake_prgrm/articles/remove-it-first-before-migrating
 https://zenn.dev/mediba/articles/7d0d7d70678546
 https://zenn.dev/mikan_919/articles/irisout-ui-compiler
 https://zenn.dev/mistletoe/articles/jev-claude-code-guard
