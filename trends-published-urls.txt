@@ -15,6 +15,7 @@ https://blog.cloudflare.com/client-side-security-finds-4-malicious-campaigns/
 https://blog.cloudflare.com/mcp-security-updates/
 https://blog.flatt.tech/entry/package_registry_history
 https://blog.master.dev/react-now-rusted-all-the-way-out/
+https://blog.p1ass.com/posts/agent-foundations/
 https://blog.shibayu36.org/entry/2026/08/30/173000
 https://blog.shibayu36.org/entry/2026/09/24/173000
 https://blog.trailofbits.com/2026/08/26/vms-wont-contain-cyber-capable-agents/
@@ -26,6 +27,7 @@ https://corp.helpfeel.com/news/news-20260916-1
 https://daiksy.hatenablog.jp/entry/2026/09/16/183544
 https://debiru.hatenablog.com/entry/20260831/jcom-plume-dns-blocking
 https://deno.com/blog/clawpatrol
+https://deno.com/blog/v2.9
 https://desertant.com/blog/introducing-desert-ant-labs/
 https://dev.classmethod.jp/articles/2026-08_claude-code-product-workshop-kit/
 https://dev.classmethod.jp/articles/local-llm-guide-2026-summer/
@@ -60,6 +62,8 @@ https://gigazine.net/news/20260920-sqlite-wal-reset-bug/
 https://gigazine.net/news/20260924-frontier-ai-control/
 https://gigazine.net/news/20260924-qwen-image-2-1/
 https://gigazine.net/news/20260924-shinyhunters-stole-fbi-data-include-sensitive-information/
+https://gigazine.net/news/20260925-dark-sourcery-hackers-manipulate-ai-scam/
+https://gigazine.net/news/20260925-rsa-nsnfsssfsfn/
 https://gihyo.jp/book/2026/978-4-297-15875-0
 https://github.com/anthropics/code-migration-kit-with-claude-code
 https://github.com/argonautlabsai/deltafin
@@ -134,7 +138,9 @@ https://news.ycombinator.com/item?id=49783999
 https://news.ycombinator.com/item?id=49792067
 https://news.ycombinator.com/item?id=49800574
 https://news.ycombinator.com/item?id=49821196
+https://news.ycombinator.com/item?id=49854875
 https://note.com/kirik/n/n8e7920167c3f
+https://note.com/npaka/n/n1d86b2196515
 https://note.com/npaka/n/n5ac6abd04d67
 https://note.com/npaka/n/nf7108e6bd18e
 https://note.com/shi3zblog/n/na7a590b9908e
@@ -173,7 +179,9 @@ https://qiita.com/songchong/items/94df4fbdeabaaf8f8ef5
 https://qiita.com/take-yoda/items/e5d9ce6618523af1ffc5
 https://qiita.com/tetsuro731/items/1f91493cfddbd53343b3
 https://qiita.com/xeje/items/48c9835a3e5c7b3d5489
+https://qiita.com/yasu1109/items/53b294aa9c288ace8c59
 https://qiita.com/yukihirop/items/e0d8ffb121c1a753075a
+https://qiita.com/yushibats/items/16b6b3c8ec5acd6bdc8b
 https://quesma.com/blog/qwen38-27b-quantizations-benchmarked/
 https://satoweb.net/2026/09/p-18390/
 https://scgajge12.hatenablog.com/entry/closed_network_security
@@ -190,6 +198,7 @@ https://speakerdeck.com/tkikuc/vibes-containers-ai-de-kawaru-kontena-sekkei-to-u
 https://speakerdeck.com/twada/debt-metaphor-in-agentic-engineering-age-202609-edition
 https://speakerdeck.com/upsider_tech/enjinia-ha-doko-made-ekkyou-surubeki-ka-take
 https://speakerdeck.com/yda/50-dai-de-hatsutenshoku-shita-hanashi
+https://syu-m-5151.hatenablog.com/entry/2026/09/19/112330
 https://syu-m-5151.hatenablog.com/entry/2026/09/20/120746
 https://syu-m-5151.hatenablog.com/entry/2026/09/21/104258
 https://syu-m-5151.hatenablog.com/entry/2026/09/22/124945
@@ -294,11 +303,13 @@ https://www.publickey1.jp/blog/26/slackaislack_code.html
 https://www.reddit.com/r/LocalLLaMA/comments/1w5ozl4/perplexity_opensourced_their_mac_inference_server/
 https://www.sankei.com/article/20260827-HJO7DKCWRNMB7MSDJCOSEMK4PY/
 https://www.sankei.com/article/20260909-YXTSWA7BWZA6VI3SCMGOQ3YMSM/
+https://www.sbbit.jp/article/cont1/186092
 https://www.sbbit.jp/article/cont1/186613
 https://www.sbbit.jp/article/cont1/186696
 https://www.sbbit.jp/article/cont1/186739
 https://www.sbbit.jp/article/cont1/186772
 https://www.sbbit.jp/article/cont1/186815
+https://www.sbbit.jp/article/cont1/187087
 https://www.sbbit.jp/article/sp/186086
 https://www.sbbit.jp/document/sp/24293
 https://www.techno-edge.net/article/2026/09/07/5471.html
@@ -318,6 +329,8 @@ https://xtech.nikkei.com/atcl/nxt/column/18/00001/11984/
 https://xtech.nikkei.com/atcl/nxt/column/18/00148/082000451/
 https://xtech.nikkei.com/atcl/nxt/column/18/00157/082500110/
 https://xtech.nikkei.com/atcl/nxt/column/18/00166/091600208/
+https://xtech.nikkei.com/atcl/nxt/column/18/00682/091900217/
+https://xtech.nikkei.com/atcl/nxt/column/18/00989/091700221/
 https://xtech.nikkei.com/atcl/nxt/column/18/03723/082000002/
 https://zenn.dev/7nohe/articles/guren-bun-fullstack
 https://zenn.dev/afante/articles/164a494962df54
@@ -330,6 +343,7 @@ https://zenn.dev/finatext/articles/7dbbd9371fe046
 https://zenn.dev/finatext/articles/dbt-snowflake-and-tag
 https://zenn.dev/gangy/articles/04597efe1b64c5
 https://zenn.dev/gitmame00/articles/a8f5f300d4ea86
+https://zenn.dev/goat_eat_any/articles/claude-code-cloud-sessions
 https://zenn.dev/hampen2929/books/ai-dev-team-guide
 https://zenn.dev/hampen2929/books/claude-code-production-guide
 https://zenn.dev/jnch/articles/18cf3f1893ee5b
@@ -342,6 +356,7 @@ https://zenn.dev/kas_blog/articles/20260828-codex-subagents-parallel-work
 https://zenn.dev/kas_blog/articles/20260831-vlm-quantization-best-practices
 https://zenn.dev/km100/articles/0a482487c9cb0e
 https://zenn.dev/kodomo_news/articles/53-strict-type-checked-gradual
+https://zenn.dev/lambda_funtaro/articles/493c7143876ad8
 https://zenn.dev/mana_mrl/articles/f1e503f153fb66
 https://zenn.dev/maronsan/articles/nenpi-residency-cost
 https://zenn.dev/matsutake_prgrm/articles/remove-it-first-before-migrating
@@ -351,6 +366,7 @@ https://zenn.dev/mistletoe/articles/jev-claude-code-guard
 https://zenn.dev/mizchi/articles/jev-lint-intro
 https://zenn.dev/mizchi/articles/laya-mlx-60fps
 https://zenn.dev/monyyy/articles/3c55e83a596ccb
+https://zenn.dev/nwn/articles/e49154653ecea9
 https://zenn.dev/oryo_data/articles/f94473ed24ef95
 https://zenn.dev/pksha/articles/5a1dc6470019d6
 https://zenn.dev/rhosokawa/articles/d0a958c17c2820
