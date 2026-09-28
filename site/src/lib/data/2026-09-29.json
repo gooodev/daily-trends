@@ -1,0 +1,95 @@
+{
+  "date": "2026-09-29",
+  "categories": [
+    {
+      "name": "AI/エージェント開発・実装",
+      "items": [
+        {
+          "title_ja": "Cloudflare、Cloudflare API全体を扱えるエージェント向けCLI「cf」を公開",
+          "url": "https://news.ycombinator.com/item?id=49879577",
+          "summary_ja": "Wranglerの利用のうちエージェント由来が48%に達したことを受け、数千の操作を網羅しJSON出力を既定とするオープンβのCLI「cf」を発表した。cloudflare.config.tsによる型付き設定やVite標準化も含み、エージェントが使う前提でツールを設計する流れを示している。"
+        },
+        {
+          "title_ja": "Codexを使うなら押さえたい /goal とサイドチャット",
+          "url": "https://syu-m-5151.hatenablog.com/entry/2026/09/27/120017",
+          "summary_ja": "実行中の追加指示（Enter）と次ターンへの予約（Tab）、説明だけ聞く /side、完了条件を書いて長い作業を続ける /goal の使い分けを、認証処理の修正例で解説している。作業が続くことと修正が完了したことは別なので、/goalには検証条件を書くべきだという指摘が要点。"
+        },
+        {
+          "title_ja": "Vespper、エージェント向けDOCX MCPを公開（3倍高速・2分の1コストを主張）",
+          "url": "https://news.ycombinator.com/item?id=49881505",
+          "summary_ja": "法務・金融・医療で不可欠なWord文書をエージェントが確実に編集するのは難しく、python-docxやMarkdown経由の往復変換は複雑なケースで破綻すると整理した上で、専用MCPによる解決を打ち出している。"
+        }
+      ]
+    },
+    {
+      "name": "AI/エンプラ・経営・ガバナンス",
+      "items": [
+        {
+          "title_ja": "NVIDIA、AIエージェントごとに「監視役チップ」を置く構想を発表",
+          "url": "https://news.ycombinator.com/item?id=49879883",
+          "summary_ja": "NVIDIAがAIエージェントの挙動を監視するウォッチドッグ用チップを提供する構想を発表した。HNでは115件のコメントが付き、エージェントのガバナンスをハードウェアで担保する是非が議論されている。※CNBC本文は取得できずHNのタイトル・コメント数のみから要約。"
+        },
+        {
+          "title_ja": "Cal Newport「AIラボを調査すべき時だ」",
+          "url": "https://news.ycombinator.com/item?id=49883471",
+          "summary_ja": "OpenAIとAnthropicが人類滅亡リスクを語りつつ政府に競合の減速を求める姿勢を、自社に有利な規制誘導だと批判し、ラボの内情を調査すべきだと主張するコラム。AIのガバナンス議論を読む際の批判的視点として参考になる。"
+        },
+        {
+          "title_ja": "MongoDBのCEOが辞任しMetaのエンタープライズ部門を率いる",
+          "url": "https://news.ycombinator.com/item?id=49879000",
+          "summary_ja": "MongoDBのDesai CEOが退任し、Metaのエンタープライズ向けプラットフォームを率いることになった。HNで241件のコメントを集め、MetaのエンプラAI参入とデータ基盤企業の経営交代として注目されている。※Reuters本文は取得できずHNのタイトルとコメント数のみから要約。"
+        }
+      ]
+    },
+    {
+      "name": "Sec/脆弱性・インシデント",
+      "items": [
+        {
+          "title_ja": "「タイムズカー」会員情報約660万件が漏えい、運転免許証画像も含む",
+          "url": "https://www.itmedia.co.jp/news/article/2609/28/2000001808/",
+          "summary_ja": "タイムズモビリティが不正アクセスにより会員約660万アカウントの氏名・住所・運転免許情報・本人確認書類情報などが流出したと発表した。パスワードは復元不能な形式で保管されクレジットカード情報は無事で、25日検知・26日に経路遮断済み、再発防止策は続報予定。"
+        },
+        {
+          "title_ja": "PS5のRTMP配信を乗っ取って画面共有する",
+          "url": "https://news.ycombinator.com/item?id=49879702",
+          "summary_ja": "PS5の配信機能が使うRTMPの接続先ホスト名をDNSで差し替え、自前の受信側でストリームを受けてDiscordなどで画面共有する手法の解説。キャプチャカード不要で、独自プロトコルの通信を観察・転用する実践例として読める。"
+        }
+      ]
+    },
+    {
+      "name": "開発/JS・TS・データスタック",
+      "items": [
+        {
+          "title_ja": "Cloudflare、安全なプラグインレジストリを備えたCMS「EmDash 1.0」を公開",
+          "url": "https://blog.cloudflare.com/emdash-cms-plugin-registry/",
+          "summary_ja": "Astro製のオープンソースCMSがv1.0で安定版となり、API・CLI・MCPサーバー経由でエージェントも操作できる。中央マーケットプレイスに依存しない分散型プラグインレジストリも同時に立ち上げた。"
+        }
+      ]
+    },
+    {
+      "name": "AI/ローカルLLM",
+      "items": [
+        {
+          "title_ja": "ブラウザで7種の小型LLMを試せる「MicroLLM Lab」",
+          "url": "https://news.ycombinator.com/item?id=49882781",
+          "summary_ja": "WebGPUで量子化した小型LLMをブラウザ上で動かし、正規表現などの客観チェックによる精度と生成速度（tok/s）を手元の端末で計測・比較できる実験サイト。135M級はテストに失敗し得ることも含めて計測対象としている。"
+        },
+        {
+          "title_ja": "Jeff：自宅で学習した0.8B規模の判断モデル、約30ms",
+          "url": "https://news.ycombinator.com/item?id=49883844",
+          "summary_ja": "自宅環境で学習した0.8Bの小型モデルを判断タスク向けに約30msで動かすGitHubプロジェクト。※リポジトリ本文は取得できずHNのタイトルのみから要約。"
+        }
+      ]
+    },
+    {
+      "name": "キャリア・組織",
+      "items": [
+        {
+          "title_ja": "優秀なエンジニアの定義：組織の最大のボトルネックを解消できる人",
+          "url": "https://www.pospome.work/entry/2026/09/28/152221",
+          "summary_ja": "カミナシVPoEが、優秀なエンジニアを「組織の最大のボトルネックを解消できる人」と抽象的に定義する理由を語る。メッセージの一貫性と頻度が成長支援に効く点や、現実的に解消できる最大の課題を探し続ける姿勢を説く。"
+        }
+      ]
+    }
+  ]
+}

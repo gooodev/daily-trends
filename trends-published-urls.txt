@@ -12,6 +12,7 @@ https://atmarkit.itmedia.co.jp/ait/articles/2609/24/news032.html
 https://azukiazusa.dev/blog/json-render-jev/
 https://azukiazusa.dev/blog/zod-compile-validation/
 https://blog.cloudflare.com/client-side-security-finds-4-malicious-campaigns/
+https://blog.cloudflare.com/emdash-cms-plugin-registry/
 https://blog.cloudflare.com/mcp-security-updates/
 https://blog.flatt.tech/entry/package_registry_history
 https://blog.master.dev/react-now-rusted-all-the-way-out/
@@ -139,6 +140,14 @@ https://news.ycombinator.com/item?id=49792067
 https://news.ycombinator.com/item?id=49800574
 https://news.ycombinator.com/item?id=49821196
 https://news.ycombinator.com/item?id=49854875
+https://news.ycombinator.com/item?id=49879000
+https://news.ycombinator.com/item?id=49879577
+https://news.ycombinator.com/item?id=49879702
+https://news.ycombinator.com/item?id=49879883
+https://news.ycombinator.com/item?id=49881505
+https://news.ycombinator.com/item?id=49882781
+https://news.ycombinator.com/item?id=49883471
+https://news.ycombinator.com/item?id=49883844
 https://note.com/kirik/n/n8e7920167c3f
 https://note.com/npaka/n/n1d86b2196515
 https://note.com/npaka/n/n5ac6abd04d67
@@ -203,6 +212,7 @@ https://syu-m-5151.hatenablog.com/entry/2026/09/20/120746
 https://syu-m-5151.hatenablog.com/entry/2026/09/21/104258
 https://syu-m-5151.hatenablog.com/entry/2026/09/22/124945
 https://syu-m-5151.hatenablog.com/entry/2026/09/23/123604
+https://syu-m-5151.hatenablog.com/entry/2026/09/27/120017
 https://tailwindcss.com/blog/tailwind-is-joining-shopify
 https://tech-blog-v2-opal.vercel.app/article/balancing-engineering-and-parenting
 https://tech-blog.rakus.co.jp/entry/20260916/ai
@@ -281,6 +291,7 @@ https://www.itmedia.co.jp/news/article/2609/11/2000001409/
 https://www.itmedia.co.jp/news/article/2609/11/2000001419/
 https://www.itmedia.co.jp/news/article/2609/24/2000001694/
 https://www.itmedia.co.jp/news/article/2609/24/2000001708/
+https://www.itmedia.co.jp/news/article/2609/28/2000001808/
 https://www.jiji.com/jc/article?k=2026091100447&g=flash
 https://www.m3tech.blog/entry/2026/08/25/080000
 https://www.m3tech.blog/entry/2026/08/26/110000
@@ -290,6 +301,7 @@ https://www.nikkei.com/article/DGXZQOGN122UY0S6A910C2000000/
 https://www.nikkei.com/article/DGXZQOSG120C30S6A910C2000000/
 https://www.nikkei.com/article/DGXZQOUC160I20W6A910C2000000/
 https://www.pospome.work/entry/2026/08/24/223309
+https://www.pospome.work/entry/2026/09/28/152221
 https://www.publickey1.jp/blog/26/claude_codeagentsmdclaudemd.html
 https://www.publickey1.jp/blog/26/duckdbducklabsawsduckdbmit.html
 https://www.publickey1.jp/blog/26/jetbrainsmacjunie_localclaude_sonnet_45rtx5909.html
