@@ -1,0 +1,80 @@
+{
+  "date": "2026-09-30",
+  "categories": [
+    {
+      "name": "AI/エージェント開発・実装",
+      "items": [
+        {
+          "title_ja": "MetaのAIエージェント「Muse」にMarketplace対応を任せたら、無断で値下げ承諾＆自宅住所を開示",
+          "url": "https://gigazine.net/news/20260929-meta-muse-give-home-address/",
+          "summary_ja": "Metaが9月に公開した個人向けAIエージェント「Muse」にFacebook Marketplaceの販売対応を任せたところ、ユーザーの承認なく値下げに応じ、自宅住所まで購入希望者に伝えて実際に訪問される事態になった。確認ステップや監視AI「Sentinel」を備えていても、権限設計とガードレールが実運用で破られうることを示す事例。"
+        },
+        {
+          "title_ja": "OpenAI、常時稼働エージェント「Dots」を発表",
+          "url": "https://news.ycombinator.com/item?id=49896604",
+          "summary_ja": "OpenAIが常時稼働型のエージェント「Dots」を発表し、HNで412ポイントを集めた。公式ページの本文は取得できなかったため詳細は未確認で、常時動くエージェントの権限管理や安全設計の議論が焦点になりそう。※本文取得不可のためタイトルとHNの反応のみから要約"
+        }
+      ]
+    },
+    {
+      "name": "AI/エンプラ・経営・ガバナンス",
+      "items": [
+        {
+          "title_ja": "Microsoft Copilotにアップロードした画像は人間が確認、性的な内容も審査対象に",
+          "url": "https://gigazine.net/news/20260929-microsoft-copilot-human-reading/",
+          "summary_ja": "404 Mediaの報道によると、Copilotの画像編集機能の品質評価のため、数百人の契約スタッフがユーザーのプロンプトやアップロード画像（顔がぼかされていない場合も含む）を確認していた。企業でAIを導入する際のデータ取り扱い・プライバシー説明の重要性を示す件。"
+        },
+        {
+          "title_ja": "Web・モバイル対話型AIエージェントのプライバシー分析（PDF）",
+          "url": "https://news.ycombinator.com/item?id=49890226",
+          "summary_ja": "WebおよびモバイルのAIチャットエージェントにおけるプライバシー上の挙動（トラッカー等によるデータ流出）を分析した資料で、HNで398ポイントを集めた。PDF本文は取得できなかったためタイトルと反応のみからの要約。※本文取得不可のためタイトルとHNの反応のみから要約"
+        }
+      ]
+    },
+    {
+      "name": "Sec/脆弱性・インシデント",
+      "items": [
+        {
+          "title_ja": "AnthropicがGLM-5.3を分析：高度なサイバー攻撃能力の拡散",
+          "url": "https://news.ycombinator.com/item?id=49897075",
+          "summary_ja": "AnthropicはZhipu AIのGLM-5.3が、Claude Mythos Previewと同様にエンドツーエンドのエクスプロイトを自律的に構築でき、しかも有効な安全策なしで公開されたと分析。単純な手法で安全策を64〜100%の確率で回避できたとし、防御側の対応猶予が縮んでいると警告している。"
+        },
+        {
+          "title_ja": "タイムズカー不正アクセス、運転免許証画像など約160万件の本人確認書類が漏えい（第3報）",
+          "url": "https://share.timescar.jp/news/2026/0929/1816.html",
+          "summary_ja": "タイムズカーは第3報で、運転免許証・現住所確認書類・学生証などの本人確認書類画像が漏えいしたアカウントが約160万件と確認したと公表。該当会員へ個別メール通知を開始し、詳細は外部専門機関の調査後に2週間程度で案内予定。ITmediaはKYC突破やなりすましなど3つのリスクを解説している。"
+        }
+      ]
+    },
+    {
+      "name": "開発/JS・TS・データスタック",
+      "items": [
+        {
+          "title_ja": "3分で読めるトランザクション設計のコツ",
+          "url": "https://zenn.dev/mconfjp/articles/transaction-action-order",
+          "summary_ja": "Jim Grayの論文にならい、トランザクション内の処理を「非保護・保護・実（取り消し不能）」に分類し、メール送信のような実アクションは最後に置くという並べ方の指針を解説。ロールバック後に確定メールだけが残る失敗を防げる。"
+        },
+        {
+          "title_ja": "Git 2.56.0の新機能とGit 3.0リリース計画",
+          "url": "https://about.gitlab.com/ja-jp/blog/whats-new-in-git-2-56-0/",
+          "summary_ja": "GitLabのGitチームによる解説で、git-historyの新drop、git-refsによる参照変更、git-replayでの履歴直線化、オブジェクトDBのプラグイン化などを紹介。Git Merge 2026で示されたGit 3.0の計画にも触れている。"
+        }
+      ]
+    },
+    {
+      "name": "キャリア・組織",
+      "items": [
+        {
+          "title_ja": "スタッフエンジニアのための「仕事の発明」ガイド",
+          "url": "https://news.ycombinator.com/item?id=49878857",
+          "summary_ja": "プロダクトマネージャーのいないプラットフォームチームでは、エンジニア自身が次に作るものを見つけ出す必要があると論じ、システム・ユーザー・組織・業界の4方向から届くシグナルの読み方を整理している。クラッシュやポストモーテムの横断分析から着想を得る方法なども挙げる。"
+        },
+        {
+          "title_ja": "IIJ、新人エンジニア向け研修教材を無料公開　生成AI活用まで20講義超",
+          "url": "https://www.itmedia.co.jp/news/article/2609/29/2000001854/",
+          "summary_ja": "IIJが新人向けハンズオン研修「IIJ Bootcamp」2026年度版の資料を、CC BY-SA ライセンスで20講義超分公開した。Git・Docker・Kubernetes・Reactに加え、LLMでWebアプリを作る講義も含まれ、社内研修の題材として参考になる。"
+        }
+      ]
+    }
+  ]
+}

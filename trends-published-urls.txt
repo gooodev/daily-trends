@@ -1,3 +1,4 @@
+https://about.gitlab.com/ja-jp/blog/whats-new-in-git-2-56-0/
 https://amix-design.com/tl/web-darkp/
 https://article.auone.jp/090465f4-bbd4-4e07-8236-ac82cebd9552
 https://ashunar0.dev/posts/does-your-project-need-nextjs/
@@ -65,6 +66,8 @@ https://gigazine.net/news/20260924-qwen-image-2-1/
 https://gigazine.net/news/20260924-shinyhunters-stole-fbi-data-include-sensitive-information/
 https://gigazine.net/news/20260925-dark-sourcery-hackers-manipulate-ai-scam/
 https://gigazine.net/news/20260925-rsa-nsnfsssfsfn/
+https://gigazine.net/news/20260929-meta-muse-give-home-address/
+https://gigazine.net/news/20260929-microsoft-copilot-human-reading/
 https://gihyo.jp/book/2026/978-4-297-15875-0
 https://github.com/anthropics/code-migration-kit-with-claude-code
 https://github.com/argonautlabsai/deltafin
@@ -140,6 +143,7 @@ https://news.ycombinator.com/item?id=49792067
 https://news.ycombinator.com/item?id=49800574
 https://news.ycombinator.com/item?id=49821196
 https://news.ycombinator.com/item?id=49854875
+https://news.ycombinator.com/item?id=49878857
 https://news.ycombinator.com/item?id=49879000
 https://news.ycombinator.com/item?id=49879577
 https://news.ycombinator.com/item?id=49879702
@@ -148,6 +152,9 @@ https://news.ycombinator.com/item?id=49881505
 https://news.ycombinator.com/item?id=49882781
 https://news.ycombinator.com/item?id=49883471
 https://news.ycombinator.com/item?id=49883844
+https://news.ycombinator.com/item?id=49890226
+https://news.ycombinator.com/item?id=49896604
+https://news.ycombinator.com/item?id=49897075
 https://note.com/kirik/n/n8e7920167c3f
 https://note.com/npaka/n/n1d86b2196515
 https://note.com/npaka/n/n5ac6abd04d67
@@ -194,6 +201,7 @@ https://qiita.com/yushibats/items/16b6b3c8ec5acd6bdc8b
 https://quesma.com/blog/qwen38-27b-quantizations-benchmarked/
 https://satoweb.net/2026/09/p-18390/
 https://scgajge12.hatenablog.com/entry/closed_network_security
+https://share.timescar.jp/news/2026/0929/1816.html
 https://speakerdeck.com/22mi/how-to-design-self-improvement-for-ai-agents
 https://speakerdeck.com/akiratom/ai-kudou-kaihatsu-ha-doko-made-kita-no-ka-no-saishin-jittai-chousa-de-yomitoku-genzaichi-devin-con-tokyo
 https://speakerdeck.com/colorful12/gyoumu-jikangai-mo-ai-ni-hatarai-te-morau-hanashi
@@ -292,6 +300,7 @@ https://www.itmedia.co.jp/news/article/2609/11/2000001419/
 https://www.itmedia.co.jp/news/article/2609/24/2000001694/
 https://www.itmedia.co.jp/news/article/2609/24/2000001708/
 https://www.itmedia.co.jp/news/article/2609/28/2000001808/
+https://www.itmedia.co.jp/news/article/2609/29/2000001854/
 https://www.jiji.com/jc/article?k=2026091100447&g=flash
 https://www.m3tech.blog/entry/2026/08/25/080000
 https://www.m3tech.blog/entry/2026/08/26/110000
@@ -372,6 +381,7 @@ https://zenn.dev/lambda_funtaro/articles/493c7143876ad8
 https://zenn.dev/mana_mrl/articles/f1e503f153fb66
 https://zenn.dev/maronsan/articles/nenpi-residency-cost
 https://zenn.dev/matsutake_prgrm/articles/remove-it-first-before-migrating
+https://zenn.dev/mconfjp/articles/transaction-action-order
 https://zenn.dev/mediba/articles/7d0d7d70678546
 https://zenn.dev/mikan_919/articles/irisout-ui-compiler
 https://zenn.dev/mistletoe/articles/jev-claude-code-guard
