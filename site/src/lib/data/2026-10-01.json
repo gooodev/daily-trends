@@ -1,0 +1,55 @@
+{
+  "date": "2026-10-01",
+  "categories": [
+    {
+      "name": "AI/エージェント開発・実装",
+      "items": [
+        {
+          "title_ja": "「MCPはやらない」と言ったはずでは？ Pi が MCP をコアに取り込んだ理由",
+          "url": "https://news.ycombinator.com/item?id=49906637",
+          "summary_ja": "コーディングエージェント Pi の開発元 Earendil が、これまで否定的だった MCP をコア機能として取り込んだ理由を説明。MCP 自体の進化に加え、組み合わせ（コンポーズ）の難しさを解消するインタプリタ型サンドボックスが Pi 自身にも有用だったためという。"
+        },
+        {
+          "title_ja": "レビューしやすい変更のために：AI時代のコミット説明文は思考の道具",
+          "url": "https://yedhu.me/posts/commit-description-as-a-thinking-tool/",
+          "summary_ja": "AI導入前は数分かけて「なぜ」を書いていたコミット説明文を、エージェントが自動生成する時代になって理解しづらくなった問題を指摘。説明文を書く行為自体がコード再評価の機会だったという視点から、エージェント任せにしない運用を考える。"
+        },
+        {
+          "title_ja": "はてな匿名ダイアリーがChatGPTから使えるように",
+          "url": "https://labo.hatenastaff.com/entry/2026/09/30/151500",
+          "summary_ja": "はてなが実験的に、ChatGPTのプラグインとして匿名ダイアリーの検索・閲覧・投稿を可能にした。ChatGPT経由の投稿は内部で記録され、今後は記事上で表示される可能性がある。"
+        }
+      ]
+    },
+    {
+      "name": "開発/JS・TS・インフラ",
+      "items": [
+        {
+          "title_ja": "Netlify Edge Functions が5倍高速に：V8 isolate から Firecracker MicroVM へ",
+          "url": "https://www.netlify.com/blog/edge-functions-firecracker-microvms/",
+          "summary_ja": "1日約10億回実行される Netlify の Edge Functions の実行基盤を、V8 isolate から Firecracker MicroVM に置き換えて高速化した設計・移行の解説。"
+        },
+        {
+          "title_ja": "Next.jsをVercel以外へデプロイできる「Vinext 1.0」リリース",
+          "url": "https://www.publickey1.jp/blog/26/vercelnextjscloudflare_workersaws_lambdavercelvinext_10.html",
+          "summary_ja": "Cloudflare が、Next.js のビルドを Vite で行い Cloudflare Workers・AWS Lambda・Netlify などへデプロイ可能にする Vinext の1.0を公開。Next.js 主要機能の99%に対応し、キャッシュや可観測性も備える。"
+        }
+      ]
+    },
+    {
+      "name": "Sec/脆弱性・インシデント",
+      "items": [
+        {
+          "title_ja": "内部分析サービスの署名未検証でMicrosoftの17兆行のデータにアクセス可能だった",
+          "url": "https://news.ycombinator.com/item?id=49883970",
+          "summary_ja": "16歳のバグバウンティ研究者が、Microsoft の内部分析サービスがログイントークンの署名を検証しないため管理者になりすまして任意SQLを実行できた脆弱性を報告。顧客データには触れず、推定17.3兆行が影響範囲だったとする。"
+        },
+        {
+          "title_ja": "ベネフィット・ワン、アンケート結果DLで他社従業員情報が表示され1万3460人分漏えい",
+          "url": "https://www.itmedia.co.jp/news/article/2609/30/2000001908/",
+          "summary_ja": "2025年6月の改修で生じた設定不備により、アンケート結果のダウンロード時に他社の従業員情報が見える状態だった。2025年10月に社内で把握しながら修正が不十分で、2026年7月に利用者の連絡で判明した。"
+        }
+      ]
+    }
+  ]
+}

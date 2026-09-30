@@ -98,6 +98,7 @@ https://kubernetes.io/blog/2026/09/08/kubernetes-v1-37-advancing-workload-aware-
 https://kubernetes.io/blog/2026/09/15/kubernetes-v1-37-pod-level-resource-managers-beta/
 https://kubernetes.io/blog/2026/09/16/kubernetes-v1-37-hardening-container-storage/
 https://kubernetes.io/blog/2026/09/21/kubernetes-v1-37-pvc-last-used-time/
+https://labo.hatenastaff.com/entry/2026/09/30/151500
 https://leaddev.com/ai/meta-tried-to-shrink-engineering-teams-around-ai
 https://levtech.jp/media/detail_911/
 https://linear.app/now/ci-bottleneck-reworked
@@ -152,9 +153,11 @@ https://news.ycombinator.com/item?id=49881505
 https://news.ycombinator.com/item?id=49882781
 https://news.ycombinator.com/item?id=49883471
 https://news.ycombinator.com/item?id=49883844
+https://news.ycombinator.com/item?id=49883970
 https://news.ycombinator.com/item?id=49890226
 https://news.ycombinator.com/item?id=49896604
 https://news.ycombinator.com/item?id=49897075
+https://news.ycombinator.com/item?id=49906637
 https://note.com/kirik/n/n8e7920167c3f
 https://note.com/npaka/n/n1d86b2196515
 https://note.com/npaka/n/n5ac6abd04d67
@@ -301,11 +304,13 @@ https://www.itmedia.co.jp/news/article/2609/24/2000001694/
 https://www.itmedia.co.jp/news/article/2609/24/2000001708/
 https://www.itmedia.co.jp/news/article/2609/28/2000001808/
 https://www.itmedia.co.jp/news/article/2609/29/2000001854/
+https://www.itmedia.co.jp/news/article/2609/30/2000001908/
 https://www.jiji.com/jc/article?k=2026091100447&g=flash
 https://www.m3tech.blog/entry/2026/08/25/080000
 https://www.m3tech.blog/entry/2026/08/26/110000
 https://www.m3tech.blog/entry/2026/09/18/160000
 https://www.m3tech.blog/entry/embulk-to-dlt-dbt
+https://www.netlify.com/blog/edge-functions-firecracker-microvms/
 https://www.nikkei.com/article/DGXZQOGN122UY0S6A910C2000000/
 https://www.nikkei.com/article/DGXZQOSG120C30S6A910C2000000/
 https://www.nikkei.com/article/DGXZQOUC160I20W6A910C2000000/
@@ -321,6 +326,7 @@ https://www.publickey1.jp/blog/26/openaianthropicapiagent_routerlinux_foundation
 https://www.publickey1.jp/blog/26/planetscalepostgresql11800qpsdbneki.html
 https://www.publickey1.jp/blog/26/rustcctstier_1.html
 https://www.publickey1.jp/blog/26/slackaislack_code.html
+https://www.publickey1.jp/blog/26/vercelnextjscloudflare_workersaws_lambdavercelvinext_10.html
 https://www.reddit.com/r/LocalLLaMA/comments/1w5ozl4/perplexity_opensourced_their_mac_inference_server/
 https://www.sankei.com/article/20260827-HJO7DKCWRNMB7MSDJCOSEMK4PY/
 https://www.sankei.com/article/20260909-YXTSWA7BWZA6VI3SCMGOQ3YMSM/
@@ -353,6 +359,7 @@ https://xtech.nikkei.com/atcl/nxt/column/18/00166/091600208/
 https://xtech.nikkei.com/atcl/nxt/column/18/00682/091900217/
 https://xtech.nikkei.com/atcl/nxt/column/18/00989/091700221/
 https://xtech.nikkei.com/atcl/nxt/column/18/03723/082000002/
+https://yedhu.me/posts/commit-description-as-a-thinking-tool/
 https://zenn.dev/7nohe/articles/guren-bun-fullstack
 https://zenn.dev/afante/articles/164a494962df54
 https://zenn.dev/charge0315/articles/9008a27f7902b4
