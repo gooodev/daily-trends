@@ -68,6 +68,7 @@ https://gigazine.net/news/20260925-dark-sourcery-hackers-manipulate-ai-scam/
 https://gigazine.net/news/20260925-rsa-nsnfsssfsfn/
 https://gigazine.net/news/20260929-meta-muse-give-home-address/
 https://gigazine.net/news/20260929-microsoft-copilot-human-reading/
+https://gigazine.net/news/20261001-hermes-agent-arc-pro-b70/
 https://gihyo.jp/book/2026/978-4-297-15875-0
 https://github.com/anthropics/code-migration-kit-with-claude-code
 https://github.com/argonautlabsai/deltafin
@@ -158,6 +159,14 @@ https://news.ycombinator.com/item?id=49890226
 https://news.ycombinator.com/item?id=49896604
 https://news.ycombinator.com/item?id=49897075
 https://news.ycombinator.com/item?id=49906637
+https://news.ycombinator.com/item?id=49923466
+https://news.ycombinator.com/item?id=49923692
+https://news.ycombinator.com/item?id=49925812
+https://news.ycombinator.com/item?id=49925969
+https://news.ycombinator.com/item?id=49926069
+https://news.ycombinator.com/item?id=49926536
+https://news.ycombinator.com/item?id=49926773
+https://news.ycombinator.com/item?id=49927100
 https://note.com/kirik/n/n8e7920167c3f
 https://note.com/npaka/n/n1d86b2196515
 https://note.com/npaka/n/n5ac6abd04d67
@@ -286,6 +295,7 @@ https://www.itmedia.co.jp/aiplus/article/2609/04/2000001152/
 https://www.itmedia.co.jp/aiplus/article/2609/11/2000001400/
 https://www.itmedia.co.jp/aiplus/article/2609/20/2000001664/
 https://www.itmedia.co.jp/business/articles/2609/11/news072.html
+https://www.itmedia.co.jp/business/articles/2610/01/news040.html
 https://www.itmedia.co.jp/enterprise/articles/2609/01/news030.html
 https://www.itmedia.co.jp/enterprise/articles/2609/03/news045.html
 https://www.itmedia.co.jp/enterprise/articles/2609/04/news005.html
@@ -305,6 +315,8 @@ https://www.itmedia.co.jp/news/article/2609/24/2000001708/
 https://www.itmedia.co.jp/news/article/2609/28/2000001808/
 https://www.itmedia.co.jp/news/article/2609/29/2000001854/
 https://www.itmedia.co.jp/news/article/2609/30/2000001908/
+https://www.itmedia.co.jp/news/article/2610/01/2000001929/
+https://www.itmedia.co.jp/news/article/2610/01/2000001933/
 https://www.jiji.com/jc/article?k=2026091100447&g=flash
 https://www.m3tech.blog/entry/2026/08/25/080000
 https://www.m3tech.blog/entry/2026/08/26/110000
@@ -366,6 +378,7 @@ https://zenn.dev/charge0315/articles/9008a27f7902b4
 https://zenn.dev/citras/articles/agents-md-what-to-write
 https://zenn.dev/coji/articles/artifactshare-preview-claude-codex-cursor
 https://zenn.dev/dmmdata/articles/dbt-state-event-driven-data-marts
+https://zenn.dev/edash_tech_blog/articles/4577f7d4780bef
 https://zenn.dev/facraft/articles/aws-org-security-for-enterprise-saas
 https://zenn.dev/finatext/articles/7dbbd9371fe046
 https://zenn.dev/finatext/articles/dbt-snowflake-and-tag
@@ -412,5 +425,6 @@ https://zenn.dev/uehaj/articles/jev-semgrep-grep-by-meaning
 https://zenn.dev/web_benriya/articles/ai-sql-verification-bigquery-framework
 https://zenn.dev/web_benriya/articles/bigquery-knowledge-catalog-business-context
 https://zenn.dev/yamato_snow/articles/jev-enterprise-security-guide
+https://zenn.dev/ymotongpoo/articles/20261001-agent-eval-loop
 https://zenn.dev/yucco/articles/client-server-logic-drift
 https://zenn.dev/yui/articles/97597aa13b9802

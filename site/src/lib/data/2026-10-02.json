@@ -1,0 +1,105 @@
+{
+  "date": "2026-10-02",
+  "categories": [
+    {
+      "name": "AI/エージェント開発・実装",
+      "items": [
+        {
+          "title_ja": "Pi 1.0 公開：最小構成で拡張しやすいエージェントハーネスが安定版に",
+          "url": "https://news.ycombinator.com/item?id=49926069",
+          "summary_ja": "Earendil が、ミニマルさを保ったコーディングエージェント基盤 Pi の 1.0 を公開。MCP を含む Codemode、遅延ツールロード、Anthropic 向けキャッシュウォーミング、会話途中のシステムメッセージ差し替えなどが加わり、安定した土台として使えるようになった。"
+        },
+        {
+          "title_ja": "Pi Durable：長時間稼働・障害耐性を備えたエージェント向けハーネス（実験版）",
+          "url": "https://news.ycombinator.com/item?id=49925969",
+          "summary_ja": "Pi 1.0 と同時に公開された実験的パッケージ。ストレージと複数会話の並列実行を中核に、どこでも動き、無限に長い会話や障害からの復旧、複数人での共同操作に対応するエージェントアプリ構築用フレームワーク。"
+        },
+        {
+          "title_ja": "実務において敵対的レビューはどの程度有効なのか",
+          "url": "https://zenn.dev/edash_tech_blog/articles/4577f7d4780bef",
+          "summary_ja": "Claude Code のスキルで複数レーンの敵対的レビューを自作し、業務の差分85件・99回のレビューで指摘の確定率を計測、標準の code-review との差も照合した検証記事。コストと指摘の捌き方という運用負担にも触れている。"
+        },
+        {
+          "title_ja": "オブザーバビリティのAIエージェントをどう評価するか",
+          "url": "https://zenn.dev/ymotongpoo/articles/20261001-agent-eval-loop",
+          "summary_ja": "Grafana Assistant の評価基盤の記事をもとに、最終応答ではなく実行過程をシナリオとグレーダーで評価する考え方を解説。決定的チェックと LLM 判定の使い分けや、公開されている o11y-bench の実装も読み解く。"
+        }
+      ]
+    },
+    {
+      "name": "AI/エンプラ・経営・ガバナンス",
+      "items": [
+        {
+          "title_ja": "「FDE」は常駐SEのすげ替えなのか 国内SIerの打開策は意外なところに？",
+          "url": "https://www.itmedia.co.jp/business/articles/2610/01/news040.html",
+          "summary_ja": "Palantir 発祥の FDE（前方展開エンジニア）が国内で注目される中、従来の常駐SEとの違いを解説。顧客の業務に入り込む点は似るが、自社プロダクトを再利用できる構造が分かれ目だとして、人月商売からの脱却策を探る。※本文の一部のみ取得できたため、冒頭部分から要約"
+        },
+        {
+          "title_ja": "Cloudflare、オープンソースの決定モデル「Clef」とRLファインチューニング基盤を公開",
+          "url": "https://news.ycombinator.com/item?id=49923692",
+          "summary_ja": "Jev のような「決定モデル」（構造化された出力を安価・高速・一貫して返し、ワークフローの判断に使える）の Cloudflare 版 Clef / Clef-flash を Workers AI と Hugging Face（Apache 2.0）で公開。Jev Decision Index でトップとし、RL による追加調整も提供する。"
+        }
+      ]
+    },
+    {
+      "name": "Sec/脆弱性・インシデント",
+      "items": [
+        {
+          "title_ja": "佐川急便、不正アクセスで個人情報流出か 約100日分の荷物データが対象",
+          "url": "https://www.itmedia.co.jp/news/article/2610/01/2000001933/",
+          "summary_ja": "「お荷物問い合わせサービス」への不正アクセスで、送り主・届け先の氏名・住所・電話番号や法人顧客、スマートクラブ会員の情報が流出した可能性があると発表。カード情報とパスワードは含まれず、9つのWebサービスを停止中で、なりすましメールやSMSへの注意を呼びかけている。"
+        },
+        {
+          "title_ja": "OpenAI、推論過程を狙った組織的な「蒸留」行為を阻止 Moonshot AI関係者が関与と主張",
+          "url": "https://www.itmedia.co.jp/news/article/2610/01/2000001929/",
+          "summary_ja": "保護された推論を暗号化状態のまま別会話に持ち込み復号させる手法で、1万5000超のユーザーが7月に抽出を試みたと OpenAI が公表。ストリーミング出力の検知や推論の再利用経路の遮断などの対策を講じ、他社とも情報共有した。"
+        }
+      ]
+    },
+    {
+      "name": "AI/ローカルLLM",
+      "items": [
+        {
+          "title_ja": "VRAM 32GBのIntel Arc Pro B70でHermes AgentのローカルAIを実行、Qwen3.8-27Bを試す",
+          "url": "https://gigazine.net/news/20261001-hermes-agent-arc-pro-b70/",
+          "summary_ja": "VRAM 16GB から 32GB の GPU に換装し、Hermes Agent の Local Models で高品質な量子化の Qwen3.8 27B を動かして、以前苦戦した記事取得タスクを再挑戦する検証レポート。モデルがGPUでなくRAMに読み込まれるなど途中のつまずきも記録している。"
+        },
+        {
+          "title_ja": "Janus：AMD/Intel/Nvidia のGPUでVulkan経由にGGUFモデルを動かすGoバイナリ",
+          "url": "https://news.ycombinator.com/item?id=49926773",
+          "summary_ja": "Vulkan を使ってベンダーを問わず GGUF 形式のローカルモデルを実行する Go 製の単体バイナリを紹介する Show HN。※リポジトリ本文を取得できず、HNのタイトル・概要から要約"
+        }
+      ]
+    },
+    {
+      "name": "開発/JS・TS・データスタック",
+      "items": [
+        {
+          "title_ja": "SvelteKit 3 リリース：設定は vite.config.ts へ、$lib は #lib に",
+          "url": "https://news.ycombinator.com/item?id=49926536",
+          "summary_ja": "SvelteKit 3.0 が公開。設定の vite.config.ts への移行、$lib の #lib への変更、環境変数やサービスワーカー、エラー処理の改善が主な変更点で、sv migrate による自動移行も用意されている。Remote Functions は引き続き開発中。"
+        },
+        {
+          "title_ja": "Effect 4.0 公開：依存ゼロのコアで、バンドルは約5分の1・メモリ使用は大幅減",
+          "url": "https://news.ycombinator.com/item?id=49925812",
+          "summary_ja": "TypeScript の Effect が全面再構築され 4.0 に。多くのパッケージを effect 本体に統合し、コアは実行時依存ゼロで、最小プログラムのサイズは35.6kBから7.1kBに、50,000ファイバーのヒープは157.5MBから21.8MBに減ったとしている。"
+        },
+        {
+          "title_ja": "RIP, vector database：turbopuffer v3 でベクトルインデックス主体の設計を転換",
+          "url": "https://news.ycombinator.com/item?id=49923466",
+          "summary_ja": "オブジェクトストレージを土台にした turbopuffer が、ANN ベクトルインデックス中心の設計を限界として、新しい主インデックスへ移行しベクトル検索を二次インデックスの一つにする方針を説明。GROUP BY や集計など SQL 的なクエリも高速に扱えるようにする狙い。"
+        }
+      ]
+    },
+    {
+      "name": "キャリア・組織",
+      "items": [
+        {
+          "title_ja": "ウェブ開発教育の死：生成AIで教材・講座ビジネスが成り立たなくなっている",
+          "url": "https://news.ycombinator.com/item?id=49927100",
+          "summary_ja": "生成AIの影響でウェブ開発の書籍・研修の需要が落ち込み、Axel Rauschmayer 氏のように収入がゼロになりブログと書籍を取り下げる教育者や DevRel の例を挙げ、この分野を守る必要性を訴えるブログ記事。"
+        }
+      ]
+    }
+  ]
+}
