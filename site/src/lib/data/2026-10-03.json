@@ -1,0 +1,70 @@
+{
+  "date": "2026-10-03",
+  "categories": [
+    {
+      "name": "AI/エージェント開発・実装",
+      "items": [
+        {
+          "title_ja": "Cursorのpstack：AIエージェントに開発を任せる環境づくり",
+          "url": "https://zenn.dev/sc30gsw/books/080faba713547b",
+          "summary_ja": "月2,500件のPRを支えたCursorの開発基盤pstackについて、「信頼するのはエージェントではなく成果物」という原則のもと、Playbook・Principle・Skillの活用法を全30章で解説する無料の実践ガイド本。"
+        },
+        {
+          "title_ja": "ハーネスこそが会社である",
+          "url": "https://news.ycombinator.com/item?id=49938616",
+          "summary_ja": "LLMを取り巻くインフラ・インターフェース・状態管理（ハーネス）を中心に企業が進化し、エージェントが自律的に作業して人間はレビュアーになる、という展望を論じる記事。ハーネスは人間の専門知識が最も必要な箇所に絞るべきだと主張している。"
+        },
+        {
+          "title_ja": "無料OSSのAIコーディングツール「Pi 1.0」が正式リリース",
+          "url": "https://gigazine.net/news/20261002-pi-1-0/",
+          "summary_ja": "MCP対応と複数AIモデルの切り替えを追加した無料OSSのコーディングツールPiが1.0に到達。Codemodeによるツール結果の絞り込みや遅延ツール読み込みで、AIに渡す情報量を抑える設計になっている。"
+        },
+        {
+          "title_ja": "GLM 5.3 Flashだけで1か月開発してみた結果",
+          "url": "https://news.ycombinator.com/item?id=49934620",
+          "summary_ja": "Wagtailのコアチームが効率的なオープンモデルのみでの開発に挑戦し、約20億トークンを消費したものの目標の約5割の達成にとどまった。前半は68ドルに収まったが、MCPサーバー試作やインフラ問題で想定外の支出が発生し、使用量測定と実験予算の確保が課題と総括している。"
+        }
+      ]
+    },
+    {
+      "name": "AI/ローカルLLM",
+      "items": [
+        {
+          "title_ja": "Redis作者によるローカルLLM推論エンジン「DwarfStar 4」",
+          "url": "https://news.ycombinator.com/item?id=49936575",
+          "summary_ja": "DeepSeek V4やGLM 5.x、Qwen3.8などの大規模モデルをMac・CUDA・ROCm環境で動かすための、C言語製の推論エンジン。非対称2ビット量子化により、メモリの多いマシンでフロンティア級モデルのローカル運用を目指す。"
+        },
+        {
+          "title_ja": "KDDI傘下のELYZAが「LLM-jp-4」ベースの国産モデルを無料公開",
+          "url": "https://www.itmedia.co.jp/aiplus/article/2610/02/2000001965/",
+          "summary_ja": "国立情報学研究所の「LLM-jp-4」をベースに、日本語性能を中心に中間・事後学習を実施した2モデルを公開。Apache 2.0ライセンスで商用利用も可能。"
+        }
+      ]
+    },
+    {
+      "name": "Sec/脆弱性・インシデント",
+      "items": [
+        {
+          "title_ja": "Greg Kroah-Hartman講演「LLM時代のセキュリティ」",
+          "url": "https://news.ycombinator.com/item?id=49929391",
+          "summary_ja": "カーネル開発者のGreg Kroah-Hartmanが、LLM由来のセキュリティツールが報告した79件の脆弱性は大半が誤検知で、実際の修正作業は1時間程度だったと指摘。LLM企業の宣伝と実成果の乖離が信頼性を損なっているという論点が出ている。"
+        },
+        {
+          "title_ja": "日本企業「ハッキングされないでくれ」ランキング",
+          "url": "https://qiita.com/konaito/items/16a6d2c5da7d144efe95",
+          "summary_ja": "漏えい時に利用者が失うものを基準に情報漏えいの影響度を順位付けした記事。医療情報と本人確認情報を最も危険とし、対策だけでなく本当に必要な情報かを見直すべきだと訴える。"
+        }
+      ]
+    },
+    {
+      "name": "キャリア・組織",
+      "items": [
+        {
+          "title_ja": "AI時代の勉強法(2026)",
+          "url": "https://iwashi.co/2026/10/01/how-to-study-in-ai-era",
+          "summary_ja": "動画講義や書籍をAIで日本語化しつつ学び、ファインマンテクニックで他者に説明することで「わかった気」から脱却する、という実践的な学習法を紹介。アウトプット時はAIとの対話で理解を深める。"
+        }
+      ]
+    }
+  ]
+}

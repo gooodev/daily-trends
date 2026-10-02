@@ -69,6 +69,7 @@ https://gigazine.net/news/20260925-rsa-nsnfsssfsfn/
 https://gigazine.net/news/20260929-meta-muse-give-home-address/
 https://gigazine.net/news/20260929-microsoft-copilot-human-reading/
 https://gigazine.net/news/20261001-hermes-agent-arc-pro-b70/
+https://gigazine.net/news/20261002-pi-1-0/
 https://gihyo.jp/book/2026/978-4-297-15875-0
 https://github.com/anthropics/code-migration-kit-with-claude-code
 https://github.com/argonautlabsai/deltafin
@@ -87,6 +88,7 @@ https://huggingface.co/papers/2609.01437
 https://huggingface.co/papers/2609.20804
 https://internet.watch.impress.co.jp/docs/column/security/2138390.html
 https://internet.watch.impress.co.jp/docs/news/2141538.html
+https://iwashi.co/2026/10/01/how-to-study-in-ai-era
 https://japan.zdnet.com/article/35252229/
 https://japan.zdnet.com/article/35252683/
 https://jbpress.ismedia.jp/articles/-/96703
@@ -167,6 +169,10 @@ https://news.ycombinator.com/item?id=49926069
 https://news.ycombinator.com/item?id=49926536
 https://news.ycombinator.com/item?id=49926773
 https://news.ycombinator.com/item?id=49927100
+https://news.ycombinator.com/item?id=49929391
+https://news.ycombinator.com/item?id=49934620
+https://news.ycombinator.com/item?id=49936575
+https://news.ycombinator.com/item?id=49938616
 https://note.com/kirik/n/n8e7920167c3f
 https://note.com/npaka/n/n1d86b2196515
 https://note.com/npaka/n/n5ac6abd04d67
@@ -197,6 +203,7 @@ https://qiita.com/chibicco/items/ef1a9e40c4cdf15d8e21
 https://qiita.com/hono_ai_labho/items/c9a40e481d4dd9c76fa5
 https://qiita.com/infra365/items/aa30a54fc6f0849385a7
 https://qiita.com/jiis-sasaki/items/7affa2e2ef22ebf93fa6
+https://qiita.com/konaito/items/16a6d2c5da7d144efe95
 https://qiita.com/ktdatascience/items/02b6b45e2ca7d34ad146
 https://qiita.com/ktdatascience/items/666a82fcdf3dc4af00d7
 https://qiita.com/nabe2030/items/ad2b6c223e5992ba78e4
@@ -294,6 +301,7 @@ https://www.ipa.go.jp/jinzai/ics/core_human_resource/final_project/2026/rcu1hd00
 https://www.itmedia.co.jp/aiplus/article/2609/04/2000001152/
 https://www.itmedia.co.jp/aiplus/article/2609/11/2000001400/
 https://www.itmedia.co.jp/aiplus/article/2609/20/2000001664/
+https://www.itmedia.co.jp/aiplus/article/2610/02/2000001965/
 https://www.itmedia.co.jp/business/articles/2609/11/news072.html
 https://www.itmedia.co.jp/business/articles/2610/01/news040.html
 https://www.itmedia.co.jp/enterprise/articles/2609/01/news030.html
@@ -415,6 +423,7 @@ https://zenn.dev/rhosokawa/articles/d0a958c17c2820
 https://zenn.dev/ryo1fuji/articles/52f371931ccc16
 https://zenn.dev/sato_frontend/articles/1a85841505b9bb
 https://zenn.dev/sc30gsw/articles/953334f11df507
+https://zenn.dev/sc30gsw/books/080faba713547b
 https://zenn.dev/socialplus/articles/f5d9e28470eb99
 https://zenn.dev/sompojapan_dx/articles/846c6038fee45d
 https://zenn.dev/takumaichida/articles/d4cd24282518be
