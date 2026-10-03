@@ -24,6 +24,7 @@ https://blog.trailofbits.com/2026/08/26/vms-wont-contain-cyber-capable-agents/
 https://blog.trailofbits.com/2026/09/18/auditing-in-the-age-of-good-enough-ai/
 https://blog.trailofbits.com/2026/09/21/saml-a-fractal-of-bad-design/
 https://claude.com/blog/agentic-coding-is-straining-ci-heres-how-we-scaled-test-impact-analysis-at-anthropic
+https://cloud.google.com/blog/ja/products/identity-security/getting-started-with-the-mantis-harness-to-find-and-fix-bugs
 https://collusion.wiki/
 https://corp.helpfeel.com/news/news-20260916-1
 https://daiksy.hatenablog.jp/entry/2026/09/16/183544
@@ -70,6 +71,8 @@ https://gigazine.net/news/20260929-meta-muse-give-home-address/
 https://gigazine.net/news/20260929-microsoft-copilot-human-reading/
 https://gigazine.net/news/20261001-hermes-agent-arc-pro-b70/
 https://gigazine.net/news/20261002-pi-1-0/
+https://gigazine.net/news/20261003-apple-limit-mac-full-disk-access-ai-agents-risk/
+https://gigazine.net/news/20261003-ministack/
 https://gihyo.jp/book/2026/978-4-297-15875-0
 https://github.com/anthropics/code-migration-kit-with-claude-code
 https://github.com/argonautlabsai/deltafin
@@ -172,9 +175,15 @@ https://news.ycombinator.com/item?id=49927100
 https://news.ycombinator.com/item?id=49929391
 https://news.ycombinator.com/item?id=49934620
 https://news.ycombinator.com/item?id=49936575
+https://news.ycombinator.com/item?id=49937304
 https://news.ycombinator.com/item?id=49938616
+https://news.ycombinator.com/item?id=49942706
+https://news.ycombinator.com/item?id=49945933
+https://news.ycombinator.com/item?id=49946567
+https://news.ycombinator.com/item?id=49947051
 https://note.com/kirik/n/n8e7920167c3f
 https://note.com/npaka/n/n1d86b2196515
+https://note.com/npaka/n/n2b9c36c471b6
 https://note.com/npaka/n/n5ac6abd04d67
 https://note.com/npaka/n/nf7108e6bd18e
 https://note.com/shi3zblog/n/na7a590b9908e
@@ -287,6 +296,7 @@ https://www.anthropic.com/threat-intelligence-report-september-2026
 https://www.ben54.jp/news/3850
 https://www.ben54.jp/news/3852
 https://www.businessinsider.jp/article/2609-google-finally-lets-all-engineers-use-anthropics-claude/
+https://www.chosunonline.com/site/data/html_dir/2026/10/03/2026100380012.html
 https://www.cncf.io/blog/2026/09/04/cpu-gpu-why-ai-platform-engineering-is-a-heterogeneous-infrastructure-problem/
 https://www.digital.go.jp/news/2026-0911-01
 https://www.docker.com/blog/ai-agent-security-systems-problem/
@@ -325,6 +335,7 @@ https://www.itmedia.co.jp/news/article/2609/29/2000001854/
 https://www.itmedia.co.jp/news/article/2609/30/2000001908/
 https://www.itmedia.co.jp/news/article/2610/01/2000001929/
 https://www.itmedia.co.jp/news/article/2610/01/2000001933/
+https://www.itmedia.co.jp/news/article/2610/03/2000001981/
 https://www.jiji.com/jc/article?k=2026091100447&g=flash
 https://www.m3tech.blog/entry/2026/08/25/080000
 https://www.m3tech.blog/entry/2026/08/26/110000
@@ -380,6 +391,7 @@ https://xtech.nikkei.com/atcl/nxt/column/18/00682/091900217/
 https://xtech.nikkei.com/atcl/nxt/column/18/00989/091700221/
 https://xtech.nikkei.com/atcl/nxt/column/18/03723/082000002/
 https://yedhu.me/posts/commit-description-as-a-thinking-tool/
+https://zenn.dev/7nohe/articles/agents-on-guren-round-2
 https://zenn.dev/7nohe/articles/guren-bun-fullstack
 https://zenn.dev/afante/articles/164a494962df54
 https://zenn.dev/charge0315/articles/9008a27f7902b4
@@ -392,6 +404,7 @@ https://zenn.dev/finatext/articles/7dbbd9371fe046
 https://zenn.dev/finatext/articles/dbt-snowflake-and-tag
 https://zenn.dev/gangy/articles/04597efe1b64c5
 https://zenn.dev/gitmame00/articles/a8f5f300d4ea86
+https://zenn.dev/glaciermelt/articles/prisma-postgres-rls-interactive-transaction
 https://zenn.dev/goat_eat_any/articles/claude-code-cloud-sessions
 https://zenn.dev/hampen2929/books/ai-dev-team-guide
 https://zenn.dev/hampen2929/books/claude-code-production-guide
@@ -424,6 +437,7 @@ https://zenn.dev/ryo1fuji/articles/52f371931ccc16
 https://zenn.dev/sato_frontend/articles/1a85841505b9bb
 https://zenn.dev/sc30gsw/articles/953334f11df507
 https://zenn.dev/sc30gsw/books/080faba713547b
+https://zenn.dev/shoujiki_panman/articles/claude-code-mods-first-look
 https://zenn.dev/socialplus/articles/f5d9e28470eb99
 https://zenn.dev/sompojapan_dx/articles/846c6038fee45d
 https://zenn.dev/takumaichida/articles/d4cd24282518be
@@ -437,3 +451,4 @@ https://zenn.dev/yamato_snow/articles/jev-enterprise-security-guide
 https://zenn.dev/ymotongpoo/articles/20261001-agent-eval-loop
 https://zenn.dev/yucco/articles/client-server-logic-drift
 https://zenn.dev/yui/articles/97597aa13b9802
+https://zenn.dev/zhaojiayi/articles/d5ad38fc02091a

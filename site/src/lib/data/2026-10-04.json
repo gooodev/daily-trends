@@ -1,0 +1,115 @@
+{
+  "date": "2026-10-04",
+  "categories": [
+    {
+      "name": "AI/エージェント開発・実装",
+      "items": [
+        {
+          "title_ja": "Codex Security・Claude Security入門（npaka）",
+          "url": "https://note.com/npaka/n/n2b9c36c471b6",
+          "summary_ja": "OpenAIのCodex SecurityとAnthropicのClaude Securityを例に、コードベース全体を読んで攻撃経路を追い、Threat Model作成から検証・修正案まで行うAIセキュリティチェックの仕組みと運用方法を整理している。従来のSAST・依存関係スキャンでは見つけにくい、アプリ固有の認可やビジネスロジックの問題を探せる点が違いとして挙げられている。"
+        },
+        {
+          "title_ja": "Claude Codeに「mod」が登場、危険なコマンドの阻止や機密のマスクも追加可能",
+          "url": "https://zenn.dev/shoujiki_panman/articles/claude-code-mods-first-look",
+          "summary_ja": "Claude Codeの新機能modで、利用上限メーターと、env出力などに混じるAPIキーをClaudeに渡る前に[MASKED]へ置き換えるmodを実際に作った記事。.envを読ませない設定でも環境変数経由でキーが渡る穴を埋める具体例で、作る際の引っかかりどころも共有している。"
+        },
+        {
+          "title_ja": "DHHの「規約はトークン効率」を自作フレームワークで測ってみた",
+          "url": "https://zenn.dev/7nohe/articles/agents-on-guren-round-2",
+          "summary_ja": "モデルがよく知らない規約を持つBun向けフレームワークGurenで、規約をガイダンス（CLAUDE.mdやスキル等）として教えるコストと、エージェントが教えた規約を実際に使うかを計測した。Honoの素の構成と比較して、規約を教えるコストだけを取り出している。"
+        },
+        {
+          "title_ja": "エージェントに必要なのはメモリではなくドキュメント（HN）",
+          "url": "https://news.ycombinator.com/item?id=49945933",
+          "summary_ja": "既存のメモリ系プラグインはどれも断片をベクトルDBに入れて類似度上位を注入するだけのRAGで、エージェントがプロジェクトを理解するという本来の目的に合っていないと批判し、きちんとしたドキュメントを整備するべきだと主張している。"
+        }
+      ]
+    },
+    {
+      "name": "AI/エンプラ・ガバナンス・セキュリティ",
+      "items": [
+        {
+          "title_ja": "AppleがAIエージェントのリスクを理由にMacのフルディスクアクセスを制限",
+          "url": "https://gigazine.net/news/20261003-apple-limit-mac-full-disk-access-ai-agents-risk/",
+          "summary_ja": "Appleは2026年10月2日、AIエージェントがもたらすリスクに対応するため、macOSのフルディスクアクセスに新たな制限を導入すると発表した。エージェントに強い権限を渡す運用への、OSベンダー側の対応として注目される。"
+        },
+        {
+          "title_ja": "Pi pod：コーディングエージェントpiを自前サーバーのサンドボックスで動かす（Show HN）",
+          "url": "https://news.ycombinator.com/item?id=49937304",
+          "summary_ja": "軽量なエージェントハーネスpiを、サンドボックス・RBAC付きセッション共有・ブラウザ等の操作自動化とあわせて自前サーバー上で運用するための基盤。組織でエージェントを使う際の最小構成を目指している。"
+        },
+        {
+          "title_ja": "Cloudflare、エージェント時代の次世代Gitプラットフォームの共同開発を募集（HN）",
+          "url": "https://news.ycombinator.com/item?id=49947051",
+          "summary_ja": "数百〜数千のエージェントが同じコードベースを同時に触る世界で、衝突する変更の扱いやレビュー、変更理由の追跡をどう支えるかという問いから、CloudflareがGitプラットフォームを作る開発者を募っている。"
+        }
+      ]
+    },
+    {
+      "name": "Sec/脆弱性・インシデント",
+      "items": [
+        {
+          "title_ja": "韓国の銀行6行にAIを使ったとみられるハッキング、4行で個人情報流出",
+          "url": "https://www.chosunonline.com/site/data/html_dir/2026/10/03/2026100380012.html",
+          "summary_ja": "10月1〜2日に新韓・KB国民・ハナ・ウリ・NH農協・BNK釜山の6行で同時多発的な攻撃があり、新韓銀行で約2万5000人など顧客情報が流出した。基幹系ではなく従業員向けホームページなどの個別の脆弱性が狙われ、AIエージェントによる自律侵入の形跡も確認された。"
+        },
+        {
+          "title_ja": "Google公式：脆弱性の発見から修正までを支援するオープンソースのAIハーネス「Mantis」",
+          "url": "https://cloud.google.com/blog/ja/products/identity-security/getting-started-with-the-mantis-harness-to-find-and-fix-bugs",
+          "summary_ja": "Googleが公開した、脆弱性の発見・トリアージ・再現・パッチ適用を自動化するハーネス。AIコードスキャンの真陽性率が7%を下回る問題に対し、批評・レビューエージェントやサンドボックス実行などで精度を高める構成を解説している。"
+        },
+        {
+          "title_ja": "アバハウス、会員・受注DBへの不正アクセスで全顧客の情報漏えいの恐れ",
+          "url": "https://www.itmedia.co.jp/news/article/2610/03/2000001981/",
+          "summary_ja": "9月27日深夜から28日にかけて社内システムへの不正ログインを起点にDBへ侵入された可能性があり、退会済み顧客を含む全会員の氏名・住所・注文情報などが対象になりうる。顧客への不審な返金メールの報告で発覚しており、カード番号は決済代行側のため漏えいは確認されていない。"
+        }
+      ]
+    },
+    {
+      "name": "AI/ローカルLLM・オープンモデル",
+      "items": [
+        {
+          "title_ja": "Kolibri：ドイツ発のソブリン・オープンウェイトモデル（HN）",
+          "url": "https://news.ycombinator.com/item?id=49942706",
+          "summary_ja": "Aleph Alphaが公開した英独対応のMoEモデルで、総パラメータ78B・アクティブ3B、最大1Mトークン文脈をApache 2.0で配布する。データ収集から事後学習まで自前のパイプラインで学習した経緯も公開されている。"
+        }
+      ]
+    },
+    {
+      "name": "開発/JS・TS・データスタック",
+      "items": [
+        {
+          "title_ja": "PrismaでPostgresのRLSを導入したら、公式レシピ通りでもトランザクション内で効かなかった話",
+          "url": "https://zenn.dev/glaciermelt/articles/prisma-postgres-rls-interactive-transaction",
+          "summary_ja": "マルチテナント分離のためにRLSを入れたところ、Prismaの公式レシピ（Client extensionsでSETとクエリをバッチ化）がインタラクティブトランザクション内では効かない場面があった。原因と直し方、効いていることの確認方法をまとめている。"
+        },
+        {
+          "title_ja": "MCP・API・Skillsの違いを整理する（AIとの壁打ちで直した3つの勘違い）",
+          "url": "https://zenn.dev/zhaojiayi/articles/d5ad38fc02091a",
+          "summary_ja": "MCPをHost・Client・Serverの3者で整理し、M×N通りのコネクタをM+Nに減らす標準規格だと説明する入門記事。筆者が最初に混同したAgentとMCP Clientの区別など、つまずきやすい点を実例で解説している。"
+        }
+      ]
+    },
+    {
+      "name": "開発/ツール・インフラ",
+      "items": [
+        {
+          "title_ja": "ローカルでAWSを再現するエミュレーター「MiniStack」",
+          "url": "https://gigazine.net/news/20261003-ministack/",
+          "summary_ja": "S3やDynamoDB、Lambdaなど60以上のAWSサービスを単一ポートで再現し、AWS CLIやTerraformから無料で使えるMITライセンスのセルフホスト型エミュレーター。マルチアカウント・マルチリージョンにも対応する。"
+        }
+      ]
+    },
+    {
+      "name": "AI/ツール活用",
+      "items": [
+        {
+          "title_ja": "Opus 5.5をClaudeとClaude Codeで使いこなすためのガイド（HN）",
+          "url": "https://news.ycombinator.com/item?id=49946567",
+          "summary_ja": "Addy Osmaniによる公式ブログで、Opus 5.5は自律的に長く作業し結果を率直に報告するという特性を踏まえ、依頼の仕方、長時間実行の舵取り、結果の確認方法、速度面の注意点などをチェックリストとしてまとめている。"
+        }
+      ]
+    }
+  ]
+}
