@@ -40,6 +40,7 @@ https://developer.feedforce.jp/entry/2026/09/15/122838
 https://developers.cyberagent.co.jp/blog/archives/64920/
 https://docs.getdbt.com/blog/dbt-mcp-server-claude
 https://engineering.atspotify.com/2026/9/portal-by-spotify-cut-my-claude-code-token-usage-by-90
+https://euglena1215.hatenablog.jp/entry/2026/09/27/113320
 https://findy-code.io/media/articles/list-yuma_prog
 https://forest.watch.impress.co.jp/docs/news/2135971.html
 https://forest.watch.impress.co.jp/docs/news/2140081.html
@@ -73,6 +74,7 @@ https://gigazine.net/news/20261001-hermes-agent-arc-pro-b70/
 https://gigazine.net/news/20261002-pi-1-0/
 https://gigazine.net/news/20261003-apple-limit-mac-full-disk-access-ai-agents-risk/
 https://gigazine.net/news/20261003-ministack/
+https://gigazine.net/news/20261004-cloudflare-quick-tunnels/
 https://gihyo.jp/book/2026/978-4-297-15875-0
 https://github.com/anthropics/code-migration-kit-with-claude-code
 https://github.com/argonautlabsai/deltafin
@@ -181,6 +183,9 @@ https://news.ycombinator.com/item?id=49942706
 https://news.ycombinator.com/item?id=49945933
 https://news.ycombinator.com/item?id=49946567
 https://news.ycombinator.com/item?id=49947051
+https://news.ycombinator.com/item?id=49950554
+https://news.ycombinator.com/item?id=49953495
+https://news.ycombinator.com/item?id=49956003
 https://note.com/kirik/n/n8e7920167c3f
 https://note.com/npaka/n/n1d86b2196515
 https://note.com/npaka/n/n2b9c36c471b6
@@ -189,6 +194,7 @@ https://note.com/npaka/n/nf7108e6bd18e
 https://note.com/shi3zblog/n/na7a590b9908e
 https://note.com/shinshiro/n/n45c9931a88e5
 https://note.com/takahiroanno/n/n4accbde18d56
+https://note.com/yoshiki_shibata/n/n185f3d9e13bc
 https://note.com/yubais/n/nd4505991a6d6
 https://note.com/yuiseki/n/nabf4625e58bc
 https://note.com/yukukotani/n/n5607be0f8f4f
@@ -204,6 +210,7 @@ https://piyolog.hatenadiary.jp/entry/2026/09/11/220855
 https://piyolog.hatenadiary.jp/entry/2026/09/15/141320
 https://piyolog.hatenadiary.jp/entry/2026/09/16/085611
 https://portablecode.info/2026/09/23/herdr-annotate-ai-review/
+https://portalshit.net/2026/10/03/ai-is-eating-product-management
 https://prtimes.jp/main/html/rd/p/000000268.000045379.html
 https://qiita.com/Y-Y-dev/items/d526fb7cdbe35a3f9384
 https://qiita.com/amiyamamoto/items/2c380c550963c8a5ca7a
@@ -272,6 +279,7 @@ https://thinkit.co.jp/article/39495
 https://thinkit.co.jp/article/39536
 https://thinkit.co.jp/article/39539
 https://togetter.com/li/2746142
+https://togetter.com/li/2753949
 https://trailofbits.com/2026/08/26/vms-wont-contain-cyber-capable-agents/
 https://type.jp/et/feature/31685/
 https://updates.gyazo.com/ja/gyazo-henobu-zheng-akusesuniyoruqing-bao-lou-einiguan-suruozhi-rasetoocha-bi-1g9tcc
@@ -337,11 +345,13 @@ https://www.itmedia.co.jp/news/article/2610/01/2000001929/
 https://www.itmedia.co.jp/news/article/2610/01/2000001933/
 https://www.itmedia.co.jp/news/article/2610/03/2000001981/
 https://www.jiji.com/jc/article?k=2026091100447&g=flash
+https://www.kobonemi.com/entry/2026/10/03/macOS-27-Full-Disk-Access-Additional-Controls
 https://www.m3tech.blog/entry/2026/08/25/080000
 https://www.m3tech.blog/entry/2026/08/26/110000
 https://www.m3tech.blog/entry/2026/09/18/160000
 https://www.m3tech.blog/entry/embulk-to-dlt-dbt
 https://www.netlify.com/blog/edge-functions-firecracker-microvms/
+https://www.nikkei.co.jp/nikkeiinfo/news/information/1554.html
 https://www.nikkei.com/article/DGXZQOGN122UY0S6A910C2000000/
 https://www.nikkei.com/article/DGXZQOSG120C30S6A910C2000000/
 https://www.nikkei.com/article/DGXZQOUC160I20W6A910C2000000/
@@ -357,6 +367,7 @@ https://www.publickey1.jp/blog/26/openaianthropicapiagent_routerlinux_foundation
 https://www.publickey1.jp/blog/26/planetscalepostgresql11800qpsdbneki.html
 https://www.publickey1.jp/blog/26/rustcctstier_1.html
 https://www.publickey1.jp/blog/26/slackaislack_code.html
+https://www.publickey1.jp/blog/26/supabase1sqlitetursoaidb.html
 https://www.publickey1.jp/blog/26/vercelnextjscloudflare_workersaws_lambdavercelvinext_10.html
 https://www.reddit.com/r/LocalLLaMA/comments/1w5ozl4/perplexity_opensourced_their_mac_inference_server/
 https://www.sankei.com/article/20260827-HJO7DKCWRNMB7MSDJCOSEMK4PY/

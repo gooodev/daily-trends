@@ -1,0 +1,90 @@
+{
+  "date": "2026-10-05",
+  "categories": [
+    {
+      "name": "AI/エージェント開発・実装",
+      "items": [
+        {
+          "title_ja": "エージェントに必要なのは記憶ではなくドキュメントである",
+          "url": "https://news.ycombinator.com/item?id=49945933",
+          "summary_ja": "メモリ系プラグインは会話から断片を作りRAGで注入するだけで、エージェントがプロジェクトを理解する助けにならないと批判し、整備されたドキュメントを与える方が有効だと主張する記事。HNでは議論が活発。"
+        },
+        {
+          "title_ja": "理解をどこまで手放すかは、リスク許容度と仕組みで決まる",
+          "url": "https://euglena1215.hatenablog.jp/entry/2026/09/27/113320",
+          "summary_ja": "AIが書いたコードでも手放すのは実装の理解であり、振る舞いの理解は型・テスト・監視・段階リリースで担保すべきだと論じる。意図（why）をAIが参照できる形で残す重要性にも触れている。"
+        },
+        {
+          "title_ja": "Apple、macOSのフルディスクアクセスにAIエージェント向けの追加制御を導入へ",
+          "url": "https://www.kobonemi.com/entry/2026/10/03/macOS-27-Full-Disk-Access-Additional-Controls",
+          "summary_ja": "常時稼働型AIエージェントの台頭を受け、Appleがフルディスクアクセスを許可する際により明確な操作を要求する制御を導入すると発表した。時期は未定。エージェントの権限設計に関わる動き。"
+        }
+      ]
+    },
+    {
+      "name": "AI/エンプラ・経営・ガバナンス",
+      "items": [
+        {
+          "title_ja": "AIに仕事を奪われるのはエンジニアではなくプロダクトマネージャーの方だった",
+          "url": "https://portalshit.net/2026/10/03/ai-is-eating-product-management",
+          "summary_ja": "Buildコストの低下で、エンジニアやデザイナーがプロダクトマネジメントまで担うようになり、PMの役割が押し出されている実体験を述べる。BuildがはやくなってもMeasure/Learnが律速になるという論点も扱う。"
+        },
+        {
+          "title_ja": "AIで外注ゼロ・社内20人から4人にした経営者の経験談",
+          "url": "https://togetter.com/li/2753949",
+          "summary_ja": "AIによる人員削減は非現実的だという見方がある中、実際に社内人員を20人から4人にした経営者が経験を語ったとするまとめ。経営・人事への影響を考える材料になる。※本文は未取得のため、はてブ一覧のタイトルから簡潔に要約"
+        },
+        {
+          "title_ja": "AI時代に次のベテランエンジニアは育つのか",
+          "url": "https://note.com/yoshiki_shibata/n/n185f3d9e13bc",
+          "summary_ja": "AIがコーディングを担う時代に、経験を通じて育つ人材の育成がどう変わるかを問う記事。※本文は未取得のため、はてブ一覧のタイトルから簡潔に要約"
+        }
+      ]
+    },
+    {
+      "name": "Sec/脆弱性・インシデント",
+      "items": [
+        {
+          "title_ja": "日本経済新聞社、Microsoft 365の不正ログインでなりすましメール約9000件を送信",
+          "url": "https://www.nikkei.co.jp/nikkeiinfo/news/information/1554.html",
+          "summary_ja": "社員のMicrosoft 365アカウントが乗っ取られ、9月30日に悪性サイトへ誘導するなりすましメールが約9000件送信された。パスワード変更後は不正ログインを確認しておらず、個人情報保護委員会へ報告し調査中。"
+        },
+        {
+          "title_ja": "Xray-coreが証明書検証バイパスの脆弱性を隠していた",
+          "url": "https://news.ycombinator.com/item?id=49956003",
+          "summary_ja": "プロキシツールXray-coreが証明書検証のバイパス脆弱性を公表せずに修正していたとする、net4people上の報告。※本文取得不可のためタイトルのみから要約"
+        },
+        {
+          "title_ja": "Cloudflare Quick Tunnels、1コマンドでlocalhostを公開できる",
+          "url": "https://gigazine.net/news/20261004-cloudflare-quick-tunnels/",
+          "summary_ja": "cloudflaredを使い、アカウント登録やDNS設定なしでlocalhostの暗号化された公開URLを発行できる。AI向けJSON出力にも対応する。手軽な反面、開発環境の意図しない公開には注意が要る。"
+        }
+      ]
+    },
+    {
+      "name": "AI/ローカルLLM",
+      "items": [
+        {
+          "title_ja": "Qwen 3.8 Flash Next（125B）をRTX 4090で毎秒100トークン動作させる",
+          "url": "https://news.ycombinator.com/item?id=49953495",
+          "summary_ja": "消費者向けGPUで125Bクラスのモデルを高速に動かすStrataというプロジェクトがHNで大きな注目を集めた。※本文取得不可のためタイトルのみから要約"
+        }
+      ]
+    },
+    {
+      "name": "開発/JS・TS・データスタック",
+      "items": [
+        {
+          "title_ja": "開発者はなぜ「プラットフォームを使う」のか、懐疑派の視点で考える",
+          "url": "https://news.ycombinator.com/item?id=49950554",
+          "summary_ja": "ブラウザ標準機能を使うべきという主張に、あえて懐疑派の立場から、歴史的経緯やnpmエコシステムへの慣れなど使われない理由を整理した記事。"
+        },
+        {
+          "title_ja": "SupabaseがSQLiteを大量ホストするTursoを買収",
+          "url": "https://www.publickey1.jp/blog/26/supabase1sqlitetursoaidb.html",
+          "summary_ja": "AIエージェントが大量に小規模DBを立ち上げる需要に対応するため、1サーバーで数百万のSQLiteを動かせるTursoをSupabaseが買収した。軽量DBからPostgresまで揃える狙い。"
+        }
+      ]
+    }
+  ]
+}
