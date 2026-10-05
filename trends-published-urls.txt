@@ -1,6 +1,7 @@
 https://about.gitlab.com/ja-jp/blog/whats-new-in-git-2-56-0/
 https://amix-design.com/tl/web-darkp/
 https://article.auone.jp/090465f4-bbd4-4e07-8236-ac82cebd9552
+https://ascii.jp/elem/000/004/440/4440100/
 https://ashunar0.dev/posts/does-your-project-need-nextjs/
 https://astro.build/blog/astro-730/
 https://atmarkit.itmedia.co.jp/ait/articles/2608/28/news020.html
@@ -25,6 +26,7 @@ https://blog.trailofbits.com/2026/09/18/auditing-in-the-age-of-good-enough-ai/
 https://blog.trailofbits.com/2026/09/21/saml-a-fractal-of-bad-design/
 https://claude.com/blog/agentic-coding-is-straining-ci-heres-how-we-scaled-test-impact-analysis-at-anthropic
 https://cloud.google.com/blog/ja/products/identity-security/getting-started-with-the-mantis-harness-to-find-and-fix-bugs
+https://coliss.com/wp-content/cache/all/articles/build-websites/operation/work/7-adobe-apps-open-sourced.html/index.html
 https://collusion.wiki/
 https://corp.helpfeel.com/news/news-20260916-1
 https://daiksy.hatenablog.jp/entry/2026/09/16/183544
@@ -186,6 +188,13 @@ https://news.ycombinator.com/item?id=49947051
 https://news.ycombinator.com/item?id=49950554
 https://news.ycombinator.com/item?id=49953495
 https://news.ycombinator.com/item?id=49956003
+https://news.ycombinator.com/item?id=49961057
+https://news.ycombinator.com/item?id=49963171
+https://news.ycombinator.com/item?id=49964303
+https://news.ycombinator.com/item?id=49965118
+https://news.ycombinator.com/item?id=49969183
+https://news.ycombinator.com/item?id=49970667
+https://newsdig.tbs.co.jp/articles/-/2990268
 https://note.com/kirik/n/n8e7920167c3f
 https://note.com/npaka/n/n1d86b2196515
 https://note.com/npaka/n/n2b9c36c471b6
@@ -256,6 +265,7 @@ https://syu-m-5151.hatenablog.com/entry/2026/09/21/104258
 https://syu-m-5151.hatenablog.com/entry/2026/09/22/124945
 https://syu-m-5151.hatenablog.com/entry/2026/09/23/123604
 https://syu-m-5151.hatenablog.com/entry/2026/09/27/120017
+https://syu-m-5151.hatenablog.com/entry/2026/10/05/132102
 https://tailwindcss.com/blog/tailwind-is-joining-shopify
 https://tech-blog-v2-opal.vercel.app/article/balancing-engineering-and-parenting
 https://tech-blog.rakus.co.jp/entry/20260916/ai
@@ -282,8 +292,10 @@ https://togetter.com/li/2746142
 https://togetter.com/li/2753949
 https://trailofbits.com/2026/08/26/vms-wont-contain-cyber-capable-agents/
 https://type.jp/et/feature/31685/
+https://type.jp/et/feature/31834/
 https://updates.gyazo.com/ja/gyazo-henobu-zheng-akusesuniyoruqing-bao-lou-einiguan-suruozhi-rasetoocha-bi-1g9tcc
 https://voluntas.ghost.io/2026-08-second-half-llm/
+https://weekly.ascii.jp/elem/000/004/439/4439882/
 https://www.afpbb.com/articles/-/3654276
 https://www.aikido.dev/blog/compromised-flutter-package-on-pub-dev-contains-xcsset-malware
 https://www.aikido.dev/blog/cve-spike-remediation-problem
@@ -437,6 +449,7 @@ https://zenn.dev/mconfjp/articles/transaction-action-order
 https://zenn.dev/mediba/articles/7d0d7d70678546
 https://zenn.dev/mikan_919/articles/irisout-ui-compiler
 https://zenn.dev/mistletoe/articles/jev-claude-code-guard
+https://zenn.dev/mizchi/articles/ai-coding-loop-formal
 https://zenn.dev/mizchi/articles/jev-lint-intro
 https://zenn.dev/mizchi/articles/laya-mlx-60fps
 https://zenn.dev/monyyy/articles/3c55e83a596ccb

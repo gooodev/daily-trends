@@ -1,0 +1,120 @@
+{
+  "date": "2026-10-06",
+  "categories": [
+    {
+      "name": "AI/エージェント開発・実装",
+      "items": [
+        {
+          "title_ja": "俺のAIプログラミング手法（2026/10/05）",
+          "url": "https://zenn.dev/mizchi/articles/ai-coding-loop-formal",
+          "summary_ja": "mizchi氏がAIコーディングの手法を棚卸しした記事。人間の役割を「評価指標とループの設計」に置き、Ralph Loopや/goalによる自律ループ、グローバルプロンプトには判断基準だけを書く、プロンプトやskillは陳腐化が速いのでアンラーニングし続ける、といった実践知をまとめている。"
+        },
+        {
+          "title_ja": "AIでコード生成は加速、でも人間の確認が追いつかない問題。t-wadaが示す「レビュー解体」という答え",
+          "url": "https://type.jp/et/feature/31834/",
+          "summary_ja": "AIで実装が速くなった結果、ボトルネックはコードレビューに移ったとし、和田卓人氏が上流の仕様レビュー・TDD・型によるガードレール・リスクマッピング・継続的な理解形成の5点でレビューを分解する考え方を示すインタビュー。技術的負債は減っても「認知の負債」は増えると警告している。"
+        },
+        {
+          "title_ja": "Cloudflare、AIエージェント向けWeb Search APIをベータ公開",
+          "url": "https://news.ycombinator.com/item?id=49963171",
+          "summary_ja": "AI Gateway経由でCeramic.ai・Exa・Linkupの3つの検索プロバイダを選んで呼び出せるAPIで、エージェントの回答を最新のWeb情報に基づかせられる。全プロバイダがZero Data Retentionに対応し、料金は各社の定価そのままで上乗せなし、自前のAPIキーも利用できる。"
+        }
+      ]
+    },
+    {
+      "name": "AI/エンプラ・ガバナンス",
+      "items": [
+        {
+          "title_ja": "Claudeを日記代わりに使った女性、Anthropicが警察に通報し重罪で起訴の危機",
+          "url": "https://news.ycombinator.com/item?id=49961057",
+          "summary_ja": "フロリダ州の女性がClaudeに保安官事務所への襲撃を書き込み、安全システムが検知して人間の審査担当者が警察へ通報、書面による脅迫容疑で逮捕された。Anthropicは死傷を防ぐ緊急時には利用者情報を開示しうるとしており、AIへの入力内容の扱いと企業のガバナンスを考える材料になる。"
+        }
+      ]
+    },
+    {
+      "name": "Sec/インシデント",
+      "items": [
+        {
+          "title_ja": "「焼肉きんぐ」運営会社に不正アクセス、アプリ会員1078万人分の情報が流出",
+          "url": "https://ascii.jp/elem/000/004/440/4440100/",
+          "summary_ja": "物語コーポレーションは、公式アプリの会員管理システムへの不正アクセスで会員番号・氏名・メールアドレス・電話番号計1078万8963件が流出したと発表した。パスワードや決済情報は対象外で、不正アクセスは10月2日に確認され、原因は調査中。"
+        },
+        {
+          "title_ja": "大阪公立大、基盤システム障害はランサムウェア攻撃と判断し謝罪　全授業が休講中",
+          "url": "https://newsdig.tbs.co.jp/articles/-/2990268",
+          "summary_ja": "10月2日に発生した基盤システムの障害について、大阪公立大学が記者会見でランサムウェアによるサイバー攻撃と判断していると明らかにした。全授業が休講となっており、対面授業は9日以降に再開する予定。※記事本文は冒頭のみ取得できたため、会見の要点のみを要約"
+        }
+      ]
+    },
+    {
+      "name": "Sec/AI×攻撃",
+      "items": [
+        {
+          "title_ja": "AIでサイバー攻撃のコスト激減　数行の指示だけで27社に侵入、カード情報60万件超が流出",
+          "url": "https://weekly.ascii.jp/elem/000/004/439/4439882/",
+          "summary_ja": "Gambit Securityの報告によると、攻撃者がオープンソースのAIエージェント（Strix・Cairn・Hermes）で数百のECサイトを攻撃し、少なくとも27社に侵入、2社から60万件超のカード情報が流出した。スキャン1社あたりのAI利用料は平均約25ドルで、侵入まで数時間という速さが防御側の不利を示している。"
+        }
+      ]
+    },
+    {
+      "name": "Sec/モバイル・プラットフォーム",
+      "items": [
+        {
+          "title_ja": "Pixel 11はGrapheneOSのセキュリティ基準を満たさず、見送りの可能性",
+          "url": "https://news.ycombinator.com/item?id=49964303",
+          "summary_ja": "GrapheneOS開発チームが、Pixel 11ではARMのハードウェアメモリタギング（MTE）がソフトウェア・ファームウェア、おそらくハードウェアでも未対応のため移植を完了できないと報告。MTEはリモート攻撃の多くを緩和する機能で、Googleがコスト削減で削ったとみている。"
+        }
+      ]
+    },
+    {
+      "name": "AI/研究・活用事例",
+      "items": [
+        {
+          "title_ja": "Claude Opus 5.5のエージェント群が室温反強磁性半導体の候補2種を発見",
+          "url": "https://news.ycombinator.com/item?id=49970667",
+          "summary_ja": "Vals AIが、Claude Opus 5.5のエージェントチームを使い、次世代メモリ向けの室温反強磁性半導体の候補を2つ見つけたと報告。1つは新規設計、もう1つは1999年に合成済みの物質で、計算結果とコード、既知の制約も公開されている。"
+        }
+      ]
+    },
+    {
+      "name": "AI/ローカルLLM・オープンモデル",
+      "items": [
+        {
+          "title_ja": "Beam: Reflectionの501Bオープンウェイトモデル",
+          "url": "https://news.ycombinator.com/item?id=49969183",
+          "summary_ja": "Reflectionが初のオープンウェイトモデルBeamを発表。総パラメータ501B・アクティブ23BのMoEで、コーディングとエージェント用途に注力している。最終評価中で、重みや技術レポートは今月中に公開予定。"
+        }
+      ]
+    },
+    {
+      "name": "開発/インフラ・ツール",
+      "items": [
+        {
+          "title_ja": "500行のコードで作るLinuxコンテナ（2016）",
+          "url": "https://news.ycombinator.com/item?id=49965118",
+          "summary_ja": "信頼できないコードを動かすための最小限の制限を探るため、名前空間・ケーパビリティ・マウント・システムコール制限・リソース制限・ネットワークを自作コンテナで順に解説した記事。コンテナの分離の仕組みを手を動かして理解できる。"
+        }
+      ]
+    },
+    {
+      "name": "キャリア・組織",
+      "items": [
+        {
+          "title_ja": "シニアになりきれない中堅エンジニアは、何を読めばいいのか　2026年版",
+          "url": "https://syu-m-5151.hatenablog.com/entry/2026/10/05/132102",
+          "summary_ja": "個人の成果をチームや組織の成果に変えることがシニア以上の仕事だとして、中堅エンジニア向けに今の困りごとを解く本と、これから必要になりそうなことを試す本を紹介する読書案内。健康を保ち続けることも実力の条件として最初に置いている。"
+        }
+      ]
+    },
+    {
+      "name": "OSS/その他",
+      "items": [
+        {
+          "title_ja": "PhotoshopやIllustratorなどAdobeアプリ7種をオープンソースで再構築、Win/Mac/Linux/Web対応で無料",
+          "url": "https://coliss.com/wp-content/cache/all/articles/build-websites/operation/work/7-adobe-apps-open-sourced.html/index.html",
+          "summary_ja": "Crafting Appsは、Adobeのコードを使わずRustで書き直した画像編集・ベクター・動画・PDFなど7つのアプリで、Apache-2.0/MITライセンス。ElectronやWebビューを使わないネイティブアプリでWebAssemblyによりブラウザでも動くが、現状はRC版で大切なファイルでの利用は非推奨。"
+        }
+      ]
+    }
+  ]
+}
