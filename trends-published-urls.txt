@@ -17,6 +17,7 @@ https://blog.cloudflare.com/client-side-security-finds-4-malicious-campaigns/
 https://blog.cloudflare.com/emdash-cms-plugin-registry/
 https://blog.cloudflare.com/mcp-security-updates/
 https://blog.flatt.tech/entry/package_registry_history
+https://blog.lai.so/eli5-archify-explainer-skills/
 https://blog.master.dev/react-now-rusted-all-the-way-out/
 https://blog.p1ass.com/posts/agent-foundations/
 https://blog.shibayu36.org/entry/2026/08/30/173000
@@ -30,6 +31,7 @@ https://coliss.com/wp-content/cache/all/articles/build-websites/operation/work/7
 https://collusion.wiki/
 https://corp.helpfeel.com/news/news-20260916-1
 https://daiksy.hatenablog.jp/entry/2026/09/16/183544
+https://dbushell.com/2026/10/03/deno-to-node/
 https://debiru.hatenablog.com/entry/20260831/jcom-plume-dns-blocking
 https://deno.com/blog/clawpatrol
 https://deno.com/blog/v2.9
@@ -77,6 +79,8 @@ https://gigazine.net/news/20261002-pi-1-0/
 https://gigazine.net/news/20261003-apple-limit-mac-full-disk-access-ai-agents-risk/
 https://gigazine.net/news/20261003-ministack/
 https://gigazine.net/news/20261004-cloudflare-quick-tunnels/
+https://gigazine.net/news/20261006-ai-cheaper-model-more-cost/
+https://giginet.hateblo.jp/entry/2026/09/22/114642
 https://gihyo.jp/book/2026/978-4-297-15875-0
 https://github.com/anthropics/code-migration-kit-with-claude-code
 https://github.com/argonautlabsai/deltafin
@@ -218,6 +222,7 @@ https://piyolog.hatenadiary.jp/entry/2026/09/04/115554
 https://piyolog.hatenadiary.jp/entry/2026/09/11/220855
 https://piyolog.hatenadiary.jp/entry/2026/09/15/141320
 https://piyolog.hatenadiary.jp/entry/2026/09/16/085611
+https://pola.rs/posts/release-polars-2/
 https://portablecode.info/2026/09/23/herdr-annotate-ai-review/
 https://portalshit.net/2026/10/03/ai-is-eating-product-management
 https://prtimes.jp/main/html/rd/p/000000268.000045379.html
@@ -243,6 +248,7 @@ https://qiita.com/yasu1109/items/53b294aa9c288ace8c59
 https://qiita.com/yukihirop/items/e0d8ffb121c1a753075a
 https://qiita.com/yushibats/items/16b6b3c8ec5acd6bdc8b
 https://quesma.com/blog/qwen38-27b-quantizations-benchmarked/
+https://reflection.ai/blog/introducing-beam
 https://satoweb.net/2026/09/p-18390/
 https://scgajge12.hatenablog.com/entry/closed_network_security
 https://share.timescar.jp/news/2026/0929/1816.html
@@ -253,6 +259,7 @@ https://speakerdeck.com/flatt_security/security-risks-and-countermeasures-in-the
 https://speakerdeck.com/k1nakayama/sono-lambda-8-bun-de-kanrisha-kengen-made-ubawaremasu
 https://speakerdeck.com/kinopeee/hanesu-sekkei-nyuumon-kontekisuto-no-tsugi
 https://speakerdeck.com/lycorptech_jp/aidlc-aidd-workshop
+https://speakerdeck.com/minodriven/invisible-requirement-thinking
 https://speakerdeck.com/nakanao/ai-ni-makaseta-hinshitsu-ha-dare-ga-mitateru-no-ka-ai-jidai-no-tesuto-manejimento
 https://speakerdeck.com/teru0x1/slack-ue-de-infura-o-toraburu-shuto-suru-agentic-platform-engineering-no-daiippo
 https://speakerdeck.com/tkikuc/vibes-containers-ai-de-kawaru-kontena-sekkei-to-unyou
@@ -367,6 +374,7 @@ https://www.nikkei.co.jp/nikkeiinfo/news/information/1554.html
 https://www.nikkei.com/article/DGXZQOGN122UY0S6A910C2000000/
 https://www.nikkei.com/article/DGXZQOSG120C30S6A910C2000000/
 https://www.nikkei.com/article/DGXZQOUC160I20W6A910C2000000/
+https://www.openssh.org/releasenotes.html#10.6
 https://www.pospome.work/entry/2026/08/24/223309
 https://www.pospome.work/entry/2026/09/28/152221
 https://www.publickey1.jp/blog/26/claude_codeagentsmdclaudemd.html
@@ -431,6 +439,7 @@ https://zenn.dev/glaciermelt/articles/prisma-postgres-rls-interactive-transactio
 https://zenn.dev/goat_eat_any/articles/claude-code-cloud-sessions
 https://zenn.dev/hampen2929/books/ai-dev-team-guide
 https://zenn.dev/hampen2929/books/claude-code-production-guide
+https://zenn.dev/hiromoo/articles/flutter-riverpod-agent-skill-evaluation
 https://zenn.dev/jnch/articles/18cf3f1893ee5b
 https://zenn.dev/jtcc/articles/7e74fef42580a1
 https://zenn.dev/jtechjapan_pub/articles/local-llm-qwen-flash-next-eval
@@ -458,14 +467,17 @@ https://zenn.dev/oryo_data/articles/f94473ed24ef95
 https://zenn.dev/pksha/articles/5a1dc6470019d6
 https://zenn.dev/rhosokawa/articles/d0a958c17c2820
 https://zenn.dev/ryo1fuji/articles/52f371931ccc16
+https://zenn.dev/sakidori/articles/20260924-browser-toolset-batch-vs-loop
 https://zenn.dev/sato_frontend/articles/1a85841505b9bb
 https://zenn.dev/sc30gsw/articles/953334f11df507
 https://zenn.dev/sc30gsw/books/080faba713547b
 https://zenn.dev/shoujiki_panman/articles/claude-code-mods-first-look
+https://zenn.dev/snowflakejp/articles/dynamic-tables-2026-use-cases
 https://zenn.dev/socialplus/articles/f5d9e28470eb99
 https://zenn.dev/sompojapan_dx/articles/846c6038fee45d
 https://zenn.dev/takumaichida/articles/d4cd24282518be
 https://zenn.dev/tan_go238/books/project-management-textbook
+https://zenn.dev/tawachan/articles/japan-data-breach-rush-2026-statistics
 https://zenn.dev/tomatomerde/articles/semantic-conflicts-outside-code
 https://zenn.dev/toshipon/articles/claude-code-security-assessment-skill
 https://zenn.dev/uehaj/articles/jev-semgrep-grep-by-meaning
@@ -476,3 +488,4 @@ https://zenn.dev/ymotongpoo/articles/20261001-agent-eval-loop
 https://zenn.dev/yucco/articles/client-server-logic-drift
 https://zenn.dev/yui/articles/97597aa13b9802
 https://zenn.dev/zhaojiayi/articles/d5ad38fc02091a
+https://zenn.dev/zundamon_tools/articles/claude-code-advanced-guide-1

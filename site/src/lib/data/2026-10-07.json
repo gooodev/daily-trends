@@ -1,0 +1,95 @@
+{
+  "date": "2026-10-07",
+  "categories": [
+    {
+      "name": "AI/エージェント開発・実装",
+      "items": [
+        {
+          "title_ja": "AIエージェントに『トルネコの大冒険』を遊ばせてみた",
+          "url": "https://giginet.hateblo.jp/entry/2026/09/22/114642",
+          "summary_ja": "SNESエミュレータにHTTP MCPを実装したハーネスを作り、攻略知識をスキル化して約134回の冒険の末に最終ステージ到達に成功した実験記録。保守的な行動傾向や視覚情報の限界といった課題と、ハーネス自体を自動改善できる点が報告されている。"
+        },
+        {
+          "title_ja": "Flutterの設計方針をAgent Skillにして評価で育てた改善記録",
+          "url": "https://zenn.dev/hiromoo/articles/flutter-riverpod-agent-skill-evaluation",
+          "summary_ja": "9回の反復評価で、規約の適用条件を具体化し、動作と規約を分けて評価することの重要性を示した。一度の全通過では取りこぼしが見えず、繰り返し試すことで3回連続全通過まで到達した。"
+        },
+        {
+          "title_ja": "Claudeのブラウザ使用ツールをやめたらAPI呼び出しが10回前後から2回に",
+          "url": "https://zenn.dev/sakidori/articles/20260924-browser-toolset-batch-vs-loop",
+          "summary_ja": "フォーム入力の自動化で、ブラウザ操作の往復をやめ「欄を一覧で渡して回答をまとめて受け取る」方式に変えた事例。API呼び出しは約10回から2回、所要時間は40〜60秒から約15秒に短縮された。"
+        },
+        {
+          "title_ja": "Claude Code応用編まとめ その1：スキル・hooks・権限・サブエージェント・agent teams",
+          "url": "https://zenn.dev/zundamon_tools/articles/claude-code-advanced-guide-1",
+          "summary_ja": "基本を習得した利用者向けに、スキル・hooks・権限設定・サブエージェント・agent teamsを紹介。「手順と決まりを書く」系統と「仕事を分けて任せる」系統に整理し、設定の置き場所と効く範囲も解説している。"
+        }
+      ]
+    },
+    {
+      "name": "AI/エンプラ・経営・ガバナンス",
+      "items": [
+        {
+          "title_ja": "AI利用の32％で安いモデルの方が総コストが高くなると判明",
+          "url": "https://gigazine.net/news/20261006-ai-cheaper-model-more-cost/",
+          "summary_ja": "スタンフォード大などが8種のAIモデルで6800超のタスクを実行した結果、32％のケースで低価格モデルの方が総コストが高くなった。複雑なタスクでは低性能モデルが推論や行動の回数を増やすため、高性能モデルの方が速く安い場合がある。"
+        },
+        {
+          "title_ja": "見えないものを探る要求要件定義に必要な基本的思考",
+          "url": "https://speakerdeck.com/minodriven/invisible-requirement-thinking",
+          "summary_ja": "AI時代にはエンジニアの役割が「問題定義」と「成果物の妥当性検証」に集約されると論じ、顧客の真の目的を文脈から読み取り、仮説推論と抽象思考で未知の要求に向き合う力が要件定義に必要だと説く資料。"
+        },
+        {
+          "title_ja": "説明スキルの比較：ELI5、Archify、Explainer",
+          "url": "https://blog.lai.so/eli5-archify-explainer-skills/",
+          "summary_ja": "3つの「説明スキル」を比較した記事。ELI5は要点抽出には有用だが理解とは別問題、Archifyは図解向き、Explainerは読者の既知と未知を対比させる方式で実用的と評価している。"
+        }
+      ]
+    },
+    {
+      "name": "Sec/脆弱性・インシデント",
+      "items": [
+        {
+          "title_ja": "漏洩ラッシュは本当にラッシュなのか：公的統計と公式発表で検証",
+          "url": "https://zenn.dev/tawachan/articles/japan-data-breach-rush-2026-statistics",
+          "summary_ja": "2026年6月までの統計では漏洩件数は高止まりで急増とは言えないが、1件あたりの規模は拡大傾向。公表が相次いで見える背景として、公表時期の重なりや委託先・SaaS経由の不正アクセスの構造を挙げ、AI関与の根拠は見当たらないとする。"
+        },
+        {
+          "title_ja": "OpenSSH 10.6 リリース",
+          "url": "https://www.openssh.org/releasenotes.html#10.6",
+          "summary_ja": "圧縮辞書まわりの脆弱性、GSSAPI認証の状態管理の問題、ユーザー名検証の厳格化などのセキュリティ修正を含む。コマンドラインでのバックスラッシュとドル記号の扱いなど互換性に影響する変更もあり、アップグレード時は確認が必要。"
+        }
+      ]
+    },
+    {
+      "name": "AI/ローカルLLM",
+      "items": [
+        {
+          "title_ja": "Reflection AI、オープンウェイトの501Bモデル「Beam」を公開",
+          "url": "https://reflection.ai/blog/introducing-beam",
+          "summary_ja": "コーディング・推論・エージェント用途向けの総パラメータ501B規模のスパースMoEモデルで、Apache 2.0で公開予定。大規模な強化学習で最先端のオープンウェイトモデルに匹敵する性能を持ちつつ、推論効率に優位があるとされる。"
+        }
+      ]
+    },
+    {
+      "name": "開発/JS・TS・データスタック",
+      "items": [
+        {
+          "title_ja": "Polars 2.0 リリース",
+          "url": "https://pola.rs/posts/release-polars-2/",
+          "summary_ja": "ストリーミングエンジンとアウトオブコア処理が既定になり大規模データ処理のメモリ効率が向上。SQLの第一級サポート、新しいMap型、スキーマレベルのエラー早期検出による厳密な型処理も導入された。"
+        },
+        {
+          "title_ja": "「Denoとは終わり、これからはNode」：DenoからNodeへ戻った理由",
+          "url": "https://dbushell.com/2026/10/03/deno-to-node/",
+          "summary_ja": "Node.jsがビルド速度やモダンなECMAScript対応で大きく改善した一方、DenoはZSH統合の問題やJSRの制約など実用面の不満が残り、著者がNodeへ戻る決め手になったという体験談。"
+        },
+        {
+          "title_ja": "2026年のSnowflake Dynamic Tables主要アップデート",
+          "url": "https://zenn.dev/snowflakejp/articles/dynamic-tables-2026-use-cases",
+          "summary_ja": "外部ジョブからの個別更新制御、主キーによる変更追跡、CREATE OR ALTERによる冪等なDDL管理、更新動作の事前予測、フェイルオーバー後の増分更新継続など8つの拡張を紹介。既存パイプラインの段階的な移行が現実的になったと整理している。"
+        }
+      ]
+    }
+  ]
+}
