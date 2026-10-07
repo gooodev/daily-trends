@@ -11,6 +11,7 @@ https://atmarkit.itmedia.co.jp/ait/articles/2609/02/news038.html
 https://atmarkit.itmedia.co.jp/ait/articles/2609/16/news013.html
 https://atmarkit.itmedia.co.jp/ait/articles/2609/17/news006.html
 https://atmarkit.itmedia.co.jp/ait/articles/2609/24/news032.html
+https://aws.amazon.com/jp/blogs/news/aws-jpps-seminar-2026-july/
 https://azukiazusa.dev/blog/json-render-jev/
 https://azukiazusa.dev/blog/zod-compile-validation/
 https://blog.cloudflare.com/client-side-security-finds-4-malicious-campaigns/
@@ -46,6 +47,7 @@ https://docs.getdbt.com/blog/dbt-mcp-server-claude
 https://engineering.atspotify.com/2026/9/portal-by-spotify-cut-my-claude-code-token-usage-by-90
 https://euglena1215.hatenablog.jp/entry/2026/09/27/113320
 https://findy-code.io/media/articles/list-yuma_prog
+https://forbesjapan.com/articles/detail/104911
 https://forest.watch.impress.co.jp/docs/news/2135971.html
 https://forest.watch.impress.co.jp/docs/news/2140081.html
 https://forest.watch.impress.co.jp/docs/news/2142932.html
@@ -80,6 +82,8 @@ https://gigazine.net/news/20261003-apple-limit-mac-full-disk-access-ai-agents-ri
 https://gigazine.net/news/20261003-ministack/
 https://gigazine.net/news/20261004-cloudflare-quick-tunnels/
 https://gigazine.net/news/20261006-ai-cheaper-model-more-cost/
+https://gigazine.net/news/20261007-ai-agents-autonomous-attack/
+https://gigazine.net/news/20261007-decisions-api/
 https://giginet.hateblo.jp/entry/2026/09/22/114642
 https://gihyo.jp/book/2026/978-4-297-15875-0
 https://github.com/anthropics/code-migration-kit-with-claude-code
@@ -104,10 +108,12 @@ https://japan.zdnet.com/article/35252229/
 https://japan.zdnet.com/article/35252683/
 https://jbpress.ismedia.jp/articles/-/96703
 https://jev-guide.take-otani.workers.dev/
+https://joisino.hatenablog.com/entry/filler
 https://joisino.hatenablog.com/entry/kasu
 https://kaminashi-developer.hatenablog.jp/entry/2026/09/07/ai-era-engineer-interviews
 https://kawasin73.hatenablog.com/entry/2026/09/05/092056
 https://konifar-zatsu.hatenadiary.jp/entry/2026/09/22/112134
+https://krebsonsecurity.com/2026/10/shinyhunters-extorted-boeing-spin-off-prior-to-arrests/
 https://kubernetes.io/blog/2026/09/08/kubernetes-v1-37-advancing-workload-aware-scheduling/
 https://kubernetes.io/blog/2026/09/15/kubernetes-v1-37-pod-level-resource-managers-beta/
 https://kubernetes.io/blog/2026/09/16/kubernetes-v1-37-hardening-container-storage/
@@ -198,6 +204,9 @@ https://news.ycombinator.com/item?id=49964303
 https://news.ycombinator.com/item?id=49965118
 https://news.ycombinator.com/item?id=49969183
 https://news.ycombinator.com/item?id=49970667
+https://news.ycombinator.com/item?id=49991227
+https://news.ycombinator.com/item?id=49997073
+https://news.ycombinator.com/item?id=49997161
 https://newsdig.tbs.co.jp/articles/-/2990268
 https://note.com/kirik/n/n8e7920167c3f
 https://note.com/npaka/n/n1d86b2196515
@@ -251,11 +260,13 @@ https://quesma.com/blog/qwen38-27b-quantizations-benchmarked/
 https://reflection.ai/blog/introducing-beam
 https://satoweb.net/2026/09/p-18390/
 https://scgajge12.hatenablog.com/entry/closed_network_security
+https://security.macnica.co.jp/blog/2026/10/web-incidents2026.html
 https://share.timescar.jp/news/2026/0929/1816.html
 https://speakerdeck.com/22mi/how-to-design-self-improvement-for-ai-agents
 https://speakerdeck.com/akiratom/ai-kudou-kaihatsu-ha-doko-made-kita-no-ka-no-saishin-jittai-chousa-de-yomitoku-genzaichi-devin-con-tokyo
 https://speakerdeck.com/colorful12/gyoumu-jikangai-mo-ai-ni-hatarai-te-morau-hanashi
 https://speakerdeck.com/flatt_security/security-risks-and-countermeasures-in-the-development-and-provision-of-ai-agents
+https://speakerdeck.com/iwashi86/a-resume-from-the-employers-perspective
 https://speakerdeck.com/k1nakayama/sono-lambda-8-bun-de-kanrisha-kengen-made-ubawaremasu
 https://speakerdeck.com/kinopeee/hanesu-sekkei-nyuumon-kontekisuto-no-tsugi
 https://speakerdeck.com/lycorptech_jp/aidlc-aidd-workshop
@@ -363,6 +374,8 @@ https://www.itmedia.co.jp/news/article/2609/30/2000001908/
 https://www.itmedia.co.jp/news/article/2610/01/2000001929/
 https://www.itmedia.co.jp/news/article/2610/01/2000001933/
 https://www.itmedia.co.jp/news/article/2610/03/2000001981/
+https://www.itmedia.co.jp/news/article/2610/07/2000002055/
+https://www.itmedia.co.jp/news/article/2610/07/2000002107/
 https://www.jiji.com/jc/article?k=2026091100447&g=flash
 https://www.kobonemi.com/entry/2026/10/03/macOS-27-Full-Disk-Access-Additional-Controls
 https://www.m3tech.blog/entry/2026/08/25/080000
@@ -377,6 +390,7 @@ https://www.nikkei.com/article/DGXZQOUC160I20W6A910C2000000/
 https://www.openssh.org/releasenotes.html#10.6
 https://www.pospome.work/entry/2026/08/24/223309
 https://www.pospome.work/entry/2026/09/28/152221
+https://www.preferred.jp/ja/blog/tech/plamo-3-translate-product-release
 https://www.publickey1.jp/blog/26/claude_codeagentsmdclaudemd.html
 https://www.publickey1.jp/blog/26/duckdbducklabsawsduckdbmit.html
 https://www.publickey1.jp/blog/26/jetbrainsmacjunie_localclaude_sonnet_45rtx5909.html
