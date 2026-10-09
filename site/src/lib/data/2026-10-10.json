@@ -1,0 +1,105 @@
+{
+  "date": "2026-10-10",
+  "categories": [
+    {
+      "name": "AI/エージェント開発・実装",
+      "items": [
+        {
+          "title_ja": "コーディングエージェントはなぜこんなに賢くないのか",
+          "url": "https://news.ycombinator.com/item?id=50020947",
+          "summary_ja": "モデルは進歩した一方で、タスク管理や再開性など「エージェント」側のソフトウェアが開発体験のボトルネックになっていると、実利用の経験から指摘する記事。モデルとエージェントを区別して限界を整理している。"
+        },
+        {
+          "title_ja": "MXC：Microsoft製のサンドボックス化コード実行システム",
+          "url": "https://news.ycombinator.com/item?id=50016489",
+          "summary_ja": "Microsoftが公開したGitHubプロジェクトで、AIエージェントなどが生成したコードを隔離環境で安全に実行するための仕組み。エージェント実行基盤のセキュリティ設計の参考になる。"
+        },
+        {
+          "title_ja": "「プログラミングは特別ではない」：AI利用への抵抗はクリエイティブ分野の共通課題",
+          "url": "https://news.ycombinator.com/item?id=50017357",
+          "summary_ja": "他の創作分野ではAI導入への反発が強い一方、プログラマだけが受け入れがちなのはおかしいと論じ、プログラミングも芸術的営みだと主張するエッセイ。"
+        },
+        {
+          "title_ja": "htmx作者「AI時代でもプログラマを目指すべきか？ Yes, and…」",
+          "url": "https://news.ycombinator.com/item?id=50003796",
+          "summary_ja": "AI時代にプログラマを目指すべきかに「Yes」と答えつつ、初学者は自分でコードを書かないと読む力が育たず「魔法使いの弟子」の罠に陥ると警告する。"
+        }
+      ]
+    },
+    {
+      "name": "AI/エンプラ・経営・ガバナンス",
+      "items": [
+        {
+          "title_ja": "Claude Dashboards登場：SQL不要でデータ分析・ダッシュボード自動生成",
+          "url": "https://news.mynavi.jp/techplus/article/20261009-5099252/",
+          "summary_ja": "AnthropicがBigQuery・Snowflake・Databricksなどに接続し、自然言語の指示だけでダッシュボードを作れる「Claude Dashboards」をベータ公開。データ分析の民主化を狙った企業向け機能。"
+        },
+        {
+          "title_ja": "OpenAI、安全性研究者3人を解雇：当人らは不正を否定し萎縮効果を警告",
+          "url": "https://news.ycombinator.com/item?id=50018350",
+          "summary_ja": "機密情報の取り扱い違反を理由に解雇された3人が公開書簡で否定し、社内で外部専門家と連携する安全研究が萎縮しかねないと訴えた。AI企業のガバナンスと内部告発の在り方が問われている。"
+        }
+      ]
+    },
+    {
+      "name": "Sec/脆弱性・インシデント",
+      "items": [
+        {
+          "title_ja": "国内の相次ぐ不正アクセス、AIエージェントによる攻撃の可能性：40分で326個のIPを使い分け",
+          "url": "https://www.cscloud.co.jp/news/report/202610099351/",
+          "summary_ja": "サイバーセキュリティクラウドが、SQLインジェクションで認証回避を試み、応答を見ながら手を変える攻撃を観測。人手とは考えにくくAI利用の可能性があるとし、HTTPレスポンスの偏りに注目したログ調査を勧めている。"
+        },
+        {
+          "title_ja": "JR東日本「えきねっと」など最大609万件が漏えいか：IDCフロンティアへの不正アクセスが原因",
+          "url": "https://www.itmedia.co.jp/news/article/2610/09/2000002171/",
+          "summary_ja": "IDCFへの不正アクセスにより、メール配信用の外部サービスに保存された会員情報が閲覧された恐れがあり、JR東日本とビューカードの約609万件に影響。氏名・住所・カード番号は対象外としている。"
+        },
+        {
+          "title_ja": "国家サイバー統括室「もはや情報システム部門だけの問題ではない」：不正アクセス多発で対策徹底を要請",
+          "url": "https://internet.watch.impress.co.jp/docs/news/2147162.html",
+          "summary_ja": "相次ぐ不正アクセス事案を受け、国家サイバー統括室がIPA・総務省・経産省・金融庁とともに注意喚起。経営層を含む組織全体での対策徹底を求めている。"
+        },
+        {
+          "title_ja": "AnthropicがOSS向け無料の脆弱性発見サービスを開始",
+          "url": "https://www.anthropic.com/research/launching-opt-in-vuln-finding-service-for-open-source",
+          "summary_ja": "最上位モデルによる定期的なセキュリティスキャンをOSSプロジェクトに無料提供する。過去6か月で2.9万件の候補脆弱性を発見したが人手の検証が追いついておらず、スケールさせる狙い。GIGAZINEでも「OSS Scanner」として報じられた。"
+        },
+        {
+          "title_ja": "Let's Encrypt、2027年2月から証明書の有効期間を64日に短縮",
+          "url": "https://gigazine.net/news/20261009-lets-encrypt-cuts-certificate-lifetimes-64-days/",
+          "summary_ja": "2027年2月10日から証明書の有効期間を従来の90日から64日へ短縮する。更新の自動化が実質必須となるため、運用側の備えが必要。"
+        }
+      ]
+    },
+    {
+      "name": "AI/ローカルLLM",
+      "items": [
+        {
+          "title_ja": "Qwen3.8-27Bを8GBに圧縮、メモリ16GBのノートで動く「Saluki 27B」",
+          "url": "https://pc.watch.impress.co.jp/docs/news/2147095.html",
+          "summary_ja": "27Bクラスのモデルを約8GBまで圧縮し、メモリ16GBのノートPCでも動作可能にした。ローカルで実用的なLLMを動かすハードルが下がる事例。"
+        }
+      ]
+    },
+    {
+      "name": "開発/JS・TS・データスタック",
+      "items": [
+        {
+          "title_ja": "CloudflareがDenoを買収：workerdとの統合へ",
+          "url": "https://news.ycombinator.com/item?id=50019911",
+          "summary_ja": "DenoチームがCloudflareに合流し、Denoランタイムの取り組みとworkerdを統合する。Node.js・Deno・Workersの勢力図に影響する発表で、HNでも議論が活発。"
+        }
+      ]
+    },
+    {
+      "name": "キャリア・組織",
+      "items": [
+        {
+          "title_ja": "RailsプロダクトでのDDD試験導入のリアル：ActiveRecord軸を選んだ理由",
+          "url": "https://tech.stmn.co.jp/entry/2026/10/09/121328",
+          "summary_ja": "スタメンのCTOが、DDD導入表明と実装実態の差を整理。小規模なPoCの結果、ActiveRecordを設計の軸に据える判断に至った学びを共有している。"
+        }
+      ]
+    }
+  ]
+}

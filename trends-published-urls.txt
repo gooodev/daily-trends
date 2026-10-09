@@ -88,6 +88,7 @@ https://gigazine.net/news/20261006-ai-cheaper-model-more-cost/
 https://gigazine.net/news/20261007-ai-agents-autonomous-attack/
 https://gigazine.net/news/20261007-decisions-api/
 https://gigazine.net/news/20261008-nous-research-fundraise/
+https://gigazine.net/news/20261009-lets-encrypt-cuts-certificate-lifetimes-64-days/
 https://giginet.hateblo.jp/entry/2026/09/22/114642
 https://gihyo.jp/book/2026/978-4-297-15875-0
 https://github.com/anthropics/code-migration-kit-with-claude-code
@@ -107,6 +108,7 @@ https://huggingface.co/papers/2609.01437
 https://huggingface.co/papers/2609.20804
 https://internet.watch.impress.co.jp/docs/column/security/2138390.html
 https://internet.watch.impress.co.jp/docs/news/2141538.html
+https://internet.watch.impress.co.jp/docs/news/2147162.html
 https://iwashi.co/2026/10/01/how-to-study-in-ai-era
 https://japan.zdnet.com/article/35252229/
 https://japan.zdnet.com/article/35252683/
@@ -133,6 +135,7 @@ https://methane.hatenablog.jp/entry/2026/09/04/AI_Coding%E6%99%82%E4%BB%A3%E3%81
 https://mtx2s.hatenablog.com/entry/2026/09/21/182658
 https://na2hiro.hatenablog.com/entry/2026/09/02/%E9%80%80%E8%81%B7%E3%81%97%E3%81%BE%E3%81%99%E3%80%82%E5%B0%B1%E8%81%B7%E3%81%97%E3%81%BE%E3%81%9B%E3%82%93%E3%80%82
 https://nealle-dev.hatenablog.com/entry/2026/09/11/171745
+https://news.mynavi.jp/techplus/article/20261009-5099252/
 https://news.tv-asahi.co.jp/news_international/articles/900199131.html
 https://news.yahoo.co.jp/articles/f0008179ada16d57148d0998c5c2a62872b7bb1a
 https://news.yahoo.co.jp/expert/articles/cf4dc975624f9a2b29752d9bf154e25ae30739d2
@@ -213,7 +216,13 @@ https://news.ycombinator.com/item?id=49996149
 https://news.ycombinator.com/item?id=49997073
 https://news.ycombinator.com/item?id=49997161
 https://news.ycombinator.com/item?id=50000488
+https://news.ycombinator.com/item?id=50003796
 https://news.ycombinator.com/item?id=50004790
+https://news.ycombinator.com/item?id=50016489
+https://news.ycombinator.com/item?id=50017357
+https://news.ycombinator.com/item?id=50018350
+https://news.ycombinator.com/item?id=50019911
+https://news.ycombinator.com/item?id=50020947
 https://newsdig.tbs.co.jp/articles/-/2990268
 https://newsletter.dancohen.org/archive/the-slow-formation-of-durable-software/
 https://note.com/kirik/n/n8e7920167c3f
@@ -234,6 +243,7 @@ https://openai.com/index/hugging-face-incident-and-the-road-ahead/
 https://opusfived.dev/
 https://pc.watch.impress.co.jp/docs/news/2137917.html
 https://pc.watch.impress.co.jp/docs/news/2138676.html
+https://pc.watch.impress.co.jp/docs/news/2147095.html
 https://piyolog.hatenadiary.jp/entry/2026/08/23/033006
 https://piyolog.hatenadiary.jp/entry/2026/09/04/115554
 https://piyolog.hatenadiary.jp/entry/2026/09/11/220855
@@ -308,6 +318,7 @@ https://tech.layerx.co.jp/entry/2026/09/18/185816
 https://tech.layerx.co.jp/entry/typespec-in-aiworkforce
 https://tech.smarthr.jp/entry/2026/09/02/120000
 https://tech.smarthr.jp/entry/2026/09/16/110205
+https://tech.stmn.co.jp/entry/2026/10/09/121328
 https://techblog.ap-com.co.jp/entry/2026/09/17/103525
 https://techblog.zozo.com/entry/cc-plugin-marketplace
 https://techblog.zozo.com/entry/verify-ai-agent-coding-rules-with-archunit
@@ -339,6 +350,7 @@ https://www.aikido.dev/blog/supplychain-local-memtensor-npm-pypi
 https://www.anthropic.com/research/alignment-assessment-cybersecurity-incidents
 https://www.anthropic.com/research/formalizing-fermats-last-theorem
 https://www.anthropic.com/research/intelligence-targeting-conventional-weapons-capabilities
+https://www.anthropic.com/research/launching-opt-in-vuln-finding-service-for-open-source
 https://www.anthropic.com/research/multiagent-systems
 https://www.anthropic.com/threat-intelligence-report-september-2026
 https://www.ben54.jp/news/3850
@@ -346,6 +358,7 @@ https://www.ben54.jp/news/3852
 https://www.businessinsider.jp/article/2609-google-finally-lets-all-engineers-use-anthropics-claude/
 https://www.chosunonline.com/site/data/html_dir/2026/10/03/2026100380012.html
 https://www.cncf.io/blog/2026/09/04/cpu-gpu-why-ai-platform-engineering-is-a-heterogeneous-infrastructure-problem/
+https://www.cscloud.co.jp/news/report/202610099351/
 https://www.digital.go.jp/news/2026-0911-01
 https://www.docker.com/blog/ai-agent-security-systems-problem/
 https://www.docker.com/blog/what-is-yolo-mode/
@@ -387,6 +400,7 @@ https://www.itmedia.co.jp/news/article/2610/01/2000001933/
 https://www.itmedia.co.jp/news/article/2610/03/2000001981/
 https://www.itmedia.co.jp/news/article/2610/07/2000002055/
 https://www.itmedia.co.jp/news/article/2610/07/2000002107/
+https://www.itmedia.co.jp/news/article/2610/09/2000002171/
 https://www.jiji.com/jc/article?k=2026091100447&g=flash
 https://www.jpcert.or.jp/at/2026/at260030.html
 https://www.kobonemi.com/entry/2026/10/03/macOS-27-Full-Disk-Access-Additional-Controls
