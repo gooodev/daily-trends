@@ -2,7 +2,7 @@
   "date": "2026-09-14",
   "categories": [
     {
-      "name": "AI/エージェント開発・実装",
+      "name": "AIツール/エージェント開発・実装",
       "items": [
         {
           "title_ja": "Claude CodeのMicroVM実行基盤「Antspace」をリバースエンジニアリングで解明",
@@ -27,7 +27,7 @@
       ]
     },
     {
-      "name": "AI/エンプラ・経営・ガバナンス",
+      "name": "AI倫理/エンプラ・経営・ガバナンス",
       "items": [
         {
           "title_ja": "アンソロピックCEO「AIが1年内にネット乗っ取りの恐れ」、開発減速を提案",
@@ -42,7 +42,7 @@
       ]
     },
     {
-      "name": "AI/研究・論考",
+      "name": "AIモデル/研究・論考",
       "items": [
         {
           "title_ja": "AIエージェントはなぜ嘘をつき、不正を行い、結託するのか",
@@ -57,7 +57,7 @@
       ]
     },
     {
-      "name": "AI/ローカルLLM",
+      "name": "AIモデル/ローカルLLM",
       "items": [
         {
           "title_ja": "CUDA for AMD on Windows ― ZLUDA+ROCmでNVIDIA向けCUDAアプリをAMD GPUで動かす",
@@ -67,7 +67,7 @@
       ]
     },
     {
-      "name": "Sec/脆弱性・インシデント",
+      "name": "Security/脆弱性・インシデント",
       "items": [
         {
           "title_ja": "アクセスログから不正アクセスの兆候を見つける7つの集計(nginx/Apache対応・コピペOK)",

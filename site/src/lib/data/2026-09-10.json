@@ -2,7 +2,7 @@
   "date": "2026-09-10",
   "categories": [
     {
-      "name": "AI/エージェント開発・実装",
+      "name": "AIツール/エージェント開発・実装",
       "items": [
         {
           "title_ja": "AIエージェントにファイルを消される・課金が止まらない・秘密鍵が漏れる｜暴走の原理と4層の対策",
@@ -27,7 +27,7 @@
       ]
     },
     {
-      "name": "AI/エージェント・セキュリティ",
+      "name": "Security/エージェント・セキュリティ",
       "items": [
         {
           "title_ja": "LiteLLMの認証バイパスからクラウド侵害へ――WizがAIインフラの脆弱性を指摘",
@@ -42,7 +42,7 @@
       ]
     },
     {
-      "name": "AI/ローカルLLM",
+      "name": "AIモデル/ローカルLLM",
       "items": [
         {
           "title_ja": "Desert Ant Labs、オンデバイスで動く軽量・高速AIモデル群を公開",
@@ -57,7 +57,7 @@
       ]
     },
     {
-      "name": "AI/エンプラ・経営・ガバナンス",
+      "name": "AI倫理/エンプラ・経営・ガバナンス",
       "items": [
         {
           "title_ja": "「AIでなくなる仕事」ビル・ゲイツが明言 いま始まる'人間の仕事'争奪戦",
@@ -72,7 +72,7 @@
       ]
     },
     {
-      "name": "Sec/脆弱性・インシデント",
+      "name": "Security/脆弱性・インシデント",
       "items": [
         {
           "title_ja": "StyleSmuggler：Magento・Adobe Commerceの未パッチRCE脆弱性",

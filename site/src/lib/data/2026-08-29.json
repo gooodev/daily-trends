@@ -2,7 +2,7 @@
   "date": "2026-08-29",
   "categories": [
     {
-      "name": "## AI/エージェント開発・実装",
+      "name": "AIツール/エージェント開発・実装",
       "items": [
         {
           "title_ja": "ローカル開発をやめて、Claude Code / Cursorで開発の8割をクラウドに移した話",
@@ -27,7 +27,7 @@
       ]
     },
     {
-      "name": "AI/エージェント・セキュリティ",
+      "name": "Security/エージェント・セキュリティ",
       "items": [
         {
           "title_ja": "Claude CodeからCloud Run上のMCPサーバを使うための認可構成",
@@ -42,7 +42,7 @@
       ]
     },
     {
-      "name": "AI/エンプラ・経営・ガバナンス",
+      "name": "AI倫理/エンプラ・経営・ガバナンス",
       "items": [
         {
           "title_ja": "SIerの未来。「非機能要件は汎用AIだけでは困難」と野村総研が言い切る理由",
@@ -57,7 +57,7 @@
       ]
     },
     {
-      "name": "Sec/脆弱性・インシデント",
+      "name": "Security/脆弱性・インシデント",
       "items": [
         {
           "title_ja": "「そんなの、今すぐやるんですか？」セキュリティ施策を推進する戦略",
@@ -82,7 +82,7 @@
       ]
     },
     {
-      "name": "AI/ローカルLLM",
+      "name": "AIモデル/ローカルLLM",
       "items": [
         {
           "title_ja": "MacBook Pro 128GB でローカルLLMがついに実用になった",

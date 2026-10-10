@@ -30,7 +30,7 @@
   "date": "YYYY-MM-DD",
   "categories": [
     {
-      "name": "AI/エージェント開発・実装",
+      "name": "AIツール/エージェント開発・実装",
       "items": [
         {
           "title_ja": "日本語タイトル",
@@ -59,11 +59,11 @@
 ## 収集プロファイルの場所
 
 - 興味領域・収集ソース: Cloudflare D1 + Worker API（`https://daily-trends-interests-api.gooodev.workers.dev/`）
-- 業務文脈・収集上限・カテゴリ粒度メモ: `../collect/guidance.md`
+- 収集上限・カテゴリ（大分類の固定リスト）: `../collect/guidance.md`
 
 ## 公開の仕組み
 
-- サイト本体は `site/`（SvelteKit + `@sveltejs/adapter-static`）。ホームで日付一覧、`/[date]` で当日分の一覧＋要約を表示する
+- サイト本体は `site/`（SvelteKit + `@sveltejs/adapter-static`）。日曜始まりの週単位で表示する。ホームは最新週、`/[date]` は `date` を含む週（週の初めの日曜日の URL がナビゲーションに使われる）。カテゴリ名の `/` より前（大分類）がヘッダーのタブ、後ろ（小分類）が記事の小見出しになり、各タブ内は日付降順で並ぶ
 - `site/src/lib/data/*.json` に追加・コミット・push すると、`.github/workflows/deploy.yml`（push トリガー）が `site/` をビルドし GitHub Pages にデプロイする（数分のタイムラグあり）
 - Claude Code on the web からこのリポジトリに対して `/output` を実行した場合も、変更をコミット・push するところまで行うこと（push しないとサイトに反映されない。ビルド自体は GitHub Actions 側が行うため、ローカルで `pnpm run build` する必要はない）
 - **全工程を1回のセッション内で同期的に完了させること**。バックグラウンドの subagent に処理を委譲してターンを終了すると、スケジュールルーティンはそのターンの完了時点で「成功」扱いになり、委譲先が後から出す結果は誰にも回収されない

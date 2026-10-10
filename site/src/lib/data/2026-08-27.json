@@ -2,7 +2,7 @@
   "date": "2026-08-27",
   "categories": [
     {
-      "name": "## AI/開発",
+      "name": "AIツール/開発",
       "items": [
         {
           "title_ja": "Claude Code／Codexに中〜大規模開発を任せるためのタスク管理術",
@@ -32,7 +32,7 @@
       ]
     },
     {
-      "name": "AI/エンプラ",
+      "name": "AI倫理/エンプラ",
       "items": [
         {
           "title_ja": "僕なりのForward Deployed Engineering",
@@ -47,7 +47,7 @@
       ]
     },
     {
-      "name": "Sec/脆弱性・インシデント",
+      "name": "Security/脆弱性・インシデント",
       "items": [
         {
           "title_ja": "AIエージェントのサンドボックス化にVM隔離だけでは不十分",
@@ -72,7 +72,7 @@
       ]
     },
     {
-      "name": "Sec/サプライチェーン",
+      "name": "Security/サプライチェーン",
       "items": [
         {
           "title_ja": "ソフトウェアサプライチェーン対策は「最新版が正義」ではなく意思決定が必要",
@@ -82,7 +82,7 @@
       ]
     },
     {
-      "name": "AI/ローカルLLM",
+      "name": "AIモデル/ローカルLLM",
       "items": [
         {
           "title_ja": "Qwen3.8-27Bにおすすめのローカル実行ハーネス",
@@ -107,7 +107,7 @@
       ]
     },
     {
-      "name": "データ",
+      "name": "開発/データスタック",
       "items": [
         {
           "title_ja": "「ブルゴーニュ ピノ ノワール」は39の別々のワインだった――EC横断の名寄せの壁",
@@ -117,7 +117,7 @@
       ]
     },
     {
-      "name": "キャリア",
+      "name": "キャリア・組織",
       "items": [
         {
           "title_ja": "優秀なエンジニアが書くDesign Docは何が違うのか?",

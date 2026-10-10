@@ -2,7 +2,7 @@
   "date": "2026-09-09",
   "categories": [
     {
-      "name": "AI/エージェント開発・実装",
+      "name": "AIツール/エージェント開発・実装",
       "items": [
         {
           "title_ja": "AI Coding時代のOSSライブラリのメンテ",
@@ -27,7 +27,7 @@
       ]
     },
     {
-      "name": "AI/エンプラ・経営・ガバナンス",
+      "name": "AI倫理/エンプラ・経営・ガバナンス",
       "items": [
         {
           "title_ja": "Metaが試みた「AI時代の少人数チーム」構想は失敗に終わった",
@@ -42,7 +42,7 @@
       ]
     },
     {
-      "name": "AI/エージェント信頼性・セキュリティ",
+      "name": "Security/エージェント信頼性・セキュリティ",
       "items": [
         {
           "title_ja": "数学の難問を与えられた100体のAIエージェントが不正を行う側に分かれた",
@@ -57,7 +57,7 @@
       ]
     },
     {
-      "name": "Sec/脆弱性・インシデント",
+      "name": "Security/脆弱性・インシデント",
       "items": [
         {
           "title_ja": "Flutterパッケージ「universal_file_viewer」にXCSSETマルウェアの亜種が混入",
@@ -77,7 +77,7 @@
       ]
     },
     {
-      "name": "AI/ローカルLLM",
+      "name": "AIモデル/ローカルLLM",
       "items": [
         {
           "title_ja": "Qwen 3.8 27Bの量子化を徹底ベンチマーク：4bitは実用、1bitは崩壊",

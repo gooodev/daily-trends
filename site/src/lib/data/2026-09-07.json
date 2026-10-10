@@ -2,7 +2,7 @@
   "date": "2026-09-07",
   "categories": [
     {
-      "name": "AI/エージェント開発・実装",
+      "name": "AIツール/エージェント開発・実装",
       "items": [
         {
           "title_ja": "Claude Code の Rules はもう死んでいる",
@@ -32,7 +32,7 @@
       ]
     },
     {
-      "name": "Sec/脆弱性・インシデント",
+      "name": "Security/脆弱性・インシデント",
       "items": [
         {
           "title_ja": "10時間足らずで侵入されたAIエージェントによるランサムウェア攻撃についてまとめてみた",
@@ -57,7 +57,7 @@
       ]
     },
     {
-      "name": "AI/エンプラ・経営・ガバナンス",
+      "name": "AI倫理/エンプラ・経営・ガバナンス",
       "items": [
         {
           "title_ja": "Claude・Cursor・Devin・Manus… AIエージェント14製品、社内システムを触らせて事故らないのはどれ？【中小企業の導入判断ガイド】",
@@ -77,7 +77,7 @@
       ]
     },
     {
-      "name": "AI/ローカルLLM",
+      "name": "AIモデル/ローカルLLM",
       "items": [
         {
           "title_ja": "無料でPDF・電子書籍・Word文書・テキストファイルなどからローカルAIを使って検索＆要約ができる「DocuBrowser」",

@@ -2,7 +2,7 @@
   "date": "2026-08-28",
   "categories": [
     {
-      "name": "## AI/エージェント開発・実装",
+      "name": "AIツール/エージェント開発・実装",
       "items": [
         {
           "title_ja": "Claude Codeの規律をhookに降ろしたらHaikuでも壊れなくなった",
@@ -27,7 +27,7 @@
       ]
     },
     {
-      "name": "AI/エンプラ・経営・ガバナンス",
+      "name": "AI倫理/エンプラ・経営・ガバナンス",
       "items": [
         {
           "title_ja": "人月で稼ぐSIerは、あと数年で詰む",
@@ -52,7 +52,7 @@
       ]
     },
     {
-      "name": "Sec/AIエージェント",
+      "name": "Security/AIエージェント",
       "items": [
         {
           "title_ja": "サイバー能力を持つAIエージェントはVMに封じ込められない",
@@ -72,7 +72,7 @@
       ]
     },
     {
-      "name": "AI/ローカルLLM",
+      "name": "AIモデル/ローカルLLM",
       "items": [
         {
           "title_ja": "MacBook Pro 128GBでローカルLLMがついに実用になった(Qwen3.8 Flash Next実測)",

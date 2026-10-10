@@ -2,7 +2,7 @@
   "date": "2026-10-06",
   "categories": [
     {
-      "name": "AI/エージェント開発・実装",
+      "name": "AIツール/エージェント開発・実装",
       "items": [
         {
           "title_ja": "俺のAIプログラミング手法（2026/10/05）",
@@ -22,7 +22,7 @@
       ]
     },
     {
-      "name": "AI/エンプラ・ガバナンス",
+      "name": "AI倫理/エンプラ・ガバナンス",
       "items": [
         {
           "title_ja": "Claudeを日記代わりに使った女性、Anthropicが警察に通報し重罪で起訴の危機",
@@ -32,7 +32,7 @@
       ]
     },
     {
-      "name": "Sec/インシデント",
+      "name": "Security/インシデント",
       "items": [
         {
           "title_ja": "「焼肉きんぐ」運営会社に不正アクセス、アプリ会員1078万人分の情報が流出",
@@ -47,7 +47,7 @@
       ]
     },
     {
-      "name": "Sec/AI×攻撃",
+      "name": "Security/AI×攻撃",
       "items": [
         {
           "title_ja": "AIでサイバー攻撃のコスト激減　数行の指示だけで27社に侵入、カード情報60万件超が流出",
@@ -57,7 +57,7 @@
       ]
     },
     {
-      "name": "Sec/モバイル・プラットフォーム",
+      "name": "Security/モバイル・プラットフォーム",
       "items": [
         {
           "title_ja": "Pixel 11はGrapheneOSのセキュリティ基準を満たさず、見送りの可能性",
@@ -67,7 +67,7 @@
       ]
     },
     {
-      "name": "AI/研究・活用事例",
+      "name": "AIモデル/研究・活用事例",
       "items": [
         {
           "title_ja": "Claude Opus 5.5のエージェント群が室温反強磁性半導体の候補2種を発見",
@@ -77,7 +77,7 @@
       ]
     },
     {
-      "name": "AI/ローカルLLM・オープンモデル",
+      "name": "AIモデル/ローカルLLM・オープンモデル",
       "items": [
         {
           "title_ja": "Beam: Reflectionの501Bオープンウェイトモデル",
@@ -107,7 +107,7 @@
       ]
     },
     {
-      "name": "OSS/その他",
+      "name": "その他",
       "items": [
         {
           "title_ja": "PhotoshopやIllustratorなどAdobeアプリ7種をオープンソースで再構築、Win/Mac/Linux/Web対応で無料",

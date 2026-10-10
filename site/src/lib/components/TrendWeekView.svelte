@@ -6,25 +6,25 @@
 	import { getStoredToken } from '$lib/auth';
 	import { fetchMarks, addMark, removeMark } from '$lib/marks';
 	import {
-		adjacentDates,
-		groupCategories,
-		totalItemCount,
-		trendDays,
-		type TrendDay,
-		type TrendItem
+		adjacentWeeks,
+		groupWeek,
+		trendWeeks,
+		weekItemCount,
+		type TrendWeek,
+		type WeekArticle
 	} from '$lib/trends';
 
-	let { day }: { day: TrendDay } = $props();
+	let { week }: { week: TrendWeek } = $props();
 
 	const TOP = 'トップ';
 	const WEEKDAYS = ['日', '月', '火', '水', '木', '金', '土'];
 
-	const groups = $derived(groupCategories(day));
+	const groups = $derived(groupWeek(week));
 	const tabs = $derived([TOP, ...groups.map((g) => g.name)]);
-	const adjacent = $derived(adjacentDates(day.date));
+	const adjacent = $derived(adjacentWeeks(week.start));
 
 	let active = $state(TOP);
-	// 日付を移動して、選択中の大分類がその日に無ければトップに戻す
+	// 週を移動して、選択中の大分類がその日に無ければトップに戻す
 	const current = $derived(tabs.includes(active) ? active : TOP);
 	const currentGroup = $derived(groups.find((g) => g.name === current));
 
@@ -45,17 +45,21 @@
 	});
 
 	$effect(() => {
-		const date = day.date;
+		const start = week.start;
 		marked = new Set();
-		fetchMarks(date).then((urls) => {
-			if (date === day.date) marked = urls;
+		Promise.all(week.days.map((d) => fetchMarks(d.date))).then((sets) => {
+			if (start === week.start) marked = new Set(sets.flatMap((s) => [...s]));
 		});
 	});
 
-	function formatDate(date: string) {
+	function formatDate(date: string, withYear = false) {
 		const [y, m, d] = date.split('-').map(Number);
 		const w = WEEKDAYS[new Date(y, m - 1, d).getDay()];
-		return `${y}年${m}月${d}日(${w})`;
+		return `${withYear ? `${y}年` : ''}${m}月${d}日(${w})`;
+	}
+
+	function formatWeek(w: TrendWeek) {
+		return `${formatDate(w.start, true)}〜${formatDate(w.end)}`;
 	}
 
 	function hashFor(tab: string) {
@@ -93,7 +97,7 @@
 		if (next >= 0 && next < tabs.length) selectTab(tabs[next]);
 	}
 
-	async function toggleMark(url: string, titleJa: string) {
+	async function toggleMark(date: string, url: string, titleJa: string) {
 		if (!token || pending.has(url)) return;
 		const wasMarked = marked.has(url);
 		const next = new Set(marked);
@@ -102,9 +106,9 @@
 		pending = new Set(pending).add(url);
 		try {
 			if (wasMarked) {
-				await removeMark(token, day.date, url);
+				await removeMark(token, date, url);
 			} else {
-				await addMark(token, day.date, url, titleJa);
+				await addMark(token, date, url, titleJa);
 			}
 		} catch {
 			// revert on failure
@@ -119,10 +123,12 @@
 	}
 </script>
 
-{#snippet article(item: TrendItem, kicker: string, lead: boolean)}
+{#snippet article({ item, date, label }: WeekArticle, lead: boolean)}
 	<article class="flex items-start gap-2 py-4">
 		<div class="min-w-0 flex-1">
-			<p class="text-primary mb-1 text-xs font-semibold">{kicker}</p>
+			{#if label}
+				<p class="text-primary mb-1 text-xs font-semibold">{label}</p>
+			{/if}
 			<a
 				href={item.url}
 				target="_blank"
@@ -133,12 +139,16 @@
 				<Icon icon="mdi:open-in-new" class="inline align-baseline text-xs opacity-50" />
 			</a>
 			<p class="text-base-content/75 mt-2 text-sm leading-relaxed">{item.summary_ja}</p>
+			<p class="text-base-content/50 mt-1.5 flex items-center gap-1 text-xs">
+				<Icon icon="mdi:calendar-blank-outline" />
+				<time datetime={date}>{formatDate(date, true)}</time>
+			</p>
 		</div>
 		{#if token || marked.has(item.url)}
 			<button
 				class="btn btn-ghost btn-sm btn-circle -mr-2 shrink-0"
 				disabled={!token || pending.has(item.url)}
-				onclick={() => toggleMark(item.url, item.title_ja)}
+				onclick={() => toggleMark(date, item.url, item.title_ja)}
 				aria-label="興味あり"
 				title={token ? '興味あり' : '興味あり（記録済み・閲覧のみ）'}
 			>
@@ -168,7 +178,7 @@
 				<a
 					href="{base}/{adjacent.older}{hashFor(current)}"
 					class="btn btn-ghost btn-xs btn-circle"
-					aria-label="前の日"
+					aria-label="前の週"
 				>
 					<Icon icon="mdi:chevron-left" class="text-lg" />
 				</a>
@@ -176,17 +186,17 @@
 				<span class="w-6"></span>
 			{/if}
 			<label class="relative inline-flex items-center gap-1 px-1">
-				<span>{formatDate(day.date)}</span>
-				<span class="text-base-content/60">・{totalItemCount(day)}件</span>
+				<span>{formatWeek(week)}</span>
+				<span class="text-base-content/60">・{weekItemCount(week)}件</span>
 				<Icon icon="mdi:menu-down" class="text-base-content/60" />
 				<select
 					class="absolute inset-0 cursor-pointer opacity-0"
-					aria-label="日付を選択"
-					value={day.date}
+					aria-label="週を選択"
+					value={week.start}
 					onchange={(e) => goto(`${base}/${e.currentTarget.value}${hashFor(current)}`)}
 				>
-					{#each trendDays as d (d.date)}
-						<option value={d.date}>{formatDate(d.date)}（{totalItemCount(d)}件）</option>
+					{#each trendWeeks as w (w.start)}
+						<option value={w.start}>{formatWeek(w)}（{weekItemCount(w)}件）</option>
 					{/each}
 				</select>
 			</label>
@@ -194,7 +204,7 @@
 				<a
 					href="{base}/{adjacent.newer}{hashFor(current)}"
 					class="btn btn-ghost btn-xs btn-circle"
-					aria-label="次の日"
+					aria-label="次の週"
 				>
 					<Icon icon="mdi:chevron-right" class="text-lg" />
 				</a>
@@ -243,16 +253,16 @@
 						</button>
 					</div>
 					<div class="divide-base-300 divide-y">
-						{#each group.sections.flatMap( (s) => s.items.map((item) => ({ item, label: s.label })) ).slice(0, 3) as { item, label }, i (item.url)}
-							{@render article(item, label, gi === 0 && i === 0)}
+						{#each group.articles.slice(0, 3) as a, i (a.date + a.item.url)}
+							{@render article(a, gi === 0 && i === 0)}
 						{/each}
 					</div>
 				</section>
 			{/each}
 		{:else if currentGroup}
 			<div class="divide-base-300 divide-y">
-				{#each currentGroup.sections.flatMap( (s) => s.items.map((item) => ({ item, label: s.label })) ) as { item, label }, i (item.url)}
-					{@render article(item, label, i === 0)}
+				{#each currentGroup.articles as a, i (a.date + a.item.url)}
+					{@render article(a, i === 0)}
 				{/each}
 			</div>
 		{/if}

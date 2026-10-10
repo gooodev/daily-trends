@@ -2,7 +2,7 @@
   "date": "2026-08-30",
   "categories": [
     {
-      "name": "AI/エージェント開発・実装",
+      "name": "AIツール/エージェント開発・実装",
       "items": [
         {
           "title_ja": "Claude Codeの設計詰めスキル『grilling』の紹介",
@@ -27,7 +27,7 @@
       ]
     },
     {
-      "name": "Sec/脆弱性・インシデント",
+      "name": "Security/脆弱性・インシデント",
       "items": [
         {
           "title_ja": "VMでサイバー攻撃能力を持つAIエージェントを封じ込めることはもはや不十分",
@@ -47,7 +47,7 @@
       ]
     },
     {
-      "name": "AI/ローカルLLM",
+      "name": "AIモデル/ローカルLLM",
       "items": [
         {
           "title_ja": "ローカルLLMの壁を打ち破る「Unsloth Desktop」登場",
@@ -62,7 +62,7 @@
       ]
     },
     {
-      "name": "AI/エンプラ・経営・ガバナンス",
+      "name": "AI倫理/エンプラ・経営・ガバナンス",
       "items": [
         {
           "title_ja": "AI駆動開発を組織で促すために ─ LINEヤフーの全社導入知見",

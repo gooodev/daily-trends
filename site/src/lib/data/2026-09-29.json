@@ -2,7 +2,7 @@
   "date": "2026-09-29",
   "categories": [
     {
-      "name": "AI/エージェント開発・実装",
+      "name": "AIツール/エージェント開発・実装",
       "items": [
         {
           "title_ja": "Cloudflare、Cloudflare API全体を扱えるエージェント向けCLI「cf」を公開",
@@ -22,7 +22,7 @@
       ]
     },
     {
-      "name": "AI/エンプラ・経営・ガバナンス",
+      "name": "AI倫理/エンプラ・経営・ガバナンス",
       "items": [
         {
           "title_ja": "NVIDIA、AIエージェントごとに「監視役チップ」を置く構想を発表",
@@ -42,7 +42,7 @@
       ]
     },
     {
-      "name": "Sec/脆弱性・インシデント",
+      "name": "Security/脆弱性・インシデント",
       "items": [
         {
           "title_ja": "「タイムズカー」会員情報約660万件が漏えい、運転免許証画像も含む",
@@ -67,7 +67,7 @@
       ]
     },
     {
-      "name": "AI/ローカルLLM",
+      "name": "AIモデル/ローカルLLM",
       "items": [
         {
           "title_ja": "ブラウザで7種の小型LLMを試せる「MicroLLM Lab」",

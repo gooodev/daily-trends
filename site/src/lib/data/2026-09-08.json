@@ -2,7 +2,7 @@
   "date": "2026-09-08",
   "categories": [
     {
-      "name": "AI/エージェント開発・実装",
+      "name": "AIツール/エージェント開発・実装",
       "items": [
         {
           "title_ja": "Claude Code の Rules はもう死んでいる",
@@ -27,7 +27,7 @@
       ]
     },
     {
-      "name": "AI/エンプラ・経営・ガバナンス",
+      "name": "AI倫理/エンプラ・経営・ガバナンス",
       "items": [
         {
           "title_ja": "AWSが「Agent Registry」を一般提供、管理されない野良AIエージェント問題に対応",
@@ -47,7 +47,7 @@
       ]
     },
     {
-      "name": "Sec/脆弱性・インシデント",
+      "name": "Security/脆弱性・インシデント",
       "items": [
         {
           "title_ja": "攻撃者視点で読み解く、医療機関の「閉域網神話」の壊れ方",
@@ -72,7 +72,7 @@
       ]
     },
     {
-      "name": "AI/ローカルLLM",
+      "name": "AIモデル/ローカルLLM",
       "items": [
         {
           "title_ja": "GMKtec、192GBメモリで300B級LLMをローカル推論するミニPC「EVO-X5 Pro」",

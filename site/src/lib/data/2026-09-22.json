@@ -2,7 +2,7 @@
   "date": "2026-09-22",
   "categories": [
     {
-      "name": "AI/エージェント開発・実装",
+      "name": "AIツール/エージェント開発・実装",
       "items": [
         {
           "title_ja": "Claude CodeのAgent viewとセッション間通信は使ったほうがいい",
@@ -32,7 +32,7 @@
       ]
     },
     {
-      "name": "AI/ローカルLLM",
+      "name": "AIモデル/ローカルLLM",
       "items": [
         {
           "title_ja": "Jevとは何か — 判断をソフトウェアに組み込む新しいAIモデルのしくみ",
@@ -52,7 +52,7 @@
       ]
     },
     {
-      "name": "AI/エンプラ・経営・ガバナンス",
+      "name": "AI倫理/エンプラ・経営・ガバナンス",
       "items": [
         {
           "title_ja": "生成AIおよびAIエージェントを安全に活用するための手引書（IPA）",
@@ -72,7 +72,7 @@
       ]
     },
     {
-      "name": "Sec/脆弱性・インシデント",
+      "name": "Security/脆弱性・インシデント",
       "items": [
         {
           "title_ja": "16年間放置されていたSQLiteの「WAL-Resetバグ」をTailscaleが発見・修正",

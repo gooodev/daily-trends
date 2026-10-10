@@ -2,7 +2,7 @@
   "date": "2026-10-08",
   "categories": [
     {
-      "name": "Sec/インシデント",
+      "name": "Security/インシデント",
       "items": [
         {
           "title_ja": "国内Webシステムからの情報漏洩が相次ぐ事案の被害傾向と攻撃手法まとめ",
@@ -32,7 +32,7 @@
       ]
     },
     {
-      "name": "AI/エンプラ・経営・ガバナンス",
+      "name": "AI倫理/エンプラ・経営・ガバナンス",
       "items": [
         {
           "title_ja": "Claude Mythos時代のAWSセキュリティ対策とAWS Security Agent",
@@ -52,7 +52,7 @@
       ]
     },
     {
-      "name": "AI/開発・研究",
+      "name": "AIモデル/開発・研究",
       "items": [
         {
           "title_ja": "OpenAIが判断専用の「Decisions API」を公開",
@@ -67,7 +67,7 @@
       ]
     },
     {
-      "name": "AI/ローカルLLM",
+      "name": "AIモデル/ローカルLLM",
       "items": [
         {
           "title_ja": "Preferred Networks、翻訳特化LLM「plamo-3-translate」を公開",

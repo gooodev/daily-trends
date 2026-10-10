@@ -2,7 +2,7 @@
   "date": "2026-09-04",
   "categories": [
     {
-      "name": "AI/エージェント開発・実装",
+      "name": "AIツール/エージェント開発・実装",
       "items": [
         {
           "title_ja": "ハーネス設計入門 〜プロンプト、コンテキストの次〜",
@@ -22,7 +22,7 @@
       ]
     },
     {
-      "name": "AI/エンプラ・経営・ガバナンス",
+      "name": "AI倫理/エンプラ・経営・ガバナンス",
       "items": [
         {
           "title_ja": "AIに機密情報を渡してよいか、判断の軸を自分なりに整理してみた",
@@ -42,7 +42,7 @@
       ]
     },
     {
-      "name": "Sec/脆弱性・インシデント",
+      "name": "Security/脆弱性・インシデント",
       "items": [
         {
           "title_ja": "VMs won't contain cyber-capable agents（VMはサイバー能力を持つエージェントを封じ込められない）",
@@ -62,7 +62,7 @@
       ]
     },
     {
-      "name": "AI/ローカルLLM",
+      "name": "AIモデル/ローカルLLM",
       "items": [
         {
           "title_ja": "Qwen 3.8 27BがCerebrasで1500 tokens/秒の推論提供を開始",

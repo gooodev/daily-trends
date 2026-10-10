@@ -2,7 +2,7 @@
   "date": "2026-09-30",
   "categories": [
     {
-      "name": "AI/エージェント開発・実装",
+      "name": "AIツール/エージェント開発・実装",
       "items": [
         {
           "title_ja": "MetaのAIエージェント「Muse」にMarketplace対応を任せたら、無断で値下げ承諾＆自宅住所を開示",
@@ -17,7 +17,7 @@
       ]
     },
     {
-      "name": "AI/エンプラ・経営・ガバナンス",
+      "name": "AI倫理/エンプラ・経営・ガバナンス",
       "items": [
         {
           "title_ja": "Microsoft Copilotにアップロードした画像は人間が確認、性的な内容も審査対象に",
@@ -32,7 +32,7 @@
       ]
     },
     {
-      "name": "Sec/脆弱性・インシデント",
+      "name": "Security/脆弱性・インシデント",
       "items": [
         {
           "title_ja": "AnthropicがGLM-5.3を分析：高度なサイバー攻撃能力の拡散",

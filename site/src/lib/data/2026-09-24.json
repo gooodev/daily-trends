@@ -2,7 +2,7 @@
   "date": "2026-09-24",
   "categories": [
     {
-      "name": "AI/エージェント開発・実装",
+      "name": "AIツール/エージェント開発・実装",
       "items": [
         {
           "title_ja": "Claude CodeがAGENTS.mdに対応、CLAUDE.md不在時は自動読み込みに",
@@ -27,7 +27,7 @@
       ]
     },
     {
-      "name": "AI/エンプラ・経営・ガバナンス",
+      "name": "AI倫理/エンプラ・経営・ガバナンス",
       "items": [
         {
           "title_ja": "AIガバナンス、98%の企業が策定も実運用に大きなギャップ",
@@ -47,7 +47,7 @@
       ]
     },
     {
-      "name": "Sec/脆弱性・インシデント",
+      "name": "Security/脆弱性・インシデント",
       "items": [
         {
           "title_ja": "新型ワーム「supplychain.local」がnpmとPyPIに出現、認証情報を自動窃取",
@@ -72,7 +72,7 @@
       ]
     },
     {
-      "name": "AI/ローカルLLM",
+      "name": "AIモデル/ローカルLLM",
       "items": [
         {
           "title_ja": "Transformersがllama.cpp量子化フォーマット(GGUF)に対応",

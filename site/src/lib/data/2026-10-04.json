@@ -2,7 +2,7 @@
   "date": "2026-10-04",
   "categories": [
     {
-      "name": "AI/エージェント開発・実装",
+      "name": "AIツール/エージェント開発・実装",
       "items": [
         {
           "title_ja": "Codex Security・Claude Security入門（npaka）",
@@ -27,7 +27,7 @@
       ]
     },
     {
-      "name": "AI/エンプラ・ガバナンス・セキュリティ",
+      "name": "AI倫理/エンプラ・ガバナンス・セキュリティ",
       "items": [
         {
           "title_ja": "AppleがAIエージェントのリスクを理由にMacのフルディスクアクセスを制限",
@@ -47,7 +47,7 @@
       ]
     },
     {
-      "name": "Sec/脆弱性・インシデント",
+      "name": "Security/脆弱性・インシデント",
       "items": [
         {
           "title_ja": "韓国の銀行6行にAIを使ったとみられるハッキング、4行で個人情報流出",
@@ -67,7 +67,7 @@
       ]
     },
     {
-      "name": "AI/ローカルLLM・オープンモデル",
+      "name": "AIモデル/ローカルLLM・オープンモデル",
       "items": [
         {
           "title_ja": "Kolibri：ドイツ発のソブリン・オープンウェイトモデル（HN）",
@@ -102,7 +102,7 @@
       ]
     },
     {
-      "name": "AI/ツール活用",
+      "name": "AIツール/ツール活用",
       "items": [
         {
           "title_ja": "Opus 5.5をClaudeとClaude Codeで使いこなすためのガイド（HN）",

@@ -2,7 +2,7 @@
   "date": "2026-09-12",
   "categories": [
     {
-      "name": "AI/エージェント開発・実装",
+      "name": "AIツール/エージェント開発・実装",
       "items": [
         {
           "title_ja": "OpenRouter経由のLLM呼び出しはプロバイダーで性能が激変する",
@@ -27,7 +27,7 @@
       ]
     },
     {
-      "name": "Sec/脆弱性・インシデント",
+      "name": "Security/脆弱性・インシデント",
       "items": [
         {
           "title_ja": "デジタル庁の政府共通基盤GSSに不正アクセス、24.6万件の個人情報流出の可能性",
@@ -47,7 +47,7 @@
       ]
     },
     {
-      "name": "AI/エンプラ・経営・ガバナンス",
+      "name": "AI倫理/エンプラ・経営・ガバナンス",
       "items": [
         {
           "title_ja": "Anthropic、Claudeの利用を18歳以上に制限する年齢確認を導入",
@@ -67,7 +67,7 @@
       ]
     },
     {
-      "name": "AI/ローカルLLM",
+      "name": "AIモデル/ローカルLLM",
       "items": [
         {
           "title_ja": "「DeepSeek-V4.1-Flash」、複数ベンチマークでClaude Opus 5を上回るオープンモデルとして登場",

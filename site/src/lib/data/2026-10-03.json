@@ -2,7 +2,7 @@
   "date": "2026-10-03",
   "categories": [
     {
-      "name": "AI/エージェント開発・実装",
+      "name": "AIツール/エージェント開発・実装",
       "items": [
         {
           "title_ja": "Cursorのpstack：AIエージェントに開発を任せる環境づくり",
@@ -27,7 +27,7 @@
       ]
     },
     {
-      "name": "AI/ローカルLLM",
+      "name": "AIモデル/ローカルLLM",
       "items": [
         {
           "title_ja": "Redis作者によるローカルLLM推論エンジン「DwarfStar 4」",
@@ -42,7 +42,7 @@
       ]
     },
     {
-      "name": "Sec/脆弱性・インシデント",
+      "name": "Security/脆弱性・インシデント",
       "items": [
         {
           "title_ja": "Greg Kroah-Hartman講演「LLM時代のセキュリティ」",

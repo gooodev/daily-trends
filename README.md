@@ -13,10 +13,10 @@ Claude Code（ローカル・Claude Code on the web どちらでも）でこの�
 ## 構成
 
 - `site/`: SvelteKit 製フロントエンド（Vite + Tailwind CSS + daisyUI + Iconify、`@sveltejs/adapter-static` で静的書き出し）
-  - `site/src/lib/data/*.json`: 日別のトレンドデータ（一覧＋要約を含む）。ホームで日付一覧、`/[date]` で当日分を表示。各記事に「興味あり」の星ボタンあり
+  - `site/src/lib/data/*.json`: 日別のトレンドデータ（一覧＋要約を含む）。サイトは日曜始まりの週単位で、大分類（AIツール / AIモデル / AI倫理 / Security / 開発 / キャリア・組織 / その他）をタブにして日付降順で表示する（ホームは最新週、`/[date]` はその日を含む週）。各記事に「興味あり」の星ボタンあり
   - `site/src/routes/admin/`: 興味プロファイル（情報ソース・興味フラグ）の管理 UI（トークン認証）
 - `.claude/skills/output/`: 出力レイヤー（収集 JSON を `site/src/lib/data/` に書き込む）
-- `.claude/skills/collect/`: 収集レイヤー（巡回・重複統合・興味度判定に加え、公開対象全件の本文取得・要約生成まで行う）。`guidance.md` に収集上限・カテゴリ粒度メモを置く（興味領域・収集ソース自体は D1 側）
+- `.claude/skills/collect/`: 収集レイヤー（巡回・重複統合・興味度判定に加え、公開対象全件の本文取得・要約生成まで行う）。`guidance.md` に収集上限・カテゴリ（大分類の固定リスト）を置く（興味領域・収集ソース自体は D1 側）
 - `.trends-work/`（gitignore 対象）: 収集の中間 JSON
 - `trends-published-urls.txt`: 過去に掲載した全記事 URL の索引（1行1件）。`collect` の既出除外（同じ記事を再掲しない）が参照し、`output` が投稿のたびに追記する
 - `db/`: Cloudflare D1 のスキーマ・シード。`schema.sql`/`seed.sql`（興味フラグ・情報ソース）、`schema_marks.sql`（記事ごとの「興味あり」マーク用テーブル、追加分）
@@ -32,7 +32,7 @@ Claude Code（ローカル・Claude Code on the web どちらでも）でこの�
 
 興味領域（興味フラグ）と収集ソースの一覧は、リポジトリ内のファイルではなく Cloudflare D1 データベース `daily-trends-interests` で管理する。`collect` は起動時に `https://daily-trends-interests-api.gooodev.workers.dev/interests`（認証不要の読み取り専用 JSON API）から取得する。
 
-管理は `/admin` ページ（サイト右上の歯車アイコン）から行う。初回だけ管理トークン（Worker のシークレット `ADMIN_TOKEN`）をブラウザに入力すればよい（以後は localStorage に保存され、`/[date]` ページの「興味あり」ボタンの認証にも共用される）。トークンを忘れた・再発行したい場合:
+管理は `/admin` ページ（サイト右上の歯車アイコン）から行う。初回だけ管理トークン（Worker のシークレット `ADMIN_TOKEN`）をブラウザに入力すればよい（以後は localStorage に保存され、記事一覧の「興味あり」ボタンの認証にも共用される）。トークンを忘れた・再発行したい場合:
 
 ```bash
 cd worker && pnpm exec wrangler secret put ADMIN_TOKEN

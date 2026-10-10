@@ -28,7 +28,7 @@ curl -s https://daily-trends-interests-api.gooodev.workers.dev/
 - `flags[]`: `{ label, tier, notes, updated_at }`。`tier` が `core` / `rising` → ★★★ 判定の基準、`watching` → ★★、`suppressed` → 原則不採用（`label` がトピック名、`notes` に補足説明）
 - `sources[]`: `{ group_name, source_type, url, label, enabled, notes, updated_at }`。無効化されたソース（除外・停止中）は API 側で既に除かれており `enabled=1` のみ返る。`group_name` でソース種別グループ（はてブIT / Hacker News / 生成AI・研究 / セキュリティブログ・研究 / エンタープライズIT / モダンデータスタック / JavaScript/TypeScriptエコシステム / インフラ・DevOps / Redditサブレッド / 日本発信）を判定し、`source_type` で取得方法（`hatena` / `hn` / `blog` / `hf-papers` / `reddit` / `script-zenn` / `script-qiita`）を判定する。`url` が対象URL（Reddit のみ `r/サブレッド名` 形式）
 
-加えて、このスキルと同じディレクトリの `guidance.md`（業務文脈・収集上限・カテゴリ粒度メモ）を読み込む。
+加えて、このスキルと同じディレクトリの `guidance.md`（収集上限・カテゴリ）を読み込む。
 
 サンドボックス環境では curl が名前解決に失敗することがある。その場合は `dangerouslyDisableSandbox: true` で実行する。API が応答しない場合はその旨を報告して中断する（ローカルへのフォールバックは無い）。
 
@@ -152,9 +152,9 @@ curl -s -H "User-Agent: neta-trend-collector/1.0 (trend analysis tool)" \
 **件数確定**: 全エントリーは載せない。`guidance.md` の「## 収集上限」を目安に、関連性の高い記事のみに絞り込む。ここで**公開する記事リストを確定する**（手順 4 の本文取得はこの確定リストに対してのみ行う。無駄な取得を避けるため、絞り込み前の候補全件には行わない）。
 
 - **ソース横断のカテゴリ別**にする。はてブ / HN / Reddit / Aikido / Wiz など全ソースを 1 つのカテゴリにまとめる
-- カテゴリ粒度は**中粒度**。カテゴリ例と細分化・統合の指示は `guidance.md` の「カテゴリ粒度メモ」に従う
-- カテゴリは固定リストではない。当日の記事に合わせて適切に切る。1 カテゴリ 2〜3 件しか無いなら近接カテゴリに統合してよい
-- 記事の並び順がそのまま出力順（カテゴリ順→記事順）になる。カテゴリ順は関連性の高いものから（ユーザー興味領域に直結するカテゴリを上に）
+- `category` は `大分類/小分類` 形式。**大分類は `guidance.md` の「カテゴリ（大分類 / 小分類）」の固定リストから選ぶ**（サイトのタブになるため、表記揺れ・新設は不可）。小分類は当日の記事に合わせて中粒度で切る
+- 件数は大分類ごとに 1 日 5 件程度（`guidance.md` の「収集上限」）
+- 記事の並び順がそのまま出力順（カテゴリ順→記事順）になる。同じ大分類の中では興味度の高い記事を上に
 
 ### 4. 要約生成（確定リストの全件が対象）
 
@@ -189,7 +189,7 @@ curl -s -H "User-Agent: neta-trend-collector/1.0 (trend analysis tool)" \
       "title_ja": "日本語タイトル",
       "url": "https://...",
       "source": "hatena",
-      "category": "AI/エージェント開発・実装",
+      "category": "AIツール/エージェント開発・実装",
       "summary_ja": "記事内容のサマリを1〜2文で。",
       "interest": 3,
       "merged_urls": [],
@@ -224,7 +224,7 @@ curl -s -H "User-Agent: neta-trend-collector/1.0 (trend analysis tool)" \
 - 投票数（ups）/コメント数が高い記事を優先（**指標自体は JSON に載せない**。重要度判定のためだけに使う）
 - ポイント数/ブックマーク数が高い記事は特に注目
 - **サンドボックス環境の注意**: Bash の curl（interests API・Reddit）や Python スクリプト（HF Papers・Zenn・Qiita）はサンドボックスのネットワーク制限で名前解決に失敗することがある。その場合は `dangerouslyDisableSandbox: true` で実行する
-- カテゴリは中粒度・ソース横断。当日の記事に合わせて 5〜10 個程度に切る
+- カテゴリは `大分類/小分類` 形式・ソース横断。大分類は `guidance.md` の固定リストから選び、各大分類 1 日 5 件程度に絞る
 - **`trends-published-urls.txt` に載っている URL は手順 3 の既出除外で必ず取り除く**（同じ記事の再掲を防ぐ。索引ファイルの更新自体は `/output` の責務）
 - **同一事案を扱う複数記事は手順 3 の重複統合で代表 1 件にまとめる**（件数確定前に必須）
 - **本文取得（手順 4）は件数確定後の公開リストに対してのみ行う**。絞り込み前の候補全件に対しては行わない（無駄なアクセスを避けるため）

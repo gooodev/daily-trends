@@ -1,8 +1,8 @@
 <script lang="ts">
-	import TrendDayView from '$lib/components/TrendDayView.svelte';
-	import { trendDays } from '$lib/trends';
+	import TrendWeekView from '$lib/components/TrendWeekView.svelte';
+	import { trendWeeks } from '$lib/trends';
 
-	const latest = trendDays[0];
+	const latest = trendWeeks[0];
 </script>
 
 <svelte:head>
@@ -10,7 +10,7 @@
 </svelte:head>
 
 {#if latest}
-	<TrendDayView day={latest} />
+	<TrendWeekView week={latest} />
 {:else}
 	<p class="text-base-content/60 p-8">まだ投稿がありません。</p>
 {/if}
