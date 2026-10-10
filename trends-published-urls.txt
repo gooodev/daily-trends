@@ -46,6 +46,7 @@ https://developer.feedforce.jp/entry/2026/09/15/122838
 https://developers.cyberagent.co.jp/blog/archives/64920/
 https://docs.getdbt.com/blog/dbt-mcp-server-claude
 https://engineering.atspotify.com/2026/9/portal-by-spotify-cut-my-claude-code-token-usage-by-90
+https://enterprisezine.jp/article/detail/25178
 https://euglena1215.hatenablog.jp/entry/2026/09/27/113320
 https://findy-code.io/media/articles/list-yuma_prog
 https://forbesjapan.com/articles/detail/104911
@@ -56,6 +57,7 @@ https://forest.watch.impress.co.jp/docs/news/2146735.html
 https://forest.watch.impress.co.jp/docs/review/localai/2137694.html
 https://four.htmx.org/announcements/2026-08-28-htmx-4.0.0-is-released
 https://future-architect.github.io/articles/20261008a/
+https://ghuntley.com/replaced/
 https://gigazine.net/news/20260827-meta-zuckerberg-replace-staff-ai-imploded/
 https://gigazine.net/news/20260827-openai-hugging-face-incident-report/
 https://gigazine.net/news/20260905-docubrowser/
@@ -138,6 +140,7 @@ https://nealle-dev.hatenablog.com/entry/2026/09/11/171745
 https://news.mynavi.jp/techplus/article/20261009-5099252/
 https://news.tv-asahi.co.jp/news_international/articles/900199131.html
 https://news.yahoo.co.jp/articles/f0008179ada16d57148d0998c5c2a62872b7bb1a
+https://news.yahoo.co.jp/expert/articles/cce6d03439ffb1d2d6de2500240634b394731753
 https://news.yahoo.co.jp/expert/articles/cf4dc975624f9a2b29752d9bf154e25ae30739d2
 https://news.ycombinator.com/item?id=49551760
 https://news.ycombinator.com/item?id=49554520
@@ -219,10 +222,16 @@ https://news.ycombinator.com/item?id=50000488
 https://news.ycombinator.com/item?id=50003796
 https://news.ycombinator.com/item?id=50004790
 https://news.ycombinator.com/item?id=50016489
+https://news.ycombinator.com/item?id=50016956
 https://news.ycombinator.com/item?id=50017357
 https://news.ycombinator.com/item?id=50018350
 https://news.ycombinator.com/item?id=50019911
 https://news.ycombinator.com/item?id=50020947
+https://news.ycombinator.com/item?id=50027257
+https://news.ycombinator.com/item?id=50029123
+https://news.ycombinator.com/item?id=50031614
+https://news.ycombinator.com/item?id=50035530
+https://news.ycombinator.com/item?id=50037299
 https://newsdig.tbs.co.jp/articles/-/2990268
 https://newsletter.dancohen.org/archive/the-slow-formation-of-durable-software/
 https://note.com/kirik/n/n8e7920167c3f
@@ -237,6 +246,7 @@ https://note.com/yoshiki_shibata/n/n185f3d9e13bc
 https://note.com/yubais/n/nd4505991a6d6
 https://note.com/yuiseki/n/nabf4625e58bc
 https://note.com/yukukotani/n/n5607be0f8f4f
+https://nyosegawa.com/posts/data-leak-era/
 https://nyosegawa.com/posts/qiita-writing-before-after-ai/
 https://openai.com/index/ai-agent-link-safety/
 https://openai.com/index/hugging-face-incident-and-the-road-ahead/
@@ -244,11 +254,13 @@ https://opusfived.dev/
 https://pc.watch.impress.co.jp/docs/news/2137917.html
 https://pc.watch.impress.co.jp/docs/news/2138676.html
 https://pc.watch.impress.co.jp/docs/news/2147095.html
+https://pc.watch.impress.co.jp/docs/news/2147318.html
 https://piyolog.hatenadiary.jp/entry/2026/08/23/033006
 https://piyolog.hatenadiary.jp/entry/2026/09/04/115554
 https://piyolog.hatenadiary.jp/entry/2026/09/11/220855
 https://piyolog.hatenadiary.jp/entry/2026/09/15/141320
 https://piyolog.hatenadiary.jp/entry/2026/09/16/085611
+https://piyolog.hatenadiary.jp/entry/2026/10/11/004353
 https://pola.rs/posts/release-polars-2/
 https://portablecode.info/2026/09/23/herdr-annotate-ai-review/
 https://portalshit.net/2026/10/03/ai-is-eating-product-management
@@ -292,7 +304,9 @@ https://speakerdeck.com/kinopeee/hanesu-sekkei-nyuumon-kontekisuto-no-tsugi
 https://speakerdeck.com/lycorptech_jp/aidlc-aidd-workshop
 https://speakerdeck.com/minodriven/invisible-requirement-thinking
 https://speakerdeck.com/nakanao/ai-ni-makaseta-hinshitsu-ha-dare-ga-mitateru-no-ka-ai-jidai-no-tesuto-manejimento
+https://speakerdeck.com/pei0804/data-engineering-for-ai-ready-business
 https://speakerdeck.com/teru0x1/slack-ue-de-infura-o-toraburu-shuto-suru-agentic-platform-engineering-no-daiippo
+https://speakerdeck.com/terurou/ai-kudou-kaihatsu-no-jidai-ni-nata-node-toyota-seisan-houshiki-kara-minaosu
 https://speakerdeck.com/tkikuc/vibes-containers-ai-de-kawaru-kontena-sekkei-to-unyou
 https://speakerdeck.com/twada/debt-metaphor-in-agentic-engineering-age-202609-edition
 https://speakerdeck.com/upsider_tech/enjinia-ha-doko-made-ekkyou-surubeki-ka-take
@@ -410,6 +424,7 @@ https://www.m3tech.blog/entry/2026/09/18/160000
 https://www.m3tech.blog/entry/embulk-to-dlt-dbt
 https://www.netlify.com/blog/edge-functions-firecracker-microvms/
 https://www.nikkei.co.jp/nikkeiinfo/news/information/1554.html
+https://www.nikkei.com/article/DGXZQOGN101I30Q6A011C2000000/
 https://www.nikkei.com/article/DGXZQOGN122UY0S6A910C2000000/
 https://www.nikkei.com/article/DGXZQOSG120C30S6A910C2000000/
 https://www.nikkei.com/article/DGXZQOUC160I20W6A910C2000000/
@@ -479,6 +494,7 @@ https://zenn.dev/glaciermelt/articles/prisma-postgres-rls-interactive-transactio
 https://zenn.dev/goat_eat_any/articles/claude-code-cloud-sessions
 https://zenn.dev/hampen2929/books/ai-dev-team-guide
 https://zenn.dev/hampen2929/books/claude-code-production-guide
+https://zenn.dev/hirayuki/articles/3b8c944818f630
 https://zenn.dev/hiromoo/articles/flutter-riverpod-agent-skill-evaluation
 https://zenn.dev/jnch/articles/18cf3f1893ee5b
 https://zenn.dev/jtcc/articles/7e74fef42580a1
@@ -494,6 +510,7 @@ https://zenn.dev/lambda_funtaro/articles/493c7143876ad8
 https://zenn.dev/mana_mrl/articles/f1e503f153fb66
 https://zenn.dev/maronsan/articles/nenpi-residency-cost
 https://zenn.dev/matsutake_prgrm/articles/remove-it-first-before-migrating
+https://zenn.dev/mattn/articles/6e9996319ac099
 https://zenn.dev/mconfjp/articles/transaction-action-order
 https://zenn.dev/mediba/articles/7d0d7d70678546
 https://zenn.dev/mikan_919/articles/irisout-ui-compiler
@@ -502,9 +519,11 @@ https://zenn.dev/mizchi/articles/ai-coding-loop-formal
 https://zenn.dev/mizchi/articles/jev-lint-intro
 https://zenn.dev/mizchi/articles/laya-mlx-60fps
 https://zenn.dev/monyyy/articles/3c55e83a596ccb
+https://zenn.dev/muit_techblog/articles/6ea28887c79457
 https://zenn.dev/nwn/articles/e49154653ecea9
 https://zenn.dev/oryo_data/articles/f94473ed24ef95
 https://zenn.dev/pksha/articles/5a1dc6470019d6
+https://zenn.dev/ray_zero3/articles/72a486c1cdc159
 https://zenn.dev/rhosokawa/articles/d0a958c17c2820
 https://zenn.dev/ryo1fuji/articles/52f371931ccc16
 https://zenn.dev/sakidori/articles/20260924-browser-toolset-batch-vs-loop
