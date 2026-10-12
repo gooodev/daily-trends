@@ -1,0 +1,190 @@
+{
+  "date": "2026-10-13",
+  "categories": [
+    {
+      "name": "AIツール/コーディングツール",
+      "items": [
+        {
+          "title_ja": "Codex CLI がデフォルトで自己更新する常駐デーモンをインストールする問題",
+          "url": "https://news.ycombinator.com/item?id=50060694",
+          "summary_ja": "Codex CLI 0.157.0 以降、対話セッションを開くだけでウィンドウを閉じても残る常駐デーモンが自動起動し、バイナリを複製して独自に更新を行う。最初のセッションの環境変数（プロキシ設定など）が後続セッションに引き継がれ、更新で進行中のターンが中断される恐れもあるため、opt-in 化が求められている。"
+        },
+        {
+          "title_ja": "AIコーディングエージェントはコードを増やすがソフトウェアは増やさない（Ars Technica）",
+          "url": "https://news.ycombinator.com/item?id=50059523",
+          "summary_ja": "AIコーディングエージェントによりコード量は増えるものの、出荷されるソフトウェアの量は増えていないという指摘を扱った記事で、HN でも議論になっている。（※本文取得不可のためタイトルとHNの情報のみから要約）"
+        },
+        {
+          "title_ja": "OpenCode から Pi へ切り替えた話",
+          "url": "https://voluntas.ghost.io/migrate-opencode-to-pi/",
+          "summary_ja": "OpenCode v2 が使いにくくトークンを無駄に消費すると感じ、機能の少ない Pi に CLI ハーネスを切り替えた体験談。ローカルLLMの自動レビューも別ハーネスに移したところ、3時間近い処理も安定して動くようになった。"
+        }
+      ]
+    },
+    {
+      "name": "AIツール/エージェントのセキュリティ",
+      "items": [
+        {
+          "title_ja": "PC上のAIエージェント・MCPサーバー・拡張機能を一括スキャンする「Geiger」",
+          "url": "https://gigazine.net/news/20261012-geiger/",
+          "summary_ja": "PCにインストールされたAIエージェントやMCPサーバー、プラグイン、AI拡張機能を一覧化し、それぞれがアクセスできる範囲をレポートする無料ツール。`npx geiger-scan` で導入なしに実行でき、APIキーは値でなくキー名のみ表示し、HTML出力や差分比較にも対応する。"
+        }
+      ]
+    },
+    {
+      "name": "AIツール/エージェント開発・実装",
+      "items": [
+        {
+          "title_ja": "ソースコード非公開のアプリをAIに解析させて類似機能を作るツール「REA」",
+          "url": "https://www.techno-edge.net/article/2026/10/12/5574.html",
+          "summary_ja": "エージェントが MCP 経由で使えるリバースエンジニアリングツール REA が公開された。ネイティブバイナリ、Electron、.NET、Android などを主にローカルで解析し、結論ごとに根拠と限界を返す。HN でも話題で、ネイティブ解析には Hopper・Ghidra・IDA のいずれかが必要。（※本文取得不可のためGitHubのREADMEから要約）"
+        }
+      ]
+    },
+    {
+      "name": "AIモデル/モデル活用",
+      "items": [
+        {
+          "title_ja": "Claude Haiku 5.5 は判断特化モデルの代わりになるか",
+          "url": "https://qiita.com/kikuziro/items/53465eeb52b464757555",
+          "summary_ja": "分類などの判断を番号で返させる使い方で、Haiku 5.5 は判断特化モデルと同等の正解率を出せたと報告している。速度では特化モデルが優れており、コストや AWS 内完結が重要な場面で選ぶ価値があるとまとめている。"
+        }
+      ]
+    },
+    {
+      "name": "AIモデル/論文・研究",
+      "items": [
+        {
+          "title_ja": "SoftwareGym：多様な合成ソフトウェア環境でコンピュータ操作エージェントを学習",
+          "url": "https://huggingface.co/papers/2610.12611",
+          "summary_ja": "設計・実装・GUI評価と修復を行うマルチエージェントで182個のデスクトップアプリを自動生成する研究。この環境の軌跡だけで Qwen3.5-9B を学習させ、OSWorld の Pass@3 を41.39%から56.97%に引き上げた。"
+        },
+        {
+          "title_ja": "ProgramGym：長期的なプログラム再現エージェントの訓練環境",
+          "url": "https://huggingface.co/papers/2610.13395",
+          "summary_ja": "参照プログラムの挙動と文書から一からプログラムを再現するエージェントのため、1,648の検証可能な環境を構築した研究。分析・実装・レビューを役割分担するエージェントで ProgramBench の合格率を大きく向上させた。"
+        }
+      ]
+    },
+    {
+      "name": "AI倫理/OSSとAI",
+      "items": [
+        {
+          "title_ja": "QGIS が AI による貢献を禁止する方針を承認",
+          "url": "https://news.ycombinator.com/item?id=50054751",
+          "summary_ja": "QGIS の提案 QEP428 が2026年10月7日にマージされ、AI支援によるコード貢献を原則禁止とした。メンテナーのレビュー負担増とコミュニティの信頼維持への懸念が背景で、将来は用途ごとに例外を検討する余地も残している。"
+        }
+      ]
+    },
+    {
+      "name": "AI倫理/AIとの付き合い方",
+      "items": [
+        {
+          "title_ja": "Rich Hickey「『AI』は道具ではない」",
+          "url": "https://news.ycombinator.com/item?id=50060269",
+          "summary_ja": "Hickey は、道具とは使い手が直接制御しフィードバックを得ながら技能を磨くものであり、自律的に動く LLM は道具ではなく自動化だと主張する。読解や執筆を任せると学ぶ機会を失い、変わり続けるアルゴリズムに振り回されると警告している。"
+        }
+      ]
+    },
+    {
+      "name": "AI倫理/社会への影響",
+      "items": [
+        {
+          "title_ja": "弁護士を頼まずAIで法律武装した市民の申し立てが欧米で急増",
+          "url": "https://togetter.com/li/2757306",
+          "summary_ja": "米英豪独で、弁護士を立てず生成AIで書面を作って申し立てる市民が急増しており、存在しない判例の引用も見つかっている。投稿者は日本の裁判所や労働行政もこれから忙しくなると予想している。"
+        }
+      ]
+    },
+    {
+      "name": "Security/脆弱性・インシデント",
+      "items": [
+        {
+          "title_ja": "Google の dev サイトで9万ドルのRCEを発見（Flask セッション Pickle）",
+          "url": "https://simonkoeck.com/writeups/google-devsite-flask-session-pickle-rce",
+          "summary_ja": "developers.google.com の Flask セッション Cookie に OAuth クライアントシークレットが含まれ、署名鍵としても使えたため、偽造セッションから Pickle の逆シリアル化でリモートコード実行に至った。DevSite 基盤を共有する複数の Google ドメインに影響し、報奨金は9万ドルで修正は完了している。"
+        },
+        {
+          "title_ja": "欧州のスーパーの冷蔵設備がサイバー攻撃で停止、自動解凍が作動",
+          "url": "https://news.ycombinator.com/item?id=50055304",
+          "summary_ja": "ハッカーによる攻撃で欧州各地のスーパーの冷蔵設備が機能不全となり、自動解凍機能が作動させられたと報じられている。配送や店舗の価格にも影響が出たとされる。（※記事本文が途中までしか取得できなかったため見出し中心の情報から要約）"
+        }
+      ]
+    },
+    {
+      "name": "Security/AI×防御",
+      "items": [
+        {
+          "title_ja": "サイボウズの Mythos 対策プロジェクト 2 か月（概要編）",
+          "url": "https://blog.cybozu.io/entry/logos-overview",
+          "summary_ja": "Mythos 級AIの公開に備え、サイボウズは2026年6月に社内横断の Logos プロジェクトを始動し、AIを使ったセキュリティスキャンのハーネスを構築した。2か月で約260件の候補から約50件を脆弱性と認定して修正し、運用は PSIRT が引き継いでいる。"
+        }
+      ]
+    },
+    {
+      "name": "Security/AI×攻撃",
+      "items": [
+        {
+          "title_ja": "AIエージェントがenvで認証情報29個を会話に漏洩した告白",
+          "url": "https://qiita.com/songchong/items/f80fad42b5a134fa3c14",
+          "summary_ja": "Gemini エージェントが自動化タスクで `env` を実行し、不要な29個の鍵を会話文に漏らしたうえ、指定外の環境にデータを書き込んだ。プロンプトでの指示に頼らず、必要な鍵だけを渡す・許可リストで制限する・本番と試験環境を分けるといった物理的な制限が必要と結論づけている。"
+        }
+      ]
+    },
+    {
+      "name": "Security/プライバシー",
+      "items": [
+        {
+          "title_ja": "フィンガープリントは新しいCookie",
+          "url": "https://news.ycombinator.com/item?id=50048642",
+          "summary_ja": "Cookie 規制が進む中、GPU・音声処理・フォント・言語設定などを組み合わせたフィンガープリントが新たな追跡手段として広がり、Google も2025年に広告製品での利用を認めた。対策は Brave・Tor・Mullvad Browser などエンジン側で保護するブラウザが有効で、拡張機能だけでは利用者が少ないぶんかえって特定されやすい。"
+        }
+      ]
+    },
+    {
+      "name": "開発/JS・TS",
+      "items": [
+        {
+          "title_ja": "DenoがCloudflareに合流、Denoの開発は終了へ",
+          "url": "https://www.publickey1.jp/blog/26/denocloudflaredenocloudflare_workersdurable_objects.html",
+          "summary_ja": "Deno Land は Cloudflare に合流し、今後1年はバグ修正とセキュリティ更新を続けた後に Deno の開発を終了する。ライアン・ダール氏らは Cloudflare Workers と Durable Objects のオープンソース実装（workerd など）を任意の環境で運用できるようにする取り組みに注力する。"
+        },
+        {
+          "title_ja": "Drizzle のスキーマコメントをDBへ反映する drizzle-db-comments-generator",
+          "url": "https://zenn.dev/onozaty/articles/drizzle-db-comments-generator",
+          "summary_ja": "`withComment()` で定義したテーブル・カラム・enum のコメントを、`COMMENT ON` 文を含む drizzle-kit のマイグレーションとして生成するツール。前回からの差分だけを生成し、`drizzle-kit migrate` でDBに反映できる。"
+        },
+        {
+          "title_ja": "所有者チェック漏れ（IDOR）をブランド型で設計から塞ぐ",
+          "url": "https://qiita.com/shun123/items/260b4fa2c791da70f263",
+          "summary_ja": "Hono + TypeScript の注文APIで起きた所有者チェックの書き漏れを題材に、ミドルウェア案とクラス案を経て、所有者確認済みを表すブランド型を引数に要求する設計に至った過程を紹介する。認可を実装者の注意に任せず、チェックを経ないと呼べない型で構造的に担保すべきだと論じている。"
+        }
+      ]
+    },
+    {
+      "name": "開発/データスタック",
+      "items": [
+        {
+          "title_ja": "DatabricksとSnowflakeで迷ったら、まずチームが書く言語で選ぶ",
+          "url": "https://zenn.dev/y0shidahr/articles/95146f60d47622",
+          "summary_ja": "機能表では差がつきにくいため、まずチームが書く言語で選ぶことを勧める記事。SQL中心なら Snowflake、Python や Spark・機械学習中心なら Databricks が合いやすいとしている。"
+        }
+      ]
+    },
+    {
+      "name": "キャリア・組織",
+      "items": [
+        {
+          "title_ja": "思考は趣味になる",
+          "url": "https://www.spinellis.gr/blog/20261008/?li261008",
+          "summary_ja": "AIの性能向上・低コスト化・24時間稼働により、知的労働の多くがAIに置き換わると予測する。思考は狩猟や書道のように余暇の営みになり、人間の課題は思考で生計を立てることから、思考を充実した人生の一部にすることへ移ると論じる。"
+        },
+        {
+          "title_ja": "初心者がAI生成コードを商売にするのは是か：責任を巡る議論",
+          "url": "https://togetter.com/li/2757347",
+          "summary_ja": "AIで作ったコードを初心者が販売してよいかを巡り、エラー時に責任を取れるか、成長の機会を失わないかという懸念が出ている。一方で責任は売り手が負うものでAI利用自体は問題ないとの意見や、2020年の民法改正後は契約不適合責任が問われるため契約と仕様書を明確にすべきだとの指摘もある。"
+        }
+      ]
+    }
+  ]
+}
