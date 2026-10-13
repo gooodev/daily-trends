@@ -1,0 +1,120 @@
+{
+  "date": "2026-10-14",
+  "categories": [
+    {
+      "name": "Security/脆弱性・インシデント",
+      "items": [
+        {
+          "title_ja": "NICT、公開Androidアプリ解析によるサーバー攻撃「A2B攻撃」で注意喚起",
+          "url": "https://www.nict.go.jp/press/2026/10/13-1.html",
+          "summary_ja": "NICTのLETTICEは、国内で相次ぐ情報漏えいの一因として、公開Androidアプリを解析して接続先バックエンドを狙う「A2B攻撃」を特定した。AIによる解析・脆弱性探索の効率化で拡大しうるため、事業者に侵害確認・脆弱性点検・暫定緩和の3対策を推奨している。"
+        },
+        {
+          "title_ja": "フランスのスーパー数百店舗で冷蔵設備にサイバー攻撃、温度が最高50度に",
+          "url": "https://www.itmedia.co.jp/news/article/2610/13/2000002201/",
+          "summary_ja": "10月11〜12日にSuper Uなどを展開するCoopérative Uの数百店舗で冷蔵・冷凍設備が攻撃され、温度が最高50度に上昇して食品が大量廃棄された。フランス当局が捜査を開始しており、OT/IoT機器を狙った攻撃が実害に直結した事例。"
+        }
+      ]
+    },
+    {
+      "name": "Security/サプライチェーン",
+      "items": [
+        {
+          "title_ja": "Ledger、暗号資産窃盗の背後にハードウェアウォレットへのスパイチップ埋め込みがあったと確認",
+          "url": "https://news.ycombinator.com/item?id=50054092",
+          "summary_ja": "Ledgerは、暗号資産の窃盗被害の背後にハードウェアウォレットへ仕込まれたスパイ用インプラントがあったと認めた。ハードウェアのサプライチェーン改ざんの実例として注目されている。（※本文取得不可のためタイトル・見出しから要約）"
+        }
+      ]
+    },
+    {
+      "name": "Security/認証",
+      "items": [
+        {
+          "title_ja": "パスキーは将来的にユーザーの自由を奪う可能性があるとの警告と、その反論",
+          "url": "https://gigazine.net/news/20261013-passkey-are-a-trap/",
+          "summary_ja": "パスキーがプラットフォーム事業者への依存を強め、ユーザーの自由を損なうという懸念の根拠と、それに対する反論を整理した記事。認証基盤の導入判断に関わる論点を扱っている。"
+        }
+      ]
+    },
+    {
+      "name": "AIツール/エージェント開発・実装",
+      "items": [
+        {
+          "title_ja": "Anthropic、ソース管理を自社製システムへ5カ月で移行：マージ数が10倍超に",
+          "url": "https://www.anthropic.com/engineering/redesigning-source-control",
+          "summary_ja": "AIによるコード生成でマージ数が1日約2,500件から3万件超へ増え、ソース管理が最大のボトルネックになったため、Anthropicは5カ月で自社製バージョン管理へ移行した。人間規模で作られた開発基盤（ソース管理・ビルド・CI）がAI時代の制約になる実例。"
+        },
+        {
+          "title_ja": "乱立するエージェント標準の本命になれるか、MetaとSierraが主導する「Personal Agent Protocol」",
+          "url": "https://cloud.watch.impress.co.jp/docs/column/techwatch/2147521.html",
+          "summary_ja": "MetaとSierraが主導するエージェント間連携の標準「Personal Agent Protocol」を紹介する週刊コラム。乱立するエージェント標準の中で本命になりうるかを論じている。（※本文取得不可のためタイトルとスニペットから要約）"
+        }
+      ]
+    },
+    {
+      "name": "AIモデル/ローカルLLM",
+      "items": [
+        {
+          "title_ja": "EmbeddingGemma 2を音声文字起こしモデルに転用、MacBook Airでオンデバイス動作",
+          "url": "https://news.ycombinator.com/item?id=50069971",
+          "summary_ja": "埋め込みモデルEmbeddingGemma 2の音声エンコーダはそのまま、小さな変換器だけを学習して単語を読み出し、1時間の音声を約13秒で文字起こしする。完全オンデバイスで動作するMac向け無料アプリも公開されている。"
+        }
+      ]
+    },
+    {
+      "name": "AI倫理/安全性",
+      "items": [
+        {
+          "title_ja": "Anthropic、小型AIがIoT機器上で自己複製する「兆し」を指摘",
+          "url": "https://www.itmedia.co.jp/news/article/2610/13/2000002204/",
+          "summary_ja": "Anthropicのレッドチームは、30B以下の小型モデルが市販IoT機器上で自己複製できるようになる可能性が数カ月以内にあると発表した。55ドルのTVボックス15台で26Bモデルが稼働した実験が根拠で、モデルの重みをマルウェアの一部として運ぶ脅威を想定している。"
+        }
+      ]
+    },
+    {
+      "name": "AI倫理/ガバナンス・企業導入",
+      "items": [
+        {
+          "title_ja": "Character.aiが米連邦破産法11条を申請、裁判所監督下での売却へ",
+          "url": "https://news.ycombinator.com/item?id=50068036",
+          "summary_ja": "Character.aiは法的・規制上の逆風を受け、裁判所監督下の売却を目的にChapter 11を申請した。買い手が現れなければサービスは終了する可能性があり、現時点では運営は継続している。"
+        },
+        {
+          "title_ja": "米Getty Imagesが破産申請へ、AI画像の台頭で経営悪化",
+          "url": "https://www.itmedia.co.jp/news/article/2610/13/2000002234/",
+          "summary_ja": "ストックフォト大手のGetty ImagesがChapter 11を申請し、株式を非公開化して「報道写真」を軸に年内の再建完了を目指す。AI画像の台頭による経営悪化が背景で、事業と支払いは通常通り継続する。"
+        }
+      ]
+    },
+    {
+      "name": "開発/言語・ツール",
+      "items": [
+        {
+          "title_ja": "「Python 3.15」が正式公開：UTF-8が標準に、JITも強化",
+          "url": "https://forest.watch.impress.co.jp/docs/news/2147319.html",
+          "summary_ja": "Python 3.15ではUTF-8が標準になり、番兵値などの新しい言語機能が追加された。実験的なJITコンパイラーも大きく強化されている。"
+        },
+        {
+          "title_ja": "Rustのborrow checkerで11年前からのunsoundnessバグが見つかる",
+          "url": "https://news.ycombinator.com/item?id=50069499",
+          "summary_ja": "Rustのborrow checkerに11年間潜んでいた健全性（unsoundness）のバグが報告され、HNで大きな議論になっている。言語の安全性保証の限界を考える材料になる。（※本文取得不可のためタイトルから要約）"
+        },
+        {
+          "title_ja": "私物Macと仕事Macのdotfilesとアプリ管理をmise bootstrapで管理しやすくした",
+          "url": "https://blog.shibayu36.org/entry/2026/10/13/173000",
+          "summary_ja": "複数のMacで共通のdotfilesやアプリ管理を、miseのbootstrap機能で扱いやすくした実践記録。環境構築の自動化に関心のある開発者向け。（※本文取得不可のためタイトルから要約）"
+        }
+      ]
+    },
+    {
+      "name": "キャリア・組織",
+      "items": [
+        {
+          "title_ja": "「AIは道具であり、うまく使うにはスキルが要る」：Rich Hickeyの主張への反論",
+          "url": "https://news.ycombinator.com/item?id=50063427",
+          "summary_ja": "Rich Hickeyの「LLMは道具ではなく自動化だ」という主張に対し、LLMも人が使いこなす対象であり、道具同様に判断力と技量が成果を左右すると反論するブログ。AIは使い手の資質を映す鏡だという視点を示している。"
+        }
+      ]
+    }
+  ]
+}

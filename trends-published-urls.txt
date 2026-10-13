@@ -26,11 +26,13 @@ https://blog.master.dev/react-now-rusted-all-the-way-out/
 https://blog.p1ass.com/posts/agent-foundations/
 https://blog.shibayu36.org/entry/2026/08/30/173000
 https://blog.shibayu36.org/entry/2026/09/24/173000
+https://blog.shibayu36.org/entry/2026/10/13/173000
 https://blog.trailofbits.com/2026/08/26/vms-wont-contain-cyber-capable-agents/
 https://blog.trailofbits.com/2026/09/18/auditing-in-the-age-of-good-enough-ai/
 https://blog.trailofbits.com/2026/09/21/saml-a-fractal-of-bad-design/
 https://claude.com/blog/agentic-coding-is-straining-ci-heres-how-we-scaled-test-impact-analysis-at-anthropic
 https://cloud.google.com/blog/ja/products/identity-security/getting-started-with-the-mantis-harness-to-find-and-fix-bugs
+https://cloud.watch.impress.co.jp/docs/column/techwatch/2147521.html
 https://coliss.com/wp-content/cache/all/articles/build-websites/operation/work/7-adobe-apps-open-sourced.html/index.html
 https://collusion.wiki/
 https://corp.helpfeel.com/news/news-20260916-1
@@ -57,6 +59,7 @@ https://forest.watch.impress.co.jp/docs/news/2135971.html
 https://forest.watch.impress.co.jp/docs/news/2140081.html
 https://forest.watch.impress.co.jp/docs/news/2142932.html
 https://forest.watch.impress.co.jp/docs/news/2146735.html
+https://forest.watch.impress.co.jp/docs/news/2147319.html
 https://forest.watch.impress.co.jp/docs/review/localai/2137694.html
 https://four.htmx.org/announcements/2026-08-28-htmx-4.0.0-is-released
 https://future-architect.github.io/articles/20261008a/
@@ -96,6 +99,7 @@ https://gigazine.net/news/20261008-nous-research-fundraise/
 https://gigazine.net/news/20261009-lets-encrypt-cuts-certificate-lifetimes-64-days/
 https://gigazine.net/news/20261011-hayamimi/
 https://gigazine.net/news/20261012-geiger/
+https://gigazine.net/news/20261013-passkey-are-a-trap/
 https://giginet.hateblo.jp/entry/2026/09/22/114642
 https://gihyo.jp/book/2026/978-4-297-15875-0
 https://github.com/anthropics/code-migration-kit-with-claude-code
@@ -246,11 +250,16 @@ https://news.ycombinator.com/item?id=50037299
 https://news.ycombinator.com/item?id=50047825
 https://news.ycombinator.com/item?id=50048312
 https://news.ycombinator.com/item?id=50048642
+https://news.ycombinator.com/item?id=50054092
 https://news.ycombinator.com/item?id=50054751
 https://news.ycombinator.com/item?id=50055304
 https://news.ycombinator.com/item?id=50059523
 https://news.ycombinator.com/item?id=50060269
 https://news.ycombinator.com/item?id=50060694
+https://news.ycombinator.com/item?id=50063427
+https://news.ycombinator.com/item?id=50068036
+https://news.ycombinator.com/item?id=50069499
+https://news.ycombinator.com/item?id=50069971
 https://newsdig.tbs.co.jp/articles/-/2990268
 https://newsletter.dancohen.org/archive/the-slow-formation-of-durable-software/
 https://note.com/kirik/n/n8e7920167c3f
@@ -393,6 +402,7 @@ https://www.aikido.dev/blog/software-supply-chain-security-decisions-not-default
 https://www.aikido.dev/blog/stop-fearing-ai-pentesting
 https://www.aikido.dev/blog/stylesmuggler-fix
 https://www.aikido.dev/blog/supplychain-local-memtensor-npm-pypi
+https://www.anthropic.com/engineering/redesigning-source-control
 https://www.anthropic.com/research/alignment-assessment-cybersecurity-incidents
 https://www.anthropic.com/research/formalizing-fermats-last-theorem
 https://www.anthropic.com/research/intelligence-targeting-conventional-weapons-capabilities
@@ -447,6 +457,9 @@ https://www.itmedia.co.jp/news/article/2610/03/2000001981/
 https://www.itmedia.co.jp/news/article/2610/07/2000002055/
 https://www.itmedia.co.jp/news/article/2610/07/2000002107/
 https://www.itmedia.co.jp/news/article/2610/09/2000002171/
+https://www.itmedia.co.jp/news/article/2610/13/2000002201/
+https://www.itmedia.co.jp/news/article/2610/13/2000002204/
+https://www.itmedia.co.jp/news/article/2610/13/2000002234/
 https://www.jiji.com/jc/article?k=2026091100447&g=flash
 https://www.jpcert.or.jp/at/2026/at260030.html
 https://www.kobonemi.com/entry/2026/10/03/macOS-27-Full-Disk-Access-Additional-Controls
@@ -455,6 +468,7 @@ https://www.m3tech.blog/entry/2026/08/26/110000
 https://www.m3tech.blog/entry/2026/09/18/160000
 https://www.m3tech.blog/entry/embulk-to-dlt-dbt
 https://www.netlify.com/blog/edge-functions-firecracker-microvms/
+https://www.nict.go.jp/press/2026/10/13-1.html
 https://www.nikkei.co.jp/nikkeiinfo/news/information/1554.html
 https://www.nikkei.com/article/DGXZQOGN101I30Q6A011C2000000/
 https://www.nikkei.com/article/DGXZQOGN122UY0S6A910C2000000/
