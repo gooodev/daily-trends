@@ -100,13 +100,17 @@ https://gigazine.net/news/20261009-lets-encrypt-cuts-certificate-lifetimes-64-da
 https://gigazine.net/news/20261011-hayamimi/
 https://gigazine.net/news/20261012-geiger/
 https://gigazine.net/news/20261013-passkey-are-a-trap/
+https://gigazine.net/news/20261014-anthropic-scion-version-control-system/
+https://gigazine.net/news/20261014-embetting-gemma-transcribe/
 https://giginet.hateblo.jp/entry/2026/09/22/114642
+https://gihyo.jp/article/2026/10/anatomy
 https://gihyo.jp/book/2026/978-4-297-15875-0
 https://github.com/anthropics/code-migration-kit-with-claude-code
 https://github.com/argonautlabsai/deltafin
 https://github.com/ayghri/i-have-adhd
 https://github.com/minorun365/agent-builder-skills
 https://github.com/mizorewww/laya-mlx
+https://go.dev/blog/http-connection-reuse
 https://harnesstax.github.io/
 https://huggingface.co/blog/Banaxi-Tech/bananamind-2-pro-weve-almost-matched-smollm2-at-20
 https://huggingface.co/blog/FINAL-Bench/qwen-models
@@ -132,6 +136,7 @@ https://jbpress.ismedia.jp/articles/-/96703
 https://jev-guide.take-otani.workers.dev/
 https://joisino.hatenablog.com/entry/filler
 https://joisino.hatenablog.com/entry/kasu
+https://k-tai.watch.impress.co.jp/docs/news/2148168.html
 https://kaminashi-developer.hatenablog.jp/entry/2026/09/07/ai-era-engineer-interviews
 https://kawarimidoll.com/posts/202610051/
 https://kawasin73.hatenablog.com/entry/2026/09/05/092056
@@ -260,6 +265,10 @@ https://news.ycombinator.com/item?id=50063427
 https://news.ycombinator.com/item?id=50068036
 https://news.ycombinator.com/item?id=50069499
 https://news.ycombinator.com/item?id=50069971
+https://news.ycombinator.com/item?id=50088935
+https://news.ycombinator.com/item?id=50091788
+https://news.ycombinator.com/item?id=50094673
+https://news.ycombinator.com/item?id=50094994
 https://newsdig.tbs.co.jp/articles/-/2990268
 https://newsletter.dancohen.org/archive/the-slow-formation-of-durable-software/
 https://note.com/kirik/n/n8e7920167c3f
@@ -267,7 +276,9 @@ https://note.com/npaka/n/n1d86b2196515
 https://note.com/npaka/n/n2b9c36c471b6
 https://note.com/npaka/n/n5ac6abd04d67
 https://note.com/npaka/n/nf7108e6bd18e
+https://note.com/postdoc_career/n/nc9dcfe5ea3d3
 https://note.com/shi3zblog/n/na7a590b9908e
+https://note.com/shi3zblog/n/ncb38d2978074
 https://note.com/shinshiro/n/n45c9931a88e5
 https://note.com/takahiroanno/n/n4accbde18d56
 https://note.com/yoshiki_shibata/n/n185f3d9e13bc
@@ -503,6 +514,7 @@ https://www.sbbit.jp/article/cont1/186815
 https://www.sbbit.jp/article/cont1/187087
 https://www.sbbit.jp/article/sp/186086
 https://www.sbbit.jp/document/sp/24293
+https://www.scutum.jp/information/waf_tech_blog/2026/10/waf-blog-085.html
 https://www.spinellis.gr/blog/20261008/?li261008
 https://www.techno-edge.net/article/2026/09/07/5471.html
 https://www.techno-edge.net/article/2026/10/12/5574.html
@@ -529,6 +541,7 @@ https://yedhu.me/posts/commit-description-as-a-thinking-tool/
 https://zenn.dev/7nohe/articles/agents-on-guren-round-2
 https://zenn.dev/7nohe/articles/guren-bun-fullstack
 https://zenn.dev/afante/articles/164a494962df54
+https://zenn.dev/azunyan/articles/7a105969d7d16c
 https://zenn.dev/charge0315/articles/9008a27f7902b4
 https://zenn.dev/citras/articles/agents-md-what-to-write
 https://zenn.dev/coji/articles/artifactshare-preview-claude-codex-cursor

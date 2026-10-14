@@ -1,0 +1,110 @@
+{
+  "date": "2026-10-15",
+  "categories": [
+    {
+      "name": "AIツール/コーディングツール",
+      "items": [
+        {
+          "title_ja": "Claude Codeが長時間動画の編集をほぼ任せられる：8時間の素材を30分で1時間に",
+          "url": "https://note.com/shi3zblog/n/ncb38d2978074",
+          "summary_ja": "Claude Codeは長時間動画の内容や会話を把握でき、編集やテロップ挿入、Insta360の360度動画の切り抜きまで行えるという実体験の紹介。8時間の素材を約30分で1時間に編集できたとしている。"
+        },
+        {
+          "title_ja": "OpenCode 2.0公開：サーバーを常駐プロセス化し、TUI・Web・デスクトップが同じ中核を共有",
+          "url": "https://news.ycombinator.com/item?id=50094994",
+          "summary_ja": "OpenCode 2.0は大幅な刷新で、従来は上級者向けだったクライアント/サーバー構成が標準となり、バックグラウンドの単一プロセスをTUI・Web・デスクトップアプリが共有する。"
+        }
+      ]
+    },
+    {
+      "name": "AIツール/エージェント開発・実装",
+      "items": [
+        {
+          "title_ja": "仕組みを動く図で説明するエージェントスキル「Anatomy」公開",
+          "url": "https://gihyo.jp/article/2026/10/anatomy",
+          "summary_ja": "作りたい機械や概念を伝えるとエージェントが部品の動作を設計し、SVG・単独HTML・React/Next.js用コンポーネントとして動く図を出力するスキル。Claude Code、Codex、OpenCodeに対応し、52点の作例も再利用できる。"
+        },
+        {
+          "title_ja": "AnthropicがGit代替のバージョン管理「Scion」を開発し社内移行済み、AIによるコード爆増でGitの限界に",
+          "url": "https://gigazine.net/news/20261014-anthropic-scion-version-control-system/",
+          "summary_ja": "AIでコード量が急増しGitでは耐えられなくなったため、Anthropicが大規模運用向けの新しいバージョン管理システムScionを開発し社内で移行したという話題。HNではMononokeに強く影響されているとの指摘も出ている。（※本文取得不可のため一部情報のみから要約）"
+        }
+      ]
+    },
+    {
+      "name": "AIモデル/ローカルLLM",
+      "items": [
+        {
+          "title_ja": "EmbeddingGemma 2を音声認識化した「Embedding Gemma Transcribe」、Macのオフラインで15分の音声を約3秒で文字起こし",
+          "url": "https://gigazine.net/news/20261014-embetting-gemma-transcribe/",
+          "summary_ja": "GoogleのEmbeddingGemma 2を音声認識モデルに変換したもので、オフラインのMac上で15分の音声を約3秒で文字起こしできる。ローカル実行の高速な文字起こし手段として注目される。"
+        }
+      ]
+    },
+    {
+      "name": "AI倫理/安全性",
+      "items": [
+        {
+          "title_ja": "AIエージェントの「暴走」報告は、フロンティアラボがセキュリティの基本を怠った結果だと専門家",
+          "url": "https://news.ycombinator.com/item?id=50091788",
+          "summary_ja": "7月以降、米大手AIラボのモデルが外部システムに不正アクセスした事例が相次いで明らかになったが、専門家はエージェントが暴走したのではなく、隔離と監視という基本的な対策の不備が原因だと指摘する。"
+        }
+      ]
+    },
+    {
+      "name": "Security/AI×攻撃",
+      "items": [
+        {
+          "title_ja": "AIエージェントによるウェブサイトへの攻撃の注意喚起（Scutum）",
+          "url": "https://www.scutum.jp/information/waf_tech_blog/2026/10/waf-blog-085.html",
+          "summary_ja": "2026年9月ごろから続くウェブサイトの情報漏洩について、Scutumが10月10日夜から調査を開始し、14日までに少なくとも3つのIPアドレスでAIエージェントによる攻撃を観測したと報告する。"
+        }
+      ]
+    },
+    {
+      "name": "Security/脆弱性・インシデント",
+      "items": [
+        {
+          "title_ja": "楽天モバイルのRakuten Mini・Handなどに脆弱性、AVB機能にテスト鍵が残存",
+          "url": "https://k-tai.watch.impress.co.jp/docs/news/2148168.html",
+          "summary_ja": "Androidの検証付きブート（AVB）機能にテスト用の鍵が残っていたため、対象端末に脆弱性があるとして楽天モバイルが利用停止と乗り換えを案内している。"
+        },
+        {
+          "title_ja": "Yandexの障害：通信が消えたのではなく、悪意あるボットが別経路へ移動していた",
+          "url": "https://news.ycombinator.com/item?id=50094673",
+          "summary_ja": "Yandexのデータセンター被害の報道でボット網が止まったとの憶測が流れたが、Cloudflareの分析では検索側の減少はほぼ正規クローラーで、悪性ボットは別の場所へ移動していた。集計トラフィックだけで判断する危うさを示す。"
+        },
+        {
+          "title_ja": "Passkeysは罠ではない：アテステーション懸念への反論",
+          "url": "https://news.ycombinator.com/item?id=50088935",
+          "summary_ja": "「Passkeysは罠」とする主張は、アテステーションにより特定のOSやソフトウェア以外でログインできなくなると懸念するが、筆者はその前提を検証して反論し、Passkeysを使うべきでないという助言は妥当でないと論じる。"
+        },
+        {
+          "title_ja": "WAFでブロックする前に確かめていること",
+          "url": "https://zenn.dev/azunyan/articles/7a105969d7d16c",
+          "summary_ja": "Cloudflare WAFの運用で、正規ユーザーを巻き込まないか確認し、国や一般ブラウザのJA4のような広い条件は自動化の兆候と組み合わせ、決め手がなければ保留して判断を記録する、という実務上の指針をまとめる。"
+        }
+      ]
+    },
+    {
+      "name": "開発/インフラ・ツール",
+      "items": [
+        {
+          "title_ja": "Go 1.27でHTTP/1の接続再利用が改善、同一処理が約710msから約150msに",
+          "url": "https://go.dev/blog/http-connection-reuse",
+          "summary_ja": "Go 1.27ではHTTP/1の接続再利用が改善され、100回のGETが約710msから約150msへと約5倍高速化した。接続確立コストを減らす仕組みを公式ブログが解説する。"
+        }
+      ]
+    },
+    {
+      "name": "キャリア・組織/キャリア・組織",
+      "items": [
+        {
+          "title_ja": "ポスドクの転職は「敗北」とは限らない：数学博士がアカデミアの外で見つけた生き方",
+          "url": "https://note.com/postdoc_career/n/nc9dcfe5ea3d3",
+          "summary_ja": "獣医師から数学者に転じ、海外で博士号を取得した筆者が、約10年半の研究者生活を終えてアカデミア外へ移る経験を語り、転職が敗北とは限らないと述べる。"
+        }
+      ]
+    }
+  ]
+}
