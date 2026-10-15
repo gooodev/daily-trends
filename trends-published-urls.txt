@@ -30,6 +30,7 @@ https://blog.shibayu36.org/entry/2026/10/13/173000
 https://blog.trailofbits.com/2026/08/26/vms-wont-contain-cyber-capable-agents/
 https://blog.trailofbits.com/2026/09/18/auditing-in-the-age-of-good-enough-ai/
 https://blog.trailofbits.com/2026/09/21/saml-a-fractal-of-bad-design/
+https://blogs.jpcert.or.jp/ja/2026/10/web_api_attacks.html
 https://claude.com/blog/agentic-coding-is-straining-ci-heres-how-we-scaled-test-impact-analysis-at-anthropic
 https://cloud.google.com/blog/ja/products/identity-security/getting-started-with-the-mantis-harness-to-find-and-fix-bugs
 https://cloud.watch.impress.co.jp/docs/column/techwatch/2147521.html
@@ -60,6 +61,7 @@ https://forest.watch.impress.co.jp/docs/news/2140081.html
 https://forest.watch.impress.co.jp/docs/news/2142932.html
 https://forest.watch.impress.co.jp/docs/news/2146735.html
 https://forest.watch.impress.co.jp/docs/news/2147319.html
+https://forest.watch.impress.co.jp/docs/news/2148495.html
 https://forest.watch.impress.co.jp/docs/review/localai/2137694.html
 https://four.htmx.org/announcements/2026-08-28-htmx-4.0.0-is-released
 https://future-architect.github.io/articles/20261008a/
@@ -265,10 +267,15 @@ https://news.ycombinator.com/item?id=50063427
 https://news.ycombinator.com/item?id=50068036
 https://news.ycombinator.com/item?id=50069499
 https://news.ycombinator.com/item?id=50069971
+https://news.ycombinator.com/item?id=50070625
 https://news.ycombinator.com/item?id=50088935
 https://news.ycombinator.com/item?id=50091788
 https://news.ycombinator.com/item?id=50094673
 https://news.ycombinator.com/item?id=50094994
+https://news.ycombinator.com/item?id=50101813
+https://news.ycombinator.com/item?id=50104299
+https://news.ycombinator.com/item?id=50105647
+https://news.ycombinator.com/item?id=50107379
 https://newsdig.tbs.co.jp/articles/-/2990268
 https://newsletter.dancohen.org/archive/the-slow-formation-of-durable-software/
 https://note.com/kirik/n/n8e7920167c3f
@@ -520,6 +527,7 @@ https://www.techno-edge.net/article/2026/09/07/5471.html
 https://www.techno-edge.net/article/2026/10/12/5574.html
 https://www.uber.com/in/en/blog/postgres-to-mysql-migration/
 https://www.watch.impress.co.jp/docs/news/2136632.html
+https://www.watch.impress.co.jp/docs/news/2148547.html
 https://www.wiz.io/blog/ai-infrastructure-honeypot
 https://www.wiz.io/blog/artifactory-under-attack-in-the-wild-exploitation-of-cve-2026-42016-cve-2026-4201
 https://www.wiz.io/blog/building-an-ai-detection-engine-for-agent-intent
@@ -584,6 +592,7 @@ https://zenn.dev/mizchi/articles/jev-lint-intro
 https://zenn.dev/mizchi/articles/laya-mlx-60fps
 https://zenn.dev/monyyy/articles/3c55e83a596ccb
 https://zenn.dev/muit_techblog/articles/6ea28887c79457
+https://zenn.dev/nrs/articles/6ce38891833998
 https://zenn.dev/nwn/articles/e49154653ecea9
 https://zenn.dev/onozaty/articles/drizzle-db-comments-generator
 https://zenn.dev/oryo_data/articles/f94473ed24ef95
@@ -609,6 +618,7 @@ https://zenn.dev/tomatomerde/articles/semantic-conflicts-outside-code
 https://zenn.dev/toshipon/articles/claude-code-security-assessment-skill
 https://zenn.dev/uehaj/articles/jev-semgrep-grep-by-meaning
 https://zenn.dev/web_benriya/articles/ai-sql-verification-bigquery-framework
+https://zenn.dev/web_benriya/articles/bigquery-data-engineering-agent-pipelines
 https://zenn.dev/web_benriya/articles/bigquery-knowledge-catalog-business-context
 https://zenn.dev/y0shidahr/articles/95146f60d47622
 https://zenn.dev/yamato_snow/articles/jev-enterprise-security-guide

@@ -1,0 +1,85 @@
+{
+  "date": "2026-10-16",
+  "categories": [
+    {
+      "name": "AIツール/エージェント開発・実装",
+      "items": [
+        {
+          "title_ja": "なぜ Skill は使ってもらえないのか",
+          "url": "https://zenn.dev/nrs/articles/6ce38891833998",
+          "summary_ja": "作り手が無意識に補っている判断が Skill に書かれないため、他の人に渡しても成果の良し悪しを判断できず使われない、という作り手と使い手の前提の差を論じる。共有される Skill には判断基準まで明文化する必要があることを示唆する。"
+        }
+      ]
+    },
+    {
+      "name": "AIツール/業務活用",
+      "items": [
+        {
+          "title_ja": "AIでハードウェアをリバースエンジニアリング：Claude Code でスキャナの Linux ドライバを実現",
+          "url": "https://news.ycombinator.com/item?id=50104299",
+          "summary_ja": "Linux 非対応チップに変わったフィルムスキャナ Plustek 8200i の SANE ドライバを、AI コーディングツールの支援でリバースエンジニアリングして作る試みの報告。一度は行き詰まった作業が AI 活用で進んだ経緯が語られる。"
+        }
+      ]
+    },
+    {
+      "name": "AIモデル/オープンモデル",
+      "items": [
+        {
+          "title_ja": "Meta が最大級の米国製オープンウェイトモデル「Muse Spark Open」を公開",
+          "url": "https://news.ycombinator.com/item?id=50107379",
+          "summary_ja": "総パラメータ 816B（アクティブ 42B）、1M トークン文脈のマルチモーダルモデルの重みが公開された。コーディングやエージェント用途を想定し、Apple M5 Ultra の Mac Studio 2台でローカル実行できる点を打ち出している。"
+        }
+      ]
+    },
+    {
+      "name": "AIモデル/論文・研究",
+      "items": [
+        {
+          "title_ja": "ニューラルネットワークは最初からクリーンだった：解釈可能性への楽観論",
+          "url": "https://news.ycombinator.com/item?id=50105647",
+          "summary_ja": "Goodfire の研究者が、初期モデルの多義性の原因は重ね合わせではなく修正可能な通常の問題だったとする仮説を提示。数兆パラメータ級のモデルでもニューロンの大半を理解できる見込みがあり、機械的解釈可能性の展望は想定より明るいと主張する。"
+        }
+      ]
+    },
+    {
+      "name": "Security/脆弱性・インシデント",
+      "items": [
+        {
+          "title_ja": "連続不正アクセス事案の攻撃手法に関する調査（JPCERT/CC）",
+          "url": "https://blogs.jpcert.or.jp/ja/2026/10/web_api_attacks.html",
+          "summary_ja": "国内で相次いだ情報漏えいの攻撃元サーバーを調査し、攻撃者が AI を使って既知脆弱性のスキャンや API 攻撃を行っていたことを確認。Android アプリの APK を解析して SSRF などを探る手口や、EDR 回避・Web シェル設置の痕跡も報告されている。"
+        },
+        {
+          "title_ja": "ソースネクスト、最大2251万件の情報流出　パスワード再設定を",
+          "url": "https://www.watch.impress.co.jp/docs/news/2148547.html",
+          "summary_ja": "ソースネクストのサイトへの不正アクセスにより最大 2251 万件の顧客情報が流出したと公表され、パスワード再設定が呼びかけられている。同時期に国内で続く Web システム経由の漏えい事案の一つ。"
+        },
+        {
+          "title_ja": "AdFection：標的型広告がゼロクリック傭兵スパイウェアの感染経路に",
+          "url": "https://news.ycombinator.com/item?id=50101813",
+          "summary_ja": "Citizen Lab が、Discover-Tech 社の広告ターゲティング基盤を悪用してゼロクリックで傭兵スパイウェアを送り込む手口「AdFection」を公表。広告配信網が攻撃経路になり得ることと、同社と監視ベンダーとの関係を詳述している。"
+        },
+        {
+          "title_ja": "curl v8.23.0 公開、リモートコード実行を含む24件の脆弱性を修正",
+          "url": "https://forest.watch.impress.co.jp/docs/news/2148495.html",
+          "summary_ja": "curl に特定条件でリモートからコード実行される脆弱性が見つかり、深刻度 High を含む 24 件を修正した v8.23.0 が公開された。curl は広く組み込まれているため早めの更新が望まれる。"
+        },
+        {
+          "title_ja": "ISOをダウンロードしたかっただけなのにカーネルエクスプロイトを書く羽目になった話",
+          "url": "https://news.ycombinator.com/item?id=50070625",
+          "summary_ja": "TP-Link EAP770 が Wi-Fi 経由の長時間ダウンロードを壊す問題を調べた結果、修正は sysfs に 0 を書くだけだが、サポート終了機器のシェルでは書けず、自作のカーネルエクスプロイトで対処した顛末。"
+        }
+      ]
+    },
+    {
+      "name": "開発/データスタック",
+      "items": [
+        {
+          "title_ja": "Data Engineering Agent で自然言語から BigQuery パイプラインを作る",
+          "url": "https://zenn.dev/web_benriya/articles/bigquery-data-engineering-agent-pipelines",
+          "summary_ja": "BigQuery 組み込みの Data Engineering Agent で、自然言語の要件から ELT クエリ生成やスケジュール設定案の提示までを進める手順を解説。必要な IAM ロールや Preview 段階である点にも触れている。"
+        }
+      ]
+    }
+  ]
+}
