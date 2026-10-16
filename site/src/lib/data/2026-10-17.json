@@ -1,0 +1,105 @@
+{
+  "date": "2026-10-17",
+  "categories": [
+    {
+      "name": "AIツール/コーディングツール",
+      "items": [
+        {
+          "title_ja": "Claude Codeチームのコードレビュー運用",
+          "url": "https://news.ycombinator.com/item?id=50122951",
+          "summary_ja": "Claude Code自身のコードの約9割をClaudeが書く体制で、レビューの目的を再定義し、人間のレビュー時間を最小化しつつリバートや障害を増やさない多層レビューの仕組みを紹介している。人が関与し続ける場面や、他チームが導入するための手順にも触れている。"
+        },
+        {
+          "title_ja": "Claude Codeに過去の会話を思い出させる",
+          "url": "https://zenn.dev/babarot/articles/claude-code-session-recall",
+          "summary_ja": "~/.claude/projects/ にJSONLで残る過去セッションをSQLiteに取り込み、TUIやMCP経由で検索・参照できるようにするツールの紹介。設計判断や障害調査の経緯など、コードやgit logに残らない会話内の文脈を現在のセッションに引き継げる。"
+        },
+        {
+          "title_ja": "エージェントのハーネスの違いがエネルギー（トークン）効率を左右する理由",
+          "url": "https://news.ycombinator.com/item?id=50124642",
+          "summary_ja": "Neuralwattの計測では、コーディングエージェントのクライアントごとにプロンプトキャッシュ率が大きく異なり（非キャッシュ入力が1.6〜11.1%）、キャッシュミスは1リクエストの消費エネルギーをほぼ倍にするという。モデルだけでなくハーネス設計がコストと電力効率を決めるという指摘。"
+        }
+      ]
+    },
+    {
+      "name": "AIツール/エージェント開発・実装",
+      "items": [
+        {
+          "title_ja": "AIエージェントの危険な操作を別のAIが検出してブロックする「Armor」をOpenRouterがリリース",
+          "url": "https://gigazine.net/news/20261016-openrouter-armor/",
+          "summary_ja": "OpenRouterが、エージェントが実行しようとする危険なツール呼び出しを別のAIが監視して止める新機能「Armor」を公開した。エージェントに権限を持たせる運用で問題になる誤操作やプロンプトインジェクション被害を抑える層として位置づけられる。"
+        }
+      ]
+    },
+    {
+      "name": "AIモデル/ローカルLLM",
+      "items": [
+        {
+          "title_ja": "Apple ML Research: Mac Studio上でMuse Spark OpenをMLXで動かす",
+          "url": "https://news.ycombinator.com/item?id=50118320",
+          "summary_ja": "Appleが、ほぼ1兆パラメータ級のオープンモデルMuse Spark Openを、MLXの最新版とThunderbolt経由のRDMAでMac Studioに分散して動かす手法を公開した。4台構成で毎秒36トークン超を出せ、512GBメモリの1台からでも大規模モデルをローカル実行できる。"
+        }
+      ]
+    },
+    {
+      "name": "AIモデル/論文・研究",
+      "items": [
+        {
+          "title_ja": "Claudeが量子回路を設計し、公開済みの最良の回路を上回る",
+          "url": "https://news.ycombinator.com/item?id=50121939",
+          "summary_ja": "8種類の量子回路（化学・最適化・物理シミュレーション・整数論）の仕様と自動評価器を与えたところ、Claudeがほぼ自力で既存の最良回路を上回る設計を見つけ、場合によっては桁違いに改善した。実用的な量子計算機の到来が早まる可能性を示す。"
+        },
+        {
+          "title_ja": "ClaudeがECDSA曲線シードの由来を解明",
+          "url": "https://news.ycombinator.com/item?id=50122800",
+          "summary_ja": "NSAが理由を示さずに提供したNISTのECDSA曲線シードの出自について、長年の謎だった由来を「単なるタイムスタンプ」だったと突き止めたAnthropic Frontier Red Teamの報告。暗号標準への懸念を解消する締めくくりで、利用者側の対応は不要とされている。"
+        }
+      ]
+    },
+    {
+      "name": "AI倫理/雇用への影響",
+      "items": [
+        {
+          "title_ja": "米国の労働時間の90%は、AIベンチマークが十分にカバーしていない業務に費やされている",
+          "url": "https://news.ycombinator.com/item?id=50121179",
+          "summary_ja": "Mercorは米国の923職種・18,797タスクと924件のAIベンチマークを対応づけ、評価が行き届いている業務が一部に偏っていることを可視化した。ベンチマークの高得点が実際の仕事の自動化可能性を示すとは限らないことを示す。"
+        }
+      ]
+    },
+    {
+      "name": "Security/脆弱性・インシデント",
+      "items": [
+        {
+          "title_ja": "PwnEscape: Linuxネットワーク処理の欠陥によるゲストからホストへのKVM脱出（CVE-2026-99999）",
+          "url": "https://news.ycombinator.com/item?id=50108845",
+          "summary_ja": "VercelのSandbox向け100万ドル挑戦を機にPWNAI Researchが、ゲストが制御するチェックサムのメタデータで検証済みのIPv4ヘッダーを書き換えられるLinuxネットワークの欠陥を発見し、ホストメモリ漏えいから完全なVM脱出まで到達した。さくらインターネットも該当サービスへの影響調査を開始し、クラウド/VPS/レンタルサーバ等を対象に告知している。"
+        },
+        {
+          "title_ja": "OpenBSDカーネルの37年前のバグを悪用（Big Fish）",
+          "url": "https://news.ycombinator.com/item?id=50118977",
+          "summary_ja": "共有メモリのアタッチ数カウンタが符号付き16ビットshortで、fork連打で32,767を超えると負値に回って競合状態のuse-after-freeになる。別のOOB書き込みと組み合わせ、KARL/SMAP/SMEP有効下でもローカルroot取得に至った。errata 026と018で修正済み。"
+        },
+        {
+          "title_ja": "タイムズカー、退会後も7年間保管していた免許証画像を全削除へ　約660万アカウント分の漏えい受け",
+          "url": "https://www.itmedia.co.jp/news/article/2610/16/2000002346/",
+          "summary_ja": "9月の不正アクセスで約660万アカウントの個人情報が漏えいし、うち約160万アカウント分は本人確認書類画像も含まれていた。パーク24は今後、登録確認後すぐに画像を削除するよう社内ルールを変更する。不要な機微データを持たない設計の重要性を示す事例。"
+        },
+        {
+          "title_ja": "ネットショップのシステム運営会社Eストアー、2335万人の個人情報漏えいを確認",
+          "url": "https://news.web.nhk/newsweb/na/nd-20261016de60742",
+          "summary_ja": "Eストアーは8月に発覚した不正アクセスの調査結果として、利用した顧客2335万人分の個人情報が漏えいしたと公表した。同日にはヤマト運輸の530万件超など漏えい報告が相次ぎ、のべ1億6500万人超との報道もある。"
+        }
+      ]
+    },
+    {
+      "name": "開発/JS・TS",
+      "items": [
+        {
+          "title_ja": "JPEG XL vs AVIF: Web用途での比較",
+          "url": "https://news.ycombinator.com/item?id=50120224",
+          "summary_ja": "JPEG XLが主要ブラウザすべてに入ったのを受けた比較。写真ではAVIFの方が通常15〜25%（最大努力でも6〜20%）小さく、スクリーンショットやイラストではJPEG XLが30〜90%大きくなる。エンコーダ次第（jixelはlibjxlより小さい）で結果が変わる点も指摘。"
+        }
+      ]
+    }
+  ]
+}
