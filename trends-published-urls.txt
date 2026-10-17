@@ -32,6 +32,7 @@ https://blog.trailofbits.com/2026/09/18/auditing-in-the-age-of-good-enough-ai/
 https://blog.trailofbits.com/2026/09/21/saml-a-fractal-of-bad-design/
 https://blogs.jpcert.or.jp/ja/2026/10/web_api_attacks.html
 https://claude.com/blog/agentic-coding-is-straining-ci-heres-how-we-scaled-test-impact-analysis-at-anthropic
+https://claude.dev/blog/solving-code-review-at-anthropic/
 https://cloud.google.com/blog/ja/products/identity-security/getting-started-with-the-mantis-harness-to-find-and-fix-bugs
 https://cloud.watch.impress.co.jp/docs/column/techwatch/2147521.html
 https://coliss.com/wp-content/cache/all/articles/build-websites/operation/work/7-adobe-apps-open-sourced.html/index.html
@@ -44,6 +45,7 @@ https://deno.com/blog/clawpatrol
 https://deno.com/blog/v2.9
 https://desertant.com/blog/introducing-desert-ant-labs/
 https://dev.classmethod.jp/articles/2026-08_claude-code-product-workshop-kit/
+https://dev.classmethod.jp/articles/aws-security-bulletin-2026-137-kvm-kernel/
 https://dev.classmethod.jp/articles/local-llm-guide-2026-summer/
 https://devblogs.microsoft.com/typescript/announcing-typescript-7-0-rc/
 https://devblogs.microsoft.com/typescript/announcing-typescript-7-0/
@@ -65,6 +67,7 @@ https://forest.watch.impress.co.jp/docs/news/2148495.html
 https://forest.watch.impress.co.jp/docs/review/localai/2137694.html
 https://four.htmx.org/announcements/2026-08-28-htmx-4.0.0-is-released
 https://future-architect.github.io/articles/20261008a/
+https://future-architect.github.io/articles/20261016a/
 https://ghuntley.com/replaced/
 https://gigazine.net/news/20260827-meta-zuckerberg-replace-staff-ai-imploded/
 https://gigazine.net/news/20260827-openai-hugging-face-incident-report/
@@ -104,13 +107,17 @@ https://gigazine.net/news/20261012-geiger/
 https://gigazine.net/news/20261013-passkey-are-a-trap/
 https://gigazine.net/news/20261014-anthropic-scion-version-control-system/
 https://gigazine.net/news/20261014-embetting-gemma-transcribe/
+https://gigazine.net/news/20261016-nemotron-3-5-super-vl/
 https://gigazine.net/news/20261016-openrouter-armor/
+https://gigazine.net/news/20261016-perplexity-space/
+https://gigazine.net/news/20261017-agentsview/
 https://giginet.hateblo.jp/entry/2026/09/22/114642
 https://gihyo.jp/article/2026/10/anatomy
 https://gihyo.jp/book/2026/978-4-297-15875-0
 https://github.com/anthropics/code-migration-kit-with-claude-code
 https://github.com/argonautlabsai/deltafin
 https://github.com/ayghri/i-have-adhd
+https://github.com/google-research/harness2
 https://github.com/minorun365/agent-builder-skills
 https://github.com/mizorewww/laya-mlx
 https://go.dev/blog/http-connection-reuse
@@ -133,6 +140,7 @@ https://internet.watch.impress.co.jp/docs/news/2147162.html
 https://itsallaboutthebit.com/i-am-sorry-but-you-still-have-to-think/
 https://iwashi.co/2026/10/01/how-to-study-in-ai-era
 https://japan.cnet.com/article/35253437/
+https://japan.cnet.com/article/35253656/
 https://japan.zdnet.com/article/35252229/
 https://japan.zdnet.com/article/35252683/
 https://jbpress.ismedia.jp/articles/-/96703
@@ -164,6 +172,8 @@ https://news.mynavi.jp/techplus/article/20261009-5099252/
 https://news.tv-asahi.co.jp/news_international/articles/900199131.html
 https://news.web.nhk/newsweb/na/nd-20261016de60742
 https://news.yahoo.co.jp/articles/f0008179ada16d57148d0998c5c2a62872b7bb1a
+https://news.yahoo.co.jp/expert/articles/5e8495cadb5412ac2ca85a7253509eadf5360471
+https://news.yahoo.co.jp/expert/articles/b3e710c60d79d276a00321906fa87ac9243f5530
 https://news.yahoo.co.jp/expert/articles/cce6d03439ffb1d2d6de2500240634b394731753
 https://news.yahoo.co.jp/expert/articles/cf4dc975624f9a2b29752d9bf154e25ae30739d2
 https://news.ycombinator.com/item?id=49551760
@@ -285,8 +295,12 @@ https://news.ycombinator.com/item?id=50120224
 https://news.ycombinator.com/item?id=50121179
 https://news.ycombinator.com/item?id=50121939
 https://news.ycombinator.com/item?id=50122800
+https://news.ycombinator.com/item?id=50122878
 https://news.ycombinator.com/item?id=50122951
 https://news.ycombinator.com/item?id=50124642
+https://news.ycombinator.com/item?id=50127979
+https://news.ycombinator.com/item?id=50129045
+https://news.ycombinator.com/item?id=50133401
 https://newsdig.tbs.co.jp/articles/-/2990268
 https://newsletter.dancohen.org/archive/the-slow-formation-of-durable-software/
 https://note.com/kirik/n/n8e7920167c3f
@@ -298,6 +312,7 @@ https://note.com/postdoc_career/n/nc9dcfe5ea3d3
 https://note.com/shi3zblog/n/na7a590b9908e
 https://note.com/shi3zblog/n/ncb38d2978074
 https://note.com/shinshiro/n/n45c9931a88e5
+https://note.com/suh_sunaneko/n/n23ed6981ff6a
 https://note.com/takahiroanno/n/n4accbde18d56
 https://note.com/yoshiki_shibata/n/n185f3d9e13bc
 https://note.com/yubais/n/nd4505991a6d6
@@ -331,6 +346,7 @@ https://qiita.com/chibicco/items/ef1a9e40c4cdf15d8e21
 https://qiita.com/hono_ai_labho/items/c9a40e481d4dd9c76fa5
 https://qiita.com/infra365/items/aa30a54fc6f0849385a7
 https://qiita.com/jiis-sasaki/items/7affa2e2ef22ebf93fa6
+https://qiita.com/k2_naka/items/fa87685231377f15e7e3
 https://qiita.com/kikuziro/items/53465eeb52b464757555
 https://qiita.com/konaito/items/16a6d2c5da7d144efe95
 https://qiita.com/ktdatascience/items/02b6b45e2ca7d34ad146
@@ -372,6 +388,7 @@ https://speakerdeck.com/nakanao/ai-ni-makaseta-hinshitsu-ha-dare-ga-mitateru-no-
 https://speakerdeck.com/pei0804/data-engineering-for-ai-ready-business
 https://speakerdeck.com/teru0x1/slack-ue-de-infura-o-toraburu-shuto-suru-agentic-platform-engineering-no-daiippo
 https://speakerdeck.com/terurou/ai-kudou-kaihatsu-no-jidai-ni-nata-node-toyota-seisan-houshiki-kara-minaosu
+https://speakerdeck.com/timakin/kodingu-jidouka-no-tsugi-he-hito-no-kainyuu-o-zero-ni-suru-to-sapoto-ai-niyoru-jissen
 https://speakerdeck.com/tkikuc/vibes-containers-ai-de-kawaru-kontena-sekkei-to-unyou
 https://speakerdeck.com/twada/debt-metaphor-in-agentic-engineering-age-202609-edition
 https://speakerdeck.com/upsider_tech/enjinia-ha-doko-made-ekkyou-surubeki-ka-take
@@ -433,6 +450,7 @@ https://www.aikido.dev/blog/stylesmuggler-fix
 https://www.aikido.dev/blog/supplychain-local-memtensor-npm-pypi
 https://www.anthropic.com/engineering/redesigning-source-control
 https://www.anthropic.com/research/alignment-assessment-cybersecurity-incidents
+https://www.anthropic.com/research/ecdsa-curve-origins
 https://www.anthropic.com/research/formalizing-fermats-last-theorem
 https://www.anthropic.com/research/intelligence-targeting-conventional-weapons-capabilities
 https://www.anthropic.com/research/launching-opt-in-vuln-finding-service-for-open-source
@@ -496,6 +514,7 @@ https://www.kobonemi.com/entry/2026/10/03/macOS-27-Full-Disk-Access-Additional-C
 https://www.m3tech.blog/entry/2026/08/25/080000
 https://www.m3tech.blog/entry/2026/08/26/110000
 https://www.m3tech.blog/entry/2026/09/18/160000
+https://www.m3tech.blog/entry/2026/10/14/133340
 https://www.m3tech.blog/entry/embulk-to-dlt-dbt
 https://www.netlify.com/blog/edge-functions-firecracker-microvms/
 https://www.nict.go.jp/press/2026/10/13-1.html
@@ -535,6 +554,7 @@ https://www.sbbit.jp/article/sp/186086
 https://www.sbbit.jp/document/sp/24293
 https://www.scutum.jp/information/waf_tech_blog/2026/10/waf-blog-085.html
 https://www.spinellis.gr/blog/20261008/?li261008
+https://www.tanp-blog.com/entry/2026/10/15/110018
 https://www.techno-edge.net/article/2026/09/07/5471.html
 https://www.techno-edge.net/article/2026/10/12/5574.html
 https://www.uber.com/in/en/blog/postgres-to-mysql-migration/
