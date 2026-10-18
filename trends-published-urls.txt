@@ -14,6 +14,7 @@ https://atmarkit.itmedia.co.jp/ait/articles/2609/24/news032.html
 https://aws.amazon.com/blogs/security/building-your-ai-vulnerability-harness-part-1/
 https://aws.amazon.com/jp/blogs/news/aws-jpps-seminar-2026-july/
 https://azukiazusa.dev/blog/json-render-jev/
+https://azukiazusa.dev/blog/void-vite-cloudflare-deploy/
 https://azukiazusa.dev/blog/zod-compile-validation/
 https://blog.cloudflare.com/client-side-security-finds-4-malicious-campaigns/
 https://blog.cloudflare.com/emdash-cms-plugin-registry/
@@ -54,6 +55,7 @@ https://developers.cyberagent.co.jp/blog/archives/64920/
 https://disconnect3d.pl//2026/10/02/dont-put-tilde-in-your-path/
 https://docs.getdbt.com/blog/dbt-mcp-server-claude
 https://engineering.atspotify.com/2026/9/portal-by-spotify-cut-my-claude-code-token-usage-by-90
+https://engineering.dena.com/blog/2026/10/ai-agent-onboarding/
 https://enterprisezine.jp/article/detail/25178
 https://euglena1215.hatenablog.jp/entry/2026/09/27/113320
 https://findy-code.io/media/articles/list-yuma_prog
@@ -301,7 +303,11 @@ https://news.ycombinator.com/item?id=50124642
 https://news.ycombinator.com/item?id=50127979
 https://news.ycombinator.com/item?id=50129045
 https://news.ycombinator.com/item?id=50133401
+https://news.ycombinator.com/item?id=50137950
+https://news.ycombinator.com/item?id=50138531
+https://news.ycombinator.com/item?id=50145337
 https://newsdig.tbs.co.jp/articles/-/2990268
+https://newsdig.tbs.co.jp/articles/-/3020110
 https://newsletter.dancohen.org/archive/the-slow-formation-of-durable-software/
 https://note.com/kirik/n/n8e7920167c3f
 https://note.com/npaka/n/n1d86b2196515
@@ -312,6 +318,7 @@ https://note.com/postdoc_career/n/nc9dcfe5ea3d3
 https://note.com/shi3zblog/n/na7a590b9908e
 https://note.com/shi3zblog/n/ncb38d2978074
 https://note.com/shinshiro/n/n45c9931a88e5
+https://note.com/srt_taka/n/nff6c2d40c11b
 https://note.com/suh_sunaneko/n/n23ed6981ff6a
 https://note.com/takahiroanno/n/n4accbde18d56
 https://note.com/yoshiki_shibata/n/n185f3d9e13bc
@@ -364,6 +371,7 @@ https://qiita.com/xeje/items/48c9835a3e5c7b3d5489
 https://qiita.com/yasu1109/items/53b294aa9c288ace8c59
 https://qiita.com/yukihirop/items/e0d8ffb121c1a753075a
 https://qiita.com/yushibats/items/16b6b3c8ec5acd6bdc8b
+https://quentinkaiser.be/security/2026/10/16/one-parser-two-bugs/
 https://quesma.com/blog/qwen38-27b-quantizations-benchmarked/
 https://reflection.ai/blog/introducing-beam
 https://satoweb.net/2026/09/p-18390/
@@ -418,7 +426,9 @@ https://tech.stmn.co.jp/entry/2026/10/09/121328
 https://techblog.ap-com.co.jp/entry/2026/09/17/103525
 https://techblog.zozo.com/entry/cc-plugin-marketplace
 https://techblog.zozo.com/entry/verify-ai-agent-coding-rules-with-archunit
+https://terriblesoftware.org/2026/10/02/the-brain-sandwich/
 https://terrytao.wordpress.com/2026/09/11/a-severe-misalignment-of-ai-in-mathematics/
+https://terrytao.wordpress.com/2026/10/18/will-it-be-a-golden-age-or-a-dark-age-for-mathematics-and-science/
 https://thinkit.co.jp/article/39471
 https://thinkit.co.jp/article/39495
 https://thinkit.co.jp/article/39536
@@ -451,6 +461,7 @@ https://www.aikido.dev/blog/supplychain-local-memtensor-npm-pypi
 https://www.anthropic.com/engineering/redesigning-source-control
 https://www.anthropic.com/research/alignment-assessment-cybersecurity-incidents
 https://www.anthropic.com/research/ecdsa-curve-origins
+https://www.anthropic.com/research/employment-at-anthropic
 https://www.anthropic.com/research/formalizing-fermats-last-theorem
 https://www.anthropic.com/research/intelligence-targeting-conventional-weapons-capabilities
 https://www.anthropic.com/research/launching-opt-in-vuln-finding-service-for-open-source
@@ -581,6 +592,7 @@ https://yedhu.me/posts/commit-description-as-a-thinking-tool/
 https://zenn.dev/7nohe/articles/agents-on-guren-round-2
 https://zenn.dev/7nohe/articles/guren-bun-fullstack
 https://zenn.dev/afante/articles/164a494962df54
+https://zenn.dev/aws_japan/articles/context-ontology-accelerator-multilingual
 https://zenn.dev/azunyan/articles/7a105969d7d16c
 https://zenn.dev/babarot/articles/claude-code-session-recall
 https://zenn.dev/charge0315/articles/9008a27f7902b4
@@ -588,6 +600,7 @@ https://zenn.dev/citras/articles/agents-md-what-to-write
 https://zenn.dev/coji/articles/artifactshare-preview-claude-codex-cursor
 https://zenn.dev/dmmdata/articles/dbt-state-event-driven-data-marts
 https://zenn.dev/edash_tech_blog/articles/4577f7d4780bef
+https://zenn.dev/edash_tech_blog/articles/6250fc61ccf009
 https://zenn.dev/emilk1225/articles/73356c9b0e156d
 https://zenn.dev/emilk1225/articles/d37feb664ed8e5
 https://zenn.dev/facraft/articles/aws-org-security-for-enterprise-saas
@@ -625,6 +638,7 @@ https://zenn.dev/mizchi/articles/jev-lint-intro
 https://zenn.dev/mizchi/articles/laya-mlx-60fps
 https://zenn.dev/monyyy/articles/3c55e83a596ccb
 https://zenn.dev/muit_techblog/articles/6ea28887c79457
+https://zenn.dev/nonejp/articles/c7dd2859872f9d
 https://zenn.dev/nrs/articles/6ce38891833998
 https://zenn.dev/nwn/articles/e49154653ecea9
 https://zenn.dev/onozaty/articles/drizzle-db-comments-generator

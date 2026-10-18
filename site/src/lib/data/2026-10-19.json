@@ -1,0 +1,110 @@
+{
+  "date": "2026-10-19",
+  "categories": [
+    {
+      "name": "AIツール/業務活用",
+      "items": [
+        {
+          "title_ja": "オンボーディングをAIエージェントに任せたら別ゲーだった（DeNA）",
+          "url": "https://engineering.dena.com/blog/2026/10/ai-agent-onboarding/",
+          "summary_ja": "部のオンボーディング資料をGitHubリポジトリに集約し、Claude Codeが新規メンバーに伴走する仕組みを作った事例。教材の本文を持たず正本をコネクタで取りに行く設計や出力形式の固定、AIにできないことを先に決める点が要で、中途入社者に1か月使ってもらって運用面の学びも得ている。"
+        },
+        {
+          "title_ja": "コネクタもAPIも無いサービスをClaude Codeに操作させる",
+          "url": "https://zenn.dev/edash_tech_blog/articles/6250fc61ccf009",
+          "summary_ja": "MCPコネクタが無いローコード製の管理コンソールを、Claude CodeにChrome拡張をつないで画面経由で操作させた3か月の運用記録。設定の作成から保存、テスト実行、結果確認までをブラウザ自動化に任せる実践的な知見がまとまっている。"
+        },
+        {
+          "title_ja": "Show HN: Sphinx – 出荷前にAIが書いたコードについてクイズを出すフック",
+          "url": "https://news.ycombinator.com/item?id=50137950",
+          "summary_ja": "コーディングエージェントのワークフローに組み込み、本番へpushする際に自分がそのコードを理解しているかを問う質問票を出すOSSのフック。コメントでは同種の仕組みの先行例も挙がり、エージェント時代に人間がどこまで実装を理解すべきかという議論になっている。"
+        },
+        {
+          "title_ja": "日本語の業務データがそのまま日本語のオントロジーに：Context Ontology Accelerator v0.3.6",
+          "url": "https://zenn.dev/aws_japan/articles/context-ontology-accelerator-multilingual",
+          "summary_ja": "AWSのOSS「Context Ontology Accelerator」v0.3.6の日本語対応を紹介する記事。日本語のテーブルやカラムコメントからAIが生成する説明やオントロジーが英語になってしまう問題を解消し、レビューする人の読み替えの手間を減らす。"
+        }
+      ]
+    },
+    {
+      "name": "AIモデル/論文・研究",
+      "items": [
+        {
+          "title_ja": "Hybrid Reasoning Agents：潜在空間で思考しテキストで行動するLLMエージェント",
+          "url": "https://news.ycombinator.com/item?id=50145337",
+          "summary_ja": "テキストでの対話と潜在空間での推論を動的に切り替えるHybridAgentsを提案する論文。軽量なHybridLinkでモード間を遷移し、連続的なワーキングメモリで文脈を保つことで、ツール利用能力を保ったまま潜在的な思考を検査可能にする。"
+        },
+        {
+          "title_ja": "DeepSeekが検索・フェッチAPIを提供、成功1000リクエストあたり0.75ドル",
+          "url": "https://news.ycombinator.com/item?id=50138531",
+          "summary_ja": "DeepSeekが自社検索エンジンによるSearch APIと、ページをMarkdownで返すFetch APIを公開した。エージェントやRAGにライブのWeb情報を渡す用途で、DeepSeek APIと同じBearer認証で使え、低価格が注目されHNで500点超の話題になった。"
+        }
+      ]
+    },
+    {
+      "name": "AI倫理/雇用・社会への影響",
+      "items": [
+        {
+          "title_ja": "Anthropic社内で雇用はどう変わっているか",
+          "url": "https://www.anthropic.com/research/employment-at-anthropic",
+          "summary_ja": "Anthropicが自社の雇用データを分析し、若手技術職の採用比率が下がる一方、8月時点でAIエージェントの稼働時間が従業員の6倍に達したと報告。一人あたりの成果は増え、人の注意力が新たなボトルネックとなって、エージェントを監視する「メタワーク」が増えている。"
+        },
+        {
+          "title_ja": "数学と科学は黄金期か暗黒期か（Francesco Maggi寄稿、Terence Taoブログ）",
+          "url": "https://terrytao.wordpress.com/2026/10/18/will-it-be-a-golden-age-or-a-dark-age-for-mathematics-and-science/",
+          "summary_ja": "LLMによる数学の証明生成が科学の発見を加速しうる一方、新世代の研究者の育成や専門性の維持、オープンで独立した研究環境を守るには、LLMを各STEM分野に慎重に統合する必要があると論じる寄稿。"
+        }
+      ]
+    },
+    {
+      "name": "Security/脆弱性・インシデント",
+      "items": [
+        {
+          "title_ja": "Broadcom WiFiの1つのパーサーに2つのバグ：eCosとLinuxのルーターを攻略",
+          "url": "https://quentinkaiser.be/security/2026/10/16/one-parser-two-bugs/",
+          "summary_ja": "Broadcom独自の802.11実装に2010年頃から存在する脆弱性の解説。2018年の不完全なパッチ後に放置され、eCos系では事実上のforever dayとなる。ネットワークキー不要でWiFi越しに情報漏えいと任意コード実行が可能で、数百製品・数百万台に影響し、検出用スクリプトとYARAルールも公開されている。"
+        },
+        {
+          "title_ja": "不正アクセス急増の背景に中国製LLMの台頭、AIが偵察から侵入・情報奪取まで自動化（TBS）",
+          "url": "https://newsdig.tbs.co.jp/articles/-/3020110",
+          "summary_ja": "個人情報漏えいを伴う不正アクセスが全国で急増しており、背景としてAIが偵察・侵入・情報奪取を自動で行う攻撃の広がりがあると専門家が警鐘を鳴らす。「情報が漏れていない人の方が珍しい」としつつ対策を取り上げている。※本文の続きは取得できず、冒頭の記述から要約"
+        }
+      ]
+    },
+    {
+      "name": "開発/JS・TS",
+      "items": [
+        {
+          "title_ja": "VoidでフルスタックアプリをCloudflareにデプロイする",
+          "url": "https://azukiazusa.dev/blog/void-vite-cloudflare-deploy/",
+          "summary_ja": "VoidZeroが開発するVite向けフルスタックツールキットVoidの入門。void/dbなどのimportから必要なリソースを推論し、void deployの1コマンドでD1の作成・ビルド・マイグレーション・公開まで行う。D1とReactのメモアプリを例に、loader/action、ログとロールバックまで手順を示す。"
+        }
+      ]
+    },
+    {
+      "name": "開発/インフラ・ツール",
+      "items": [
+        {
+          "title_ja": "トレーシング基盤なしで「どこが遅いか」をSQLで探す：gospanでnet/httpのspanをSQLiteに溜める",
+          "url": "https://zenn.dev/nonejp/articles/c7dd2859872f9d",
+          "summary_ja": "OpenTelemetryのcollectorを立てるほどではない単一のGoプロセス向けに、名前付きspanをcontext経由で入れ子にしてslogと連携し、SQLiteに蓄積してSQLで遅い処理を絞り込むライブラリgospanを試した記事。"
+        }
+      ]
+    },
+    {
+      "name": "キャリア・組織",
+      "items": [
+        {
+          "title_ja": "The Brain Sandwich：AI活用でエンジニアリング力を衰えさせない枠組み",
+          "url": "https://terriblesoftware.org/2026/10/02/the-brain-sandwich/",
+          "summary_ja": "AIに作業を丸投げして思考を放棄する状況への対策として、優秀なエンジニアが使う「自分の頭→AI→自分の頭」の流れを紹介。エージェントに任せる前に対象を読んで大まかな方向性を持ち、最後に自分で確認することで、AIの恩恵を受けつつスキルの劣化を防ぐ。"
+        },
+        {
+          "title_ja": "リーダーシップなき越境は組織を壊す",
+          "url": "https://note.com/srt_taka/n/nff6c2d40c11b",
+          "summary_ja": "会話は多いのに前に進まない組織の正体を「具体化は放っておいても進むが、抽象化には意志が必要」という非対称で説明。越境とSlackが具体化のコストをゼロにしてこの傾向を加速させるため、組織の規模に応じて抽象化を担うリーダーシップが要ると、マネージャー自身の反省として述べる。"
+        }
+      ]
+    }
+  ]
+}
