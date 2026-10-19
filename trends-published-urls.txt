@@ -113,6 +113,8 @@ https://gigazine.net/news/20261016-nemotron-3-5-super-vl/
 https://gigazine.net/news/20261016-openrouter-armor/
 https://gigazine.net/news/20261016-perplexity-space/
 https://gigazine.net/news/20261017-agentsview/
+https://gigazine.net/news/20261019-ecdsa-seed-origin/
+https://gigazine.net/news/20261019-hybrid-reasoning-agents/
 https://giginet.hateblo.jp/entry/2026/09/22/114642
 https://gihyo.jp/article/2026/10/anatomy
 https://gihyo.jp/book/2026/978-4-297-15875-0
@@ -122,6 +124,7 @@ https://github.com/ayghri/i-have-adhd
 https://github.com/google-research/harness2
 https://github.com/minorun365/agent-builder-skills
 https://github.com/mizorewww/laya-mlx
+https://gmo-cybersecurity.com/blog/20261019/
 https://go.dev/blog/http-connection-reuse
 https://harnesstax.github.io/
 https://huggingface.co/blog/Banaxi-Tech/bananamind-2-pro-weve-almost-matched-smollm2-at-20
@@ -303,12 +306,18 @@ https://news.ycombinator.com/item?id=50124642
 https://news.ycombinator.com/item?id=50127979
 https://news.ycombinator.com/item?id=50129045
 https://news.ycombinator.com/item?id=50133401
+https://news.ycombinator.com/item?id=50134472
 https://news.ycombinator.com/item?id=50137950
 https://news.ycombinator.com/item?id=50138531
 https://news.ycombinator.com/item?id=50145337
+https://news.ycombinator.com/item?id=50150434
+https://news.ycombinator.com/item?id=50151036
+https://news.ycombinator.com/item?id=50152321
+https://news.ycombinator.com/item?id=50155245
 https://newsdig.tbs.co.jp/articles/-/2990268
 https://newsdig.tbs.co.jp/articles/-/3020110
 https://newsletter.dancohen.org/archive/the-slow-formation-of-durable-software/
+https://nono.sh/credential-injection
 https://note.com/kirik/n/n8e7920167c3f
 https://note.com/npaka/n/n1d86b2196515
 https://note.com/npaka/n/n2b9c36c471b6
@@ -324,6 +333,7 @@ https://note.com/takahiroanno/n/n4accbde18d56
 https://note.com/yoshiki_shibata/n/n185f3d9e13bc
 https://note.com/yubais/n/nd4505991a6d6
 https://note.com/yuiseki/n/nabf4625e58bc
+https://note.com/yukiedu/n/n4d25f5e1d590
 https://note.com/yukukotani/n/n5607be0f8f4f
 https://nyosegawa.com/posts/data-leak-era/
 https://nyosegawa.com/posts/qiita-writing-before-after-ai/
@@ -412,6 +422,7 @@ https://tailwindcss.com/blog/tailwind-is-joining-shopify
 https://tech-blog-v2-opal.vercel.app/article/balancing-engineering-and-parenting
 https://tech-blog.rakus.co.jp/entry/20260916/ai
 https://tech-blog.rakus.co.jp/entry/20260918/a11y
+https://tech-blog.rakus.co.jp/entry/20261019/weekly-reflection
 https://tech-blog.tabelog.com/entry/autonomous-ai-agent-pipeline-cost-verification_55
 https://tech-blog.voicy.jp/entry/2026/09/10/183722
 https://tech.anotherball.com/ja/2026-09-04-interview-product-development-skills/
@@ -519,6 +530,7 @@ https://www.itmedia.co.jp/news/article/2610/13/2000002201/
 https://www.itmedia.co.jp/news/article/2610/13/2000002204/
 https://www.itmedia.co.jp/news/article/2610/13/2000002234/
 https://www.itmedia.co.jp/news/article/2610/16/2000002346/
+https://www.itmedia.co.jp/news/article/2610/19/2000002372.html
 https://www.jiji.com/jc/article?k=2026091100447&g=flash
 https://www.jpcert.or.jp/at/2026/at260030.html
 https://www.kobonemi.com/entry/2026/10/03/macOS-27-Full-Disk-Access-Additional-Controls

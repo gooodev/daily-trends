@@ -1,0 +1,105 @@
+{
+  "date": "2026-10-20",
+  "categories": [
+    {
+      "name": "AIツール/エージェント開発・実装",
+      "items": [
+        {
+          "title_ja": "AIエージェント任せの開発は1〜2ヶ月で破綻する、という指摘",
+          "url": "https://note.com/yukiedu/n/n4d25f5e1d590",
+          "summary_ja": "Claude Codeに開発を丸ごと任せると、1〜2ヶ月後にはファイルごとの書き方がばらつき、機能追加のたびに別の箇所が壊れると指摘する記事。構造の判断は人間が担い、テスト作成や既存パターンに沿った実装をAIに任せるべきだと説いている。"
+        },
+        {
+          "title_ja": "AIエージェント向けのプロキシ型シークレット管理「Credential Injection」",
+          "url": "https://nono.sh/credential-injection",
+          "summary_ja": "エージェントが送る平文HTTPをローカルのリバースプロキシが受け、認証ヘッダーを付けてTLSで転送する方式で、エージェントはAPIキーを一切見ない。認証情報はKeychainや1Passwordなどに保管され、監査ログにも値は残らない。"
+        }
+      ]
+    },
+    {
+      "name": "AIツール/業務活用",
+      "items": [
+        {
+          "title_ja": "Claude Codeで毎週の振り返りを自動化した5か月の記録（RAKUS）",
+          "url": "https://tech-blog.rakus.co.jp/entry/20261019/weekly-reflection",
+          "summary_ja": "毎週金曜にタスクスケジューラでClaude Codeを起動し、振り返りの記録を1ファイルに追記してAIに長期記憶として持たせる仕組みを紹介。評価基準とフォーマットを固定した5か月の運用で、継続性の向上や自分では見落としていた成果の発見があったと報告している。"
+        }
+      ]
+    },
+    {
+      "name": "AIツール/コーディングツール",
+      "items": [
+        {
+          "title_ja": "LLMが書いたコードを理解しないまま出荷してよいか（Ask HN）",
+          "url": "https://news.ycombinator.com/item?id=50151036",
+          "summary_ja": "Metaのエンジニアが「すべてがブラックボックスに感じる」と語った投稿を発端に、理解できないAI生成コードの出荷が議論されている。人間が設計してLLMに実装させる方法、テストでの検証、レビュー負荷、責任の所在、品質低下や燃え尽きへの懸念が主な論点。"
+        }
+      ]
+    },
+    {
+      "name": "AIモデル/オープンモデル",
+      "items": [
+        {
+          "title_ja": "Mistralが時系列基盤モデル「Timestral」を発表",
+          "url": "https://news.ycombinator.com/item?id=50150434",
+          "summary_ja": "Mistral初の時系列基盤モデル群で、5Mから209Mパラメータの4サイズ。最大モデルは主要3ベンチマークで首位を獲得し、CPUでも効率的に動作、オンプレミスやエアギャップ環境への導入にも対応する。"
+        },
+        {
+          "title_ja": "拡散型LLM「Mercury 3」登場、毎秒1,000トークン超",
+          "url": "https://news.ycombinator.com/item?id=50155245",
+          "summary_ja": "Inception社の拡散型LLMの新モデルで、同社は一部の既存モデルを上回る性能を毎秒1,000トークン超で実現したと説明している。100万トークンのコンテキストとOpenAI互換APIを備え、低遅延が求められるエージェントや音声用途を想定している。"
+        }
+      ]
+    },
+    {
+      "name": "AIモデル/論文・研究",
+      "items": [
+        {
+          "title_ja": "潜在空間で思考するHybrid Reasoning Agents",
+          "url": "https://gigazine.net/news/20261019-hybrid-reasoning-agents/",
+          "summary_ja": "スタンフォード大学やMetaなどの研究チームによる、AIの思考を言語トークンではなく潜在空間で行えるよう事後学習させる手法。処理速度は最大2.1倍、Qwen3 4Bでのコストは3.7分の1になったと報告されている。"
+        },
+        {
+          "title_ja": "Claudeが暗号規格ECDSAの曲線シード値の起源を解明",
+          "url": "https://gigazine.net/news/20261019-ecdsa-seed-origin/",
+          "summary_ja": "Anthropicは、NIST標準曲線のシード値が1990年代の疑似乱数生成器と1997〜1998年頃のUnixタイムスタンプから作られたとClaudeが突き止めたと発表した。ECDSAの脆弱性を示すものではなく、意図的なバックドアの可能性を下げる結果で、懸賞金は全額Let's Encrypt運営団体に寄付された。"
+        }
+      ]
+    },
+    {
+      "name": "Security/AI×攻撃",
+      "items": [
+        {
+          "title_ja": "相次ぐ不正アクセスの攻撃元の多くがAI自律型ペネトレーションツールと判明（GMO）",
+          "url": "https://gmo-cybersecurity.com/blog/20261019/",
+          "summary_ja": "GMOサイバー犯罪対策センターは、日本企業を狙った不正アクセスの攻撃元の多くが、AIによる自律型ペネトレーションテストシステム「ARTEX」を使っていることを確認した。攻撃インフラはほぼ日本のみを標的に約20社を狙い、同種のインフラがさらに6台見つかっている。"
+        }
+      ]
+    },
+    {
+      "name": "Security/脆弱性・インシデント",
+      "items": [
+        {
+          "title_ja": "Plexの脆弱性が実環境で悪用され、マイナーが投下される",
+          "url": "https://news.ycombinator.com/item?id=50152321",
+          "summary_ja": "ハニーポット観測で、Plexメディアサーバーの複数の脆弱性（plex2shell）が2026年10月に悪用され、xmrigなどの暗号資産マイナーやプロキシツールが投下されていた。攻撃元IPやマルウェアのハッシュ、検知ルールも共有されている。"
+        },
+        {
+          "title_ja": "ソースネクスト、パスワード平文流出の経緯を説明",
+          "url": "https://www.itmedia.co.jp/news/article/2610/19/2000002372.html",
+          "summary_ja": "パスワードが平文で流出した理由について、暗号化はしていたが鍵にアクセスできるシステムへ侵入されたためと説明されている。※本文取得不可のため一覧のタイトルから要約"
+        }
+      ]
+    },
+    {
+      "name": "キャリア・組織/働き方",
+      "items": [
+        {
+          "title_ja": "それでもプログラミングを楽しんでいい、という主張",
+          "url": "https://news.ycombinator.com/item?id=50134472",
+          "summary_ja": "仕事としてのプログラミングの経済性は変わったが、趣味として楽しむのに経済的な理由は要らないと主張する記事。週末に手書きでブロック崩しを作るなどの体験を通じて、役に立つかどうかに関係なく楽しんでよいと呼びかけている。"
+        }
+      ]
+    }
+  ]
+}
