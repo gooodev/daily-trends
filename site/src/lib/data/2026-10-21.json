@@ -1,0 +1,115 @@
+{
+  "date": "2026-10-21",
+  "categories": [
+    {
+      "name": "AIツール/エージェント開発・実装",
+      "items": [
+        {
+          "title_ja": "コーディングエージェント同士の依頼を英語の電報調にしてトークンを削減する運用",
+          "url": "https://zenn.dev/twinharness/articles/ai-telegraph-vs-plain-japanese",
+          "summary_ja": "Claude CodeとCodexを併用する個人開発者が、AI同士のやり取りは独自の電報調書式AXP/1、人間への報告は専門用語なしの日本語、と読み手で文体を分ける運用を紹介している。レビュー返信1件のトークン数が418から167に減り、失敗場面・場所・実測値・未確認事項の4点は削らないルールも定めている。"
+        }
+      ]
+    },
+    {
+      "name": "AIツール/業務活用",
+      "items": [
+        {
+          "title_ja": "ソフトウェアの産業革命：書く速さが読む速さを追い越したあとの「ソフトウェアファクトリー」",
+          "url": "https://blog.nishimu.land/entry/2026/10/20/123916",
+          "summary_ja": "Anthropicの社内リポジトリで1日3万件超のマージがあるなど、エージェントによる生成量の増加でボトルネックがレビュー・検証に移ったことを各社の数字で示し、Osmaniの「ファクトリーモデル」を軸に、人は製品ではなく工程と検査の仕組みを設計する側に回るという見方を整理している。"
+        }
+      ]
+    },
+    {
+      "name": "AIモデル/オープンモデル",
+      "items": [
+        {
+          "title_ja": "DeepSeek-V4.1-Flash-1017の「Opus超え」を一次情報で検証",
+          "url": "https://zenn.dev/persimmoq/articles/deepseek-v41-flash-1017-fact-check",
+          "summary_ja": "公式のモデルカードや料金ページ、ベンチ表を突き合わせ、比較相手がOpus 5であること、11項目中首位は4項目にとどまることなど、SNSで広まった「Opus超え」の言い過ぎを切り分けている。DeepSWEでの費用対性能の高さと前版からの伸びは本物と評価している。"
+        }
+      ]
+    },
+    {
+      "name": "AIモデル/音声モデル",
+      "items": [
+        {
+          "title_ja": "Mistral、音声エージェントSDKと50言語超対応の音声モデル「Voxtral 3」を発表",
+          "url": "https://news.ycombinator.com/item?id=50168396",
+          "summary_ja": "文字起こし・音声合成・推論・ツール呼び出しを1つのリアルタイムストリーミング処理にまとめた音声エージェントSDKと、50以上の言語に対応するSTT/TTSモデルのファミリー。EUホストのAPIか自前デプロイが選べ、コンタクトセンターなどでのデータ主権を訴求している。"
+        }
+      ]
+    },
+    {
+      "name": "AIモデル/論文・研究",
+      "items": [
+        {
+          "title_ja": "Claudeがサソリ毒素に対する結合タンパク質を設計、211設計のうち17が基準を満たす",
+          "url": "https://news.ycombinator.com/item?id=50170021",
+          "summary_ja": "Anthropicが内部の研究モデルに64時間ほぼ自律でサソリ神経毒に対するミニバインダーを設計させ、AdaptyvとTwistが実験した211設計のうち17が基準を達成した。全設計とデータは公開され、非専門家グループがAIで創薬課題に取り組めるかという問いへの一例になっている。"
+        }
+      ]
+    },
+    {
+      "name": "AI倫理/ガバナンス・企業導入",
+      "items": [
+        {
+          "title_ja": "人間のAIに対する判断移譲：実行許可や質問要否の判断までAIに委ねるようになった2年間",
+          "url": "https://scrapbox.io/nishio/%E4%BA%BA%E9%96%93%E3%81%AEAI%E3%81%AB%E5%AF%BE%E3%81%99%E3%82%8B%E5%88%A4%E6%96%AD%E7%A7%BB%E8%AD%B2",
+          "summary_ja": "「最終判断は人間」という議論は解像度が低いとして、Cursorのyoloモードから各種CLIの承認スキップ機能まで2024〜2026年の経緯を追い、作業だけでなく実行許可や人間への質問要否の判断も委ねるようになった流れを整理している。AIと人間の速度差で承認待ちがボトルネックになったことが背景にあるとする。"
+        },
+        {
+          "title_ja": "AIが回答したなら企業の約束ではなくなるのか：Amazonのサポート対応から考える",
+          "url": "https://zenn.dev/t_tokunaga/articles/2026-10-20-ai-support-accountability",
+          "summary_ja": "配達トラブルの問い合わせで、約束された状況報告の期限が2回守られず、電話窓口から過去のチャット対応にAIが関与していたと説明された体験をもとに、AI利用の是非ではなく窓口の説明と実際の対応が食い違ったときの企業の説明責任を問う。履歴・メール・通話記録で事実と伝聞を区別している。"
+        }
+      ]
+    },
+    {
+      "name": "Security/脆弱性・インシデント",
+      "items": [
+        {
+          "title_ja": "eMudhraの中間CA証明書8件の秘密鍵が侵害、主要ブラウザは17日までにブロック",
+          "url": "https://news.ycombinator.com/item?id=50166579",
+          "summary_ja": "Mozilla・Microsoft・Apple・Chromeのルートプログラムが信頼するルートにつながる中間CA 8件の秘密鍵が侵害され、報告者が署名で実証した。攻撃者は任意のサイトになりすませるが、Firefox・Chrome・Appleは失効配布の仕組みで対応済み。失効情報を参照しないクライアントはソフトウェア更新が必要で、サイトで自分の環境を確認できる。"
+        },
+        {
+          "title_ja": "防災メールのアルカディア、105時間にわたる不正アクセスの経過を分単位で公表",
+          "url": "https://www.itmedia.co.jp/news/article/2610/20/2000002426/",
+          "summary_ja": "メディアサーバのディレクトリトラバーサルから設定ファイルのシークレットキーを奪われ、総当たりで内部情報を取得、遮断後もバックドアから約142万通の不正メールが配信された。最大約313万件のメールアドレス等が漏えいした可能性があり、検知・遮断・復旧までを時系列で詳細に公開した点が異例として紹介されている。"
+        }
+      ]
+    },
+    {
+      "name": "Security/AI×攻撃",
+      "items": [
+        {
+          "title_ja": "公開放置されたAIペネトレーションテスト基盤「Cairn」の管理画面から見えた攻撃活動",
+          "url": "https://piyolog.hatenadiary.jp/entry/2026/10/20/205855",
+          "summary_ja": "NorForgeが認証なしで公開されていたCairnの管理画面を調べ、金銭目的とみられる20超のパネルを3つの活動クラスタに分類した。最大のクラスタはECサイトを狙い、日本の小売業者も事例に含まれる。ハーネスの平均成功率は約10%と推定され、AIエージェントによる攻撃が低コストで継続している実態が報告されている。"
+        }
+      ]
+    },
+    {
+      "name": "開発/JS・TS",
+      "items": [
+        {
+          "title_ja": "CloudflareらがTypeScriptのRust移植「tsrs」を発表、TypeScript 7.0比で最大8倍高速",
+          "url": "https://news.ycombinator.com/item?id=50165953",
+          "summary_ja": "CloudflareとVoidZeroがOwner.comのMax Schwenk氏と、TypeScriptチームと連携しOxcの一部としてRust版コンパイラtsrsを開発している。フォークではなく言語仕様はTypeScript側に従う方針で、同条件のベンチでTypeScript 7.0より最大8倍速くメモリ約70%減、TypeScript 7.1 betaも最大2.5倍高速になっている。"
+        }
+      ]
+    },
+    {
+      "name": "開発/インフラ・ツール",
+      "items": [
+        {
+          "title_ja": "Jepsen、ワークフロー基盤Orkes Conductor 5.3.2で実行の喪失など深刻な問題を発見",
+          "url": "https://jepsen.io/analyses/orkes-conductor-5.3.2",
+          "summary_ja": "Kyle Kingsburyの分析で、タスクの高頻度な並行実行に加え、ワークフロー実行を永久に放棄・忘却したり、タスク未実行のまま完了扱いにする深刻な3件の問題が見つかった。Orkesは主要な安全性の問題を修正した5.5.6を公開済みで、調査は同社の資金提供による。"
+        }
+      ]
+    }
+  ]
+}
