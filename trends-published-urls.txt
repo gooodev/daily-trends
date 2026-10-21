@@ -22,6 +22,7 @@ https://blog.cloudflare.com/mcp-security-updates/
 https://blog.cloudnative.co.jp/articles/answer-ai-era-zero-trust/
 https://blog.cybozu.io/entry/logos-overview
 https://blog.flatt.tech/entry/package_registry_history
+https://blog.flatt.tech/entry/php2shell
 https://blog.lai.so/eli5-archify-explainer-skills/
 https://blog.master.dev/react-now-rusted-all-the-way-out/
 https://blog.nishimu.land/entry/2026/10/20/123916
@@ -116,6 +117,7 @@ https://gigazine.net/news/20261016-perplexity-space/
 https://gigazine.net/news/20261017-agentsview/
 https://gigazine.net/news/20261019-ecdsa-seed-origin/
 https://gigazine.net/news/20261019-hybrid-reasoning-agents/
+https://gigazine.net/news/20261022-php2shell-wiz-openai-calif/
 https://giginet.hateblo.jp/entry/2026/09/22/114642
 https://gihyo.jp/article/2026/10/anatomy
 https://gihyo.jp/book/2026/978-4-297-15875-0
@@ -320,6 +322,12 @@ https://news.ycombinator.com/item?id=50165953
 https://news.ycombinator.com/item?id=50166579
 https://news.ycombinator.com/item?id=50168396
 https://news.ycombinator.com/item?id=50170021
+https://news.ycombinator.com/item?id=50177916
+https://news.ycombinator.com/item?id=50181114
+https://news.ycombinator.com/item?id=50181136
+https://news.ycombinator.com/item?id=50181175
+https://news.ycombinator.com/item?id=50183344
+https://news.ycombinator.com/item?id=50186037
 https://newsdig.tbs.co.jp/articles/-/2990268
 https://newsdig.tbs.co.jp/articles/-/3020110
 https://newsletter.dancohen.org/archive/the-slow-formation-of-durable-software/
@@ -377,11 +385,13 @@ https://qiita.com/ktdatascience/items/02b6b45e2ca7d34ad146
 https://qiita.com/ktdatascience/items/666a82fcdf3dc4af00d7
 https://qiita.com/nabe2030/items/ad2b6c223e5992ba78e4
 https://qiita.com/nogataka/items/d6a54f3694726b9141f3
+https://qiita.com/rawajifu8752/items/71f1c6ac68350683556e
 https://qiita.com/shun123/items/260b4fa2c791da70f263
 https://qiita.com/songchong/items/252947681e7914cd9e2c
 https://qiita.com/songchong/items/8b48962aa6d5408abe86
 https://qiita.com/songchong/items/94df4fbdeabaaf8f8ef5
 https://qiita.com/songchong/items/f80fad42b5a134fa3c14
+https://qiita.com/suwa_nobu/items/bc2e80a8c1d61b0b2cfe
 https://qiita.com/take-yoda/items/e5d9ce6618523af1ffc5
 https://qiita.com/tetsuro731/items/1f91493cfddbd53343b3
 https://qiita.com/xeje/items/48c9835a3e5c7b3d5489
@@ -643,6 +653,8 @@ https://zenn.dev/karamage/articles/2ef2c2aea7dfdf
 https://zenn.dev/kas_blog/articles/20260826-apache-license-2-ai-compliance
 https://zenn.dev/kas_blog/articles/20260828-codex-subagents-parallel-work
 https://zenn.dev/kas_blog/articles/20260831-vlm-quantization-best-practices
+https://zenn.dev/kazuki_izutani/articles/1709552ca099f1
+https://zenn.dev/kkk555/articles/databricks-health-architecture
 https://zenn.dev/km100/articles/0a482487c9cb0e
 https://zenn.dev/kodomo_news/articles/53-strict-type-checked-gradual
 https://zenn.dev/lambda_funtaro/articles/493c7143876ad8
@@ -683,6 +695,7 @@ https://zenn.dev/t_tokunaga/articles/2026-10-20-ai-support-accountability
 https://zenn.dev/takumaichida/articles/d4cd24282518be
 https://zenn.dev/tan_go238/books/project-management-textbook
 https://zenn.dev/tawachan/articles/japan-data-breach-rush-2026-statistics
+https://zenn.dev/tecsoc/articles/fdafd37afbfcef
 https://zenn.dev/tmiyachi/articles/claude-team-managed-settings
 https://zenn.dev/tomatomerde/articles/semantic-conflicts-outside-code
 https://zenn.dev/toshipon/articles/claude-code-security-assessment-skill

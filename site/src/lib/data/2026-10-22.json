@@ -1,0 +1,110 @@
+{
+  "date": "2026-10-22",
+  "categories": [
+    {
+      "name": "AIツール/Claude Duet",
+      "items": [
+        {
+          "title_ja": "Claude Duet：Claudeが自ら作業を見つけて動くエージェント型アプリ",
+          "url": "https://news.ycombinator.com/item?id=50186037",
+          "summary_ja": "Anthropicが研究プレビューとして公開した、Claudeが自ら必要な作業を見つけて動くエージェント型アプリ。毎朝、連携アプリの重要事項をまとめて報告し、依頼タスクは仮想マシン上でバックグラウンド処理する。送信・支払い・署名・削除などは実行前に承認を求める仕組みで、現在は米国のPro/Maxユーザーがウェイトリストから申し込める。"
+        }
+      ]
+    },
+    {
+      "name": "AIツール/コーディングツール",
+      "items": [
+        {
+          "title_ja": "Claude Codeの長い会話は閉じずに席を外したほうが安かった",
+          "url": "https://qiita.com/suwa_nobu/items/bc2e80a8c1d61b0b2cfe",
+          "summary_ja": "Claude Codeの長い会話は1時間を過ぎるとキャッシュが切れ、次の1通で会話全体を書き直すため費用が大きく増える（約21万トークンで約$0.74）。一方、20万トークン超の会話を開いたまま置くと約54分で自動要約され、閉じて再開した場合の約1割の費用で指示内容も保持されたという検証。"
+        }
+      ]
+    },
+    {
+      "name": "AIツール/エージェント開発・実装",
+      "items": [
+        {
+          "title_ja": "AIエージェントに「実装しながら考える」をさせない計画書作成プロンプト",
+          "url": "https://zenn.dev/kazuki_izutani/articles/1709552ca099f1",
+          "summary_ja": "AIエージェントが実装中にその場の判断で独自実装を作ることが技術負債の主因だとし、実装前に関係コードや主流の解法を調べ、影響範囲と未決定事項を解消した計画書を作って承認を得る進め方を提案する。その手順をCLAUDE.mdに書くための例文も示している。"
+        },
+        {
+          "title_ja": "エージェント規模のGitインフラへの橋渡し（GitHub）",
+          "url": "https://news.ycombinator.com/item?id=50183344",
+          "summary_ja": "GitHubはほぼすべてのリポジトリをAzureへ移行済みで、残る高負荷リポジトリはクロスリージョン約25msの往復遅延が書き込みのボトルネックになっている。クォーラム直列化の単位をリポジトリ全体から個々のリファレンスに変えて書き込みの並列性を高め、オブジェクトストレージでストレージとコンピュートを分離して読み取りを独立にスケールさせる計画を説明している。"
+        }
+      ]
+    },
+    {
+      "name": "Security/脆弱性・インシデント",
+      "items": [
+        {
+          "title_ja": "PHPの重大脆弱性「php2shell」（CVE-2026-109618/109619）の概要と対応指針",
+          "url": "https://blog.flatt.tech/entry/php2shell",
+          "summary_ja": "CVSS v4.0で9.2の2件のUse After Free脆弱性で、Session Upload Progressなどデフォルト有効の機能経由で任意コード実行が成立し、PHP 5.x〜8.xの広い範囲に影響しうる。8.2.35・8.3.36・8.4.27・8.5.12以上へのパッチ適用が根本対策で、設定変更は一時緩和にすぎず、ログでの攻撃有無の確認も必要。HNでの議論ではAWSがAmazon Linux 2023のパッチ提供に約20日かかる見通しを示した点も話題になった。"
+        },
+        {
+          "title_ja": "eMudhraの中間CA鍵がミリ秒で解読可能だった",
+          "url": "https://news.ycombinator.com/item?id=50177916",
+          "summary_ja": "eMudhraの中間CA 8個の秘密鍵が実質1バイトしかない極端に弱い値で、公開証明書から瞬時に復元できた。鍵は2025年4月の作成以来事実上公開状態で、ブラウザは対策済みだが、失効確認やCTを既定で行わないcurl・Python・Node・Javaなどの非ブラウザ系TLSクライアントは依然影響を受ける。CAバンドルの更新と、更新困難な機器への対策が必要と訴えている。"
+        }
+      ]
+    },
+    {
+      "name": "Security/AI×攻撃",
+      "items": [
+        {
+          "title_ja": "php2shellはCalifとWizがAIで発見、OpenAIの枠組みで対策",
+          "url": "https://gigazine.net/news/20261022-php2shell-wiz-openai-calif/",
+          "summary_ja": "PHP2Shell（CVE-2026-109618/109619）は、セキュリティ企業のCalifとWizがそれぞれ独立に2026年8月にAIを用いて発見したもの。CalifはOpenAIの「Patch the Planet」の一環で報告し、OpenAIのCodex SecurityチームやPHPのセキュリティチームと協力して対応とパッチ検証を行った。なお本文はHN上のOpenAI発表（Patch the Planet）の記事とも関連し、AIによる脆弱性発見と協調的開示の流れを示す事例。"
+        },
+        {
+          "title_ja": "OpenAI「Patch the Planet」：AIが脆弱性を見つける時代の協調的開示",
+          "url": "https://news.ycombinator.com/item?id=50181175",
+          "summary_ja": "OpenAIが、AIエージェントによって重大な脆弱性が見つかる状況に対応するため、グローバルな協調的開示の枠組み「Patch the Planet」を発表した。※本文取得不可のため、Hacker Newsのタイトルと関連記事（php2shellの報道）から要約。"
+        }
+      ]
+    },
+    {
+      "name": "Security/サプライチェーン",
+      "items": [
+        {
+          "title_ja": "LiteLLM 1.107.0がPyPI経由で認証情報窃取とバックドアを仕込まれていた",
+          "url": "https://news.ycombinator.com/item?id=50181114",
+          "summary_ja": "LiteLLM 1.107.0にはPythonプロセス起動時に実行される認証情報窃取スクリプトとバックドアが含まれ、SSH鍵、クラウド/CI認証情報、AIツールのトークン、LLMプロバイダのAPIキーなどが外部に送信された。バックドアは1時間ごとに第2段階コードを取得する。該当版はPyPIから削除済みで、1.106.2などへの切り替えと、露出した可能性のある認証情報のローテーションが推奨される。"
+        },
+        {
+          "title_ja": "知らないリポジトリをVS Codeで開く前に：偽フォントでAPIキーを盗む攻撃への3つの確認",
+          "url": "https://qiita.com/rawajifu8752/items/71f1c6ac68350683556e",
+          "summary_ja": "GitHub上の94リポジトリに、フォントに偽装した認証情報窃取プログラムと、フォルダを開くと自動実行されるVS Codeタスクが仕込まれていたと報告されている。自動実行はフォルダを信頼し自動タスクを許可した場合に限られるため、知らないリポジトリは制限モードで開き、.vscodeフォルダと偽フォントを確認してから信頼するのが対策。"
+        }
+      ]
+    },
+    {
+      "name": "開発/データスタック",
+      "items": [
+        {
+          "title_ja": "DuckDB 2.0.0 LTS「Cinnamon Teal」リリース",
+          "url": "https://news.ycombinator.com/item?id=50181136",
+          "summary_ja": "Quackプロトコルによるサーバー/クライアント構成の洗練、非同期I/O、完全統合されたVARIANT型を中心とする大型リリース。コーディングエージェント向けのエージェントモードやトリガー、PEG方式SQLパーサーの既定化も加わった。2.0で作成したDBファイルは旧バージョンで読めないなどの破壊的変更があるため、本番移行前の検証が推奨される。"
+        },
+        {
+          "title_ja": "Databricksで作る無料の個人用データ分析基盤",
+          "url": "https://zenn.dev/kkk555/articles/databricks-health-architecture",
+          "summary_ja": "Fitbitの睡眠・活動量データと天気、GA4のデータを、Databricksの無料枠内で動く個人用分析基盤にまとめた事例。経路ごとに取り込み方式を変え、変換はdbtに一本化し、raw・staging・warehouse・martsの4層と指標定義を集めたsemantics層で構成している。"
+        }
+      ]
+    },
+    {
+      "name": "開発/JS・TS",
+      "items": [
+        {
+          "title_ja": "TanStack RouterとTanStack Startの違いと選び方",
+          "url": "https://zenn.dev/tecsoc/articles/fdafd37afbfcef",
+          "summary_ja": "TanStack StartはTanStack Routerを基盤にSSR、ストリーミング、サーバー関数を統合したフルスタックフレームワーク。型安全なルーティングや既存APIを使うSPAだけならRouterで足りるが、SSRやBFFまで同一プロジェクトで扱いたい場合にStartが有力な選択肢になると整理している。"
+        }
+      ]
+    }
+  ]
+}
