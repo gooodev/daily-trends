@@ -1,0 +1,90 @@
+{
+  "date": "2026-10-23",
+  "categories": [
+    {
+      "name": "AIツール/エージェント開発・実装",
+      "items": [
+        {
+          "title_ja": "NVIDIA、自律AIエージェント向け安全実行環境「OpenShell」を公開",
+          "url": "https://news.ycombinator.com/item?id=50198675",
+          "summary_ja": "NVIDIAが公開したOpenShellは、エージェントがアクセスできるファイル・システムコール・ネットワークをカーネルレベルでポリシー制限し、実際の認証情報をエージェントに見せない実行環境。ポリシー変更は形式検証でリスクを検出し、危険な権限追加は人間のレビューを経て承認される。"
+        },
+        {
+          "title_ja": "エージェントスキル集 pstack の開発原則と使い方",
+          "url": "https://azukiazusa.dev/blog/pstack-agent-skills/",
+          "summary_ja": "poteto氏のエージェントスキル集pstackは、実装前の理解と実装後の検証を重視し、タスク種別に応じた手順とスキルを `poteto-mode` が選んで呼び出す。空slugによるkey重複でハイドレーションが失敗した不具合を例に、修正前後の実動作で完了を確認する流れを紹介している。"
+        },
+        {
+          "title_ja": "セキュリティが心配ならClaude Codeにコピペすべき20の問いかけ",
+          "url": "https://zenn.dev/yuiseki/articles/54b01670841898",
+          "summary_ja": "リポジトリのセキュリティ確認をコーディングエージェントに任せるための問いかけ20項目を、認証・認可・注入・濫用・露出の5分野で整理した記事。JWT検証やIDOR、レート制限などを確認し、最後に深刻度・誤検知・修正が新たなDoSにならないかを再検証させる。"
+        },
+        {
+          "title_ja": "Claude Opus 5.5でいい感じのアクションゲームを作るための七つの工夫",
+          "url": "https://aba.hatenablog.com/entry/2026/10/22/194027",
+          "summary_ja": "ランダムなお題で発想を広げて弱い案を削る、実装前に面白さの源泉を言語化する、小さく作り始めるなど七つの工夫を紹介。バランスはプレイヤー相当のボットで測り、手応えや音といった人にしか分からない部分は実際に遊んでもらって調整する。"
+        }
+      ]
+    },
+    {
+      "name": "AIモデル/論文・研究",
+      "items": [
+        {
+          "title_ja": "WorldTUI：ターミナルのふりをする360Mモデルを訓練した",
+          "url": "https://news.ycombinator.com/item?id=50190363",
+          "summary_ja": "実際のシェルやファイルシステムを持たず、キー入力に対する画面変化だけを予測する360Mパラメータの言語モデル。ファイル作成やvim、tmuxなども扱え以前の内容をある程度記憶するが、信頼性は限定的で研究的な実験と位置づけられている。"
+        }
+      ]
+    },
+    {
+      "name": "Security/サプライチェーン",
+      "items": [
+        {
+          "title_ja": "中国政府系Storm-0940がAIツール「ARTEX」でConnectWise経由のサプライチェーン攻撃",
+          "url": "https://www.microsoft.com/en-us/security/blog/2026/10/21/storm-0940-uses-artex-agentic-ai-connectwise-supply-chain-compromise/",
+          "summary_ja": "Microsoftは、中国政府系のStorm-0940がAIペネトレーションツールARTEXで数百の組織を自動攻撃し、ConnectWiseのクラウドバックアップアプリを侵害したと発表した。盗んだ認証情報で顧客のMicrosoft 365に接続し、一部は3時間以内に特権を得たがデータ窃取は未確認。復旧指示まで接続を無効のままにし、サインインログ確認と資格情報のローテーションが推奨される。国内でも共同通信や日経などが大きく報じている。"
+        },
+        {
+          "title_ja": "eMudhraの中間CA秘密鍵が復元可能と判明、pip・uvなど開発ツールに修正版",
+          "url": "https://gihyo.jp/article/2026/10/emudhra-ca-key-compromise-dev-tools-fixes",
+          "summary_ja": "eMudhraの中間CA証明書8件は、鍵生成工程の不備により公開証明書から秘密鍵を復元でき、偽のHTTPS証明書を作れる状態だった。FirefoxとChromeはブロック済みで、pip、uv、certifi、Go、Node.js、Rust、Javaなども修正版が出ている。仮想環境やコンテナ、配布済みプログラムは個別の更新や再ビルドが必要。"
+        },
+        {
+          "title_ja": "Railway、環境変数ストアへの不正アクセスを公表",
+          "url": "https://news.ycombinator.com/item?id=50188228",
+          "summary_ja": "Railwayは、顧客の環境変数を保存するシステムで異常を検知し、暗号化された環境変数に不正アクセスされて一部が復号された可能性があると発表した。念のためAPIキーやレジストリ認証情報を含む全環境変数の変更とログ確認を全ユーザーに推奨しており、調査中はデプロイが一時停止されている。"
+        }
+      ]
+    },
+    {
+      "name": "Security/脆弱性・インシデント",
+      "items": [
+        {
+          "title_ja": "Node.jsの10件の脆弱性修正（Brotli脆弱性はfetch()でも影響）",
+          "url": "https://qiita.com/superdora-cloud/items/8cad27487cd0e67d088c",
+          "summary_ja": "Node.jsは10月21日に脆弱性10件（High 4件）を修正し、26.12.1・24.22.1・22.23.4への更新が必要。25系と20以下は修正版が出ない。特にfetch()でも影響しうるBrotliの脆弱性には回避策がなく、更新後はプロセス再起動とNext.jsの更新も要る。"
+        },
+        {
+          "title_ja": "PHP脆弱性のPoCフライング公開の経緯をPHP財団が公表",
+          "url": "https://www.itmedia.co.jp/news/article/2610/22/2000002525/",
+          "summary_ja": "修正版公開まで詳細を伏せる取り決めが、Califが誤って公開した動画でのPoC拡散により崩れたとPHP財団が公表した。Chainguardも公開禁止措置を破って修正版を早期公開したと批判されている。財団は対応迅速化の方針を示し、PHPに詳しいエンジニア確保のため企業に資金支援を呼びかけた。"
+        }
+      ]
+    },
+    {
+      "name": "開発/インフラ・ツール",
+      "items": [
+        {
+          "title_ja": "PHP 8.5.12の緊急リリースにpixivはどう対応したか",
+          "url": "https://inside.pixiv.blog/2026/10/22/193321",
+          "summary_ja": "pixivは公式イメージを待たずソースからビルドできる体制を整えており、リリース後約6分でイメージをビルドしKubernetesへ展開、メンテナンスは約30分で終えた。一部エンドポイントのメンテナンスモード未実装やPECLの不安定化も起き、PIEへの移行を進めたという。"
+        },
+        {
+          "title_ja": "ログ検索体験から逆算するログ基盤設計",
+          "url": "https://speakerdeck.com/hirosi1900day/rogu-kensaku-taiken-kara-gyakusan-suru-rogu-kiban-sekkei",
+          "summary_ja": "検索体験を起点に、目的・予算・法令の制約を整理してログ基盤を再設計した事例。過去の調査依頼数から保持期間を見積もり、Datadogの保持を1年に延ばしつつStandardは15日に短縮するなど、アプリ・セキュリティ・self-hosted runnerのログで割り切り方を変えている。"
+        }
+      ]
+    }
+  ]
+}
