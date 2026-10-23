@@ -1,0 +1,90 @@
+{
+  "date": "2026-10-24",
+  "categories": [
+    {
+      "name": "Security/脆弱性・インシデント",
+      "items": [
+        {
+          "title_ja": "PHP2Shell対応を振り返る：予防停止の判断と再開までの時系列",
+          "url": "https://tech.codmon.com/entry/2026/10/23/173909",
+          "summary_ja": "保育施設向けSaaSのコドモンが、PHP脆弱性「PHP2Shell」への予防措置として10月21日にサービスを停止した経緯を時系列で振り返っている。情報が刻々と変わる中での停止判断や修正版公開を待つ間の準備、反省点がまとまっており、同種の判断を迫られる運用担当者の参考になる。"
+        },
+        {
+          "title_ja": "PHP脆弱性でサイト停止が500件超、ソフトバンクは緊急速報の配信も停止",
+          "url": "https://www.nikkei.com/article/DGXZQOUC2315K0T21C26A0000000/",
+          "summary_ja": "PHPの脆弱性（PHP2Shell）の影響で、国内でサイトを停止した事例が500件を超え、ソフトバンクが緊急速報の配信を止めるなど社会インフラにも波及していると報じている。（※有料記事のため見出しと関連情報から要約）"
+        },
+        {
+          "title_ja": "Rubyの正規表現エンジンOnigmoにリモートコード実行の問題、更新版が公開",
+          "url": "https://forest.watch.impress.co.jp/docs/news/2150800.html",
+          "summary_ja": "GitLabの調査で見つかったOnigmoのリモートコード実行の問題に対し、v4.0.9・v3.4.12・v3.3.13が公開された。Rubyなどで正規表現エンジンとして使われているため、利用環境は更新の確認が必要。"
+        },
+        {
+          "title_ja": "佐川急便への不正アクセス、最大5323万件の個人情報流出の可能性",
+          "url": "https://www.itmedia.co.jp/news/article/2610/23/2000002553/",
+          "summary_ja": "9月末の「お荷物問い合わせサービス」への不正アクセスについて、第5報で最大約5323万件の氏名・住所・電話番号が流出した可能性が判明した。停止していた荷物追跡サービスは23日に再開されている。"
+        },
+        {
+          "title_ja": "iPhoneをハックしたCalifの実演デモ（Hexacon）",
+          "url": "https://blog.calif.io/p/iphone",
+          "summary_ja": "Califが、パリのHexaconでSignalの1クリック攻撃やiMessage経由の攻撃などiPhoneに対する一連のデモを公開した。詳細は後日公開予定で、HNで大きな議論を呼んでいる。"
+        }
+      ]
+    },
+    {
+      "name": "Security/AI×攻撃",
+      "items": [
+        {
+          "title_ja": "AIにNintendo Switch 2を操作させ脱獄に成功、Codexが脆弱性を発見",
+          "url": "https://gigazine.net/news/20261023-nintendo-switch-2-jailbreak/",
+          "summary_ja": "OpenAI Codexに実機を遠隔操作させながら脆弱性を調査させ、Switch 2で非公式プログラムを実行できる手法「ns2jb」が公開された。AIによるハードウェア脆弱性調査の実用性を示す事例。"
+        }
+      ]
+    },
+    {
+      "name": "AI倫理/ガバナンス・企業導入",
+      "items": [
+        {
+          "title_ja": "パナソニックHD、利用禁止の生成AIに従業員ら33万人分の情報を送出",
+          "url": "https://www.nikkei.com/article/DGXZQOUF237Z60T21C26A0000000/",
+          "summary_ja": "パナソニックHDで、利用を禁止していた生成AIサービスに従業員らの情報が約33万人分送られていたと報じられた。禁止ルールだけでは統制しきれない、シャドーAIのガバナンスの難しさを示す事例。（※有料記事のため見出しと関連情報から要約）"
+        }
+      ]
+    },
+    {
+      "name": "AIモデル/オープンモデル",
+      "items": [
+        {
+          "title_ja": "Kimi K3.1 Pro / K3.1 Pro Highspeed を発表",
+          "url": "https://www.kimi.ai/blog/kimi-k3-1-pro",
+          "summary_ja": "Moonshot AIがKimi K3.1 ProとK3.1 Pro Highspeedを公開した。HNで587ポイントを集め、オープンなモデルの進化を追う上で注目されている。（※本文の取得が限定的なため見出しとHNでの反応から要約）"
+        }
+      ]
+    },
+    {
+      "name": "AIモデル/ローカルLLM",
+      "items": [
+        {
+          "title_ja": "WorldTUI：360Mモデルをターミナルのふりをするよう学習",
+          "url": "https://simedw.com/2026/10/21/world-model-terminal/",
+          "summary_ja": "シェルやファイルシステムなしで、キー入力から画面の変化だけを予測する360Mパラメータのモデルを作った試み。vimやtmux、スネークゲームまで動き、自己修復の学習と行の並列デコードが効いたという。208MBでブラウザ上で動かせる。"
+        }
+      ]
+    },
+    {
+      "name": "開発/インフラ・ツール",
+      "items": [
+        {
+          "title_ja": "Dockerは変だ：自作コンテナランタイムで分かったこと",
+          "url": "https://codeandcake.dev/posts/2026-10-22-docker-is-weird",
+          "summary_ja": "自作コンテナランタイムを通じて、コンテナが実体のないただのプロセスであり、namespaceやcgroupなど複数のカーネル機能の組み合わせにすぎないことを解説する。HNで800ポイント超の反響。"
+        },
+        {
+          "title_ja": "IntelliJ IDEAがLSP対応、VS CodeやCursorからJava/Kotlinの機能を利用可能に",
+          "url": "https://zenn.dev/helloyuki/articles/e1e312796f35ed",
+          "summary_ja": "IntelliJ IDEAの補完やリファクタリングをVS CodeやCursorから拡張機能経由で使える仕組みが1.0に到達した。対象はJavaとKotlinで、将来はコーディングエージェントからの呼び出しも想定されている。"
+        }
+      ]
+    }
+  ]
+}

@@ -18,6 +18,7 @@ https://azukiazusa.dev/blog/json-render-jev/
 https://azukiazusa.dev/blog/pstack-agent-skills/
 https://azukiazusa.dev/blog/void-vite-cloudflare-deploy/
 https://azukiazusa.dev/blog/zod-compile-validation/
+https://blog.calif.io/p/iphone
 https://blog.cloudflare.com/client-side-security-finds-4-malicious-campaigns/
 https://blog.cloudflare.com/emdash-cms-plugin-registry/
 https://blog.cloudflare.com/mcp-security-updates/
@@ -40,6 +41,7 @@ https://claude.com/blog/agentic-coding-is-straining-ci-heres-how-we-scaled-test-
 https://claude.dev/blog/solving-code-review-at-anthropic/
 https://cloud.google.com/blog/ja/products/identity-security/getting-started-with-the-mantis-harness-to-find-and-fix-bugs
 https://cloud.watch.impress.co.jp/docs/column/techwatch/2147521.html
+https://codeandcake.dev/posts/2026-10-22-docker-is-weird
 https://coliss.com/wp-content/cache/all/articles/build-websites/operation/work/7-adobe-apps-open-sourced.html/index.html
 https://collusion.wiki/
 https://corp.helpfeel.com/news/news-20260916-1
@@ -70,6 +72,7 @@ https://forest.watch.impress.co.jp/docs/news/2142932.html
 https://forest.watch.impress.co.jp/docs/news/2146735.html
 https://forest.watch.impress.co.jp/docs/news/2147319.html
 https://forest.watch.impress.co.jp/docs/news/2148495.html
+https://forest.watch.impress.co.jp/docs/news/2150800.html
 https://forest.watch.impress.co.jp/docs/review/localai/2137694.html
 https://four.htmx.org/announcements/2026-08-28-htmx-4.0.0-is-released
 https://future-architect.github.io/articles/20261008a/
@@ -120,6 +123,7 @@ https://gigazine.net/news/20261017-agentsview/
 https://gigazine.net/news/20261019-ecdsa-seed-origin/
 https://gigazine.net/news/20261019-hybrid-reasoning-agents/
 https://gigazine.net/news/20261022-php2shell-wiz-openai-calif/
+https://gigazine.net/news/20261023-nintendo-switch-2-jailbreak/
 https://giginet.hateblo.jp/entry/2026/09/22/114642
 https://gihyo.jp/article/2026/10/anatomy
 https://gihyo.jp/article/2026/10/emudhra-ca-key-compromise-dev-tools-fixes
@@ -416,6 +420,7 @@ https://security.macnica.co.jp/blog/2026/10/web-incidents2026.html
 https://securitydrive.jp/column/0023/
 https://share.timescar.jp/news/2026/0929/1816.html
 https://shkspr.mobi/blog/2026/10/i-paid-people-to-try-and-follow-my-readme/
+https://simedw.com/2026/10/21/world-model-terminal/
 https://simonkoeck.com/writeups/google-devsite-flask-session-pickle-rce
 https://slides.yusu.ke/honoconf-2026
 https://songmu.jp/riji/entry/2026-10-11-github-actions-artifact-attestations.html
@@ -454,6 +459,7 @@ https://tech-blog.tabelog.com/entry/autonomous-ai-agent-pipeline-cost-verificati
 https://tech-blog.voicy.jp/entry/2026/09/10/183722
 https://tech.anotherball.com/ja/2026-09-04-interview-product-development-skills/
 https://tech.bm-sms.co.jp/entry/2026/09/02/110000
+https://tech.codmon.com/entry/2026/10/23/173909
 https://tech.dentsusoken.com/entry/2026/08/31/
 https://tech.dentsusoken.com/entry/2026/08/31/%E3%83%8F%E3%83%BC%E3%83%8D%E3%82%B9%E3%82%A8%E3%83%B3%E3%82%B8%E3%83%8B%E3%82%A2%E3%83%AA%E3%83%B3%E3%82%B0%E3%81%A8%E3%81%AF%E4%BD%95%E3%81%8B%E2%80%94%E2%80%94%22%E7%9B%9B%E3%82%8C%E3%81%B0%E5%8A%B9
 https://tech.layerx.co.jp/entry/2026/09/18/185816
@@ -560,8 +566,10 @@ https://www.itmedia.co.jp/news/article/2610/16/2000002346/
 https://www.itmedia.co.jp/news/article/2610/19/2000002372.html
 https://www.itmedia.co.jp/news/article/2610/20/2000002426/
 https://www.itmedia.co.jp/news/article/2610/22/2000002525/
+https://www.itmedia.co.jp/news/article/2610/23/2000002553/
 https://www.jiji.com/jc/article?k=2026091100447&g=flash
 https://www.jpcert.or.jp/at/2026/at260030.html
+https://www.kimi.ai/blog/kimi-k3-1-pro
 https://www.kobonemi.com/entry/2026/10/03/macOS-27-Full-Disk-Access-Additional-Controls
 https://www.m3tech.blog/entry/2026/08/25/080000
 https://www.m3tech.blog/entry/2026/08/26/110000
@@ -576,6 +584,8 @@ https://www.nikkei.com/article/DGXZQOGN101I30Q6A011C2000000/
 https://www.nikkei.com/article/DGXZQOGN122UY0S6A910C2000000/
 https://www.nikkei.com/article/DGXZQOSG120C30S6A910C2000000/
 https://www.nikkei.com/article/DGXZQOUC160I20W6A910C2000000/
+https://www.nikkei.com/article/DGXZQOUC2315K0T21C26A0000000/
+https://www.nikkei.com/article/DGXZQOUF237Z60T21C26A0000000/
 https://www.openssh.org/releasenotes.html#10.6
 https://www.pospome.work/entry/2026/08/24/223309
 https://www.pospome.work/entry/2026/09/28/152221
@@ -654,6 +664,7 @@ https://zenn.dev/glaciermelt/articles/prisma-postgres-rls-interactive-transactio
 https://zenn.dev/goat_eat_any/articles/claude-code-cloud-sessions
 https://zenn.dev/hampen2929/books/ai-dev-team-guide
 https://zenn.dev/hampen2929/books/claude-code-production-guide
+https://zenn.dev/helloyuki/articles/e1e312796f35ed
 https://zenn.dev/hirayuki/articles/3b8c944818f630
 https://zenn.dev/hiromoo/articles/flutter-riverpod-agent-skill-evaluation
 https://zenn.dev/jnch/articles/18cf3f1893ee5b
