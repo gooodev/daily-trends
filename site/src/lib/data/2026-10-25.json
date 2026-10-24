@@ -1,0 +1,105 @@
+{
+  "date": "2026-10-25",
+  "categories": [
+    {
+      "name": "Security/脆弱性・インシデント",
+      "items": [
+        {
+          "title_ja": "Node2ShellがHTTP2Shellに進化、Brotli脆弱性（CVE-2026-111497）がNode.js・Pythonなど多数のHTTPライブラリに波及",
+          "url": "https://news.ycombinator.com/item?id=50219177",
+          "summary_ja": "Brotliデコーダの範囲外書き込み脆弱性で、未認証のリモート攻撃によりメモリ破壊やコード実行のおそれがあります。Node.js 22.23.4/24.22.1/26.12.1以降、Brotli 1.2.1、brotlicffi 1.2.1.0への更新とコンテナ再ビルドが必要で、即時対応できない場合は「br」のContent-Encoding拒否で露出を減らせます。"
+        },
+        {
+          "title_ja": "GMO、お名前.comデスクトップクラウドへのサイバー攻撃による不正取引の損失を補償",
+          "url": "https://www.itmedia.co.jp/news/article/2610/24/2000002566/",
+          "summary_ja": "FX自動売買用VPSへの攻撃で不正取引を受けた利用者に実現損失を補償し、全利用者に見舞金5000円を支払うと発表しました。顧客情報の外部持ち出しも認め、攻撃者の金銭要求には応じない方針です。"
+        }
+      ]
+    },
+    {
+      "name": "Security/AI×攻撃",
+      "items": [
+        {
+          "title_ja": "AIで加速するサイバー攻撃と防御の動き：脆弱性修正からAIエージェントの行動制御まで",
+          "url": "https://gihyo.jp/article/2026/10/ai-security-defense",
+          "summary_ja": "攻撃がAIで加速する中、修正の確実な反映と悪用可能性に基づく優先順位付けが防御の基本になると整理しています。外部サービスやAIエージェントに与える権限・認証情報の管理、モデル外側からの行動制御、形式検証による安全性証明といった取り組みも紹介しています。"
+        }
+      ]
+    },
+    {
+      "name": "Security/サプライチェーン",
+      "items": [
+        {
+          "title_ja": "GitHub CLIが短命トークンに対応してもghtknが必要な理由",
+          "url": "https://zenn.dev/shunsuke_suzuki/articles/ghtkn-advantage-over-gh-cli-expiring-token",
+          "summary_ja": "ghは単一の特権appでrefresh tokenをOS keyringに保存するため、任意コード実行時に漏洩しやすいと指摘しています。ghtknはrefresh tokenをagent内で暗号化し、app単位でアクセス範囲を制限でき、漏洩の疑いも検知できるため、著者は引き続き使うとしています。"
+        }
+      ]
+    },
+    {
+      "name": "AIツール/エージェント開発・実装",
+      "items": [
+        {
+          "title_ja": "エージェント構築：サブエージェントをメインのエージェントループに統合すべき場面",
+          "url": "https://claude.com/resources/articles/building-agents-when-to-fold-subagents-into-your-main-agent-loop",
+          "summary_ja": "複数のサブエージェントを、スキルとツール検索による段階的開示を持つ単一ループに統合すると、品質向上とコスト・レイテンシ削減が見込めると述べています。コンテキスト肥大や並列処理、指示の競合がある場合はサブエージェントを残し、小さなE2E評価セットで1つずつ統合して判断することを勧めています。"
+        }
+      ]
+    },
+    {
+      "name": "AIツール/コーディングツール",
+      "items": [
+        {
+          "title_ja": "VS Code 1.142にCanvasが登場：チャット横でエージェントと同じ成果物を操作できるInteractive Canvases",
+          "url": "https://qiita.com/shahin0809/items/81e6a6737b2254bdc6ed",
+          "summary_ja": "VS Code 1.142でチャットの横にエージェントと同じ成果物を操作できるCanvases（Preview）が追加されました。`chat.canvases.enabled` を有効にして新規Copilotセッションで `/create-canvas` を使いますが、デスクトップ版・Copilotハーネス・ローカルセッションに限られます。"
+        }
+      ]
+    },
+    {
+      "name": "AI倫理/ガバナンス・企業導入",
+      "items": [
+        {
+          "title_ja": "非テック企業にはAIの成果がまだ現れていない",
+          "url": "https://news.ycombinator.com/item?id=50224463",
+          "summary_ja": "Apolloのチーフエコノミストは、AI投資が非テック企業の収益・利益率・生産性にまだ表れていないと指摘しています。AIの成否はS&P 493の企業群で決まり、それまで経済効果は限定的だと見ています。"
+        }
+      ]
+    },
+    {
+      "name": "開発/インフラ・ツール",
+      "items": [
+        {
+          "title_ja": "uvとtyの統合：実験的機能「uv check」とPEP 723スクリプト対応",
+          "url": "https://news.ycombinator.com/item?id=50172962",
+          "summary_ja": "Astralがパッケージ管理のuvと型チェッカーtyの連携を実験的に公開し、PEP 723形式のスクリプト対応と統合コマンド「uv check」を導入しました。環境構築から型チェックまでを1コマンドで行えるようになります。"
+        },
+        {
+          "title_ja": "GitHub Actions Self-hosted runnerを手軽にスケールさせるghalet",
+          "url": "https://songmu.jp/riji/entry/2026-10-24-scaling-github-actions-runners-with-ghalet.html",
+          "summary_ja": "単一ホスト上でself-hosted runnerを手軽にスケールさせるOSS「ghalet」の紹介です。外部コンポーネントに依存しない単一のGoデーモンで、runnerは隔離なしのOSプロセスとして起動するため専用VMでの運用を想定しています。"
+        }
+      ]
+    },
+    {
+      "name": "開発/データスタック",
+      "items": [
+        {
+          "title_ja": "分散SQLiteの12年：rqliteからTurso、Cloudflare D1まで",
+          "url": "https://news.ycombinator.com/item?id=50217500",
+          "summary_ja": "2014年公開のrqliteから振り返り、dqlite、Litestream、cr-sqlite、Turso、Cloudflare D1などで設計方針が分かれてきた経緯を整理しています。サービス化が進む中、rqliteは自前運用できるOSSとして残っていると述べています。"
+        }
+      ]
+    },
+    {
+      "name": "開発/アーキテクチャ・言語",
+      "items": [
+        {
+          "title_ja": "純粋関数型プログラミングはどこまでCに迫れるか",
+          "url": "https://news.ycombinator.com/item?id=50218195",
+          "summary_ja": "Rocで書いたDEFLATE実装roc-deflateは、libdeflateとの差が中央値でRyzen 3900Xでは8.9%、M1 MacBook Proでは2.6%まで縮まりました。メモリ安全性や純粋関数の保証を保ったままこの水準に達した点が価値だと示しています。"
+        }
+      ]
+    }
+  ]
+}
