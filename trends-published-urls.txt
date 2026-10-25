@@ -38,6 +38,7 @@ https://blog.trailofbits.com/2026/09/18/auditing-in-the-age-of-good-enough-ai/
 https://blog.trailofbits.com/2026/09/21/saml-a-fractal-of-bad-design/
 https://blogs.jpcert.or.jp/ja/2026/10/web_api_attacks.html
 https://claude.com/blog/agentic-coding-is-straining-ci-heres-how-we-scaled-test-impact-analysis-at-anthropic
+https://claude.com/ja/resources/articles/the-ai-native-sdlc-playbook
 https://claude.com/resources/articles/building-agents-when-to-fold-subagents-into-your-main-agent-loop
 https://claude.dev/blog/solving-code-review-at-anthropic/
 https://cloud.google.com/blog/ja/products/identity-security/getting-started-with-the-mantis-harness-to-find-and-fix-bugs
@@ -346,6 +347,15 @@ https://news.ycombinator.com/item?id=50217500
 https://news.ycombinator.com/item?id=50218195
 https://news.ycombinator.com/item?id=50219177
 https://news.ycombinator.com/item?id=50224463
+https://news.ycombinator.com/item?id=50225695
+https://news.ycombinator.com/item?id=50227356
+https://news.ycombinator.com/item?id=50233294
+https://news.ycombinator.com/item?id=50233304
+https://news.ycombinator.com/item?id=50233779
+https://news.ycombinator.com/item?id=50234329
+https://news.ycombinator.com/item?id=50235010
+https://news.ycombinator.com/item?id=50235780
+https://news.ycombinator.com/item?id=50236102
 https://newsdig.tbs.co.jp/articles/-/2990268
 https://newsdig.tbs.co.jp/articles/-/3020110
 https://newsletter.dancohen.org/archive/the-slow-formation-of-durable-software/
@@ -543,6 +553,7 @@ https://www.itmedia.co.jp/aiplus/article/2609/20/2000001664/
 https://www.itmedia.co.jp/aiplus/article/2610/02/2000001965/
 https://www.itmedia.co.jp/business/articles/2609/11/news072.html
 https://www.itmedia.co.jp/business/articles/2610/01/news040.html
+https://www.itmedia.co.jp/business/articles/2610/24/news009.html
 https://www.itmedia.co.jp/enterprise/articles/2609/01/news030.html
 https://www.itmedia.co.jp/enterprise/articles/2609/03/news045.html
 https://www.itmedia.co.jp/enterprise/articles/2609/04/news005.html
@@ -651,6 +662,7 @@ https://xtech.nikkei.com/atcl/nxt/column/18/00682/091900217/
 https://xtech.nikkei.com/atcl/nxt/column/18/00989/091700221/
 https://xtech.nikkei.com/atcl/nxt/column/18/03723/082000002/
 https://yedhu.me/posts/commit-description-as-a-thinking-tool/
+https://yurinchi2525.com/20261025emdash/
 https://zenn.dev/7nohe/articles/agents-on-guren-round-2
 https://zenn.dev/7nohe/articles/guren-bun-fullstack
 https://zenn.dev/afante/articles/164a494962df54
