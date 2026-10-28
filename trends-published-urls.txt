@@ -1,6 +1,7 @@
 https://aba.hatenablog.com/entry/2026/10/22/194027
 https://about.gitlab.com/ja-jp/blog/whats-new-in-git-2-56-0/
 https://amix-design.com/tl/web-darkp/
+https://anond.hatelabo.jp/20261028103922
 https://article.auone.jp/090465f4-bbd4-4e07-8236-ac82cebd9552
 https://ascii.jp/elem/000/004/440/4440100/
 https://ashunar0.dev/posts/does-your-project-need-nextjs/
@@ -31,12 +32,14 @@ https://blog.lai.so/eli5-archify-explainer-skills/
 https://blog.master.dev/react-now-rusted-all-the-way-out/
 https://blog.nishimu.land/entry/2026/10/20/123916
 https://blog.p1ass.com/posts/agent-foundations/
+https://blog.serverworks.co.jp/guardduty-ai-protection
 https://blog.shibayu36.org/entry/2026/08/30/173000
 https://blog.shibayu36.org/entry/2026/09/24/173000
 https://blog.shibayu36.org/entry/2026/10/13/173000
 https://blog.trailofbits.com/2026/08/26/vms-wont-contain-cyber-capable-agents/
 https://blog.trailofbits.com/2026/09/18/auditing-in-the-age-of-good-enough-ai/
 https://blog.trailofbits.com/2026/09/21/saml-a-fractal-of-bad-design/
+https://blog.willnet.in/entry/2026/10/28/180758
 https://blogs.jpcert.or.jp/ja/2026/10/web_api_attacks.html
 https://claude.com/blog/agentic-coding-is-straining-ci-heres-how-we-scaled-test-impact-analysis-at-anthropic
 https://claude.com/ja/resources/articles/the-ai-native-sdlc-playbook
@@ -130,6 +133,7 @@ https://gigazine.net/news/20261019-hybrid-reasoning-agents/
 https://gigazine.net/news/20261022-php2shell-wiz-openai-calif/
 https://gigazine.net/news/20261023-nintendo-switch-2-jailbreak/
 https://gigazine.net/news/20261027-concerning-behaviour-open-weight-ai-model/
+https://gigazine.net/news/20261028-claude-mythos-5-failure/
 https://giginet.hateblo.jp/entry/2026/09/22/114642
 https://gihyo.jp/article/2026/10/ai-security-defense
 https://gihyo.jp/article/2026/10/anatomy
@@ -167,6 +171,7 @@ https://iwashi.co/2026/10/01/how-to-study-in-ai-era
 https://j11g.com/the-mythical-man-month-in-the-age-of-ai
 https://japan.cnet.com/article/35253437/
 https://japan.cnet.com/article/35253656/
+https://japan.cnet.com/article/35254103/
 https://japan.zdnet.com/article/35252229/
 https://japan.zdnet.com/article/35252683/
 https://jbpress.ismedia.jp/articles/-/96703
@@ -374,7 +379,16 @@ https://news.ycombinator.com/item?id=50257419
 https://news.ycombinator.com/item?id=50258868
 https://news.ycombinator.com/item?id=50259343
 https://news.ycombinator.com/item?id=50260814
+https://news.ycombinator.com/item?id=50261319
+https://news.ycombinator.com/item?id=50261998
 https://news.ycombinator.com/item?id=50264857
+https://news.ycombinator.com/item?id=50271640
+https://news.ycombinator.com/item?id=50272479
+https://news.ycombinator.com/item?id=50273731
+https://news.ycombinator.com/item?id=50275128
+https://news.ycombinator.com/item?id=50275626
+https://news.ycombinator.com/item?id=50276792
+https://news.ycombinator.com/item?id=50280722
 https://newsdig.tbs.co.jp/articles/-/2990268
 https://newsdig.tbs.co.jp/articles/-/3020110
 https://newsletter.dancohen.org/archive/the-slow-formation-of-durable-software/
@@ -413,6 +427,7 @@ https://piyolog.hatenadiary.jp/entry/2026/09/16/085611
 https://piyolog.hatenadiary.jp/entry/2026/10/11/004353
 https://piyolog.hatenadiary.jp/entry/2026/10/11/012014
 https://piyolog.hatenadiary.jp/entry/2026/10/20/205855
+https://piyolog.hatenadiary.jp/entry/2026/10/28/214917
 https://pola.rs/posts/release-polars-2/
 https://portablecode.info/2026/09/23/herdr-annotate-ai-review/
 https://portalshit.net/2026/10/03/ai-is-eating-product-management
@@ -466,6 +481,7 @@ https://speakerdeck.com/22mi/how-to-design-self-improvement-for-ai-agents
 https://speakerdeck.com/akiratom/ai-kudou-kaihatsu-ha-doko-made-kita-no-ka-no-saishin-jittai-chousa-de-yomitoku-genzaichi-devin-con-tokyo
 https://speakerdeck.com/colorful12/gyoumu-jikangai-mo-ai-ni-hatarai-te-morau-hanashi
 https://speakerdeck.com/flatt_security/security-risks-and-countermeasures-in-the-development-and-provision-of-ai-agents
+https://speakerdeck.com/hi120ki/mercari-ai-security-conference-2026
 https://speakerdeck.com/hirosi1900day/rogu-kensaku-taiken-kara-gyakusan-suru-rogu-kiban-sekkei
 https://speakerdeck.com/iwashi86/a-resume-from-the-employers-perspective
 https://speakerdeck.com/k1nakayama/sono-lambda-8-bun-de-kanrisha-kengen-made-ubawaremasu
@@ -632,6 +648,7 @@ https://www.nikkei.com/article/DGXZQOUF237Z60T21C26A0000000/
 https://www.openssh.org/releasenotes.html#10.6
 https://www.pospome.work/entry/2026/08/24/223309
 https://www.pospome.work/entry/2026/09/28/152221
+https://www.preferred.jp/ja/blog/tech/1798
 https://www.preferred.jp/ja/blog/tech/plamo-3-translate-product-release
 https://www.publickey1.jp/blog/26/claude_codeagentsmdclaudemd.html
 https://www.publickey1.jp/blog/26/denocloudflaredenocloudflare_workersdurable_objects.html
