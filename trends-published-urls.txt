@@ -81,6 +81,7 @@ https://forest.watch.impress.co.jp/docs/news/2147319.html
 https://forest.watch.impress.co.jp/docs/news/2148495.html
 https://forest.watch.impress.co.jp/docs/news/2150800.html
 https://forest.watch.impress.co.jp/docs/news/2151194.html
+https://forest.watch.impress.co.jp/docs/news/2152248.html
 https://forest.watch.impress.co.jp/docs/review/localai/2137694.html
 https://four.htmx.org/announcements/2026-08-28-htmx-4.0.0-is-released
 https://future-architect.github.io/articles/20261008a/
@@ -134,10 +135,13 @@ https://gigazine.net/news/20261022-php2shell-wiz-openai-calif/
 https://gigazine.net/news/20261023-nintendo-switch-2-jailbreak/
 https://gigazine.net/news/20261027-concerning-behaviour-open-weight-ai-model/
 https://gigazine.net/news/20261028-claude-mythos-5-failure/
+https://gigazine.net/news/20261029-anti-ai-words-in-script/
+https://gigazine.net/news/20261029-ollama-open-webui-local-ai/
 https://giginet.hateblo.jp/entry/2026/09/22/114642
 https://gihyo.jp/article/2026/10/ai-security-defense
 https://gihyo.jp/article/2026/10/anatomy
 https://gihyo.jp/article/2026/10/emudhra-ca-key-compromise-dev-tools-fixes
+https://gihyo.jp/article/2026/10/life-with-ai-agents-01
 https://gihyo.jp/book/2026/978-4-297-15875-0
 https://github.com/anthropics/code-migration-kit-with-claude-code
 https://github.com/argonautlabsai/deltafin
@@ -378,6 +382,7 @@ https://news.ycombinator.com/item?id=50257326
 https://news.ycombinator.com/item?id=50257419
 https://news.ycombinator.com/item?id=50258868
 https://news.ycombinator.com/item?id=50259343
+https://news.ycombinator.com/item?id=50260033
 https://news.ycombinator.com/item?id=50260814
 https://news.ycombinator.com/item?id=50261319
 https://news.ycombinator.com/item?id=50261998
@@ -389,6 +394,12 @@ https://news.ycombinator.com/item?id=50275128
 https://news.ycombinator.com/item?id=50275626
 https://news.ycombinator.com/item?id=50276792
 https://news.ycombinator.com/item?id=50280722
+https://news.ycombinator.com/item?id=50286987
+https://news.ycombinator.com/item?id=50289418
+https://news.ycombinator.com/item?id=50290177
+https://news.ycombinator.com/item?id=50290283
+https://news.ycombinator.com/item?id=50290912
+https://news.ycombinator.com/item?id=50292727
 https://newsdig.tbs.co.jp/articles/-/2990268
 https://newsdig.tbs.co.jp/articles/-/3020110
 https://newsletter.dancohen.org/archive/the-slow-formation-of-durable-software/
@@ -626,6 +637,7 @@ https://www.itmedia.co.jp/news/article/2610/22/2000002525/
 https://www.itmedia.co.jp/news/article/2610/23/2000002553/
 https://www.itmedia.co.jp/news/article/2610/24/2000002566/
 https://www.itmedia.co.jp/news/article/2610/27/2000002642/
+https://www.itmedia.co.jp/news/article/2610/29/2000002716/
 https://www.jiji.com/jc/article?k=2026091100447&g=flash
 https://www.jpcert.or.jp/at/2026/at260030.html
 https://www.kimi.ai/blog/kimi-k3-1-pro
@@ -763,6 +775,7 @@ https://zenn.dev/onozaty/articles/drizzle-db-comments-generator
 https://zenn.dev/oryo_data/articles/f94473ed24ef95
 https://zenn.dev/persimmoq/articles/deepseek-v41-flash-1017-fact-check
 https://zenn.dev/pksha/articles/5a1dc6470019d6
+https://zenn.dev/polyco/articles/26624b38c951b5
 https://zenn.dev/ray_zero3/articles/72a486c1cdc159
 https://zenn.dev/rhosokawa/articles/d0a958c17c2820
 https://zenn.dev/ryo1fuji/articles/52f371931ccc16

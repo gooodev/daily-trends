@@ -1,0 +1,115 @@
+{
+  "date": "2026-10-30",
+  "categories": [
+    {
+      "name": "AIモデル/オープンモデル",
+      "items": [
+        {
+          "title_ja": "Mistral Large 4の重みを公開",
+          "url": "https://news.ycombinator.com/item?id=50289418",
+          "summary_ja": "1兆パラメータのネイティブマルチモーダルモデル「Mistral Large 4（Le Chonk）」の重みを公開した。コーディングと防御的セキュリティに強く、オープンウェイトでは最高水準の性能と推論効率の向上を謳い、欧州のインフラで学習した点をソブリンAIとして訴求している。"
+        }
+      ]
+    },
+    {
+      "name": "AIモデル/ローカルLLM",
+      "items": [
+        {
+          "title_ja": "Windows PC上のOllama＋Open WebUIでローカルAIを共有利用する環境を構築",
+          "url": "https://gigazine.net/news/20261029-ollama-open-webui-local-ai/",
+          "summary_ja": "高性能なWindows PCにOllamaとOpen WebUIを導入し、LAN内のメンバーがブラウザからローカルLLMを使える環境を作る手順を紹介している。"
+        }
+      ]
+    },
+    {
+      "name": "AIツール/エージェント開発・実装",
+      "items": [
+        {
+          "title_ja": "大規模コード生成時代のレビュー設計：レイヤーごとにレビュアーを分ける",
+          "url": "https://news.ycombinator.com/item?id=50260033",
+          "summary_ja": "Claude Codeチームが、マージ数が月次で10倍超に増えた環境で6層のチェックと巻き戻し機構を組み合わせてレビューしている事例を紹介し、読み方の異なる観点ごとにレビュアーを分ける考え方を解説している。"
+        },
+        {
+          "title_ja": "Claude Duetは実用的な個人アシスタント型ハーネスだと感じた",
+          "url": "https://news.ycombinator.com/item?id=50292727",
+          "summary_ja": "複数のパーソナルアシスタント系ハーネスを試した筆者が、Duetは応答が速く、認証情報を丸ごと渡さずに済む点でチャット体験の進化になっていると評価する個人レビュー。"
+        }
+      ]
+    },
+    {
+      "name": "AIツール/コーディングツール",
+      "items": [
+        {
+          "title_ja": "Microsoft、全社共通のAIエージェント基盤「Copilot harness」を発表",
+          "url": "https://forest.watch.impress.co.jp/docs/news/2152248.html",
+          "summary_ja": "GitHub Copilotの基盤を全社共通化した「Copilot harness」がプレビュー提供となり、GitHub Copilot SDKはMicrosoft Copilot SDKに名称が変わる。"
+        },
+        {
+          "title_ja": "コーディングエージェントで変わったOSS開発",
+          "url": "https://gihyo.jp/article/2026/10/life-with-ai-agents-01",
+          "summary_ja": "6年避けていたリファクタや9年放置したバグの解消など、エージェントで可能になったことと、開発ループの整備・AIレビューへの対応・PRやセキュリティ報告との付き合い方の変化をまとめた連載記事。"
+        }
+      ]
+    },
+    {
+      "name": "AIツール/業務活用",
+      "items": [
+        {
+          "title_ja": "最近のE2E戦略（2026年10月現在）",
+          "url": "https://zenn.dev/polyco/articles/26624b38c951b5",
+          "summary_ja": "TypeScriptモノレポの業務アプリでE2Eを網羅的に整備し、実装から拾った確認対象とシナリオの漏れをCIで検出、品質ゲートにローカルE2Eを組み込む運用を紹介している。"
+        }
+      ]
+    },
+    {
+      "name": "AI倫理/安全性",
+      "items": [
+        {
+          "title_ja": "AIによるコード解析を妨害するため、政治的フレーズ等を大量混入させる手法が発見される",
+          "url": "https://gigazine.net/news/20261029-anti-ai-words-in-script/",
+          "summary_ja": "「天安門事件」「台湾独立」などAIが拒否しやすいフレーズをスクリプトに大量に混入させ、AIによるコード解析を妨害する手法が見つかったという報告。"
+        }
+      ]
+    },
+    {
+      "name": "AI倫理/ガバナンス・企業導入",
+      "items": [
+        {
+          "title_ja": "Martin Fowler「LLM Voice」：LLMが書いたような文章への違和感",
+          "url": "https://news.ycombinator.com/item?id=50290177",
+          "summary_ja": "LLM的な文章を読んだ際に覚える人間的な拒否感は判定ツールでは解決できないと論じ、書き手が読者との信頼をどう保つかを考察している。"
+        },
+        {
+          "title_ja": "AIが引用する統計の出所を追うと、根拠のない「ゾンビ統計」が多い",
+          "url": "https://news.ycombinator.com/item?id=50290283",
+          "summary_ja": "ChatGPTやGemini等5つのAIに数値を問う200の質問を投げ、引用元を辿った調査。出典をたどっても裏付けとなる研究が存在しない数値が少なくないことを示している。"
+        }
+      ]
+    },
+    {
+      "name": "Security/脆弱性・インシデント",
+      "items": [
+        {
+          "title_ja": "連鎖するPHP2Shell攻撃で米政府系を含む25台のサーバーが侵害される",
+          "url": "https://news.ycombinator.com/item?id=50286987",
+          "summary_ja": "PHPの脆弱性を連鎖させたエクスプロイトで、米政府系サーバーを含む25台でroot権限が奪取されたとするレポート。※本文は取得せずタイトル・HNの情報から要約。"
+        },
+        {
+          "title_ja": "グッドスマイルカンパニー直販サイトで不正アクセス、顧客2800人のカード情報が流出か",
+          "url": "https://www.itmedia.co.jp/news/article/2610/29/2000002716/",
+          "summary_ja": "同社は10月29日、公式ショップが不正アクセスを受け、2800人分のカード名義・全16桁のカード番号・有効期限・セキュリティコードが漏えいした可能性があると発表した。下4桁のみは約40万枚分に及ぶ。"
+        }
+      ]
+    },
+    {
+      "name": "開発/インフラ・ツール",
+      "items": [
+        {
+          "title_ja": "Grace Blackwell向けの新しいスケジューラ：同じラックで使えるGPUが27%増",
+          "url": "https://news.ycombinator.com/item?id=50290912",
+          "summary_ja": "NVL72のNVLinkファブリックを生かすにはジョブ配置が重要で、InfiniBand経由だと学習性能が最大43%落ちる。SkyPilotのスケジューラで学習スループットが14%向上したという検証。"
+        }
+      ]
+    }
+  ]
+}
