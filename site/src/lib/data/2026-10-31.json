@@ -1,0 +1,75 @@
+{
+  "date": "2026-10-31",
+  "categories": [
+    {
+      "name": "AIツール/コーディングツール",
+      "items": [
+        {
+          "title_ja": "Cursor MarketplaceのClaude Code for VS Code拡張にバックドア",
+          "url": "https://news.ycombinator.com/item?id=50300683",
+          "summary_ja": "Cursor Marketplaceで配布された公式Claude Code拡張のバージョン2.1.313にSSHバックドアが仕込まれ、攻撃者の公開鍵追加、リバースSSHトンネル、永続化、ホスト情報送信が行われていた。該当版があれば拡張の削除に加え、永続化設定や鍵の除去、認証情報のローテーションまで必要。"
+        }
+      ]
+    },
+    {
+      "name": "AIツール/業務活用",
+      "items": [
+        {
+          "title_ja": "AIはSREを置き換えず、スキルを衰えさせる",
+          "url": "https://news.ycombinator.com/item?id=50305693",
+          "summary_ja": "AIがインシデント対応の大半を担うと、本当に難しい障害に対応する技能が衰える「脱スキル化」が起きると指摘する記事。AIで解決できる場面でもあえて人が手を動かす訓練を設け、人が監督役に退かない設計を提案している。"
+        }
+      ]
+    },
+    {
+      "name": "Security/脆弱性・インシデント",
+      "items": [
+        {
+          "title_ja": "Northflankで侵害発生、シークレットの即時ローテーションを推奨",
+          "url": "https://news.ycombinator.com/item?id=50305025",
+          "summary_ja": "Northflankで2026年10月30日にセキュリティインシデントが発生し、複数サービスで大規模障害が起きた。環境変数が復号・漏えいした可能性があるとして、全シークレットと認証情報の即時ローテーションを推奨している。"
+        },
+        {
+          "title_ja": "Azure API Connectionsの5件のテナント越え完全侵害",
+          "url": "https://news.ycombinator.com/item?id=50301854",
+          "summary_ja": "Azure API Connections（Logic Apps）に、他テナントのKey VaultやSQLを侵害できる権限昇格の脆弱性が5件見つかった。ARMエンドポイントのパストラバーサル、正規化前の検証不備、他者のV1接続に暗黙アクセスできる設計が原因で、Microsoftは修正済み。"
+        },
+        {
+          "title_ja": "無印良品「MUJIアプリ」の利用者情報最大約2726万件が流出の可能性",
+          "url": "https://internet.watch.impress.co.jp/docs/news/2152666.html",
+          "summary_ja": "良品計画は不正アクセスにより、メールアドレス、生年月日、性別が最大約2726万件流出した可能性があると発表した。クレジットカード情報、氏名、住所、電話番号は含まれないとしている。"
+        }
+      ]
+    },
+    {
+      "name": "開発/インフラ・ツール",
+      "items": [
+        {
+          "title_ja": "連合型コードフォージ「Tangled」が新UIとスタックPRに対応",
+          "url": "https://news.ycombinator.com/item?id=50305573",
+          "summary_ja": "AT Protocol上に構築された連合型コードフォージTangledが、Svelte製の新UI、Rust製knot2によるIssue/PRのリポジトリ内保存、組織アカウント、スタックPRに対応した。必要な部分だけ自前運用も可能で、プライベートリポジトリやCLIも順次公開予定。"
+        }
+      ]
+    },
+    {
+      "name": "開発/アーキテクチャ",
+      "items": [
+        {
+          "title_ja": "個人情報を自社DBに持たない設計はどこまでできるか",
+          "url": "https://tech.every.tv/entry/2026/10/30/124255",
+          "summary_ja": "認証や決済を外部に任せればパスワードやカード番号を自社DBから減らせるが、ユーザー識別子や利用履歴は残る。持つ情報の量と置き場所を絞って守る範囲を小さくするのが現実的だと結論づけている。"
+        }
+      ]
+    },
+    {
+      "name": "キャリア・組織",
+      "items": [
+        {
+          "title_ja": "Proton CEOがAI導入に慎重な社員を日常的に叱責と報道",
+          "url": "https://gigazine.net/news/20261030-proton-ceo-ai/",
+          "summary_ja": "404 Mediaの報道によると、Protonは社内でAI導入を急ぎ、CEOが慎重な意見を出す社員を日常的に叱責しているとされる。2026年10月には作成コードの90%がAI由来になったとも伝えられている。"
+        }
+      ]
+    }
+  ]
+}

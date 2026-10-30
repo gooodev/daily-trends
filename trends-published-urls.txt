@@ -137,6 +137,7 @@ https://gigazine.net/news/20261027-concerning-behaviour-open-weight-ai-model/
 https://gigazine.net/news/20261028-claude-mythos-5-failure/
 https://gigazine.net/news/20261029-anti-ai-words-in-script/
 https://gigazine.net/news/20261029-ollama-open-webui-local-ai/
+https://gigazine.net/news/20261030-proton-ceo-ai/
 https://giginet.hateblo.jp/entry/2026/09/22/114642
 https://gihyo.jp/article/2026/10/ai-security-defense
 https://gihyo.jp/article/2026/10/anatomy
@@ -170,6 +171,7 @@ https://internet.watch.impress.co.jp/docs/news/2141538.html
 https://internet.watch.impress.co.jp/docs/news/2147162.html
 https://internet.watch.impress.co.jp/docs/news/2151273.html
 https://internet.watch.impress.co.jp/docs/news/2151585.html
+https://internet.watch.impress.co.jp/docs/news/2152666.html
 https://itsallaboutthebit.com/i-am-sorry-but-you-still-have-to-think/
 https://iwashi.co/2026/10/01/how-to-study-in-ai-era
 https://j11g.com/the-mythical-man-month-in-the-age-of-ai
@@ -400,6 +402,11 @@ https://news.ycombinator.com/item?id=50290177
 https://news.ycombinator.com/item?id=50290283
 https://news.ycombinator.com/item?id=50290912
 https://news.ycombinator.com/item?id=50292727
+https://news.ycombinator.com/item?id=50300683
+https://news.ycombinator.com/item?id=50301854
+https://news.ycombinator.com/item?id=50305025
+https://news.ycombinator.com/item?id=50305573
+https://news.ycombinator.com/item?id=50305693
 https://newsdig.tbs.co.jp/articles/-/2990268
 https://newsdig.tbs.co.jp/articles/-/3020110
 https://newsletter.dancohen.org/archive/the-slow-formation-of-durable-software/
@@ -528,6 +535,7 @@ https://tech.classi.jp/entry/2026/10/26/163000
 https://tech.codmon.com/entry/2026/10/23/173909
 https://tech.dentsusoken.com/entry/2026/08/31/
 https://tech.dentsusoken.com/entry/2026/08/31/%E3%83%8F%E3%83%BC%E3%83%8D%E3%82%B9%E3%82%A8%E3%83%B3%E3%82%B8%E3%83%8B%E3%82%A2%E3%83%AA%E3%83%B3%E3%82%B0%E3%81%A8%E3%81%AF%E4%BD%95%E3%81%8B%E2%80%94%E2%80%94%22%E7%9B%9B%E3%82%8C%E3%81%B0%E5%8A%B9
+https://tech.every.tv/entry/2026/10/30/124255
 https://tech.layerx.co.jp/entry/2026/09/18/185816
 https://tech.layerx.co.jp/entry/typespec-in-aiworkforce
 https://tech.newmo.me/entry/2026/10/27/100000
