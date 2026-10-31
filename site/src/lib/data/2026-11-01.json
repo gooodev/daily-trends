@@ -1,0 +1,90 @@
+{
+  "date": "2026-11-01",
+  "categories": [
+    {
+      "name": "AIモデル/ローカルLLM",
+      "items": [
+        {
+          "title_ja": "Qwen3.5-4Bの重みにRISC-V CPUを埋め込んだ「Qwenputer」を追試",
+          "url": "https://note.com/shi3zblog/n/nadf4c6873d6d",
+          "summary_ja": "コンパイラでGated DeltaNetの重みを直接計算し、32bit RISC-V CPUをLLM内部に実装したモデルを筆者がClaude Codeで再現検証した記録。何が本当に動き、何が未解明かを整理している。"
+        }
+      ]
+    },
+    {
+      "name": "AIツール/エージェント開発・実装",
+      "items": [
+        {
+          "title_ja": "3人のClaude CodeをSlackでつないでISUCON2026に参加（207,039点）",
+          "url": "https://zenn.dev/kauche/articles/f3736c660aab77",
+          "summary_ja": "各メンバーのClaude Codeが会話履歴を共有せずSlackだけで連携し、/goalで届かない高得点目標を与えて走らせた実践記。人間の役割が実装から目標設定へ移っていった過程が具体的に語られる。"
+        },
+        {
+          "title_ja": "GPT-5.6 SolがCodexでFactorioをピースフルモードでクリア",
+          "url": "https://ryanmadden.net/gpt-56-beats-factorio/",
+          "summary_ja": "ゲームの制約（到達距離・視界）を課すPythonライブラリ経由で、Codex上のモデルが13.5ゲーム時間でクリアした実験。想定を超える点と明確な弱点の両方が観察されたという。"
+        }
+      ]
+    },
+    {
+      "name": "AIツール/コーディングツール",
+      "items": [
+        {
+          "title_ja": "AIにありがちな「イマイチなコードコメント」9パターン",
+          "url": "https://qiita.com/jnchito/items/636c519c0b1d347c79b7",
+          "summary_ja": "AI生成コードのレビューで頻出する、コードを読めば分かる説明や「なぜ」が無いコメントなどの悪い例を9つ挙げ、良い書き方と対比する。Ruby例だが他言語にも通じる。"
+        },
+        {
+          "title_ja": "AnthropicがClaudeによる既存ゲームの再現・リバースエンジニアリングを制限",
+          "url": "https://mashable.com/tech/anthropic-takes-steps-to-block-video-game-cloning-and-reverse-engineering",
+          "summary_ja": "Claudeで既存ゲームのクローンやリバースエンジニアリングを行うことへの制限措置を、Anthropicが取ったとする報道。オリジナル作品の生成は引き続き可能との位置づけ。※本文取得不可のためタイトル・一覧情報から要約"
+        }
+      ]
+    },
+    {
+      "name": "Security/脆弱性・インシデント",
+      "items": [
+        {
+          "title_ja": "Linuxカーネル IPv4 TCPのUAF脆弱性 CVE-2026-98432（CVSS 9.8）",
+          "url": "https://atlasum.net/blog/cve-2026-98432-linux-ipv4-tcp-uaf",
+          "summary_ja": "IPv4のTCPハンドシェイクに存在するリモートで悪用可能なUAFで、上流では10月中旬に修正済みだがUbuntuとRHELは修正カーネル未提供。修正済みのバージョン一覧と暫定対処が整理されている。"
+        },
+        {
+          "title_ja": "ChatGPTの共有リンクを開くだけでアカウント乗っ取り可能だった脆弱性",
+          "url": "https://www.parameter.ai/labs/we-found-a-gap-at-openai",
+          "summary_ja": "サンドボックスとCSPを回避し、共有会話の細工でログイン中セッション上のJavaScript実行を可能にした調査。会話一覧や非公開会話の取得もでき、OpenAIが10月26日にP1として修正した。"
+        },
+        {
+          "title_ja": "GMOの不正侵入、システム脆弱性を2年前に把握していたが対策は後手に",
+          "url": "https://www.nikkei.com/article/DGXZQOUC30A460Q6A031C2000000/",
+          "summary_ja": "GMOの子会社が約2年前にシステムの脆弱性を指摘していたものの対策が遅れていたと報じられ、来週月曜に会見が予定されている。被害者情報を集める不審サイトとの関連も報じられている。※本文取得不可のためタイトル・一覧情報から要約"
+        }
+      ]
+    },
+    {
+      "name": "開発/インフラ・ツール",
+      "items": [
+        {
+          "title_ja": "Jepsen: ParticleDB 1.1.4の分析",
+          "url": "https://jepsen.io/analyses/particledb-1.1.4",
+          "summary_ja": "AI向けマルチモデルDBを検証し、「Full ACID」の主張に反して96件の問題（コミット済み書き込みの喪失、最強の分離レベルでの更新消失など）を報告。大半は修正されたが一部は残った。"
+        },
+        {
+          "title_ja": "メモリレイテンシの話：GROUP BYをCPU処理を増やして高速化する",
+          "url": "https://pivotlake.io/blog/its-the-memory-latency-stupid/",
+          "summary_ja": "CPU使用率100%でも実際はメモリ待ちで遊んでいることが多いと指摘し、キャッシュ階層のレイテンシを踏まえてGROUP BYを高速化する手法を解説する。"
+        }
+      ]
+    },
+    {
+      "name": "キャリア・組織",
+      "items": [
+        {
+          "title_ja": "Vitalik Buterin「デジタル・ミニマリズム」",
+          "url": "https://vitalik.eth.limo/general/2026/10/31/digital_minimalism.html",
+          "summary_ja": "物理的ミニマリズムに続く新しい考え方として、デジタル技術へのアクセスを意識的な選択にする実践を提案。SNS利用を減らす試みなどの個人的な実験を紹介する。"
+        }
+      ]
+    }
+  ]
+}

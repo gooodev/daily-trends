@@ -6,6 +6,7 @@ https://article.auone.jp/090465f4-bbd4-4e07-8236-ac82cebd9552
 https://ascii.jp/elem/000/004/440/4440100/
 https://ashunar0.dev/posts/does-your-project-need-nextjs/
 https://astro.build/blog/astro-730/
+https://atlasum.net/blog/cve-2026-98432-linux-ipv4-tcp-uaf
 https://atmarkit.itmedia.co.jp/ait/articles/2608/28/news020.html
 https://atmarkit.itmedia.co.jp/ait/articles/2608/28/news041.html
 https://atmarkit.itmedia.co.jp/ait/articles/2608/31/news035.html
@@ -182,6 +183,7 @@ https://japan.zdnet.com/article/35252229/
 https://japan.zdnet.com/article/35252683/
 https://jbpress.ismedia.jp/articles/-/96703
 https://jepsen.io/analyses/orkes-conductor-5.3.2
+https://jepsen.io/analyses/particledb-1.1.4
 https://jev-guide.take-otani.workers.dev/
 https://joisino.hatenablog.com/entry/filler
 https://joisino.hatenablog.com/entry/kasu
@@ -202,6 +204,7 @@ https://linear.app/now/ci-bottleneck-reworked
 https://logmi.jp/main/management/333618
 https://mag.executive.itmedia.co.jp/executive/article/2608/26/2000000717/
 https://markezine.jp/news/detail/77595
+https://mashable.com/tech/anthropic-takes-steps-to-block-video-game-cloning-and-reverse-engineering
 https://methane.hatenablog.jp/entry/2026/09/04/AI_Coding%E6%99%82%E4%BB%A3%E3%81%AEOSS%E3%83%A9%E3%82%A4%E3%83%96%E3%83%A9%E3%83%AA%E3%81%AE%E3%83%A1%E3%83%B3%E3%83%86
 https://mtx2s.hatenablog.com/entry/2026/09/21/182658
 https://na2hiro.hatenablog.com/entry/2026/09/02/%E9%80%80%E8%81%B7%E3%81%97%E3%81%BE%E3%81%99%E3%80%82%E5%B0%B1%E8%81%B7%E3%81%97%E3%81%BE%E3%81%9B%E3%82%93%E3%80%82
@@ -418,6 +421,7 @@ https://note.com/npaka/n/n5ac6abd04d67
 https://note.com/npaka/n/nf7108e6bd18e
 https://note.com/postdoc_career/n/nc9dcfe5ea3d3
 https://note.com/shi3zblog/n/na7a590b9908e
+https://note.com/shi3zblog/n/nadf4c6873d6d
 https://note.com/shi3zblog/n/ncb38d2978074
 https://note.com/shinshiro/n/n45c9931a88e5
 https://note.com/srt_taka/n/nff6c2d40c11b
@@ -437,6 +441,7 @@ https://pc.watch.impress.co.jp/docs/news/2137917.html
 https://pc.watch.impress.co.jp/docs/news/2138676.html
 https://pc.watch.impress.co.jp/docs/news/2147095.html
 https://pc.watch.impress.co.jp/docs/news/2147318.html
+https://pivotlake.io/blog/its-the-memory-latency-stupid/
 https://piyolog.hatenadiary.jp/entry/2026/08/23/033006
 https://piyolog.hatenadiary.jp/entry/2026/09/04/115554
 https://piyolog.hatenadiary.jp/entry/2026/09/11/220855
@@ -458,6 +463,7 @@ https://qiita.com/chibicco/items/ef1a9e40c4cdf15d8e21
 https://qiita.com/hono_ai_labho/items/c9a40e481d4dd9c76fa5
 https://qiita.com/infra365/items/aa30a54fc6f0849385a7
 https://qiita.com/jiis-sasaki/items/7affa2e2ef22ebf93fa6
+https://qiita.com/jnchito/items/636c519c0b1d347c79b7
 https://qiita.com/k2_naka/items/fa87685231377f15e7e3
 https://qiita.com/kikuziro/items/53465eeb52b464757555
 https://qiita.com/konaito/items/16a6d2c5da7d144efe95
@@ -483,6 +489,7 @@ https://qiita.com/yushibats/items/16b6b3c8ec5acd6bdc8b
 https://quentinkaiser.be/security/2026/10/16/one-parser-two-bugs/
 https://quesma.com/blog/qwen38-27b-quantizations-benchmarked/
 https://reflection.ai/blog/introducing-beam
+https://ryanmadden.net/gpt-56-beats-factorio/
 https://satoweb.net/2026/09/p-18390/
 https://scgajge12.hatenablog.com/entry/closed_network_security
 https://scrapbox.io/nishio/%E4%BA%BA%E9%96%93%E3%81%AEAI%E3%81%AB%E5%AF%BE%E3%81%99%E3%82%8B%E5%88%A4%E6%96%AD%E7%A7%BB%E8%AD%B2
@@ -562,6 +569,7 @@ https://type.jp/et/feature/31685/
 https://type.jp/et/feature/31834/
 https://updates.gyazo.com/ja/gyazo-henobu-zheng-akusesuniyoruqing-bao-lou-einiguan-suruozhi-rasetoocha-bi-1g9tcc
 https://verdagon.dev/blog/valen-group-borrowing
+https://vitalik.eth.limo/general/2026/10/31/digital_minimalism.html
 https://voluntas.ghost.io/2026-08-second-half-llm/
 https://voluntas.ghost.io/migrate-opencode-to-pi/
 https://weekly.ascii.jp/elem/000/004/439/4439882/
@@ -664,8 +672,10 @@ https://www.nikkei.com/article/DGXZQOGN122UY0S6A910C2000000/
 https://www.nikkei.com/article/DGXZQOSG120C30S6A910C2000000/
 https://www.nikkei.com/article/DGXZQOUC160I20W6A910C2000000/
 https://www.nikkei.com/article/DGXZQOUC2315K0T21C26A0000000/
+https://www.nikkei.com/article/DGXZQOUC30A460Q6A031C2000000/
 https://www.nikkei.com/article/DGXZQOUF237Z60T21C26A0000000/
 https://www.openssh.org/releasenotes.html#10.6
+https://www.parameter.ai/labs/we-found-a-gap-at-openai
 https://www.pospome.work/entry/2026/08/24/223309
 https://www.pospome.work/entry/2026/09/28/152221
 https://www.preferred.jp/ja/blog/tech/1798
@@ -756,6 +766,7 @@ https://zenn.dev/karamage/articles/2ef2c2aea7dfdf
 https://zenn.dev/kas_blog/articles/20260826-apache-license-2-ai-compliance
 https://zenn.dev/kas_blog/articles/20260828-codex-subagents-parallel-work
 https://zenn.dev/kas_blog/articles/20260831-vlm-quantization-best-practices
+https://zenn.dev/kauche/articles/f3736c660aab77
 https://zenn.dev/kazuki_izutani/articles/1709552ca099f1
 https://zenn.dev/kkk555/articles/databricks-health-architecture
 https://zenn.dev/km100/articles/0a482487c9cb0e
