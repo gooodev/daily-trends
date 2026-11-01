@@ -51,6 +51,7 @@ https://cloud.watch.impress.co.jp/docs/column/techwatch/2147521.html
 https://codeandcake.dev/posts/2026-10-22-docker-is-weird
 https://coliss.com/wp-content/cache/all/articles/build-websites/operation/work/7-adobe-apps-open-sourced.html/index.html
 https://collusion.wiki/
+https://comcomponent.com/blog/ada-vs-rust-safety/
 https://corp.helpfeel.com/news/news-20260916-1
 https://daiksy.hatenablog.jp/entry/2026/09/16/183544
 https://dbushell.com/2026/10/03/deno-to-node/
@@ -139,6 +140,7 @@ https://gigazine.net/news/20261028-claude-mythos-5-failure/
 https://gigazine.net/news/20261029-anti-ai-words-in-script/
 https://gigazine.net/news/20261029-ollama-open-webui-local-ai/
 https://gigazine.net/news/20261030-proton-ceo-ai/
+https://gigazine.net/news/20261101-wikipedia-ai-content/
 https://giginet.hateblo.jp/entry/2026/09/22/114642
 https://gihyo.jp/article/2026/10/ai-security-defense
 https://gihyo.jp/article/2026/10/anatomy
@@ -166,6 +168,7 @@ https://huggingface.co/papers/2609.20804
 https://huggingface.co/papers/2610.11959
 https://huggingface.co/papers/2610.12611
 https://huggingface.co/papers/2610.13395
+https://huggingface.co/papers/2610.37161
 https://inside.pixiv.blog/2026/10/22/193321
 https://internet.watch.impress.co.jp/docs/column/security/2138390.html
 https://internet.watch.impress.co.jp/docs/news/2141538.html
@@ -179,6 +182,7 @@ https://j11g.com/the-mythical-man-month-in-the-age-of-ai
 https://japan.cnet.com/article/35253437/
 https://japan.cnet.com/article/35253656/
 https://japan.cnet.com/article/35254103/
+https://japan.cnet.com/article/35254251/
 https://japan.zdnet.com/article/35252229/
 https://japan.zdnet.com/article/35252683/
 https://jbpress.ismedia.jp/articles/-/96703
@@ -410,9 +414,13 @@ https://news.ycombinator.com/item?id=50301854
 https://news.ycombinator.com/item?id=50305025
 https://news.ycombinator.com/item?id=50305573
 https://news.ycombinator.com/item?id=50305693
+https://news.ycombinator.com/item?id=50320995
+https://news.ycombinator.com/item?id=50322173
+https://news.ycombinator.com/item?id=50326099
 https://newsdig.tbs.co.jp/articles/-/2990268
 https://newsdig.tbs.co.jp/articles/-/3020110
 https://newsletter.dancohen.org/archive/the-slow-formation-of-durable-software/
+https://nolanlawson.com/2026/10/28/the-ai-cost-of-javascript-frameworks/
 https://nono.sh/credential-injection
 https://note.com/kirik/n/n8e7920167c3f
 https://note.com/npaka/n/n1d86b2196515
@@ -489,6 +497,7 @@ https://qiita.com/yushibats/items/16b6b3c8ec5acd6bdc8b
 https://quentinkaiser.be/security/2026/10/16/one-parser-two-bugs/
 https://quesma.com/blog/qwen38-27b-quantizations-benchmarked/
 https://reflection.ai/blog/introducing-beam
+https://rocket-boys.co.jp/security-measures-lab/contact_form_7_624_security_update_20261030/
 https://ryanmadden.net/gpt-56-beats-factorio/
 https://satoweb.net/2026/09/p-18390/
 https://scgajge12.hatenablog.com/entry/closed_network_security
@@ -550,6 +559,8 @@ https://tech.smarthr.jp/entry/2026/09/02/120000
 https://tech.smarthr.jp/entry/2026/09/16/110205
 https://tech.stmn.co.jp/entry/2026/10/09/121328
 https://techblog.ap-com.co.jp/entry/2026/09/17/103525
+https://techblog.kazaneya.com/20261030-agent-skills/
+https://techblog.tver.co.jp/entry/shiroma/history-of-test-automation
 https://techblog.zozo.com/entry/cc-plugin-marketplace
 https://techblog.zozo.com/entry/verify-ai-agent-coding-rules-with-archunit
 https://terriblesoftware.org/2026/10/02/the-brain-sandwich/
@@ -573,6 +584,7 @@ https://vitalik.eth.limo/general/2026/10/31/digital_minimalism.html
 https://voluntas.ghost.io/2026-08-second-half-llm/
 https://voluntas.ghost.io/migrate-opencode-to-pi/
 https://weekly.ascii.jp/elem/000/004/439/4439882/
+https://www.47news.jp/15170379.html
 https://www.afpbb.com/articles/-/3654276
 https://www.aikido.dev/blog/compromised-flutter-package-on-pub-dev-contains-xcsset-malware
 https://www.aikido.dev/blog/cve-spike-remediation-problem
@@ -654,6 +666,7 @@ https://www.itmedia.co.jp/news/article/2610/23/2000002553/
 https://www.itmedia.co.jp/news/article/2610/24/2000002566/
 https://www.itmedia.co.jp/news/article/2610/27/2000002642/
 https://www.itmedia.co.jp/news/article/2610/29/2000002716/
+https://www.itmedia.co.jp/news/article/2611/01/2000002776/
 https://www.jiji.com/jc/article?k=2026091100447&g=flash
 https://www.jpcert.or.jp/at/2026/at260030.html
 https://www.kimi.ai/blog/kimi-k3-1-pro
@@ -785,6 +798,7 @@ https://zenn.dev/mizchi/articles/ai-coding-loop-formal
 https://zenn.dev/mizchi/articles/jev-lint-intro
 https://zenn.dev/mizchi/articles/laya-mlx-60fps
 https://zenn.dev/monyyy/articles/3c55e83a596ccb
+https://zenn.dev/moonlights0228/articles/c92cef1c37dc7c
 https://zenn.dev/muit_techblog/articles/6ea28887c79457
 https://zenn.dev/nonejp/articles/c7dd2859872f9d
 https://zenn.dev/nrs/articles/6ce38891833998
@@ -813,6 +827,7 @@ https://zenn.dev/sunsun_eng/articles/api-key-leak-routes-env-scan
 https://zenn.dev/t_tokunaga/articles/2026-10-20-ai-support-accountability
 https://zenn.dev/takumaichida/articles/d4cd24282518be
 https://zenn.dev/tan_go238/books/project-management-textbook
+https://zenn.dev/tasukina/books/claude-code-merge-line
 https://zenn.dev/tawachan/articles/japan-data-breach-rush-2026-statistics
 https://zenn.dev/tecsoc/articles/fdafd37afbfcef
 https://zenn.dev/tmiyachi/articles/claude-team-managed-settings
@@ -830,5 +845,6 @@ https://zenn.dev/ymotongpoo/articles/20261001-agent-eval-loop
 https://zenn.dev/yucco/articles/client-server-logic-drift
 https://zenn.dev/yui/articles/97597aa13b9802
 https://zenn.dev/yuiseki/articles/54b01670841898
+https://zenn.dev/yusukebe/articles/3d3dc6605ca1b1
 https://zenn.dev/zhaojiayi/articles/d5ad38fc02091a
 https://zenn.dev/zundamon_tools/articles/claude-code-advanced-guide-1
