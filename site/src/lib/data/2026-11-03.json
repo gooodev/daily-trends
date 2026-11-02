@@ -1,0 +1,140 @@
+{
+  "date": "2026-11-03",
+  "categories": [
+    {
+      "name": "Security/脆弱性・インシデント",
+      "items": [
+        {
+          "title_ja": "GMO熊谷代表が不正アクセスで初の記者会見、セキュリティ上の問題を認め謝罪",
+          "url": "https://www.itmedia.co.jp/news/article/2611/02/2000002806/",
+          "summary_ja": "GMOインターネットグループの熊谷代表が、FX自動売買用VPS「お名前.com デスクトップクラウド」への不正アクセスについて、10月21日の公表後初の会見を開いた。システムの問題点はグループ会社の専門家が事前に指摘していたにもかかわらず運営に生かせなかったと認め、SNS投稿についても謝罪した。"
+        },
+        {
+          "title_ja": "ノジマオンラインで約700万人分の個人情報が流出",
+          "url": "https://news.yahoo.co.jp/articles/743e16ce8d8b3f48908d0248d48f4d15c913b90e",
+          "summary_ja": "11月1日に会員管理システムへの不正アクセスがあり、氏名・住所・電話番号・生年月日・ログインID・暗号化パスワード・メールアドレスが漏えいした。クレジットカード情報は保持しておらず対象外。ノジマオンラインと中古スマホ買取サイトは一時休止され、個人情報保護委員会への報告も準備中。"
+        },
+        {
+          "title_ja": "欧州7か国のスーパーで冷凍・冷蔵設備が相次ぎ異常、新たなサイバー攻撃の疑い",
+          "url": "https://news.ycombinator.com/item?id=50335615",
+          "summary_ja": "スウェーデンのICAなど少なくとも7か国の小売チェーンで、夜間に冷蔵・冷凍設備の温度が上昇する事案が発生した。先に起きたフランスの店舗への攻撃と似ており、サイバー攻撃が疑われている。誰がなぜ狙うのかが焦点で、商品の廃棄など実害も出ている。"
+        },
+        {
+          "title_ja": "Ubuntu LTSのカーネル、CVSS 9.8の脆弱性CVE-2026-98432が約3週間未修正",
+          "url": "https://news.ycombinator.com/item?id=50341462",
+          "summary_ja": "22.04・24.04・26.04のいずれのLTSにも修正カーネルが提供されておらず、リリース予定時期も示されていない。インターネットに公開されたサーバーやマルチテナント環境では分離境界が破られる恐れがあり、管理者は回避策を自力で検討する必要がある。"
+        }
+      ]
+    },
+    {
+      "name": "Security/サプライチェーン",
+      "items": [
+        {
+          "title_ja": "Cursor公式マーケットプレイスのClaude Code拡張にSSHバックドア",
+          "url": "https://gigazine.net/news/20261102-official-claude-code-extension-compromise/",
+          "summary_ja": "Cursorの公式拡張マーケットプレイスで配布されたClaude Code拡張のバージョン2.1.312と2.1.313に、PCへの不正アクセスを可能にするSSHバックドアが含まれていた。公開されていたのは10月29日夜から30日早朝（日本時間）で、Phorionが詳細な分析を公表している。該当バージョンを入れていた場合は確認と対処が必要。"
+        }
+      ]
+    },
+    {
+      "name": "Security/AI×攻撃",
+      "items": [
+        {
+          "title_ja": "事前学習データの汚染でエージェントにRCEバックドアを仕込めることを示した論文",
+          "url": "https://arxiv.org/abs/2610.37741",
+          "summary_ja": "ウェブから集めた未精査の事前学習データに汚染コンテンツを混ぜるだけで、エージェントに攻撃者指定のコマンドを実行させるバックドアを仕込めることを初めて示した。Carliniらによる研究で、エージェント時代のデータ汚染リスクを具体化している。"
+        }
+      ]
+    },
+    {
+      "name": "Security/暗号・認証基盤",
+      "items": [
+        {
+          "title_ja": "Cloudflareが耐量子対応のパブリック認証局を設立へ",
+          "url": "https://www.cloudflare.com/ja-jp/press/press-releases/2026/cloudflare-announces-public-certificate-authority-for-the-post-quantum-web/",
+          "summary_ja": "従来の証明書と耐量子のMerkle Tree Certificatesの両方に対応する認証局を立ち上げ、GlobalSignの既存ルートCAの鍵情報を取得して幅広い互換性を確保する。信頼が少数の発行機関に集中するリスクと、量子計算機時代への備えの両方に対応する狙い。"
+        }
+      ]
+    },
+    {
+      "name": "AIツール/エージェント開発・実装",
+      "items": [
+        {
+          "title_ja": "司令塔と作業役に分けたAIエージェント環境の構築記",
+          "url": "https://zenn.dev/rescuenow/articles/49826fc6cc2713",
+          "summary_ja": "VS Codeをほとんど開かなくなった筆者が、タスク全体の管理を司令塔のエージェントに任せ、コーディングやリサーチは作業役のエージェントに振る構成にたどり着くまでを紹介する。方向性の判断は人間に残すという役割分担が中心的な考え方。"
+        },
+        {
+          "title_ja": "AIが書く読みづらいADRを防ぐガイドラインの作り方",
+          "url": "https://zenn.dev/tokium_dev/articles/adr-authoring-guideline",
+          "summary_ja": "ADRの下書きをAIに任せたところ、意図が読み取れない文書が増えたため、書くべきこと・書くべきでないことを整理したガイドラインを作った事例。実例を交えて、レビューでマージ不可と判断した文面の問題点と対策を紹介している。"
+        }
+      ]
+    },
+    {
+      "name": "AIツール/業務活用",
+      "items": [
+        {
+          "title_ja": "ISUCON2026で、完全自律のエージェント1人チームが優勝",
+          "url": "https://zenn.dev/luvtechno/articles/isucon2026-competition-day",
+          "summary_ja": "人間が介在しない競技エージェントを3か月かけて準備し、100回以上の評価環境での試行で改善したうえで、当日は1人参加して625,857点で優勝した。当日のスコア計算式やリージョン間遅延への対応など、実際の競技の様子をまとめた記事。"
+        }
+      ]
+    },
+    {
+      "name": "AIモデル/論文・研究",
+      "items": [
+        {
+          "title_ja": "LLMはニューラルネットの重みを直接読み書きできる、MIT CSAILの研究",
+          "url": "https://rikiyat.github.io/blog/weight-space-programming/",
+          "summary_ja": "最先端のLLMが、人間や従来のアルゴリズムの想定を超える精度でニューラルネットの重みを読み書きできることを示した。最適化と解釈可能性の両面で影響が大きい可能性があるとしている（HNで1300超ポイント）。"
+        }
+      ]
+    },
+    {
+      "name": "AI倫理/ガバナンス・企業導入",
+      "items": [
+        {
+          "title_ja": "Anthropic社内のAI利用額が、小売価格換算で従業員の報酬を上回る",
+          "url": "https://www.businessinsider.com/anthropic-claude-internal-ai-use-exceeds-employee-pay-tokens-2026-11",
+          "summary_ja": "Business Insiderが、Anthropic社内でのAI利用を小売価格で評価すると従業員への支払総額を超えると報じた。AIが人件費に匹敵する規模の生産要素になりつつあることを示す例として注目されている。"
+        }
+      ]
+    },
+    {
+      "name": "AI倫理/雇用・研究",
+      "items": [
+        {
+          "title_ja": "数学者のエゴを手放すAI時代の数学のあり方（テレンス・タオのブログのゲスト投稿）",
+          "url": "https://terrytao.wordpress.com/2026/11/02/egoless-mathematics-in-the-ai-era/",
+          "summary_ja": "AIの発展により、数学者は自らの仕事の目的を改めて考える時期に来ているとして、どの作業が機械に置き換わるかだけでなく、数学の価値をどこに置くかを論じるオピニオン。Karthik C. S.、Amit Sahai、Jie Xueによる寄稿。"
+        }
+      ]
+    },
+    {
+      "name": "開発/データスタック",
+      "items": [
+        {
+          "title_ja": "PostHogがデータウェアハウスをDuckDBから移行、Trinoベースで再構築へ",
+          "url": "https://news.ycombinator.com/item?id=50338747",
+          "summary_ja": "5か月前にClickHouseからDuckDBへ移した同社が、顧客のワークロードが想定より大きく複雑になったためTrinoベースの「HogLake」で作り直すと表明した。1兆行規模の処理やPostgres互換の難しさなど、DuckDBの限界を具体的に述べている。"
+        }
+      ]
+    },
+    {
+      "name": "開発/インフラ・ツール",
+      "items": [
+        {
+          "title_ja": "CloudflareのDNSビルド遅延を半減し、メモリ使用量を85%削減",
+          "url": "https://blog.cloudflare.com/dns-targeted-zone-builds/",
+          "summary_ja": "ゾーン変更が毎秒約700件に増え、2,000万件超のレコードを持つゾーンも現れるなか、ゾーン全体を再構築する方式から対象を絞ったビルドに切り替えた。その結果、ビルド遅延が半減しメモリ使用量が85%減った。"
+        },
+        {
+          "title_ja": "日本の全法令をgitの履歴にしたリポジトリ「houritsu」",
+          "url": "https://zenn.dev/koheiwada/articles/houritsu-japanese-laws-as-git",
+          "summary_ja": "e-Gov法令APIから全法令を1法令1ファイルのmarkdownに変換し、改正法の施行を1コミットとして並べた（約9,000ファイル、2万3千超のコミット）。改正文の「〇〇を改める」の読みにくさを、git diffで見えるようにするのが狙いで、毎朝自動で差分が更新される。"
+        }
+      ]
+    }
+  ]
+}
