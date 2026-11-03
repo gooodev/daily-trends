@@ -1,0 +1,90 @@
+{
+  "date": "2026-11-04",
+  "categories": [
+    {
+      "name": "AIツール/コーディングツール",
+      "items": [
+        {
+          "title_ja": "Postman、AIプラグインを無断で自動インストールしAPIデータ共有を試みる",
+          "url": "https://news.ycombinator.com/item?id=50354960",
+          "summary_ja": "Postman デスクトップ 12.33.4 の更新後、Codex と Claude Code 用プラグインが同意なく自動インストールされ、起動時フックでAPI関連作業を Postman スキルへ誘導する指示が追加されたと報告されています。インストーラーが自らのフックを信頼済みに登録しようとした点も問題視され、明示的なオプトインと削除手順が求められています。HN では Bruno や Insomnia への乗り換え報告が目立ちました。"
+        }
+      ]
+    },
+    {
+      "name": "AIツール/業務活用",
+      "items": [
+        {
+          "title_ja": "freeeにおけるSoftware Factory",
+          "url": "https://speakerdeck.com/freee/freee-niokeru-software-factory",
+          "summary_ja": "freee が、AIが要求から動く成果物まで作り切る「Software Factory」を全社運用する仕組みを紹介しています。工程ごとの品質チェックを組み込んだパイプライン、暗黙知を明文化したナレッジベース、レビューしやすい設計書などを整備し、完全無人化ではなく人の判断に集中できる体制を目指しています。"
+        },
+        {
+          "title_ja": "2026年10月時点の私のAI活用法",
+          "url": "https://news.ycombinator.com/item?id=50355767",
+          "summary_ja": "筆者は複数エージェントにコーディングを任せて9割以上のコードをAIに書かせる一方、設計や判断は人間が担うべきだと述べています。検索・学習・要約・文字起こしでは有用としつつ、文章執筆や画像生成には否定的で、AIに考えることを奪われる懸念にも触れています。"
+        }
+      ]
+    },
+    {
+      "name": "AIモデル/論文・研究",
+      "items": [
+        {
+          "title_ja": "「AstraがQwenの重みを読み書きして改善した」という投稿は誤解を招く",
+          "url": "https://news.ycombinator.com/item?id=50351111",
+          "summary_ja": "筆者は、重みを直接読む手法が使われたのは17K〜172Kの小規模ネットワークの実験だけで、Qwen の改善はコードを書いてモデルを実際に動かし複数回試行したものだと指摘しています。性質の異なる手法を一つの能力のように見せると理解が実際より深く見えるという批判で、HN では元記事で説明済みとの反論も出ています。"
+        }
+      ]
+    },
+    {
+      "name": "AIモデル/ローカルLLM",
+      "items": [
+        {
+          "title_ja": "ノートPCの Qwen 3.8 27B でもモデルの重みを解釈できた",
+          "url": "https://news.ycombinator.com/item?id=50355251",
+          "summary_ja": "Simon Willison が論文「Sparks of Weight-Space Programming」の試みをローカルの Qwen 3.8 27B で再現し、Pac-Man・Pong・Breakout は当てた一方 Freeway は外しました。推論には1件あたり約50分〜1時間かかり、重みを直接読み書きする能力への注目にはまだ誇張があると述べています。"
+        }
+      ]
+    },
+    {
+      "name": "AI倫理/ガバナンス・企業導入",
+      "items": [
+        {
+          "title_ja": "Google、AIを拒否する学校では検索を停止へ",
+          "url": "https://news.ycombinator.com/item?id=50353192",
+          "summary_ja": "NYT によれば、Google は AI を禁止した学校の生徒には検索を提供せず、学校側からの通知として利用不可のメッセージを表示するとしています。HN では、学校の判断のように見せる点への批判が目立ちました。※NYT本文は取得できず、HNコメントとタイトルから要約"
+        }
+      ]
+    },
+    {
+      "name": "Security/脆弱性・インシデント",
+      "items": [
+        {
+          "title_ja": "GitBook が侵害される（AIエージェントを使った標的型攻撃）",
+          "url": "https://news.ycombinator.com/item?id=50354336",
+          "summary_ja": "11月2日、GitBook が AI エージェントを使った標的型攻撃を受け、インフラ認証情報が不正取得されました。インテグレーショントークンや Git Sync のシークレット、Assistant への質問内容に触れられた可能性がありますが、コンテンツ改ざんは確認されていません。全認証情報を再発行済みで、利用者にもトークン再発行と MCP サーバーの再認証が求められています。"
+        }
+      ]
+    },
+    {
+      "name": "Security/サプライチェーン",
+      "items": [
+        {
+          "title_ja": "Google、バックドア「XCPE」を仕込んだ Videostrong の認定を禁止",
+          "url": "https://helentech.jp/news-google-bans-videostrong-xcpe-backdoor/",
+          "summary_ja": "Google は、Android TV Box メーカーの Videostrong がファームウェアのバックドア「XCPE」で犯罪者に接続権限を販売していたとして、同社の認定デバイスの製造・販売を禁止しました。XCPE は130万台以上をボットネット化し、削除しても再起動で再インストールされます。Google は制御ドメインを法的措置で停止し、認定審査も見直しました。"
+        }
+      ]
+    },
+    {
+      "name": "キャリア・組織/キャリア・組織",
+      "items": [
+        {
+          "title_ja": "お名前.comの.cyouドメイン更新料が約6.8倍に、判断期限は約45時間",
+          "url": "https://anond.hatelabo.jp/20261103160506",
+          "summary_ja": "お名前.com 管理の「.cyou」ドメインの更新費用が2,676円から18,139円に上がり、通知から約45時間で更新可否の判断を迫られたという体験談です。理由の説明や返金は「総合判断」として拒否され、料金の大幅変更に十分な判断時間がなかったことへの疑問が語られています。"
+        }
+      ]
+    }
+  ]
+}

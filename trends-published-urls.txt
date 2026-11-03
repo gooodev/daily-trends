@@ -2,6 +2,7 @@ https://aba.hatenablog.com/entry/2026/10/22/194027
 https://about.gitlab.com/ja-jp/blog/whats-new-in-git-2-56-0/
 https://amix-design.com/tl/web-darkp/
 https://anond.hatelabo.jp/20261028103922
+https://anond.hatelabo.jp/20261103160506
 https://article.auone.jp/090465f4-bbd4-4e07-8236-ac82cebd9552
 https://arxiv.org/abs/2610.37741
 https://ascii.jp/elem/000/004/440/4440100/
@@ -159,6 +160,7 @@ https://github.com/mizorewww/laya-mlx
 https://gmo-cybersecurity.com/blog/20261019/
 https://go.dev/blog/http-connection-reuse
 https://harnesstax.github.io/
+https://helentech.jp/news-google-bans-videostrong-xcpe-backdoor/
 https://huggingface.co/blog/Banaxi-Tech/bananamind-2-pro-weve-almost-matched-smollm2-at-20
 https://huggingface.co/blog/FINAL-Bench/qwen-models
 https://huggingface.co/blog/ariG23498/funes-lance
@@ -424,6 +426,12 @@ https://news.ycombinator.com/item?id=50326099
 https://news.ycombinator.com/item?id=50335615
 https://news.ycombinator.com/item?id=50338747
 https://news.ycombinator.com/item?id=50341462
+https://news.ycombinator.com/item?id=50351111
+https://news.ycombinator.com/item?id=50353192
+https://news.ycombinator.com/item?id=50354336
+https://news.ycombinator.com/item?id=50354960
+https://news.ycombinator.com/item?id=50355251
+https://news.ycombinator.com/item?id=50355767
 https://newsdig.tbs.co.jp/articles/-/2990268
 https://newsdig.tbs.co.jp/articles/-/3020110
 https://newsletter.dancohen.org/archive/the-slow-formation-of-durable-software/
@@ -523,6 +531,7 @@ https://speakerdeck.com/22mi/how-to-design-self-improvement-for-ai-agents
 https://speakerdeck.com/akiratom/ai-kudou-kaihatsu-ha-doko-made-kita-no-ka-no-saishin-jittai-chousa-de-yomitoku-genzaichi-devin-con-tokyo
 https://speakerdeck.com/colorful12/gyoumu-jikangai-mo-ai-ni-hatarai-te-morau-hanashi
 https://speakerdeck.com/flatt_security/security-risks-and-countermeasures-in-the-development-and-provision-of-ai-agents
+https://speakerdeck.com/freee/freee-niokeru-software-factory
 https://speakerdeck.com/hi120ki/mercari-ai-security-conference-2026
 https://speakerdeck.com/hirosi1900day/rogu-kensaku-taiken-kara-gyakusan-suru-rogu-kiban-sekkei
 https://speakerdeck.com/iwashi86/a-resume-from-the-employers-perspective
