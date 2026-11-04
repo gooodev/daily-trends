@@ -1,0 +1,85 @@
+{
+  "date": "2026-11-05",
+  "categories": [
+    {
+      "name": "AIツール/エージェント開発・実装",
+      "items": [
+        {
+          "title_ja": "Conductor、Metaに参画へ。Cloud版は11月20日に終了",
+          "url": "https://www.conductor.build/announcement",
+          "summary_ja": "複数のコーディングエージェントを並列で動かすツールConductorがMetaに参画すると発表した。新規登録は停止され、Conductor Cloudは11月13日に読み取り専用、20日にデータ削除へ進む。ローカル版は2027年初頭まで継続する。"
+        }
+      ]
+    },
+    {
+      "name": "AIツール/業務活用",
+      "items": [
+        {
+          "title_ja": "AIペネトレーションテストをOpenCode+Docker+GitHub Actionsで全自動化（Zenn）",
+          "url": "https://zenn.dev/team_zenn/articles/opencode-docker-actions-ai-pentest",
+          "summary_ja": "ZennチームがPRごとのAIセキュリティレビューと、毎週のAIエージェントによる自動ペネトレーションテストを、OpenCode・Docker・GitHub Actionsで構築した事例。サンドボックスとネットワーク隔離の中で動かし、1回のレビュー費用は0.01〜0.1ドル程度に収まる。"
+        }
+      ]
+    },
+    {
+      "name": "AIモデル/オープンモデル",
+      "items": [
+        {
+          "title_ja": "Kimi K3.1 Proの重みが公開。2.8T MoE・100万トークン文脈",
+          "url": "https://huggingface.co/moonshotai/Kimi-K3.1-Pro",
+          "summary_ja": "Moonshot AIが総パラメータ2.8T（活性化104B）のマルチモーダルMoEモデルの重みを公開した。コーディングや金融リサーチなどのエージェント能力が向上し、100万トークンの文脈長を持つ。"
+        },
+        {
+          "title_ja": "Ricursive、米国オープンウェイト最高性能をうたうRipple-65B Previewを公開",
+          "url": "https://www.ricursive.com/ripple",
+          "summary_ja": "チップ設計AIを手がけるRicursive Intelligenceが、12兆トークンで事前学習した65Bのオープンウェイトモデルを公開し、エージェント型コーディングで米国オープンウェイトのSOTAとしている。"
+        }
+      ]
+    },
+    {
+      "name": "Security/脆弱性・インシデント",
+      "items": [
+        {
+          "title_ja": "ホワイトハウスのネットワークで住宅用プロキシの出口通信を検出",
+          "url": "https://layer3intel.com/blog/residential-proxies-white-house-network",
+          "summary_ja": "Layer3 Intelは、大統領府のネットワーク（AS2650）の6アドレスが10月5日〜11月3日に延べ236回、28の住宅用プロキシサービスの出口として使われていたと報告した。一般の有償サービスで誰でも利用できる状態で、政府ネットワークの管理上の問題を示す。"
+        },
+        {
+          "title_ja": "北朝鮮の偽求人面接がBinanceの63億ドル流出に。内部AIツールの侵害も",
+          "url": "https://www.theregister.com/security/2026/11/03/north-korean-fake-job-interview-led-to-63b-binance-heist/5307398",
+          "summary_ja": "Binanceのインシデント報告によると、10月29日の流出は、技師が偽の求人面接でマルウェアを実行したことに始まり、社内AIツールの侵害や端末乗っ取りを経た多段階の攻撃だった。"
+        }
+      ]
+    },
+    {
+      "name": "Security/サプライチェーン",
+      "items": [
+        {
+          "title_ja": "中国メーカーが出荷前Androidに犯罪用バックドアを設置か。Googleが取引停止",
+          "url": "https://www.itmedia.co.jp/news/article/2611/04/2000002884/",
+          "summary_ja": "GoogleはVideostrong Technologyの130万台超のAndroid TV端末にバックドア「x.cpe」が出荷時から組み込まれ、住宅用プロキシや広告詐欺に悪用されていたと発表し、同社との取引を停止した。日本の警察庁などと連携してボットネットを妨害した。"
+        }
+      ]
+    },
+    {
+      "name": "開発/インフラ・ツール",
+      "items": [
+        {
+          "title_ja": "Go 1.27で新しいJSON API（encoding/json/v2）が安定版に",
+          "url": "https://go.dev/blog/jsonv2",
+          "summary_ja": "Goチームがencoding/json/v2とjsontextパッケージがGo 1.27で正式提供されたと公表した。従来のencoding/jsonの挙動上の欠陥や性能面の課題を解消する設計を解説している。"
+        }
+      ]
+    },
+    {
+      "name": "キャリア・組織",
+      "items": [
+        {
+          "title_ja": "マッキンゼーが国に納品した資料2,446ページは7パターンだけだった",
+          "url": "https://note.com/uchita_success/n/nfc53d1ef5f81",
+          "summary_ja": "国の委託調査で公開されたマッキンゼーの資料22本・2,446ページを分類し、7つの型に集約できたとする分析。派手なフレームワーク図は60ページに過ぎず、表が大半を占めた。AIで再現するプロンプトも紹介している。"
+        }
+      ]
+    }
+  ]
+}
