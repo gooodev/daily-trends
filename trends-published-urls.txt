@@ -1,5 +1,6 @@
 https://aba.hatenablog.com/entry/2026/10/22/194027
 https://about.gitlab.com/ja-jp/blog/whats-new-in-git-2-56-0/
+https://alpinelinux.org/posts/2026-11-05-openssh-password-authentication-bypass/
 https://amix-design.com/tl/web-darkp/
 https://anond.hatelabo.jp/20261028103922
 https://anond.hatelabo.jp/20261103160506
@@ -34,6 +35,7 @@ https://blog.flatt.tech/entry/package_registry_history
 https://blog.flatt.tech/entry/php2shell
 https://blog.lai.so/eli5-archify-explainer-skills/
 https://blog.master.dev/react-now-rusted-all-the-way-out/
+https://blog.mudatobunka.org/entry/2026/11/05/100000
 https://blog.nishimu.land/entry/2026/10/20/123916
 https://blog.p1ass.com/posts/agent-foundations/
 https://blog.serverworks.co.jp/guardduty-ai-protection
@@ -151,6 +153,7 @@ https://gihyo.jp/article/2026/10/anatomy
 https://gihyo.jp/article/2026/10/emudhra-ca-key-compromise-dev-tools-fixes
 https://gihyo.jp/article/2026/10/life-with-ai-agents-01
 https://gihyo.jp/book/2026/978-4-297-15875-0
+https://github.blog/changelog/2026-10-15-agentic-autofix-for-code-scanning-alerts-general-availability/
 https://github.com/anthropics/code-migration-kit-with-claude-code
 https://github.com/argonautlabsai/deltafin
 https://github.com/ayghri/i-have-adhd
@@ -183,6 +186,7 @@ https://internet.watch.impress.co.jp/docs/news/2147162.html
 https://internet.watch.impress.co.jp/docs/news/2151273.html
 https://internet.watch.impress.co.jp/docs/news/2151585.html
 https://internet.watch.impress.co.jp/docs/news/2152666.html
+https://internet.watch.impress.co.jp/docs/news/2154115.html
 https://itsallaboutthebit.com/i-am-sorry-but-you-still-have-to-think/
 https://iwashi.co/2026/10/01/how-to-study-in-ai-era
 https://j11g.com/the-mythical-man-month-in-the-age-of-ai
@@ -224,6 +228,7 @@ https://nealle-dev.hatenablog.com/entry/2026/09/11/171745
 https://news.mynavi.jp/techplus/article/20261009-5099252/
 https://news.tv-asahi.co.jp/news_international/articles/900199131.html
 https://news.web.nhk/newsweb/na/nd-20261016de60742
+https://news.web.nhk/newsweb/na/nd-20261105de71024
 https://news.yahoo.co.jp/articles/743e16ce8d8b3f48908d0248d48f4d15c913b90e
 https://news.yahoo.co.jp/articles/f0008179ada16d57148d0998c5c2a62872b7bb1a
 https://news.yahoo.co.jp/expert/articles/5e8495cadb5412ac2ca85a7253509eadf5360471
@@ -429,12 +434,16 @@ https://news.ycombinator.com/item?id=50326099
 https://news.ycombinator.com/item?id=50335615
 https://news.ycombinator.com/item?id=50338747
 https://news.ycombinator.com/item?id=50341462
+https://news.ycombinator.com/item?id=50349667
 https://news.ycombinator.com/item?id=50351111
 https://news.ycombinator.com/item?id=50353192
 https://news.ycombinator.com/item?id=50354336
 https://news.ycombinator.com/item?id=50354960
 https://news.ycombinator.com/item?id=50355251
 https://news.ycombinator.com/item?id=50355767
+https://news.ycombinator.com/item?id=50376313
+https://news.ycombinator.com/item?id=50379249
+https://news.ycombinator.com/item?id=50383963
 https://newsdig.tbs.co.jp/articles/-/2990268
 https://newsdig.tbs.co.jp/articles/-/3020110
 https://newsletter.dancohen.org/archive/the-slow-formation-of-durable-software/
@@ -468,6 +477,7 @@ https://pc.watch.impress.co.jp/docs/news/2137917.html
 https://pc.watch.impress.co.jp/docs/news/2138676.html
 https://pc.watch.impress.co.jp/docs/news/2147095.html
 https://pc.watch.impress.co.jp/docs/news/2147318.html
+https://pc.watch.impress.co.jp/docs/news/2153969.html
 https://pivotlake.io/blog/its-the-memory-latency-stupid/
 https://piyolog.hatenadiary.jp/entry/2026/08/23/033006
 https://piyolog.hatenadiary.jp/entry/2026/09/04/115554
@@ -478,6 +488,7 @@ https://piyolog.hatenadiary.jp/entry/2026/10/11/004353
 https://piyolog.hatenadiary.jp/entry/2026/10/11/012014
 https://piyolog.hatenadiary.jp/entry/2026/10/20/205855
 https://piyolog.hatenadiary.jp/entry/2026/10/28/214917
+https://piyolog.hatenadiary.jp/entry/2026/11/05/133509
 https://pola.rs/posts/release-polars-2/
 https://portablecode.info/2026/09/23/herdr-annotate-ai-review/
 https://portalshit.net/2026/10/03/ai-is-eating-product-management
@@ -541,10 +552,12 @@ https://speakerdeck.com/hirosi1900day/rogu-kensaku-taiken-kara-gyakusan-suru-rog
 https://speakerdeck.com/iwashi86/a-resume-from-the-employers-perspective
 https://speakerdeck.com/k1nakayama/sono-lambda-8-bun-de-kanrisha-kengen-made-ubawaremasu
 https://speakerdeck.com/kinopeee/hanesu-sekkei-nyuumon-kontekisuto-no-tsugi
+https://speakerdeck.com/kuracchi_enj1/yokohama-north-meetup-18
 https://speakerdeck.com/lycorptech_jp/aidlc-aidd-workshop
 https://speakerdeck.com/minodriven/invisible-requirement-thinking
 https://speakerdeck.com/nakanao/ai-ni-makaseta-hinshitsu-ha-dare-ga-mitateru-no-ka-ai-jidai-no-tesuto-manejimento
 https://speakerdeck.com/pei0804/data-engineering-for-ai-ready-business
+https://speakerdeck.com/snoozer05/decision-readiness-revisited
 https://speakerdeck.com/teru0x1/slack-ue-de-infura-o-toraburu-shuto-suru-agentic-platform-engineering-no-daiippo
 https://speakerdeck.com/terurou/ai-kudou-kaihatsu-no-jidai-ni-nata-node-toyota-seisan-houshiki-kara-minaosu
 https://speakerdeck.com/timakin/kodingu-jidouka-no-tsugi-he-hito-no-kainyuu-o-zero-ni-suru-to-sapoto-ai-niyoru-jissen
@@ -552,6 +565,7 @@ https://speakerdeck.com/tkikuc/vibes-containers-ai-de-kawaru-kontena-sekkei-to-u
 https://speakerdeck.com/twada/debt-metaphor-in-agentic-engineering-age-202609-edition
 https://speakerdeck.com/upsider_tech/enjinia-ha-doko-made-ekkyou-surubeki-ka-take
 https://speakerdeck.com/yda/50-dai-de-hatsutenshoku-shita-hanashi
+https://sshhole.com/
 https://syu-m-5151.hatenablog.com/entry/2026/09/19/112330
 https://syu-m-5151.hatenablog.com/entry/2026/09/20/120746
 https://syu-m-5151.hatenablog.com/entry/2026/09/21/104258
@@ -831,6 +845,7 @@ https://zenn.dev/mizchi/articles/laya-mlx-60fps
 https://zenn.dev/monyyy/articles/3c55e83a596ccb
 https://zenn.dev/moonlights0228/articles/c92cef1c37dc7c
 https://zenn.dev/muit_techblog/articles/6ea28887c79457
+https://zenn.dev/nexta_/articles/42a828ca2b8a02
 https://zenn.dev/nonejp/articles/c7dd2859872f9d
 https://zenn.dev/nrs/articles/6ce38891833998
 https://zenn.dev/nrs/articles/c777388530aa84
