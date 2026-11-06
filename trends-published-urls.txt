@@ -65,6 +65,7 @@ https://deno.com/blog/clawpatrol
 https://deno.com/blog/v2.9
 https://desertant.com/blog/introducing-desert-ant-labs/
 https://dev.classmethod.jp/articles/2026-08_claude-code-product-workshop-kit/
+https://dev.classmethod.jp/articles/ai-information-leak-inventory-2026/
 https://dev.classmethod.jp/articles/aws-security-bulletin-2026-137-kvm-kernel/
 https://dev.classmethod.jp/articles/local-llm-guide-2026-summer/
 https://devblogs.microsoft.com/typescript/announcing-typescript-7-0-rc/
@@ -91,6 +92,7 @@ https://forest.watch.impress.co.jp/docs/news/2151194.html
 https://forest.watch.impress.co.jp/docs/news/2152248.html
 https://forest.watch.impress.co.jp/docs/review/localai/2137694.html
 https://four.htmx.org/announcements/2026-08-28-htmx-4.0.0-is-released
+https://frontier.replit.com/sandbox-engine-microvms-part-1/
 https://future-architect.github.io/articles/20261008a/
 https://future-architect.github.io/articles/20261016a/
 https://ghuntley.com/replaced/
@@ -147,6 +149,7 @@ https://gigazine.net/news/20261029-ollama-open-webui-local-ai/
 https://gigazine.net/news/20261030-proton-ceo-ai/
 https://gigazine.net/news/20261101-wikipedia-ai-content/
 https://gigazine.net/news/20261102-official-claude-code-extension-compromise/
+https://gigazine.net/news/20261106-claude-code-mail-address/
 https://giginet.hateblo.jp/entry/2026/09/22/114642
 https://gihyo.jp/article/2026/10/ai-security-defense
 https://gihyo.jp/article/2026/10/anatomy
@@ -165,6 +168,7 @@ https://go.dev/blog/http-connection-reuse
 https://go.dev/blog/jsonv2
 https://harnesstax.github.io/
 https://helentech.jp/news-google-bans-videostrong-xcpe-backdoor/
+https://hightouch.com/blog/llm-judges-identity-resolution
 https://huggingface.co/blog/Banaxi-Tech/bananamind-2-pro-weve-almost-matched-smollm2-at-20
 https://huggingface.co/blog/FINAL-Bench/qwen-models
 https://huggingface.co/blog/ariG23498/funes-lance
@@ -494,6 +498,7 @@ https://portablecode.info/2026/09/23/herdr-annotate-ai-review/
 https://portalshit.net/2026/10/03/ai-is-eating-product-management
 https://prtimes.jp/main/html/rd/p/000000268.000045379.html
 https://ptyhard.co.jp/blog/2026/10/code-review
+https://pwn.ai/blog/firecracker-escape
 https://qiita.com/Y-Y-dev/items/d526fb7cdbe35a3f9384
 https://qiita.com/amiyamamoto/items/2c380c550963c8a5ca7a
 https://qiita.com/banquet_kuma/items/f43a22ab24f219ed0569
@@ -530,8 +535,10 @@ https://reflection.ai/blog/introducing-beam
 https://rikiyat.github.io/blog/weight-space-programming/
 https://rocket-boys.co.jp/security-measures-lab/contact_form_7_624_security_update_20261030/
 https://ryanmadden.net/gpt-56-beats-factorio/
+https://s.conao3.com/blog/2026/f681b9
 https://satoweb.net/2026/09/p-18390/
 https://scgajge12.hatenablog.com/entry/closed_network_security
+https://scotthelme.co.uk/we-know-15-579-websites-are-infected-how-do-we-tell-them/
 https://scrapbox.io/nishio/%E4%BA%BA%E9%96%93%E3%81%AEAI%E3%81%AB%E5%AF%BE%E3%81%99%E3%82%8B%E5%88%A4%E6%96%AD%E7%A7%BB%E8%AD%B2
 https://security.macnica.co.jp/blog/2026/10/web-incidents2026.html
 https://securitydrive.jp/column/0023/
@@ -573,6 +580,7 @@ https://syu-m-5151.hatenablog.com/entry/2026/09/22/124945
 https://syu-m-5151.hatenablog.com/entry/2026/09/23/123604
 https://syu-m-5151.hatenablog.com/entry/2026/09/27/120017
 https://syu-m-5151.hatenablog.com/entry/2026/10/05/132102
+https://syu-m-5151.hatenablog.com/entry/2026/11/06/132239
 https://tailwindcss.com/blog/tailwind-is-joining-shopify
 https://tech-blog-v2-opal.vercel.app/article/balancing-engineering-and-parenting
 https://tech-blog.rakus.co.jp/entry/20260916/ai
@@ -708,6 +716,7 @@ https://www.itmedia.co.jp/news/article/2610/29/2000002716/
 https://www.itmedia.co.jp/news/article/2611/01/2000002776/
 https://www.itmedia.co.jp/news/article/2611/02/2000002806/
 https://www.itmedia.co.jp/news/article/2611/04/2000002884/
+https://www.itmedia.co.jp/news/article/2611/06/2000002978/
 https://www.jiji.com/jc/article?k=2026091100447&g=flash
 https://www.jpcert.or.jp/at/2026/at260030.html
 https://www.kimi.ai/blog/kimi-k3-1-pro
@@ -717,6 +726,7 @@ https://www.m3tech.blog/entry/2026/08/26/110000
 https://www.m3tech.blog/entry/2026/09/18/160000
 https://www.m3tech.blog/entry/2026/10/14/133340
 https://www.m3tech.blog/entry/embulk-to-dlt-dbt
+https://www.megamouth.info/entry/2026/11/06/165305
 https://www.microsoft.com/en-us/security/blog/2026/10/21/storm-0940-uses-artex-agentic-ai-connectwise-supply-chain-compromise/
 https://www.netlify.com/blog/edge-functions-firecracker-microvms/
 https://www.nict.go.jp/press/2026/10/13-1.html
@@ -730,6 +740,7 @@ https://www.nikkei.com/article/DGXZQOUC30A460Q6A031C2000000/
 https://www.nikkei.com/article/DGXZQOUF237Z60T21C26A0000000/
 https://www.openssh.org/releasenotes.html#10.6
 https://www.parameter.ai/labs/we-found-a-gap-at-openai
+https://www.planned-obsolescence.org/p/ai-is-dramatically-accelerating-ai
 https://www.pospome.work/entry/2026/08/24/223309
 https://www.pospome.work/entry/2026/09/28/152221
 https://www.preferred.jp/ja/blog/tech/1798
@@ -769,6 +780,7 @@ https://www.theregister.com/security/2026/11/03/north-korean-fake-job-interview-
 https://www.uber.com/in/en/blog/postgres-to-mysql-migration/
 https://www.watch.impress.co.jp/docs/news/2136632.html
 https://www.watch.impress.co.jp/docs/news/2148547.html
+https://www.watch.impress.co.jp/docs/news/2154508.html
 https://www.wiz.io/blog/ai-infrastructure-honeypot
 https://www.wiz.io/blog/artifactory-under-attack-in-the-wild-exploitation-of-cve-2026-42016-cve-2026-4201
 https://www.wiz.io/blog/building-an-ai-detection-engine-for-agent-intent
@@ -887,6 +899,7 @@ https://zenn.dev/uehaj/articles/jev-semgrep-grep-by-meaning
 https://zenn.dev/web_benriya/articles/ai-sql-verification-bigquery-framework
 https://zenn.dev/web_benriya/articles/bigquery-data-engineering-agent-pipelines
 https://zenn.dev/web_benriya/articles/bigquery-knowledge-catalog-business-context
+https://zenn.dev/xin9le/articles/9a1cf8e10494d6
 https://zenn.dev/y0shidahr/articles/489b098eef159b
 https://zenn.dev/y0shidahr/articles/95146f60d47622
 https://zenn.dev/yamato_snow/articles/jev-enterprise-security-guide

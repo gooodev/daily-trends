@@ -1,0 +1,120 @@
+{
+  "date": "2026-11-07",
+  "categories": [
+    {
+      "name": "AI倫理/プライバシー・安全性",
+      "items": [
+        {
+          "title_ja": "Claude Codeがユーザーのメールアドレスを外部サイトへ勝手に送信する問題が発覚、約4カ月前から報告",
+          "url": "https://gigazine.net/news/20261106-claude-code-mail-address/",
+          "summary_ja": "Claude Codeが外部サイトへ通信する際、User-Agentにユーザーの実メールアドレスを含めていたとして、GitHubで再び問題報告された。同様の報告は7月から出ており、10回以上、SECなどにも送信していた例もあるため、Anthropicの対応が注目される（HNでも議論: news.ycombinator.com/item?id=50385272）。"
+        }
+      ]
+    },
+    {
+      "name": "AI倫理/安全性",
+      "items": [
+        {
+          "title_ja": "AIがAI研究を劇的に加速している：METR報告をめぐる考察",
+          "url": "https://www.planned-obsolescence.org/p/ai-is-dramatically-accelerating-ai",
+          "summary_ja": "AnthropicがS-1で、RSPの「AIによる進捗の劇的な加速」の閾値に間もなく達しうると述べたことを受け、METRの報告を踏まえて加速が複利的に続いた場合の外挿を論じる。素朴な外挿では1年以内に超知能に至るという主張で、議論を呼びそうな内容。"
+        }
+      ]
+    },
+    {
+      "name": "AI倫理/ガバナンス・企業導入",
+      "items": [
+        {
+          "title_ja": "AIによる情報漏えいを棚卸ししてみた",
+          "url": "https://dev.classmethod.jp/articles/ai-information-leak-inventory-2026/",
+          "summary_ja": "直近5カ月で1000万件超の漏えいが15件公表されたことを手がかりに、情報漏えいを外部攻撃と内部からの漏えいに分けて整理。AIが攻撃を速く安くし、内側にも新しい経路を増やしていると指摘し、企業が取るべき対策の方向性を考察する。"
+        }
+      ]
+    },
+    {
+      "name": "AIツール/エージェント開発・実装",
+      "items": [
+        {
+          "title_ja": "Herdrで複数のAIコーディングエージェントを見守る",
+          "url": "https://syu-m-5151.hatenablog.com/entry/2026/11/06/132239",
+          "summary_ja": "エージェントを並列に動かすと、差分の確認や承認待ちの把握が人間側のボトルネックになる。端末タブを順に開く代わりに、Herdrで承認待ちのエージェントを一覧して見守る運用を紹介している。"
+        },
+        {
+          "title_ja": "Replit、サンドボックスエンジンをmicroVMで全面刷新（第1部）",
+          "url": "https://frontier.replit.com/sandbox-engine-microvms-part-1/",
+          "summary_ja": "エージェントが実行するサンドボックスを、分離境界の変更によりmicroVMベースへ全面書き換えした経緯の解説。セキュリティ・可搬性を高めつつ、数億プロジェクトをデータ損失なく移行し、起動の速さも維持した。"
+        }
+      ]
+    },
+    {
+      "name": "AIモデル/評価・活用",
+      "items": [
+        {
+          "title_ja": "Hightouch、IDレゾリューションの評価で軽量モデルJevがOpusに相談する構成により精度を保ち4分の1のコストに",
+          "url": "https://hightouch.com/blog/llm-judges-identity-resolution",
+          "summary_ja": "IDレゾリューション結果の採点にJevとLunaを試したところ、単体でも88.8〜97.3%の精度だった。Jevが難しい案件だけOpusに相談するハイブリッド構成にすると、フロンティア級の精度を4倍以上低いコストで実現できた。"
+        }
+      ]
+    },
+    {
+      "name": "Security/脆弱性・インシデント",
+      "items": [
+        {
+          "title_ja": "Firecracker VMエスケープ：PwnEscape Part 2",
+          "url": "https://pwn.ai/blog/firecracker-escape",
+          "summary_ja": "microVM基盤Firecrackerのゲストから、vCPUスレッドのレジスタ保存と再開先を書き換えてホスト上でroot権限のコード実行に至る攻撃手順を解説。Part 1のホストメモリ操作の手法を引き継ぎ、サンドボックス分離の限界を示す。"
+        },
+        {
+          "title_ja": "ドコモ不正アクセス、料金プランなどの情報も流出",
+          "url": "https://www.watch.impress.co.jp/docs/news/2154508.html",
+          "summary_ja": "NTTドコモのサーバーへの不正アクセスで、最大29.5万件の情報が流出し、料金プランなどの情報も含まれていたと報じられた。ドコモは「重く受け止めている」とコメントし、総務省からも指導が出ている（本文取得不可のため、一覧の見出しと周辺記事から要約）。"
+        },
+        {
+          "title_ja": "セキュリティ啓発団体JNSAに不正アクセス、個人情報最大1.5万件が漏えいか",
+          "url": "https://www.itmedia.co.jp/news/article/2611/06/2000002978/",
+          "summary_ja": "JNSAの「情報セキュリティ理解度チェックサービス」が不正アクセスを受け、最大1万5128件のID・ハッシュ化パスワード・担当者情報などが漏えいした可能性がある。10月30日夜ごろから攻撃されていた可能性があり、侵入経路は不明でサービスは停止中。"
+        }
+      ]
+    },
+    {
+      "name": "Security/サプライチェーン",
+      "items": [
+        {
+          "title_ja": "感染が判明している1.5万超のWebサイトに、どう知らせるか（Report URI）",
+          "url": "https://scotthelme.co.uk/we-know-15-579-websites-are-infected-how-do-we-tell-them/",
+          "summary_ja": "Report URIが悪意あるJavaScriptに感染した1万5579サイト（月間1.35億訪問超）を特定したが、責任ある開示が検出ペースに追いつかない。通知の方法についてコミュニティに助言を求めている。"
+        }
+      ]
+    },
+    {
+      "name": "開発/インフラ・ツール",
+      "items": [
+        {
+          "title_ja": "AWS CLI v2と出力が同じで最大550倍速いawsrをRustで作った",
+          "url": "https://s.conao3.com/blog/2026/f681b9",
+          "summary_ja": "AWS CLI v2のコマンドと出力をバイト単位で再現するRust製CLI「awsr」を公開。sts get-caller-identityは6.0ms対659msで約110倍、helpは380〜550倍速い。設定ファイルやSSOキャッシュも本家と共通で、置き換えて使える。"
+        }
+      ]
+    },
+    {
+      "name": "開発/言語・ランタイム",
+      "items": [
+        {
+          "title_ja": "[破壊的変更] 明治時代の開始日が変更されて単体テストが失敗した件",
+          "url": "https://zenn.dev/xin9le/articles/9a1cf8e10494d6",
+          "summary_ja": "CIのubuntu-latestがUbuntu 26.04に切り替わった結果、ICU/CLDRの変更で明治元年の日付を和暦変換するC#のテストがArgumentOutOfRangeExceptionで失敗した。原因と、環境更新で起きる破壊的変更の教訓をまとめている。"
+        }
+      ]
+    },
+    {
+      "name": "キャリア・組織",
+      "items": [
+        {
+          "title_ja": "PHPは使っておりません（megamouthの葬列）",
+          "url": "https://www.megamouth.info/entry/2026/11/06/165305",
+          "summary_ja": "古いPHPの停止で顧客サイトが見られなくなった零細Web制作会社の社長からの依頼を、フリーランスの視点で綴った短編的エッセイ。レガシー資産と受託の現場の空気を描く。"
+        }
+      ]
+    }
+  ]
+}
