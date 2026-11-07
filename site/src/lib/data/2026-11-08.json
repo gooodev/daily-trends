@@ -1,0 +1,100 @@
+{
+  "date": "2026-11-08",
+  "categories": [
+    {
+      "name": "AIツール/エージェント開発・実装",
+      "items": [
+        {
+          "title_ja": "ISUCON2026をClaude Codeが優勝したらしい",
+          "url": "https://sizu.me/laiso/posts/k59is4cnd77f",
+          "summary_ja": "元Wantedly CTOのkawasy氏が3か月以上かけて作り込んだハーネスをClaude Codeに8時間無停止で自律実行させ、ISUCON2026で1位のスコアを出したという話をlaiso氏が紹介している。完全自律実行での優勝が話題になっている。"
+        },
+        {
+          "title_ja": "ハーネスエンジニアリングを有名OSSはどう組んでいるのか？AIへの信頼で比べる5事例",
+          "url": "https://gibberishlab.com/blog/oss-ai-agent-harness-philosophy",
+          "summary_ja": "Zed・Sentry・OpenClaw・Bun・PostHogのAGENTS.mdやフック、スキルを読み比べ、AIを信頼するほど指示は短くなり、信頼しないほどリンターやフックなど機械で縛る傾向があると分析している。各社の設計の違いがファイル抜粋つきで整理されている。"
+        }
+      ]
+    },
+    {
+      "name": "AIツール/業務活用",
+      "items": [
+        {
+          "title_ja": "運用しながら改善する LLM-as-a-Judge の構築",
+          "url": "https://tech.timee.co.jp/entry/2026/11/05/101407",
+          "summary_ja": "タイミーの求人審査AIを題材に、LLM-as-a-Judge自体が意図通り評価できているかを確かめるメタ評価を、運用しながら改善していく進め方を紹介している。評価用データの用意とJudgeの精度検証が要点。"
+        }
+      ]
+    },
+    {
+      "name": "AIモデル/論文・研究",
+      "items": [
+        {
+          "title_ja": "MaxxBench：フロンティアなコーディングエージェントのタスク適応と汎化を測るベンチマーク",
+          "url": "https://news.ycombinator.com/item?id=50406222",
+          "summary_ja": "コーディングベンチマークの要件を変更すると、モデルが新要件を正しく理解しながら「隠しテストは元の答えを期待しているはず」と判断して正しい実装を取り消す例が見つかったとして、適応力と汎化を測るMaxxBenchを提案している。既存ベンチマークのスコアが推測の巧さを報酬しうるという指摘。"
+        },
+        {
+          "title_ja": "Microsoft ResearchのAI Frontiersグループの終了",
+          "url": "https://news.ycombinator.com/item?id=50406563",
+          "summary_ja": "AI Frontiers設立に関わった著者が、ChatGPT以降は研究を組織立てて進める必要があったとして設立の経緯を振り返り、同グループが終わることを綴っている。大企業内でのAI研究組織の在り方について考えさせる内容。"
+        }
+      ]
+    },
+    {
+      "name": "Security/脆弱性・インシデント",
+      "items": [
+        {
+          "title_ja": "Claude Codeの「今後確認しない」設定がGitHub上の1,122ファイルでパスワードを露出させている",
+          "url": "https://news.ycombinator.com/item?id=50407882",
+          "summary_ja": "Apiiroの調査として、Claude Codeの「Don't Ask Again」による許可設定がコミットされ、公開GitHubの1,122ファイルで認証情報が露出していると報じられている。※本文取得不可（Cloudflareにブロック）のためタイトルとHNの情報のみから要約。"
+        },
+        {
+          "title_ja": "スーパーの冷蔵庫制御装置を装うハニーポット「Coldframe」",
+          "url": "https://news.ycombinator.com/item?id=50406292",
+          "summary_ja": "スーパーの冷蔵庫コントローラーに見せかけたハニーポットColdframeがShow HNで公開され、産業制御系を狙う攻撃の観測に使える。※本文取得不可のためHNの情報のみから要約。"
+        }
+      ]
+    },
+    {
+      "name": "開発/インフラ・ツール",
+      "items": [
+        {
+          "title_ja": "Libghostty 1.0",
+          "url": "https://mitchellh.com/writing/libghostty-1-0",
+          "summary_ja": "Ghosttyのコアから切り出したターミナルエミュレーション用Cライブラリlibghostty-vtが1.0に到達し、ライブラリとC ABIの安定性が保証されるようになった。すでに数百の製品で使われており、強制されるABI安定ポリシーがあることが示されている。"
+        }
+      ]
+    },
+    {
+      "name": "開発/JS・TS",
+      "items": [
+        {
+          "title_ja": "LDRライクなRSSリーダIrodrをReact 19 + Vite+で書き直した",
+          "url": "https://efcl.info/2026/11/07/irodr-2/",
+          "summary_ja": "azu氏が2017年から使うIrodrをReact 19 SPAとVite+で全面的に書き直し、見た目とキー操作はそのままにgzip後のJSサイズを397kBから150kBに削減した。InoreaderとGitHub Notificationsを同じ「ソース」として扱う構成にもなっている。"
+        }
+      ]
+    },
+    {
+      "name": "キャリア・組織",
+      "items": [
+        {
+          "title_ja": "AI時代に求められる優秀なTechLeadの振る舞い",
+          "url": "https://www.pospome.work/entry/2026/11/07/192125",
+          "summary_ja": "TechLead Conference 2026 Autumnの登壇資料で、ICからTechLead、VPoEへと役割を変えてきた経験から、AIがコードを書く時代にTechLeadが生み出すべき価値と求められる振る舞いを考えている。"
+        }
+      ]
+    },
+    {
+      "name": "キャリア・組織/プロジェクトマネジメント",
+      "items": [
+        {
+          "title_ja": "AI時代の要求管理ハンドブック（IPA）",
+          "url": "https://www.ipa.go.jp/digital/kaihatsu/youkyu-kanri.html",
+          "summary_ja": "IPAが2026年11月5日に公開したハンドブックで、経営・現場・開発がともに問いから実現へ道筋を描くための要求管理をAI時代向けにまとめている。"
+        }
+      ]
+    }
+  ]
+}

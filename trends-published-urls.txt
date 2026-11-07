@@ -74,6 +74,7 @@ https://developer.feedforce.jp/entry/2026/09/15/122838
 https://developers.cyberagent.co.jp/blog/archives/64920/
 https://disconnect3d.pl//2026/10/02/dont-put-tilde-in-your-path/
 https://docs.getdbt.com/blog/dbt-mcp-server-claude
+https://efcl.info/2026/11/07/irodr-2/
 https://engineering.atspotify.com/2026/9/portal-by-spotify-cut-my-claude-code-token-usage-by-90
 https://engineering.dena.com/blog/2026/10/ai-agent-onboarding/
 https://engineers.ntt.com/entry/202610-steganoC2/entry
@@ -96,6 +97,7 @@ https://frontier.replit.com/sandbox-engine-microvms-part-1/
 https://future-architect.github.io/articles/20261008a/
 https://future-architect.github.io/articles/20261016a/
 https://ghuntley.com/replaced/
+https://gibberishlab.com/blog/oss-ai-agent-harness-philosophy
 https://gigazine.net/news/20260827-meta-zuckerberg-replace-staff-ai-imploded/
 https://gigazine.net/news/20260827-openai-hugging-face-incident-report/
 https://gigazine.net/news/20260905-docubrowser/
@@ -226,6 +228,7 @@ https://mag.executive.itmedia.co.jp/executive/article/2608/26/2000000717/
 https://markezine.jp/news/detail/77595
 https://mashable.com/tech/anthropic-takes-steps-to-block-video-game-cloning-and-reverse-engineering
 https://methane.hatenablog.jp/entry/2026/09/04/AI_Coding%E6%99%82%E4%BB%A3%E3%81%AEOSS%E3%83%A9%E3%82%A4%E3%83%96%E3%83%A9%E3%83%AA%E3%81%AE%E3%83%A1%E3%83%B3%E3%83%86
+https://mitchellh.com/writing/libghostty-1-0
 https://mtx2s.hatenablog.com/entry/2026/09/21/182658
 https://na2hiro.hatenablog.com/entry/2026/09/02/%E9%80%80%E8%81%B7%E3%81%97%E3%81%BE%E3%81%99%E3%80%82%E5%B0%B1%E8%81%B7%E3%81%97%E3%81%BE%E3%81%9B%E3%82%93%E3%80%82
 https://nealle-dev.hatenablog.com/entry/2026/09/11/171745
@@ -448,6 +451,10 @@ https://news.ycombinator.com/item?id=50355767
 https://news.ycombinator.com/item?id=50376313
 https://news.ycombinator.com/item?id=50379249
 https://news.ycombinator.com/item?id=50383963
+https://news.ycombinator.com/item?id=50406222
+https://news.ycombinator.com/item?id=50406292
+https://news.ycombinator.com/item?id=50406563
+https://news.ycombinator.com/item?id=50407882
 https://newsdig.tbs.co.jp/articles/-/2990268
 https://newsdig.tbs.co.jp/articles/-/3020110
 https://newsletter.dancohen.org/archive/the-slow-formation-of-durable-software/
@@ -546,6 +553,7 @@ https://share.timescar.jp/news/2026/0929/1816.html
 https://shkspr.mobi/blog/2026/10/i-paid-people-to-try-and-follow-my-readme/
 https://simedw.com/2026/10/21/world-model-terminal/
 https://simonkoeck.com/writeups/google-devsite-flask-session-pickle-rce
+https://sizu.me/laiso/posts/k59is4cnd77f
 https://slides.yusu.ke/honoconf-2026
 https://songmu.jp/riji/entry/2026-10-11-github-actions-artifact-attestations.html
 https://songmu.jp/riji/entry/2026-10-24-scaling-github-actions-runners-with-ghalet.html
@@ -601,6 +609,7 @@ https://tech.newmo.me/entry/2026/10/27/100000
 https://tech.smarthr.jp/entry/2026/09/02/120000
 https://tech.smarthr.jp/entry/2026/09/16/110205
 https://tech.stmn.co.jp/entry/2026/10/09/121328
+https://tech.timee.co.jp/entry/2026/11/05/101407
 https://techblog.ap-com.co.jp/entry/2026/09/17/103525
 https://techblog.kazaneya.com/20261030-agent-skills/
 https://techblog.tver.co.jp/entry/shiroma/history-of-test-automation
@@ -668,6 +677,7 @@ https://www.getdbt.com/blog/dbt-context-engineering
 https://www.getdbt.com/blog/dbt-state-is-ga
 https://www.getdbt.com/blog/dbt-v2-is-ga
 https://www.idcf.jp/news/topics/20261008001
+https://www.ipa.go.jp/digital/kaihatsu/youkyu-kanri.html
 https://www.ipa.go.jp/jinzai/ics/core_human_resource/final_project/2026/pm_ai.html
 https://www.ipa.go.jp/jinzai/ics/core_human_resource/final_project/2026/rcu1hd0000018kkn-att/rcu1hd0000019kwj.pdf
 https://www.itmedia.co.jp/aiplus/article/2609/04/2000001152/
@@ -743,6 +753,7 @@ https://www.parameter.ai/labs/we-found-a-gap-at-openai
 https://www.planned-obsolescence.org/p/ai-is-dramatically-accelerating-ai
 https://www.pospome.work/entry/2026/08/24/223309
 https://www.pospome.work/entry/2026/09/28/152221
+https://www.pospome.work/entry/2026/11/07/192125
 https://www.preferred.jp/ja/blog/tech/1798
 https://www.preferred.jp/ja/blog/tech/plamo-3-translate-product-release
 https://www.publickey1.jp/blog/26/claude_codeagentsmdclaudemd.html
