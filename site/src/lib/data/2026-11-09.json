@@ -1,0 +1,105 @@
+{
+  "date": "2026-11-09",
+  "categories": [
+    {
+      "name": "AIツール/コーディングツール",
+      "items": [
+        {
+          "title_ja": "Claude Codeを卒業してPiへ移行した理由",
+          "url": "https://news.ycombinator.com/item?id=50410107",
+          "summary_ja": "長年使ったClaude Codeを、VSCode連携の不具合・頻繁な仕様変更・トークン消費の多さへの不満からオープンソースのコーディングハーネス「Pi」に乗り換えた体験記。ツールの安定性や簡潔さがコストと作業効率に直結することを示す事例。"
+        }
+      ]
+    },
+    {
+      "name": "AIツール/エージェント開発・実装",
+      "items": [
+        {
+          "title_ja": "エージェントのメモリにはOpenTelemetryのような標準が必要",
+          "url": "https://news.ycombinator.com/item?id=50411467",
+          "summary_ja": "コーディングエージェントごとに独自形式で保存される「記憶」が相互に読めず分断されている問題を指摘し、OpenTelemetryのように共通のデータモデルと規約を標準化すべきだと提案する。ツール間でエージェントの学習内容を共有・再利用するための論点整理。"
+        },
+        {
+          "title_ja": "MCPはなぜ復権したのか：CLIが支持された理由と仕様変更",
+          "url": "https://hiraoku.dev/blog/mcp-cli-cloud/",
+          "summary_ja": "CLI重視の議論を経てMCPが再評価された経緯を解説。2026年7月28日版の仕様は初期化やプロトコル上のセッションを撤去し、ツールの遅延読み込みなどと組み合わせてコンテキストの無駄と通信管理の負担を減らせる点が要点。"
+        },
+        {
+          "title_ja": "マルチエージェント設計「15のパターン」GitHub・Google・Siemensの知見を整理",
+          "url": "https://atmarkit.itmedia.co.jp/ait/articles/2611/08/news001.html",
+          "summary_ja": "GitHub・Google・Siemensの事例をもとに、複数AIエージェントを連携させる15の設計パターンと信頼性を高める6つの原則を紹介する。マルチエージェントを安定運用するための実践的な指針になる。"
+        }
+      ]
+    },
+    {
+      "name": "AIツール/業務活用",
+      "items": [
+        {
+          "title_ja": "「AI脳疲れ」との戦い方：複数AIツール併用時の対策",
+          "url": "https://sergeykuhne.com/blog/fighting-ai-brain-fry",
+          "summary_ja": "複数のAIコーディングツールを同時に使うことで生じる疲労への対策として、作業をgit上の優先度付きキューで管理し、エージェントが処理できない判断だけを人間に回す方法を紹介。1件ずつ判断して戻すことで文脈を抱え込まず集中できる。"
+        }
+      ]
+    },
+    {
+      "name": "AIモデル/ローカルLLM",
+      "items": [
+        {
+          "title_ja": "Llama-modchip：GPUなし・64GB RAMで284BのDeepSeekを動かす",
+          "url": "https://news.ycombinator.com/item?id=50411961",
+          "summary_ja": "llama.cpp系のCPU向け最適化パッチと量子化ツールで、GPUなしの64GB RAM環境でも284BのDeepSeek-V4-Flashを256Kコンテキストで動かせると主張（デコードは約9〜15 tok/s）。性能値は作者の自己申告を含むため再現性は要確認。"
+        }
+      ]
+    },
+    {
+      "name": "AI倫理/ガバナンス・企業導入",
+      "items": [
+        {
+          "title_ja": "ゴールドマン・サックス、バンカーとトレーダーからClaude Codeを引き上げ",
+          "url": "https://news.ycombinator.com/item?id=50415628",
+          "summary_ja": "10月の内部ガイドラインでClaude CodeとGitHubの利用をエンジニアに限定し、トレーダーやバンカーのアクセスを制限した。生産性とリスクへの懸念が背景で、AIエージェントが書くコードの統制と活用のバランスを示す事例。"
+        }
+      ]
+    },
+    {
+      "name": "Security/AI×攻撃",
+      "items": [
+        {
+          "title_ja": "Claude Codeの「今後確認しない」が秘密情報をGitHubに漏らす：1,122件の公開ファイルに1,379件",
+          "url": "https://news.ycombinator.com/item?id=50407882",
+          "summary_ja": "「今後確認しない」を選ぶとコマンド中のパスワードやAPIキーが.claude/settings.local.jsonに平文保存され、公開GitHubの1,122ファイルで計1,379件の秘密情報が見つかった。ファイル削除だけでは漏洩は解消せず、先に認証情報のローテーションが必要で、コマンドに秘密情報を直接書かない運用が求められる。※本文取得不可のため日本語解説記事から要約"
+        }
+      ]
+    },
+    {
+      "name": "Security/脆弱性・インシデント",
+      "items": [
+        {
+          "title_ja": "Outlook.com、DMARC未設定ドメインのメールを静かに拒否",
+          "url": "https://news.ycombinator.com/item?id=50416158",
+          "summary_ja": "Outlook.com・Hotmail・Live・MSNは2026年11月5日から、DMARCレコードのないドメインからのメールの一部を告知なく「認証レコード不足」で拒否している。少量送信の企業にも影響し、対処はDNSにv=DMARC1; p=noneのTXTレコードを追加すること。"
+        },
+        {
+          "title_ja": "Denoのセキュリティモデルは好きになれない",
+          "url": "https://news.ycombinator.com/item?id=50413769",
+          "summary_ja": "Denoのパーミッション機能は実際にはサンドボックスではなく、ターミナルの偽装やPATH・LD_PRELOADの悪用で突破できると主張し、信頼できないコードはbwrapなどの本物のサンドボックスで実行すべきだと結論づける。安全機能への過信を戒める警告（2024年の記事）。"
+        },
+        {
+          "title_ja": "日本ネットワークセキュリティ協会に不正アクセス、最大1.5万件の個人情報漏えいの恐れ",
+          "url": "https://japan.cnet.com/article/35254549/",
+          "summary_ja": "日本ネットワークセキュリティ協会が不正アクセスを受け、最大1.5万件の個人情報が漏えいした恐れがあると公表した。※本文取得不可のためタイトルとスニペットのみから記載"
+        }
+      ]
+    },
+    {
+      "name": "開発/インフラ・ツール",
+      "items": [
+        {
+          "title_ja": "Zabbix 8.0 LTSがOpenTelemetryにネイティブ対応しオブザーバビリティを強化",
+          "url": "https://cloud.watch.impress.co.jp/docs/news/2154360.html",
+          "summary_ja": "オープンソース監視ツールのLTS版Zabbix 8.0 LTSがリリースされ、OpenTelemetryにネイティブ対応した。メトリクス・トレース・ログを1つの基盤で扱え、アプリケーションとインフラの稼働状況を関連付けて分析できる。"
+        }
+      ]
+    }
+  ]
+}

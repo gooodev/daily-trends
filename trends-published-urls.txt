@@ -17,6 +17,7 @@ https://atmarkit.itmedia.co.jp/ait/articles/2609/02/news038.html
 https://atmarkit.itmedia.co.jp/ait/articles/2609/16/news013.html
 https://atmarkit.itmedia.co.jp/ait/articles/2609/17/news006.html
 https://atmarkit.itmedia.co.jp/ait/articles/2609/24/news032.html
+https://atmarkit.itmedia.co.jp/ait/articles/2611/08/news001.html
 https://automaton-media.com/articles/newsjp/20261026-475703/
 https://aws.amazon.com/blogs/security/building-your-ai-vulnerability-harness-part-1/
 https://aws.amazon.com/jp/blogs/news/aws-jpps-seminar-2026-july/
@@ -53,6 +54,7 @@ https://claude.com/resources/articles/building-agents-when-to-fold-subagents-int
 https://claude.dev/blog/solving-code-review-at-anthropic/
 https://cloud.google.com/blog/ja/products/identity-security/getting-started-with-the-mantis-harness-to-find-and-fix-bugs
 https://cloud.watch.impress.co.jp/docs/column/techwatch/2147521.html
+https://cloud.watch.impress.co.jp/docs/news/2154360.html
 https://codeandcake.dev/posts/2026-10-22-docker-is-weird
 https://coliss.com/wp-content/cache/all/articles/build-websites/operation/work/7-adobe-apps-open-sourced.html/index.html
 https://collusion.wiki/
@@ -171,6 +173,7 @@ https://go.dev/blog/jsonv2
 https://harnesstax.github.io/
 https://helentech.jp/news-google-bans-videostrong-xcpe-backdoor/
 https://hightouch.com/blog/llm-judges-identity-resolution
+https://hiraoku.dev/blog/mcp-cli-cloud/
 https://huggingface.co/blog/Banaxi-Tech/bananamind-2-pro-weve-almost-matched-smollm2-at-20
 https://huggingface.co/blog/FINAL-Bench/qwen-models
 https://huggingface.co/blog/ariG23498/funes-lance
@@ -200,6 +203,7 @@ https://japan.cnet.com/article/35253437/
 https://japan.cnet.com/article/35253656/
 https://japan.cnet.com/article/35254103/
 https://japan.cnet.com/article/35254251/
+https://japan.cnet.com/article/35254549/
 https://japan.zdnet.com/article/35252229/
 https://japan.zdnet.com/article/35252683/
 https://jbpress.ismedia.jp/articles/-/96703
@@ -455,6 +459,12 @@ https://news.ycombinator.com/item?id=50406222
 https://news.ycombinator.com/item?id=50406292
 https://news.ycombinator.com/item?id=50406563
 https://news.ycombinator.com/item?id=50407882
+https://news.ycombinator.com/item?id=50410107
+https://news.ycombinator.com/item?id=50411467
+https://news.ycombinator.com/item?id=50411961
+https://news.ycombinator.com/item?id=50413769
+https://news.ycombinator.com/item?id=50415628
+https://news.ycombinator.com/item?id=50416158
 https://newsdig.tbs.co.jp/articles/-/2990268
 https://newsdig.tbs.co.jp/articles/-/3020110
 https://newsletter.dancohen.org/archive/the-slow-formation-of-durable-software/
@@ -549,6 +559,7 @@ https://scotthelme.co.uk/we-know-15-579-websites-are-infected-how-do-we-tell-the
 https://scrapbox.io/nishio/%E4%BA%BA%E9%96%93%E3%81%AEAI%E3%81%AB%E5%AF%BE%E3%81%99%E3%82%8B%E5%88%A4%E6%96%AD%E7%A7%BB%E8%AD%B2
 https://security.macnica.co.jp/blog/2026/10/web-incidents2026.html
 https://securitydrive.jp/column/0023/
+https://sergeykuhne.com/blog/fighting-ai-brain-fry
 https://share.timescar.jp/news/2026/0929/1816.html
 https://shkspr.mobi/blog/2026/10/i-paid-people-to-try-and-follow-my-readme/
 https://simedw.com/2026/10/21/world-model-terminal/
