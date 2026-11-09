@@ -1,0 +1,105 @@
+{
+  "date": "2026-11-10",
+  "categories": [
+    {
+      "name": "AIモデル/モデル動向",
+      "items": [
+        {
+          "title_ja": "Claude Fable 5.2とMythos 5.2が発表、価格引き下げと出力高速化",
+          "url": "https://news.ycombinator.com/item?id=50429906",
+          "summary_ja": "Anthropicが同一基盤モデルのFable 5.2とMythos 5.2を発表。コーディング・推論・視覚が向上し、出力は5.1比で最大30%高速、価格は入力$8/出力$40（100万トークン）に下がった。Fableはサイバー・生物分野の安全策付きで全ユーザー向け、Mythosは検証プログラム経由の提供。"
+        },
+        {
+          "title_ja": "Muse Ember：Metaの最小・高効率モデルが発表",
+          "url": "https://news.ycombinator.com/item?id=50429024",
+          "summary_ja": "Metaが軽量モデルMuse Emberを公開。ツール呼び出しやコーディングの小タスク、ルーティング、抽出などエージェントが繰り返す処理向けで、Claude Haiku 5.5並みのスコアを約3分の1のコストで出すと主張している。"
+        }
+      ]
+    },
+    {
+      "name": "AIモデル/モデル挙動",
+      "items": [
+        {
+          "title_ja": "Opus 5.5は劣化したのか？11月3日に思考パターンが変化したとの報告",
+          "url": "https://news.ycombinator.com/item?id=50422069",
+          "summary_ja": "11月3日以降にOpus 5.5の思考パターンが変わったと感じるユーザーの投稿がHNで437コメントの議論になっている。モデル挙動の無告知変更への不信感が主題。※元投稿はXで本文取得不可のためタイトルとコメント数のみから要約。"
+        }
+      ]
+    },
+    {
+      "name": "AIツール/エージェント開発・実装",
+      "items": [
+        {
+          "title_ja": "Devinはソフトウェアファクトリーのフレームワークになった",
+          "url": "https://tech.timee.co.jp/entry/2026/11/09/120755",
+          "summary_ja": "タイミーの開発生産性改善チームが、LayerX CTOの「ループが閉じたプロセスを作る」というソフトウェアファクトリーの考え方を紹介し、Devinがタスク依頼ツールを超えてそのフレームワークとして機能し始めた様子を解説している。"
+        },
+        {
+          "title_ja": "チームでの複数人同時利用を前提としたAIエージェント「MAIA」が登場",
+          "url": "https://gigazine.net/news/20261109-maia-zyphra-multiplayer-ai-agent/",
+          "summary_ja": "Zyphraが、複数人が同時に使うチーム利用を前提としたAIエージェント「MAIA」を公開した。個人利用中心の既存エージェントとの違いをGIGAZINEが紹介している。"
+        }
+      ]
+    },
+    {
+      "name": "AIツール/ローカルLLM活用",
+      "items": [
+        {
+          "title_ja": "ソフトウェア産業が消滅する日──小さなローカルAIが暴く「プログラムを売る」商売の終焉",
+          "url": "https://wirelesswire.jp/2026/11/94903",
+          "summary_ja": "清水亮氏が、Apple Silicon Mac上で9Bクラスの小型ローカルLLMを動かしClaude Codeから使えるようにする「mightyCode」を作った経験から、プログラムを売る商売が成り立たなくなる可能性を論じている。"
+        }
+      ]
+    },
+    {
+      "name": "AI倫理/プライバシー",
+      "items": [
+        {
+          "title_ja": "Googleの Gemini が Drive のファイルやメールを人間のアノテーターに回していると告発",
+          "url": "https://github.com/thisisme6598/gemini_files/",
+          "summary_ja": "GitHub上で、GoogleのGeminiがユーザーのDriveファイルやメールを人間のアノテーターに回していると指摘するリポジトリが公開され、HNで議論になっている。※リポジトリ本文を取得できずタイトルとHNの反応から要約。"
+        }
+      ]
+    },
+    {
+      "name": "AI倫理/ガバナンス・企業導入",
+      "items": [
+        {
+          "title_ja": "ゴールドマン・サックス、銀行員やトレーダーによるAIコーディングエージェントの利用を制限",
+          "url": "https://gigazine.net/news/20261109-goldman-sachs-restricts-ai/",
+          "summary_ja": "大手金融のゴールドマン・サックスが、銀行員やトレーダーによるAIコーディングエージェントの利用を制限していると報じられ、その理由をGIGAZINEが解説している。金融機関での企業導入ガバナンスの実例として参考になる。"
+        }
+      ]
+    },
+    {
+      "name": "Security/サプライチェーン",
+      "items": [
+        {
+          "title_ja": "Qubole サプライチェーン攻撃：盗まれたベンダー鍵1つで全顧客のデータが露出",
+          "url": "https://news.ycombinator.com/item?id=50432147",
+          "summary_ja": "Sentraが、データ基盤ベンダーQuboleの認証情報窃取を起点に複数組織へ波及したサプライチェーン攻撃を、検知・追跡・被害特定・対応の流れとともに解説。正規の資格情報と忘れられたベンダー信頼が突かれた点が要点。"
+        }
+      ]
+    },
+    {
+      "name": "Security/脆弱性・インシデント",
+      "items": [
+        {
+          "title_ja": "ニトリで不正アクセス、最大3762万件の会員情報が流出した可能性",
+          "url": "https://internet.watch.impress.co.jp/docs/news/2154931.html",
+          "summary_ja": "ニトリが11月6日に不正アクセスを確認し、個人・法人会員の氏名・住所・電話番号など最大3762万件が流出した可能性があると発表した。カード情報とパスワードは含まれないとされる。"
+        }
+      ]
+    },
+    {
+      "name": "キャリア・組織/キャリア・組織",
+      "items": [
+        {
+          "title_ja": "記事は短くていい",
+          "url": "https://zenn.dev/herp_inc/articles/90d6052024a30f",
+          "summary_ja": "生成AIで記事をかさ増ししてブログのノルマを満たすのをやめ、短くても自分にしか書けない内容を出すべきだという主張。文章を書くコストは下がっても読むコストは下がらない点を根拠にしている。"
+        }
+      ]
+    }
+  ]
+}

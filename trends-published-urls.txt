@@ -154,6 +154,8 @@ https://gigazine.net/news/20261030-proton-ceo-ai/
 https://gigazine.net/news/20261101-wikipedia-ai-content/
 https://gigazine.net/news/20261102-official-claude-code-extension-compromise/
 https://gigazine.net/news/20261106-claude-code-mail-address/
+https://gigazine.net/news/20261109-goldman-sachs-restricts-ai/
+https://gigazine.net/news/20261109-maia-zyphra-multiplayer-ai-agent/
 https://giginet.hateblo.jp/entry/2026/09/22/114642
 https://gihyo.jp/article/2026/10/ai-security-defense
 https://gihyo.jp/article/2026/10/anatomy
@@ -167,6 +169,7 @@ https://github.com/ayghri/i-have-adhd
 https://github.com/google-research/harness2
 https://github.com/minorun365/agent-builder-skills
 https://github.com/mizorewww/laya-mlx
+https://github.com/thisisme6598/gemini_files/
 https://gmo-cybersecurity.com/blog/20261019/
 https://go.dev/blog/http-connection-reuse
 https://go.dev/blog/jsonv2
@@ -196,6 +199,7 @@ https://internet.watch.impress.co.jp/docs/news/2151273.html
 https://internet.watch.impress.co.jp/docs/news/2151585.html
 https://internet.watch.impress.co.jp/docs/news/2152666.html
 https://internet.watch.impress.co.jp/docs/news/2154115.html
+https://internet.watch.impress.co.jp/docs/news/2154931.html
 https://itsallaboutthebit.com/i-am-sorry-but-you-still-have-to-think/
 https://iwashi.co/2026/10/01/how-to-study-in-ai-era
 https://j11g.com/the-mythical-man-month-in-the-age-of-ai
@@ -465,6 +469,10 @@ https://news.ycombinator.com/item?id=50411961
 https://news.ycombinator.com/item?id=50413769
 https://news.ycombinator.com/item?id=50415628
 https://news.ycombinator.com/item?id=50416158
+https://news.ycombinator.com/item?id=50422069
+https://news.ycombinator.com/item?id=50429024
+https://news.ycombinator.com/item?id=50429906
+https://news.ycombinator.com/item?id=50432147
 https://newsdig.tbs.co.jp/articles/-/2990268
 https://newsdig.tbs.co.jp/articles/-/3020110
 https://newsletter.dancohen.org/archive/the-slow-formation-of-durable-software/
@@ -621,6 +629,7 @@ https://tech.smarthr.jp/entry/2026/09/02/120000
 https://tech.smarthr.jp/entry/2026/09/16/110205
 https://tech.stmn.co.jp/entry/2026/10/09/121328
 https://tech.timee.co.jp/entry/2026/11/05/101407
+https://tech.timee.co.jp/entry/2026/11/09/120755
 https://techblog.ap-com.co.jp/entry/2026/09/17/103525
 https://techblog.kazaneya.com/20261030-agent-skills/
 https://techblog.tver.co.jp/entry/shiroma/history-of-test-automation
@@ -648,6 +657,7 @@ https://vitalik.eth.limo/general/2026/10/31/digital_minimalism.html
 https://voluntas.ghost.io/2026-08-second-half-llm/
 https://voluntas.ghost.io/migrate-opencode-to-pi/
 https://weekly.ascii.jp/elem/000/004/439/4439882/
+https://wirelesswire.jp/2026/11/94903
 https://www.47news.jp/15170379.html
 https://www.afpbb.com/articles/-/3654276
 https://www.aikido.dev/blog/compromised-flutter-package-on-pub-dev-contains-xcsset-malware
@@ -846,6 +856,7 @@ https://zenn.dev/goat_eat_any/articles/claude-code-cloud-sessions
 https://zenn.dev/hampen2929/books/ai-dev-team-guide
 https://zenn.dev/hampen2929/books/claude-code-production-guide
 https://zenn.dev/helloyuki/articles/e1e312796f35ed
+https://zenn.dev/herp_inc/articles/90d6052024a30f
 https://zenn.dev/hirayuki/articles/3b8c944818f630
 https://zenn.dev/hiromoo/articles/flutter-riverpod-agent-skill-evaluation
 https://zenn.dev/jnch/articles/18cf3f1893ee5b
