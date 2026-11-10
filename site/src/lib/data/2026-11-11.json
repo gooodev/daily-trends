@@ -1,0 +1,230 @@
+{
+  "date": "2026-11-11",
+  "categories": [
+    {
+      "name": "AIツール/コーディングツール",
+      "items": [
+        {
+          "title_ja": "Claude Codeで最近使っているTips【2026/11】",
+          "url": "https://zenn.dev/oikon/articles/claude-code-recipe",
+          "summary_ja": "Claude Code本の著者が、会話履歴を汚さず進捗を聞ける /btw コマンド、HTMLレポートやArtifactsでの情報共有、Claude Mods、マルチエージェントパターン、Remote Controlといった最近重宝しているTipsを紹介。長時間自走するエージェントの状況を人間がどう把握するかという観点が中心で、ブックマークも当日最多。"
+        },
+        {
+          "title_ja": "Show HN: コーディングエージェントを2019年頃のJavaScriptから脱却させ、モダンなWebプリミティブへ導く「Modern Web Guidance」",
+          "url": "https://news.ycombinator.com/item?id=50443812",
+          "summary_ja": "Chrome・Edge・Firefox・MDNの各チームが共同で管理する、Webプラットフォームのベストプラクティスとブラウザ互換性データをコーディングエージェント向けスキルとして提供するプロジェクト。npxで導入でき、エージェントがレガシーなパターンではなくモダンなWeb標準を使うよう誘導する。"
+        }
+      ]
+    },
+    {
+      "name": "AIツール/エージェント開発・実装",
+      "items": [
+        {
+          "title_ja": "MCPを組み込んだアプリを手元で複数動かすための構成パターン",
+          "url": "https://engineering.nature.global/entry/2026/11/mcp-architecture-patterns",
+          "summary_ja": "EmacsやiPhoneアプリにMCPサーバーを組み込んでClaude Codeから操作する際に、ポート衝突・設定の増殖・中継役の改修といった複数アプリ同時稼働時の詰まりどころを、JavaScriptのサンプルとともに1つずつ解消する構成パターンを解説している。"
+        },
+        {
+          "title_ja": "退屈なCoding AgentはMuseにやらせよう",
+          "url": "https://zenn.dev/watany/articles/342b9815dd0553",
+          "summary_ja": "MetaのパーソナルAIエージェント「Muse」に、無料で使える4コアVM上の「Space」機能を使ってアプリを作らせたり、コーディングエージェントを持たせたりする使い方を紹介。ローカルLLMを載せたアプリまで一気通貫で無料で作れる点を評価しており、既存AI契約の見直しにも触れている。"
+        }
+      ]
+    },
+    {
+      "name": "AIツール/業務活用",
+      "items": [
+        {
+          "title_ja": "大学1年生がつくったOSSがGitHub Star 1万超。AIに渡す「画面の設計図」はどう生まれた？",
+          "url": "https://levtech.jp/media/detail_965/",
+          "summary_ja": "ブラウザ上でアプリ画面を組み立て、AIに渡すプロンプトを生成するOSS「M3E Canvas」の開発者インタビュー。バイブコーディングでAIへの画面指示を繰り返す面倒さから生まれ、公開2カ月で1万スターを獲得、Android以外の開発にも広がった経緯を紹介している。"
+        }
+      ]
+    },
+    {
+      "name": "AIモデル/フロンティアモデル",
+      "items": [
+        {
+          "title_ja": "Anthropic、「Claude Fable 5.2」「Claude Mythos 5.2」を発表 ～最強モデルがより高速・安価に",
+          "url": "https://forest.watch.impress.co.jp/docs/news/2154982.html",
+          "summary_ja": "AnthropicがFable 5.1/Mythos 5.1の後継を発表。ほぼすべてのベンチマークでOpus 5.5を上回り、生成速度は最大30%向上、API料金も入力8ドル・出力40ドル（100万トークンあたり）に引き下げられた。Mythosは検証プログラム通過組織限定で、Fableには悪用防止のセーフガードが施される。同時に公開されたclaude.devブログでは、1,000エージェントのチームでフェルマーの最終定理の形式証明を再現した事例と安全制御の設計も紹介されている。"
+        }
+      ]
+    },
+    {
+      "name": "AIモデル/品質・評価",
+      "items": [
+        {
+          "title_ja": "Claude Opus 5.5の推論能力が11月3日から急激に低下したとの指摘、1400件の利用履歴から変化が判明",
+          "url": "https://gigazine.net/news/20261110-claude-opus-nerf/",
+          "summary_ja": "開発者がClaude Codeの利用履歴約1400件をGeminiで分析したところ、モデル名は変わらないまま11月3日頃から思考文や作業の進め方が大きく変化していたと指摘。モデルの挙動が予告なく変わり得ることへの懸念と、利用ログによる品質監視の手法として注目を集めている。"
+        }
+      ]
+    },
+    {
+      "name": "AIモデル/論文・研究",
+      "items": [
+        {
+          "title_ja": "AlphaProof Code：複雑なソフトウェアを深く検証する画期的成果（Google DeepMind）",
+          "url": "https://news.ycombinator.com/item?id=50439193",
+          "summary_ja": "Google DeepMindが、人間の専門知識とAIエージェントを組み合わせた形式検証フレームワーク「AlphaProof Code」で、Signalプロトコルの実装コードの主要なセキュリティ特性を数学的に証明したと発表。形式検証はコストが高く大規模コードには適用困難とされてきたが、AIで実用的な深さまで到達した点が評価されている。"
+        },
+        {
+          "title_ja": "NVIDIAの「長文コンテキスト不要」論文",
+          "url": "https://zenn.dev/knowledgesense/articles/bd917ed6829121",
+          "summary_ja": "長時間稼働するAIエージェントで対話履歴を全部積み上げる方式（Full-History Accumulation）をやめ、状態をこまめに圧縮してメモに残し、必要な箇所だけを選択的に読み込むことで推論コストと遅延を下げつつ精度を保つNVIDIAの新手法を日本語で解説している。"
+        },
+        {
+          "title_ja": "LLMのポストトレーニングで「重みを削除する」ことの驚くべき有効性",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xswmb7/the_surprising_effectiveness_of_deleting_weights/",
+          "summary_ja": "Transformerのgate projectionに対する2値マスクを学習し、重みの0.05%未満をゼロにするだけで、RLVR・SFT・オンポリシー蒸留の3つの設定でフルファインチューニングに匹敵する性能が得られるとする研究「Deletion Tuning」。学習済みマスクはFFTチェックポイントの数百〜数千分の1のサイズで済む。"
+        }
+      ]
+    },
+    {
+      "name": "AIモデル/ローカルLLM",
+      "items": [
+        {
+          "title_ja": "Apple、Macでローカルの生成AIモデルを簡単に動かせる新アプリ「Harbor」を開発中",
+          "url": "https://news.ycombinator.com/item?id=50446520",
+          "summary_ja": "リーク情報によると、AppleはMacを「プライベートなAI推論サーバー」にし、オープンウェイトモデルを1台または複数台のApple silicon Macで実行できる新アプリ「Harbor」を開発している。データが端末外に出ないことを打ち出しており、ローカルLLM用途でのMac需要の高まりを背景とした動きとみられる。"
+        }
+      ]
+    },
+    {
+      "name": "AI倫理/ガバナンス・企業導入",
+      "items": [
+        {
+          "title_ja": "AIの利用は脆いコードベースを生む",
+          "url": "https://news.ycombinator.com/item?id=50438318",
+          "summary_ja": "Metaを解雇された元エンジニアが、AI生成コードの比率が評価基準になる中で、AIに大きく依存した同僚のコードが長期的な技術的負債につながる微妙な問題を多く含んでいたと振り返る。優秀なプログラマーでもAI出力のレビューが甘くなる実例を挙げ、AI利用の強制と品質のトレードオフを論じている。"
+        },
+        {
+          "title_ja": "セキュリティチームはシャドーAIとAIエージェントのセキュリティをどう管理しているか",
+          "url": "https://www.reddit.com/r/cybersecurity/comments/1xsvzvm/how_are_security_teams_managing_shadow_ai_and_ai/",
+          "summary_ja": "従業員がAIアシスタント、コーディングエージェント、MCPサーバー、ブラウザ拡張などを無断で使い、どの企業データが外部に渡っているか把握できない「シャドーAI」問題について、EDR・DLP・CASBなど既存の統制で足りるのか専用ツールが必要かを議論するスレッド。"
+        }
+      ]
+    },
+    {
+      "name": "AI倫理/安全性",
+      "items": [
+        {
+          "title_ja": "AI企業にはさらに多くのスパイが潜んでいる可能性が高い、とセキュリティ幹部が指摘",
+          "url": "https://www.reddit.com/r/technology/comments/1xsuc18/there_are_likely_more_spies_at_ai_companies_says/",
+          "summary_ja": "セキュリティ幹部のLisa Thiergart氏が、AI企業には国家の関与するスパイがさらに潜んでいる可能性が高いと警告。NVIDIAのCEOと中国のスパイとされる人物との関係が報じられる中で、AI企業のインサイダーリスクと技術流出への関心が高まっている。 ※本文取得不可（ペイウォール）のため Reddit 投稿と関連報道から要約"
+        }
+      ]
+    },
+    {
+      "name": "AI倫理/社会・ブランド",
+      "items": [
+        {
+          "title_ja": "ケンタッキー、一部メニュー画像に生成AI　実験販売の商品など　SNSは「違和感」の声も",
+          "url": "https://www.itmedia.co.jp/news/article/2611/10/2000003070/",
+          "summary_ja": "日本KFCが、実験販売中のフロートなど一部メニューの商品画像制作に生成AIを使うことがあると認めた。氷まで緑色に染まった画像がSNSで話題になり、実物との差異やブランドイメージを損なうとの懸念が寄せられている。"
+        }
+      ]
+    },
+    {
+      "name": "Security/サプライチェーン",
+      "items": [
+        {
+          "title_ja": "Fireworks AIのセキュリティインシデントに関するお知らせ（Notion）",
+          "url": "https://www.notion.com/ja/help/security-incident-involving-a-third-party-ai-vendor",
+          "summary_ja": "Notionがデータ分類や推論に利用していたAIインフラ事業者Fireworks AIで侵害が発生し、全ワークスペースの1%未満でNotion AIとの一部チャットの文字起こしが流出した可能性があると公表。ユーザーや企業を特定するラベルは含まれないとしつつ、Insights機能とFireworks経由のオープンウェイトモデル提供を停止した。AIベンダー経由のサードパーティリスクの実例。"
+        }
+      ]
+    },
+    {
+      "name": "Security/脆弱性・インシデント",
+      "items": [
+        {
+          "title_ja": "サイバー攻撃急増で「人の手では対応しきれない」──ソフトバンク宮川社長、終わりの見えないパッチ修正に「疲弊しきっている」と吐露",
+          "url": "https://www.itmedia.co.jp/news/article/2611/10/2000003069/",
+          "summary_ja": "IDCフロンティアが認証基盤のOSS脆弱性を突かれ495の企業・自治体のサーバが暗号化された件を謝罪し、OSSを診断対象外にしていた不備を認めた。偵察行為は月6〜7億件と前年の倍に増え、オープンウェイトモデルの登場以降に攻撃が急増した実感があるとして、AIによる攻撃とパッチ対応の疲弊を語っている。"
+        },
+        {
+          "title_ja": "Chrome拡張機能約29万件のマニフェストを調べたら、28.7%が全Webサイトのデータを読み書きできた",
+          "url": "https://www.reddit.com/r/cybersecurity/comments/1xsrejn/i_went_through_the_manifests_of_290k_chrome/",
+          "summary_ja": "Chromeウェブストアの約29万件の拡張機能を解析したところ、8万3千件超が全サイトのデータの読み取り・変更権限を要求し、さらに他の機密権限も持つ拡張は1万8千件・利用者合計13億人以上にのぼった。権限は能力を示すだけで悪用を意味しないが、拡張機能経由の攻撃面の大きさを示すデータとして議論されている。"
+        },
+        {
+          "title_ja": "Google、悪用が確認されたChromeのゼロデイ脆弱性を修正（今年8件目）",
+          "url": "https://www.reddit.com/r/cybersecurity/comments/1xsvy9p/google_patches_chrome_zeroday_already_exploited/",
+          "summary_ja": "ChromeのXMLコンポーネントにおけるUse-After-Freeの脆弱性CVE-2026-125350について、実環境での悪用が確認されたとして緊急アップデート（157.0.8103.50/.51）が公開された。今年8件目のChromeゼロデイで、早急な更新が推奨されている。"
+        },
+        {
+          "title_ja": "クイーンズ公共図書館がランサムウェア攻撃を受ける",
+          "url": "https://news.ycombinator.com/item?id=50437790",
+          "summary_ja": "ニューヨークのクイーンズ公共図書館がランサムウェア攻撃による大規模なネットワーク障害に見舞われ、Webサイト・アプリ・公共PC・デジタルメディアサービスが停止。Wi-Fiや貸出機など一部は復旧したが貸出更新は利用できない状態が続いている。同時期にはヴァンダービルト大学でもサイバー攻撃による端末停止が報じられている。"
+        }
+      ]
+    },
+    {
+      "name": "開発/言語・ランタイム",
+      "items": [
+        {
+          "title_ja": ".NET 11 リリース",
+          "url": "https://www.reddit.com/r/programming/comments/1xstxzv/announcing_net_11/",
+          "summary_ja": "Microsoftが.NET 11を正式リリース。C# 15（共用体型など）、ASP.NET Core、.NET MAUIの改善に加え、数百のランタイム最適化やSDKツールの高速化、エージェント機能を含むAI開発支援が盛り込まれた。2年サポートのSTSリリースで、LTSの.NET 10も引き続きサポートされる。"
+        }
+      ]
+    },
+    {
+      "name": "開発/インフラ・ツール",
+      "items": [
+        {
+          "title_ja": "Val Town、サービス終了へ",
+          "url": "https://news.ycombinator.com/item?id=50443427",
+          "summary_ja": "TypeScriptのサーバーレス実行環境Val Townが、クラウド市場で競争できなかったとしてサービスを段階的に終了すると発表。新規登録は即日停止、12月10日に読み取り専用、2027年1月10日に全サービス終了となり、Cloudflare・Vercel・Netlify・Renderへの移行ガイドを用意している。"
+        }
+      ]
+    },
+    {
+      "name": "開発/JS・TS",
+      "items": [
+        {
+          "title_ja": "JavaScript向けマルチコアSQLエンジンを作った（純JS＋WebAssembly、ネイティブアドオン不要）",
+          "url": "https://www.reddit.com/r/javascript/comments/1xsp7lt/i_built_a_multicore_sql_engine_for_javascript/",
+          "summary_ja": "ネイティブアドオンを使わず純粋なJavaScriptとWebAssemblyでマルチコア実行するSQLエンジン「Vectro」の紹介。ブラウザ上で他の2エンジンと同じデータ・13のクエリで速度を競うライブベンチマークを公開しており、Node.jsでは数千万〜10億行規模のベンチマークも示している。"
+        },
+        {
+          "title_ja": "1日が25時間あったことで起きたChromiumのバグ",
+          "url": "https://www.reddit.com/r/programming/comments/1xsvulu/a_chromium_bug_caused_by_a_25hour_day/",
+          "summary_ja": "夏時間から標準時に戻る日には1日が25時間になる（逆に23時間の日もある）ことに起因したChromiumのバグを、UTCと地方時・夏時間の仕組みから丁寧に解説。日付計算で「1日=24時間」を前提にする危うさを示す事例。"
+        }
+      ]
+    },
+    {
+      "name": "キャリア・組織",
+      "items": [
+        {
+          "title_ja": "【資料公開】「自分の仕事はここまで」はどこから来るのか",
+          "url": "https://www.ryuzee.com/contents/blog/14628",
+          "summary_ja": "「担当外には手を出さない」という態度を本人の主体性の問題とせず、目標設定・評価制度・意思決定の仕組みといった構造が生む症状として、心理学や組織論の知見から整理した講演資料。メンバーとリーダー・マネージャーが明日からできることも提示している。"
+        },
+        {
+          "title_ja": "Claude Nineの日々（AIで自動化に没頭する生活）",
+          "url": "https://news.ycombinator.com/item?id=50443587",
+          "summary_ja": "Claudeと一緒にメール処理から予定管理、文書作成まで次々と自動化を作り続け、食事も忘れて深夜まで没頭してしまう人物を描いたエッセイ。AIによって「できてしまう」ことが生む過剰な作業への没入や燃え尽きのリスクを問いかけている。"
+        }
+      ]
+    },
+    {
+      "name": "その他",
+      "items": [
+        {
+          "title_ja": "SNSの偽広告掲載めぐり 前澤友作氏の訴え退ける 東京地裁",
+          "url": "https://news.web.nhk/newsweb/na/nd-20261110de73285",
+          "summary_ja": "前澤友作氏が自身の名前や画像を無断使用したなりすまし偽広告をめぐりMetaに賠償と削除を求めた訴訟で、東京地裁は請求を退けた。プラットフォームの広告掲載責任が争点となった判決として注目されている。"
+        },
+        {
+          "title_ja": "スマートホーム機器はインターネットなしでも動くべきだ",
+          "url": "https://news.ycombinator.com/item?id=50441707",
+          "summary_ja": "約10年間「家の中核機能をベンダーのサーバーに依存させない」というルールで、Tasmota・MQTT・Node-REDを使ったローカル完結のホームオートメーションを運用してきた筆者が、その原則と構成を紹介。Nest APIの廃止など、クラウド依存機器が突然使えなくなるリスクを指摘している。"
+        }
+      ]
+    }
+  ]
+}

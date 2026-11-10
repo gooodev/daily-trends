@@ -79,6 +79,7 @@ https://docs.getdbt.com/blog/dbt-mcp-server-claude
 https://efcl.info/2026/11/07/irodr-2/
 https://engineering.atspotify.com/2026/9/portal-by-spotify-cut-my-claude-code-token-usage-by-90
 https://engineering.dena.com/blog/2026/10/ai-agent-onboarding/
+https://engineering.nature.global/entry/2026/11/mcp-architecture-patterns
 https://engineers.ntt.com/entry/202610-steganoC2/entry
 https://enterprisezine.jp/article/detail/25178
 https://euglena1215.hatenablog.jp/entry/2026/09/27/113320
@@ -93,6 +94,7 @@ https://forest.watch.impress.co.jp/docs/news/2148495.html
 https://forest.watch.impress.co.jp/docs/news/2150800.html
 https://forest.watch.impress.co.jp/docs/news/2151194.html
 https://forest.watch.impress.co.jp/docs/news/2152248.html
+https://forest.watch.impress.co.jp/docs/news/2154982.html
 https://forest.watch.impress.co.jp/docs/review/localai/2137694.html
 https://four.htmx.org/announcements/2026-08-28-htmx-4.0.0-is-released
 https://frontier.replit.com/sandbox-engine-microvms-part-1/
@@ -156,6 +158,7 @@ https://gigazine.net/news/20261102-official-claude-code-extension-compromise/
 https://gigazine.net/news/20261106-claude-code-mail-address/
 https://gigazine.net/news/20261109-goldman-sachs-restricts-ai/
 https://gigazine.net/news/20261109-maia-zyphra-multiplayer-ai-agent/
+https://gigazine.net/news/20261110-claude-opus-nerf/
 https://giginet.hateblo.jp/entry/2026/09/22/114642
 https://gihyo.jp/article/2026/10/ai-security-defense
 https://gihyo.jp/article/2026/10/anatomy
@@ -230,6 +233,7 @@ https://labo.hatenastaff.com/entry/2026/09/30/151500
 https://layer3intel.com/blog/residential-proxies-white-house-network
 https://leaddev.com/ai/meta-tried-to-shrink-engineering-teams-around-ai
 https://levtech.jp/media/detail_911/
+https://levtech.jp/media/detail_965/
 https://linear.app/now/ci-bottleneck-reworked
 https://logmi.jp/main/management/333618
 https://mag.executive.itmedia.co.jp/executive/article/2608/26/2000000717/
@@ -244,6 +248,7 @@ https://news.mynavi.jp/techplus/article/20261009-5099252/
 https://news.tv-asahi.co.jp/news_international/articles/900199131.html
 https://news.web.nhk/newsweb/na/nd-20261016de60742
 https://news.web.nhk/newsweb/na/nd-20261105de71024
+https://news.web.nhk/newsweb/na/nd-20261110de73285
 https://news.yahoo.co.jp/articles/743e16ce8d8b3f48908d0248d48f4d15c913b90e
 https://news.yahoo.co.jp/articles/f0008179ada16d57148d0998c5c2a62872b7bb1a
 https://news.yahoo.co.jp/expert/articles/5e8495cadb5412ac2ca85a7253509eadf5360471
@@ -473,6 +478,14 @@ https://news.ycombinator.com/item?id=50422069
 https://news.ycombinator.com/item?id=50429024
 https://news.ycombinator.com/item?id=50429906
 https://news.ycombinator.com/item?id=50432147
+https://news.ycombinator.com/item?id=50437790
+https://news.ycombinator.com/item?id=50438318
+https://news.ycombinator.com/item?id=50439193
+https://news.ycombinator.com/item?id=50441707
+https://news.ycombinator.com/item?id=50443427
+https://news.ycombinator.com/item?id=50443587
+https://news.ycombinator.com/item?id=50443812
+https://news.ycombinator.com/item?id=50446520
 https://newsdig.tbs.co.jp/articles/-/2990268
 https://newsdig.tbs.co.jp/articles/-/3020110
 https://newsletter.dancohen.org/archive/the-slow-formation-of-durable-software/
@@ -748,6 +761,8 @@ https://www.itmedia.co.jp/news/article/2611/01/2000002776/
 https://www.itmedia.co.jp/news/article/2611/02/2000002806/
 https://www.itmedia.co.jp/news/article/2611/04/2000002884/
 https://www.itmedia.co.jp/news/article/2611/06/2000002978/
+https://www.itmedia.co.jp/news/article/2611/10/2000003069/
+https://www.itmedia.co.jp/news/article/2611/10/2000003070/
 https://www.jiji.com/jc/article?k=2026091100447&g=flash
 https://www.jpcert.or.jp/at/2026/at260030.html
 https://www.kimi.ai/blog/kimi-k3-1-pro
@@ -769,6 +784,7 @@ https://www.nikkei.com/article/DGXZQOUC160I20W6A910C2000000/
 https://www.nikkei.com/article/DGXZQOUC2315K0T21C26A0000000/
 https://www.nikkei.com/article/DGXZQOUC30A460Q6A031C2000000/
 https://www.nikkei.com/article/DGXZQOUF237Z60T21C26A0000000/
+https://www.notion.com/ja/help/security-incident-involving-a-third-party-ai-vendor
 https://www.openssh.org/releasenotes.html#10.6
 https://www.parameter.ai/labs/we-found-a-gap-at-openai
 https://www.planned-obsolescence.org/p/ai-is-dramatically-accelerating-ai
@@ -791,7 +807,16 @@ https://www.publickey1.jp/blog/26/slackaislack_code.html
 https://www.publickey1.jp/blog/26/supabase1sqlitetursoaidb.html
 https://www.publickey1.jp/blog/26/vercelnextjscloudflare_workersaws_lambdavercelvinext_10.html
 https://www.reddit.com/r/LocalLLaMA/comments/1w5ozl4/perplexity_opensourced_their_mac_inference_server/
+https://www.reddit.com/r/LocalLLaMA/comments/1xswmb7/the_surprising_effectiveness_of_deleting_weights/
+https://www.reddit.com/r/cybersecurity/comments/1xsrejn/i_went_through_the_manifests_of_290k_chrome/
+https://www.reddit.com/r/cybersecurity/comments/1xsvy9p/google_patches_chrome_zeroday_already_exploited/
+https://www.reddit.com/r/cybersecurity/comments/1xsvzvm/how_are_security_teams_managing_shadow_ai_and_ai/
+https://www.reddit.com/r/javascript/comments/1xsp7lt/i_built_a_multicore_sql_engine_for_javascript/
+https://www.reddit.com/r/programming/comments/1xstxzv/announcing_net_11/
+https://www.reddit.com/r/programming/comments/1xsvulu/a_chromium_bug_caused_by_a_25hour_day/
+https://www.reddit.com/r/technology/comments/1xsuc18/there_are_likely_more_spies_at_ai_companies_says/
 https://www.ricursive.com/ripple
+https://www.ryuzee.com/contents/blog/14628
 https://www.sankei.com/article/20260827-HJO7DKCWRNMB7MSDJCOSEMK4PY/
 https://www.sankei.com/article/20260909-YXTSWA7BWZA6VI3SCMGOQ3YMSM/
 https://www.sbbit.jp/article/cont1/186092
@@ -871,6 +896,7 @@ https://zenn.dev/kauche/articles/f3736c660aab77
 https://zenn.dev/kazuki_izutani/articles/1709552ca099f1
 https://zenn.dev/kkk555/articles/databricks-health-architecture
 https://zenn.dev/km100/articles/0a482487c9cb0e
+https://zenn.dev/knowledgesense/articles/bd917ed6829121
 https://zenn.dev/kodomo_news/articles/53-strict-type-checked-gradual
 https://zenn.dev/koheiwada/articles/houritsu-japanese-laws-as-git
 https://zenn.dev/lambda_funtaro/articles/493c7143876ad8
@@ -895,6 +921,7 @@ https://zenn.dev/nonejp/articles/c7dd2859872f9d
 https://zenn.dev/nrs/articles/6ce38891833998
 https://zenn.dev/nrs/articles/c777388530aa84
 https://zenn.dev/nwn/articles/e49154653ecea9
+https://zenn.dev/oikon/articles/claude-code-recipe
 https://zenn.dev/onozaty/articles/drizzle-db-comments-generator
 https://zenn.dev/oryo_data/articles/f94473ed24ef95
 https://zenn.dev/persimmoq/articles/deepseek-v41-flash-1017-fact-check
@@ -929,6 +956,7 @@ https://zenn.dev/tomatomerde/articles/semantic-conflicts-outside-code
 https://zenn.dev/toshipon/articles/claude-code-security-assessment-skill
 https://zenn.dev/twinharness/articles/ai-telegraph-vs-plain-japanese
 https://zenn.dev/uehaj/articles/jev-semgrep-grep-by-meaning
+https://zenn.dev/watany/articles/342b9815dd0553
 https://zenn.dev/web_benriya/articles/ai-sql-verification-bigquery-framework
 https://zenn.dev/web_benriya/articles/bigquery-data-engineering-agent-pipelines
 https://zenn.dev/web_benriya/articles/bigquery-knowledge-catalog-business-context
