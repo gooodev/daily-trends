@@ -1,0 +1,250 @@
+{
+  "date": "2026-11-12",
+  "categories": [
+    {
+      "name": "AIツール/業務活用",
+      "items": [
+        {
+          "title_ja": "東大・国立環境研、20年以上開発されてきた大気モデルをClaude Codeで移植　実行速度1.71倍、進行を制約したのは人間のレビューと利用上限",
+          "url": "https://ledge.ai/articles/nicam_claude_code_migration",
+          "summary_ja": "全球大気モデル「NICAM」の約14万行のFortran/OpenACCコードを、Claude CodeがC++/Kokkosへ全面移植した研究論文の紹介。人間は方針決定とレビューに回り、実行速度は1.71倍に向上した一方、プロジェクトの進行を律速したのは人間のレビュー速度と利用上限だったという。はてブでは、単体テスト通過後に結合段階で初期化漏れが見つかった点など検証設計への指摘が目立つ。※本文取得不可のためはてブコメントから要約"
+        },
+        {
+          "title_ja": "Claude内でAdobe製品やNotionなどを直接操作可能に、AIと一緒に写真編集や文書作成ができる新機能が登場",
+          "url": "https://gigazine.net/news/20261111-claude-interactive-connectors-full-tool/",
+          "summary_ja": "Anthropicが、Claudeのチャット画面内にAdobe製品やNotionなど外部アプリの操作画面を表示し、会話しながら写真・PDF編集や文書作成ができる「インタラクティブコネクタ」の拡張を発表。アドビ側もPhotoshopやPremiereなどをMCP対応させ、外部AIエージェントから操作できるようにしている。"
+        }
+      ]
+    },
+    {
+      "name": "AIツール/エージェント開発・実装",
+      "items": [
+        {
+          "title_ja": "定理証明ガードレールで AI エージェントに業務ルールを守らせる",
+          "url": "https://developers.freee.co.jp/entry/lean-formal-verification-ai-agent-guardrails",
+          "summary_ja": "業務ルールが増えるとAIエージェントは悪意なく判断を誤る（τ-benchでpass^8が約25%）という課題に対し、業務ルールをLeanの公理系として渡し、会話ごとに「客の目的を満たす」定理の証明を処理系に検査させ、導けない書き込みは実行しないハーネスを提案。τ²-bench金融ドメインの開発用74タスク中45タスクで満点かつ証明完了という途中経過も示している。"
+        }
+      ]
+    },
+    {
+      "name": "AIツール/コーディングツール",
+      "items": [
+        {
+          "title_ja": "Claude Code ハーネス Deep Dive – 君はどこまで制御する？",
+          "url": "https://speakerdeck.com/takateeen_knj/20261110-claude-deepdive",
+          "summary_ja": "Claude Codeの権限設定・フック・サンドボックスなど「ハーネス」側で何をどこまで制御できるかを掘り下げた登壇資料。はてブでは、権限統制やガードレール設計が緻密にまとまっていて社内推進の参考になるとの評価が多い。※本文取得不可のためはてブコメントから要約"
+        },
+        {
+          "title_ja": "Atuin Threads：すべてのマシン上のエージェントセッションを一元管理",
+          "url": "https://news.ycombinator.com/item?id=50453637",
+          "summary_ja": "シェル履歴同期ツールAtuinが、Claude CodeやCodexなど複数のコーディングエージェントのセッションを検索・同期可能な履歴として集約する「Threads」を発表。あるマシンのClaude Codeで始めた作業を別マシンのCodexで文脈ごと再開できる。HNでは、エージェントの状態のどこまでを同期して安全かが不明確だという指摘も出ている。"
+        }
+      ]
+    },
+    {
+      "name": "AIモデル/論文・研究",
+      "items": [
+        {
+          "title_ja": "線形計画法で「Weight-Space Programming」はできるか？",
+          "url": "https://news.ycombinator.com/item?id=50452655",
+          "summary_ja": "GPT-6 AstraがQwen3.5-0.8Bの重みを0.016%だけ直接書き換えてMATH-500正答率を7.9%から48.1%に上げた「Weight-Space Programming」の編集を分析し、その探索の大半は線形計画問題の試行錯誤だったと指摘。LPソルバーなら約1分×数回で、8分の1の変更量で同等の修正ができると示した。国内でもQwenをずんだもん口調にする追試記事が相次いでいる。"
+        },
+        {
+          "title_ja": "RAGを高速かつ高効率にする検索手法",
+          "url": "https://news.ycombinator.com/item?id=50455633",
+          "summary_ja": "Apple ML Researchによる、RAGの中核である最大内積探索（MIPS）の高速化研究。短いユーザー質問と長い文書という、クエリとキーの分布の違いを考慮しない既存の近似手法の弱点に着目し、クエリ側の性質を学習に取り込むことで精度を保ったまま検索を高速化する。HNでは学習型ルーティングによる検索の他事例も話題に。"
+        }
+      ]
+    },
+    {
+      "name": "AIモデル/ローカルLLM",
+      "items": [
+        {
+          "title_ja": "ローカルLLMはゲーム開発に使えるか、スクウェア・エニックスがNemotronで検証",
+          "url": "https://pc.watch.impress.co.jp/docs/news/2155676.html",
+          "summary_ja": "NVIDIAのAgentic AI Day Japan 2026で、スクウェア・エニックスのAIエンジニアがゲーム開発でのローカルLLM活用を発表。3Dシーンデータや企画の壁打ちなどトークン消費が大きいゲーム開発ではクラウドモデルのコストが課題になるとして、Nemotronを使ったローカル運用の検証結果を紹介した。"
+        },
+        {
+          "title_ja": "Huawei、ローカル推論向けの社内量子化手法「MACaQ」を公開",
+          "url": "https://news.ycombinator.com/item?id=50458166",
+          "summary_ja": "Huaweiが、線形層ごとに4bitの重みと活性化を校正するモデル非依存の量子化手法MACaQをOSS公開。チャネルバランシングや小さなHadamard変換を組み合わせ、テキスト・画像・動画・音声・3Dモデルに同じレシピで適用でき、llama.cppやvLLMで動作する（Qwen3.8-27Bで約2.7倍のデコード高速化）。"
+        }
+      ]
+    },
+    {
+      "name": "AIモデル/データセット",
+      "items": [
+        {
+          "title_ja": "NVIDIAが仮想的な日本人900万人分の家計や財務状況を含めたペルソナをまとめたデータセットを公開",
+          "url": "https://gigazine.net/news/20261111-nemotron-personas-finance-japan/",
+          "summary_ja": "NVIDIAが日本の公的統計と家計・金融リテラシーのデータを組み合わせた合成ペルソナデータセット「Nemotron Personas Finance Japan」と、個人情報検出向けの「Nemotron PII Japan」を公開。実データのプライバシーリスクを避けつつ、金融領域のエージェントAI開発や評価に使える。"
+        }
+      ]
+    },
+    {
+      "name": "AI倫理/規制・法律",
+      "items": [
+        {
+          "title_ja": "政府、高性能AI暴走に罰則検討　悪質事業者に対抗手段へ法改正",
+          "url": "https://www.47news.jp/15215887.html",
+          "summary_ja": "政府がAI法制度の見直しで、AI関連事業者に安全確保を義務付け、協議に応じない悪質事業者には強制力のある命令と罰則を新設する方向で検討していることが判明。罰則はサイバー攻撃への悪用や暴走など高性能AIによる重大事案に絞る方向で、米巨大IT企業を対象に含めた場合の実効性が論点になる。"
+        }
+      ]
+    },
+    {
+      "name": "AI倫理/安全性",
+      "items": [
+        {
+          "title_ja": "Anthropic、IPO直前に重要なAI安全性アラームの閾値到達を表明",
+          "url": "https://www.reddit.com/r/technology/comments/1xtk3nu/anthropic_says_a_key_ai_safety_alarm_has_been/",
+          "summary_ja": "AnthropicはIPOの価格帯を示した修正目論見書で、AIが自社研究を加速しモデルの改善速度をおよそ2倍にするというResponsible Scaling Policy上の閾値に「到達した」と判断したと記載。現行モデルの観測ではなく今後の見通しと進捗速度に基づく判断で、停止ではなく追加の安全対策の発動を意味するという。"
+        }
+      ]
+    },
+    {
+      "name": "AI倫理/ガバナンス・企業導入",
+      "items": [
+        {
+          "title_ja": "ユナイテッド航空、AIエージェントによる旅行者代理での航空券予約を禁止",
+          "url": "https://news.ycombinator.com/item?id=50458900",
+          "summary_ja": "ユナイテッド航空が、個人向けAIエージェントに認証情報や決済情報を渡すことによるセキュリティリスクや意図しない購入、チェックイン時の本人確認に関する連邦規則違反の恐れを理由に、第三者AIエージェントによる予約・操作を自社サイトや旅行代理店経由で制限すると発表。HNでは公式のAPI/MCP提供を求める声も。"
+        }
+      ]
+    },
+    {
+      "name": "AI倫理/雇用への影響",
+      "items": [
+        {
+          "title_ja": "ソフトウェア産業が消滅する日──小さなローカルAIが暴く「プログラムを売る」という商売の終焉",
+          "url": "https://wirelesswire.jp/2026/11/94903/",
+          "summary_ja": "清水亮氏が、Mac上の9BローカルLLMをClaude Codeの頭脳として差し替えて使える「mightyCode」を作った経験から、API料金も利用制限もなくエージェント開発が回る時代には、プログラムを売るという商売自体が成り立たなくなるのではないかと論じるエッセイ。"
+        }
+      ]
+    },
+    {
+      "name": "Security/AI×開発ツール",
+      "items": [
+        {
+          "title_ja": "Claude Codeの「今後確認しない」が秘密情報をGitHubに漏らす — 1,122件の公開ファイルに1,379件の秘密情報",
+          "url": "https://dev.ponkotsu.dev/entry/claude-code-settings-local-secrets",
+          "summary_ja": "Claude Codeで「Yes, and don't ask again」を選ぶと、パスワードやトークンを含むコマンドがそのまま .claude/settings.local.json に平文保存され、公開リポジトリにコミットされていたとするApiiroの調査を解説。グローバルgitignoreへの追加はプロジェクトと共に移動せず、Claude自身がコミットしたケースも多いとみられ、DBパスワードやAWSキーなど63組織分が見つかった。"
+        }
+      ]
+    },
+    {
+      "name": "Security/サプライチェーン",
+      "items": [
+        {
+          "title_ja": "Notion AIのチャット記録が委託先から流出した可能性についてまとめてみた",
+          "url": "https://piyolog.hatenadiary.jp/entry/2026/11/11/125745",
+          "summary_ja": "Notionが推論基盤として利用していたFireworks AIで、内部認証情報の不正使用と、研究開発マシンをホストする第三者クラウド事業者経由の侵入という2経路のインシデントが発生し、Notion AIの一部チャット記録が流出した可能性がある件の経緯を整理。AIサービスの委託先・推論基盤がサプライチェーン上のリスクになる事例。"
+        }
+      ]
+    },
+    {
+      "name": "Security/脆弱性・インシデント",
+      "items": [
+        {
+          "title_ja": "相次ぐメール配信サービスへの不正アクセスについてまとめてみた",
+          "url": "https://piyolog.hatenadiary.jp/entry/2026/11/09/230435",
+          "summary_ja": "10月中旬以降、ブラストメール・Cuenote（ユミルリンク）・アララ メッセージ・SpeeCAN RAIDEN・ワイメールの5つのメール配信サービスが相次いで不正アクセスを公表した件を、侵入経路や配信機能の悪用、停止・再開状況ごとに比較整理。ユミルリンクでは約4786万件、アララ経由では内閣府メルマガ利用者6万件超の漏えいも報じられている。"
+        },
+        {
+          "title_ja": "OpenSSHのパスワード認証回避の脆弱性 CVE-2026-123158 についてまとめてみた",
+          "url": "https://piyolog.hatenadiary.jp/entry/2026/11/06/120149",
+          "summary_ja": "musl libcを使いPAMなしで動くLinux上のsshdで、パスワード欄が「*」のアカウントに長いパスワードでログインできてしまう認証回避の脆弱性（CVSS 8.1）の解説。成立条件は限定的だが、AIエージェントによる急速な再発見が起きているとしてOpenSSHが即時公開に踏み切った点が特徴的。"
+        }
+      ]
+    },
+    {
+      "name": "Security/AI×攻撃",
+      "items": [
+        {
+          "title_ja": "盗んだ情報をAIに査定させるインフォスティーラー「VOLTA」についてまとめてみた",
+          "url": "https://piyolog.hatenadiary.jp/entry/2026/11/09/144357",
+          "summary_ja": "Cisco Talosが解析したWindows向けインフォスティーラーVOLTAは、認証情報やセッション、暗号資産ウォレットを窃取した後、OpenRouter経由でLLMに被害者の換金価値を査定させ、拒否されると別モデルに切り替える。ChromeのApp-Bound Encryption回避など、窃取機能自体も成熟している。"
+        }
+      ]
+    },
+    {
+      "name": "開発/インフラ・ツール",
+      "items": [
+        {
+          "title_ja": "AWS Emulator：エージェントが構築したAWSのローカルエミュレーター",
+          "url": "https://news.ycombinator.com/item?id=50456631",
+          "summary_ja": "AWSが、Smithyで書かれた公開APIモデルを仕様とし、実際のAWSクラウドを正解として照合しながら、AIエージェントにサービスのエミュレーターを自律構築させた「AWS Emulator」を公開。CTOのWerner Vogels氏は、エージェントがコードを書く時代のエンジニアの役割を論じている。HNでは継続的にメンテされる製品なのかを疑問視し、Floci等の代替を挙げる声も。"
+        },
+        {
+          "title_ja": "誤作動した火災報知器でJane Streetの唯一のNYCデータセンターが水没しかけた話",
+          "url": "https://news.ycombinator.com/item?id=50455394",
+          "summary_ja": "Jane Streetの元システムチームメンバーが、トレーディングフロア近くにあった唯一のマシンルームで火災報知器が誤作動し、冷却停止の中スプリンクラー作動前に全電源ケーブルを抜いて回った顛末を語る戦記。単一拠点依存のリスクを生々しく伝え、HNではハリケーン・サンディ時のデータセンター復旧談なども共有された。"
+        },
+        {
+          "title_ja": "既存サービスの ECS タスクを read-only root filesystem & non-root 構成に作り変える",
+          "url": "https://tech.mntsq.co.jp/entry/2026/11/10/113203",
+          "summary_ja": "MNTSQが本番稼働中の全ECSサービスに対して、ルートファイルシステムの読み取り専用化と非root実行を適用した記録。/tmpやECS Execの書き込み先、空ボリュームによるイメージ内容の隠蔽、initコンテナでのchownが成立しない問題など、既存サービスならではのハマりどころと対処を具体的にまとめている。"
+        }
+      ]
+    },
+    {
+      "name": "開発/言語・ランタイム",
+      "items": [
+        {
+          "title_ja": "Go における Graceful Shutdown とハマりどころ",
+          "url": "https://speakerdeck.com/ogidow/layerx-go-6-graceful-shutdown",
+          "summary_ja": "GoのHTTPサーバーで、SIGTERM時にBaseContextからハンドラへキャンセルを伝え、長時間処理の中断やメールの二重送信を防ぐ方法を解説した登壇資料。http.ServerのShutdownだけではリクエストのContextに停止が届かない点や、送信済み記録まで同じctxで止めないための設計が論点。※本文取得不可のためはてブコメントから要約"
+        }
+      ]
+    },
+    {
+      "name": "開発/テスト",
+      "items": [
+        {
+          "title_ja": "AI「テスト通りました」← これ､本当？ Stryker でテストの穴を塞いだ話",
+          "url": "https://qiita.com/Dingu-suke/items/b5318ef2040a9f59224a",
+          "summary_ja": "AIが書いたテストが本当にバグを検出できるのかを確かめるため、ミューテーションテストツールStrykerを、マルチテナントSaaSで会社ごとにデータを絞り込むPrismaクライアントの開発に適用した事例。実際の数値とともに、ハーネスへの組み込み方やAIとの相性をまとめている。"
+        }
+      ]
+    },
+    {
+      "name": "キャリア・組織",
+      "items": [
+        {
+          "title_ja": "自分は旧時代のエンジニアになってしまったのでは",
+          "url": "https://www.mobtown.jp/article/old-engineer/",
+          "summary_ja": "生成AIの出力を理解・修正して責任を持って出すのがエンジニアリングだと考えてきた筆者が、AIで誰でも70点の成果を量産できるようになり、90点に引き上げる作業が評価されにくくなった現実への葛藤を綴ったエッセイ。はてブで当日最多クラスの反響を集めた。"
+        },
+        {
+          "title_ja": "AIで実装は速くなったのに、なぜアウトカムは増えないのか？ ボトルネックが移った先にあるエンジニアの仕事",
+          "url": "https://codezine.jp/article/detail/30105",
+          "summary_ja": "デブサミのセッションレポート。カミナシのエンジニアが、AIでアウトプットは速くなってもアウトカムは増えておらず、ボトルネックはコードの外に移ったと指摘し、現場訪問やドメイン理解などの「スケールしない仕事」に浮いた時間を使う実践を紹介。HNでも同テーマのChristian Bird氏の講演「AI, activity, and outcomes」が話題になっている。"
+        },
+        {
+          "title_ja": "エンジニアにとってEMは魅力のない役割なのか",
+          "url": "https://mtx2s.hatenablog.com/entry/2026/11/09/210114",
+          "summary_ja": "マネージャー打診を断った過去を持つ筆者が、EMはピープルマネジメントだけでなく組織課題を解くことで個では成し得ない成果を生む役割であり、技術課題とも地続きのエンジニアにこそ魅力的な仕事だと論じる。失うものと引き受けるものにも触れている。"
+        },
+        {
+          "title_ja": "AI時代に求められる優秀なTechLeadの振る舞い",
+          "url": "https://speakerdeck.com/pospome/ai-jidai-ni-motomerareru-yuushuuna-techlead-no-furumai-2",
+          "summary_ja": "TechLead Conference 2026 Autumnでの登壇資料で、AI時代のTechLeadに求められる振る舞いを整理したもの。はてブでは、コードを書けるだけでなくチームを動かす力やEM的な視座がより重要になるという点や、「オラオラする人＝リーダーシップ」ではないという指摘への共感が多い。※本文取得不可のためはてブコメントから要約"
+        }
+      ]
+    },
+    {
+      "name": "その他",
+      "items": [
+        {
+          "title_ja": "AIエージェントが未登録のマヤ遺跡を（再）発見した話",
+          "url": "https://news.ycombinator.com/item?id=50452455",
+          "summary_ja": "考古学者ではない筆者が、NASAのライダーデータをAIエージェントに解析させ、メキシコの公式登録にないマヤ遺跡を72時間で見つけて政府から返答を得るまでの日記。ただし後に既存論文で記録済みだったと判明し「再発見」に訂正しており、HNでもエージェントの文献調査漏れが指摘された。"
+        },
+        {
+          "title_ja": "全テレビメーカーに「どうやってあなたを監視しているか」17の質問をしてみた",
+          "url": "https://news.ycombinator.com/item?id=50453474",
+          "summary_ja": "LGのテレビによる視聴データ収集問題を受け、The Vergeの記者が各テレビ・ストリーミング機器メーカーに音声録音やACR（自動コンテンツ認識）のスクリーンショット取得などについて17のYes/No質問を送り、回答を比較した記事。HNでは、LGの回答と実際の設定の挙動が食い違うとの指摘も出ている。"
+        }
+      ]
+    }
+  ]
+}

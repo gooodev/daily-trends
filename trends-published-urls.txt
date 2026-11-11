@@ -56,6 +56,7 @@ https://cloud.google.com/blog/ja/products/identity-security/getting-started-with
 https://cloud.watch.impress.co.jp/docs/column/techwatch/2147521.html
 https://cloud.watch.impress.co.jp/docs/news/2154360.html
 https://codeandcake.dev/posts/2026-10-22-docker-is-weird
+https://codezine.jp/article/detail/30105
 https://coliss.com/wp-content/cache/all/articles/build-websites/operation/work/7-adobe-apps-open-sourced.html/index.html
 https://collusion.wiki/
 https://comcomponent.com/blog/ada-vs-rust-safety/
@@ -70,10 +71,12 @@ https://dev.classmethod.jp/articles/2026-08_claude-code-product-workshop-kit/
 https://dev.classmethod.jp/articles/ai-information-leak-inventory-2026/
 https://dev.classmethod.jp/articles/aws-security-bulletin-2026-137-kvm-kernel/
 https://dev.classmethod.jp/articles/local-llm-guide-2026-summer/
+https://dev.ponkotsu.dev/entry/claude-code-settings-local-secrets
 https://devblogs.microsoft.com/typescript/announcing-typescript-7-0-rc/
 https://devblogs.microsoft.com/typescript/announcing-typescript-7-0/
 https://developer.feedforce.jp/entry/2026/09/15/122838
 https://developers.cyberagent.co.jp/blog/archives/64920/
+https://developers.freee.co.jp/entry/lean-formal-verification-ai-agent-guardrails
 https://disconnect3d.pl//2026/10/02/dont-put-tilde-in-your-path/
 https://docs.getdbt.com/blog/dbt-mcp-server-claude
 https://efcl.info/2026/11/07/irodr-2/
@@ -159,6 +162,8 @@ https://gigazine.net/news/20261106-claude-code-mail-address/
 https://gigazine.net/news/20261109-goldman-sachs-restricts-ai/
 https://gigazine.net/news/20261109-maia-zyphra-multiplayer-ai-agent/
 https://gigazine.net/news/20261110-claude-opus-nerf/
+https://gigazine.net/news/20261111-claude-interactive-connectors-full-tool/
+https://gigazine.net/news/20261111-nemotron-personas-finance-japan/
 https://giginet.hateblo.jp/entry/2026/09/22/114642
 https://gihyo.jp/article/2026/10/ai-security-defense
 https://gihyo.jp/article/2026/10/anatomy
@@ -232,6 +237,7 @@ https://kubernetes.io/blog/2026/09/21/kubernetes-v1-37-pvc-last-used-time/
 https://labo.hatenastaff.com/entry/2026/09/30/151500
 https://layer3intel.com/blog/residential-proxies-white-house-network
 https://leaddev.com/ai/meta-tried-to-shrink-engineering-teams-around-ai
+https://ledge.ai/articles/nicam_claude_code_migration
 https://levtech.jp/media/detail_911/
 https://levtech.jp/media/detail_965/
 https://linear.app/now/ci-bottleneck-reworked
@@ -242,6 +248,7 @@ https://mashable.com/tech/anthropic-takes-steps-to-block-video-game-cloning-and-
 https://methane.hatenablog.jp/entry/2026/09/04/AI_Coding%E6%99%82%E4%BB%A3%E3%81%AEOSS%E3%83%A9%E3%82%A4%E3%83%96%E3%83%A9%E3%83%AA%E3%81%AE%E3%83%A1%E3%83%B3%E3%83%86
 https://mitchellh.com/writing/libghostty-1-0
 https://mtx2s.hatenablog.com/entry/2026/09/21/182658
+https://mtx2s.hatenablog.com/entry/2026/11/09/210114
 https://na2hiro.hatenablog.com/entry/2026/09/02/%E9%80%80%E8%81%B7%E3%81%97%E3%81%BE%E3%81%99%E3%80%82%E5%B0%B1%E8%81%B7%E3%81%97%E3%81%BE%E3%81%9B%E3%82%93%E3%80%82
 https://nealle-dev.hatenablog.com/entry/2026/09/11/171745
 https://news.mynavi.jp/techplus/article/20261009-5099252/
@@ -486,6 +493,15 @@ https://news.ycombinator.com/item?id=50443427
 https://news.ycombinator.com/item?id=50443587
 https://news.ycombinator.com/item?id=50443812
 https://news.ycombinator.com/item?id=50446520
+https://news.ycombinator.com/item?id=50452455
+https://news.ycombinator.com/item?id=50452655
+https://news.ycombinator.com/item?id=50453474
+https://news.ycombinator.com/item?id=50453637
+https://news.ycombinator.com/item?id=50455394
+https://news.ycombinator.com/item?id=50455633
+https://news.ycombinator.com/item?id=50456631
+https://news.ycombinator.com/item?id=50458166
+https://news.ycombinator.com/item?id=50458900
 https://newsdig.tbs.co.jp/articles/-/2990268
 https://newsdig.tbs.co.jp/articles/-/3020110
 https://newsletter.dancohen.org/archive/the-slow-formation-of-durable-software/
@@ -520,6 +536,7 @@ https://pc.watch.impress.co.jp/docs/news/2138676.html
 https://pc.watch.impress.co.jp/docs/news/2147095.html
 https://pc.watch.impress.co.jp/docs/news/2147318.html
 https://pc.watch.impress.co.jp/docs/news/2153969.html
+https://pc.watch.impress.co.jp/docs/news/2155676.html
 https://pivotlake.io/blog/its-the-memory-latency-stupid/
 https://piyolog.hatenadiary.jp/entry/2026/08/23/033006
 https://piyolog.hatenadiary.jp/entry/2026/09/04/115554
@@ -531,12 +548,17 @@ https://piyolog.hatenadiary.jp/entry/2026/10/11/012014
 https://piyolog.hatenadiary.jp/entry/2026/10/20/205855
 https://piyolog.hatenadiary.jp/entry/2026/10/28/214917
 https://piyolog.hatenadiary.jp/entry/2026/11/05/133509
+https://piyolog.hatenadiary.jp/entry/2026/11/06/120149
+https://piyolog.hatenadiary.jp/entry/2026/11/09/144357
+https://piyolog.hatenadiary.jp/entry/2026/11/09/230435
+https://piyolog.hatenadiary.jp/entry/2026/11/11/125745
 https://pola.rs/posts/release-polars-2/
 https://portablecode.info/2026/09/23/herdr-annotate-ai-review/
 https://portalshit.net/2026/10/03/ai-is-eating-product-management
 https://prtimes.jp/main/html/rd/p/000000268.000045379.html
 https://ptyhard.co.jp/blog/2026/10/code-review
 https://pwn.ai/blog/firecracker-escape
+https://qiita.com/Dingu-suke/items/b5318ef2040a9f59224a
 https://qiita.com/Y-Y-dev/items/d526fb7cdbe35a3f9384
 https://qiita.com/amiyamamoto/items/2c380c550963c8a5ca7a
 https://qiita.com/banquet_kuma/items/f43a22ab24f219ed0569
@@ -603,8 +625,11 @@ https://speakerdeck.com/kuracchi_enj1/yokohama-north-meetup-18
 https://speakerdeck.com/lycorptech_jp/aidlc-aidd-workshop
 https://speakerdeck.com/minodriven/invisible-requirement-thinking
 https://speakerdeck.com/nakanao/ai-ni-makaseta-hinshitsu-ha-dare-ga-mitateru-no-ka-ai-jidai-no-tesuto-manejimento
+https://speakerdeck.com/ogidow/layerx-go-6-graceful-shutdown
 https://speakerdeck.com/pei0804/data-engineering-for-ai-ready-business
+https://speakerdeck.com/pospome/ai-jidai-ni-motomerareru-yuushuuna-techlead-no-furumai-2
 https://speakerdeck.com/snoozer05/decision-readiness-revisited
+https://speakerdeck.com/takateeen_knj/20261110-claude-deepdive
 https://speakerdeck.com/teru0x1/slack-ue-de-infura-o-toraburu-shuto-suru-agentic-platform-engineering-no-daiippo
 https://speakerdeck.com/terurou/ai-kudou-kaihatsu-no-jidai-ni-nata-node-toyota-seisan-houshiki-kara-minaosu
 https://speakerdeck.com/timakin/kodingu-jidouka-no-tsugi-he-hito-no-kainyuu-o-zero-ni-suru-to-sapoto-ai-niyoru-jissen
@@ -637,6 +662,7 @@ https://tech.dentsusoken.com/entry/2026/08/31/%E3%83%8F%E3%83%BC%E3%83%8D%E3%82%
 https://tech.every.tv/entry/2026/10/30/124255
 https://tech.layerx.co.jp/entry/2026/09/18/185816
 https://tech.layerx.co.jp/entry/typespec-in-aiworkforce
+https://tech.mntsq.co.jp/entry/2026/11/10/113203
 https://tech.newmo.me/entry/2026/10/27/100000
 https://tech.smarthr.jp/entry/2026/09/02/120000
 https://tech.smarthr.jp/entry/2026/09/16/110205
@@ -671,7 +697,9 @@ https://voluntas.ghost.io/2026-08-second-half-llm/
 https://voluntas.ghost.io/migrate-opencode-to-pi/
 https://weekly.ascii.jp/elem/000/004/439/4439882/
 https://wirelesswire.jp/2026/11/94903
+https://wirelesswire.jp/2026/11/94903/
 https://www.47news.jp/15170379.html
+https://www.47news.jp/15215887.html
 https://www.afpbb.com/articles/-/3654276
 https://www.aikido.dev/blog/compromised-flutter-package-on-pub-dev-contains-xcsset-malware
 https://www.aikido.dev/blog/cve-spike-remediation-problem
@@ -774,6 +802,7 @@ https://www.m3tech.blog/entry/2026/10/14/133340
 https://www.m3tech.blog/entry/embulk-to-dlt-dbt
 https://www.megamouth.info/entry/2026/11/06/165305
 https://www.microsoft.com/en-us/security/blog/2026/10/21/storm-0940-uses-artex-agentic-ai-connectwise-supply-chain-compromise/
+https://www.mobtown.jp/article/old-engineer/
 https://www.netlify.com/blog/edge-functions-firecracker-microvms/
 https://www.nict.go.jp/press/2026/10/13-1.html
 https://www.nikkei.co.jp/nikkeiinfo/news/information/1554.html
@@ -815,6 +844,7 @@ https://www.reddit.com/r/javascript/comments/1xsp7lt/i_built_a_multicore_sql_eng
 https://www.reddit.com/r/programming/comments/1xstxzv/announcing_net_11/
 https://www.reddit.com/r/programming/comments/1xsvulu/a_chromium_bug_caused_by_a_25hour_day/
 https://www.reddit.com/r/technology/comments/1xsuc18/there_are_likely_more_spies_at_ai_companies_says/
+https://www.reddit.com/r/technology/comments/1xtk3nu/anthropic_says_a_key_ai_safety_alarm_has_been/
 https://www.ricursive.com/ripple
 https://www.ryuzee.com/contents/blog/14628
 https://www.sankei.com/article/20260827-HJO7DKCWRNMB7MSDJCOSEMK4PY/
