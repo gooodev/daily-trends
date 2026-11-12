@@ -1,0 +1,215 @@
+{
+  "date": "2026-11-13",
+  "categories": [
+    {
+      "name": "AIツール/エージェント開発・実装",
+      "items": [
+        {
+          "title_ja": "Software Factoryの先へ：全社の仕事をAI-NativeにするUbieの内製クラウドエージェント基盤",
+          "url": "https://zenn.dev/ubie_dev/articles/45501469c9c044",
+          "summary_ja": "Ubie CTO が、内製クラウドエージェント基盤「Remoco」と、その上で動くエンジニアリングエージェント「Uvin」の構成と設計思想を紹介。プロダクト開発に限らず、全社の業務を AI-Native にする基盤としてプロンプト・モデル・ツール・スキルを「エージェント」として定義し、Web・Slack・cron・Webhook から呼び出せる仕組みを解説している。"
+        },
+        {
+          "title_ja": "AWS Emulator がリリースされたので試してみた",
+          "url": "https://dev.classmethod.jp/articles/aws-emulator-local-try/",
+          "summary_ja": "AWS が11月11日に公開したローカル用エミュレータ「AWS Emulator」を Docker で起動し、S3・SQS・DynamoDB・Lambda の基本操作や起動時間・メモリ使用量を OSS の Floci と比較した検証記事。AWS Emulator は数千の自律 AI エージェントが人間のレビューなしにテスト・修正を回して全コードを書いたことでも話題になっており、その開発体制は AWS 公式ブログで解説されている。"
+        },
+        {
+          "title_ja": "WebサイトをAgent Readyにしよう",
+          "url": "https://unvalley.me/ja/blog/1793627906",
+          "summary_ja": "AI エージェントが Web サイトを発見・理解しやすくするための準備を、Cloudflare の isitagentready.com と Vercel の is-agentic.com で自サイト（Next.js on Cloudflare Workers）をスキャンしながら解説。robots.txt・sitemap・Link ヘッダー・DNS-AID など、各チェック項目の意味と対応方法を整理している。"
+        }
+      ]
+    },
+    {
+      "name": "AIツール/業務活用",
+      "items": [
+        {
+          "title_ja": "MetaのAIエージェント「Muse」に課金して使い倒した結果の、小ネタと生存戦略",
+          "url": "https://www.hageatama.org/20261112/1794464751",
+          "summary_ja": "Meta のパーソナル AI エージェント「Muse」の有料プランを使い込んだ筆者が、実際に分かった小ネタと使いこなし方をまとめた体験記。上位モデルの賢さよりも独自ハーネスの気の利かせ方が使い勝手の決め手だと評しており、専用メアドでメール送受信まで任せられる機能も同時期に始まっている。"
+        }
+      ]
+    },
+    {
+      "name": "AIツール/コーディングツール",
+      "items": [
+        {
+          "title_ja": "AIでテストを量産したら、レビューが重くなった——レガシーコードの安全網づくり",
+          "url": "https://tech-blog.rakus.co.jp/entry/20261112/characterization-test-review",
+          "summary_ja": "楽楽精算の約460行・220分岐の伝票画面表示処理をリファクタリングするため、人間と AI で仕様化テストを大量作成したところ、レビュー負荷と設計のばらつきが問題になった事例。設計・実装方針の統一と、基準をレビュースキル化してセルフチェックを揃えることで対処した経緯を紹介している。"
+        }
+      ]
+    },
+    {
+      "name": "AIモデル/オープンモデル・新モデル",
+      "items": [
+        {
+          "title_ja": "Gemini 4 Hydrogen 発表、Antigravity には Carbon と組み合わせる「Orchestrator」も",
+          "url": "https://news.ycombinator.com/item?id=50471431",
+          "summary_ja": "Google がエージェント的ワークフロー向けの高速モデル Gemini 4 Hydrogen を発表し、全プランの AI Studio・Gemini API・Gemini アプリなどに展開。Artificial Analysis 指標で上位モデル Argon を上回るとされ、Antigravity では Carbon と Hydrogen を作業段階に応じて動的に切り替える「Orchestrator」も追加された。"
+        }
+      ]
+    },
+    {
+      "name": "AIモデル/ローカルLLM",
+      "items": [
+        {
+          "title_ja": "古い小型デバイスで LLM を動かす「smolmaxxing」",
+          "url": "https://news.ycombinator.com/item?id=50468888",
+          "summary_ja": "TV ボックスや2013年製 iPad Air など、メモリ 1GB 前後の古いデバイスで動かせる最大の LLM を探り、独自カーネルやフラッシュからの重みストリーミングで性能を引き出すプロジェクト。Xiaomi TV Box で Qwen3.5-2B を毎秒7.7トークン、16B の MoE モデルも実用的な速度で動かした実測値を公開している。"
+        },
+        {
+          "title_ja": "LibreAGI：消えゆく OSS モデルを保存する会員制トラッカー",
+          "url": "https://news.ycombinator.com/item?id=50467439",
+          "summary_ja": "ホスティング先が消えても公開重みモデルが失われないよう、会員がモデルを分散保存する私設 BitTorrent トラッカー。コピー数が少ない希少モデルほどシード報酬が高く、ソースコミットとの照合や署名付きカタログでサイト消失後も再構築できる設計になっている。"
+        },
+        {
+          "title_ja": "Gemma 5が出るぞ！ OllamaとvLLMでの予行比較",
+          "url": "https://qiita.com/ryosuke_ohori/items/5c560c086d8c92173ac7",
+          "summary_ja": "次期 Gemma をローカルで試せるようになったときに備え、問い合わせの振り分けタスクを題材に小型ローカルモデルの誤答を分析し、Gemma 公式資料の読み方と Ollama・vLLM での評価手順を組み立てた記事。"
+        }
+      ]
+    },
+    {
+      "name": "AIモデル/論文・研究",
+      "items": [
+        {
+          "title_ja": "Claude Fable 5.2、フェルマーの最終定理を約30時間で形式化―1000エージェントの協調実験",
+          "url": "https://www.zaikei.co.jp/article/20261111/877067.html",
+          "summary_ja": "Anthropic が、1000体の Claude Fable 5.2 エージェントに60の目標命題と既存の47補題を与え、フェルマーの最終定理の証明を Lean で検査可能な形に28.7時間で形式化したと報告。多数のエージェントが長時間タスクで役割分担する方法を示す実験として紹介されている。"
+        }
+      ]
+    },
+    {
+      "name": "AI倫理/ガバナンス・企業導入",
+      "items": [
+        {
+          "title_ja": "Notionの「AIチャット流出懸念」影響広がる　国内企業が相次ぎ報告",
+          "url": "https://www.itmedia.co.jp/aiplus/article/2611/12/2000003140/",
+          "summary_ja": "委託先の Fireworks.ai への不正アクセスにより Notion AI の Insights 機能のチャット記録が漏えいした恐れがある事案で、SecureNavi など国内企業から顧客名や打ち合わせ内容が流出した可能性の報告が相次いでいる。AI 機能のサブプロセッサー経由で業務データが漏れるリスクを示す事例。"
+        }
+      ]
+    },
+    {
+      "name": "AI倫理/社会的影響",
+      "items": [
+        {
+          "title_ja": "データセンターの電力需要、そのコストを払うのは低所得・地方の住民",
+          "url": "https://news.ycombinator.com/item?id=50473231",
+          "summary_ja": "コーネル大学の Nature Energy 論文によると、米国4大電力網でデータセンター増設に伴うインフラ費用のうちデータセンター自身の負担は38%にとどまり、残り約51億ドルの多くを住民が負担していた。最低所得層では追加エネルギーコストが所得の最大28%に達するとしている。"
+        }
+      ]
+    },
+    {
+      "name": "AI倫理/プライバシー",
+      "items": [
+        {
+          "title_ja": "GmailやGoogleフォトの情報をGoogle検索のAIや広告に使わせないための設定方法まとめ",
+          "url": "https://gigazine.net/news/20261112-google-gmail-photos-search-ads/",
+          "summary_ja": "Google が10月のプライバシーポリシー改定で、Gmail やフォトの情報を別サービスで使うことを許可した場合に広告のカスタマイズにも使われうると明記したことを受け、検索の AI や広告への利用を止める設定手順をまとめている。"
+        }
+      ]
+    },
+    {
+      "name": "Security/脆弱性・インシデント",
+      "items": [
+        {
+          "title_ja": "無印良品「21年までクレカ番号で顧客を識別していた」　全ケタ保有＆漏えいを巡り謝罪",
+          "url": "https://www.itmedia.co.jp/news/article/2611/12/2000003144/",
+          "summary_ja": "良品計画が記者会見で、最大約2726万件の顧客情報への不正アクセスのうち、MUJI Card 会員約109万件のカード番号全桁を削除せず保管していた問題について謝罪。特典付与のためカード番号で顧客を識別していた過去の運用と、削除漏れが起きた経緯を説明した。"
+        },
+        {
+          "title_ja": "22年前の PostgreSQL のバグをリモートコード実行に発展させた話（CVE-2026-6460）",
+          "url": "https://news.ycombinator.com/item?id=50471761",
+          "summary_ja": "マネージド PostgreSQL のリスクを追う連載の第3回で、複合型のフィールド型を変更して値を読み戻すことで起きる型混同から、PostgreSQL コアの22年前のゼロデイを信頼性の高い RCE に仕立てた過程を解説。AI エージェントを学習の相棒にしながら pg_clickhouse の攻略から掘り進めた経緯も語られている。"
+        },
+        {
+          "title_ja": "宝くじ公式サイト、会員の当落情報まで第三者が閲覧の可能性　リスト型攻撃か",
+          "url": "https://www.itmedia.co.jp/news/article/2611/12/2000003158/",
+          "summary_ja": "停止中の宝くじ公式サイトで、外部で入手したメールアドレスとパスワードによるリスト型攻撃とみられる不正ログインが発生。氏名・住所などの登録情報に加え、購入履歴や当落、口座番号の上4桁なども閲覧された可能性がある。"
+        },
+        {
+          "title_ja": "「Apache HTTP Server 2.4.71」が公開　深刻度「Critical」を含む3件の脆弱性を修正",
+          "url": "https://forest.watch.impress.co.jp/docs/news/2155719.html",
+          "summary_ja": "Apache HTTP Server 2.4.71 で、深刻度 Critical を含む3件の脆弱性が修正された。mod_http2 にリモートコード実行の欠陥があり、v2.4.55 以降が影響を受けるため早めの更新が推奨される。 ※本文抽出が不十分なため見出し情報から要約"
+        }
+      ]
+    },
+    {
+      "name": "Security/サプライチェーン",
+      "items": [
+        {
+          "title_ja": "GitHub Actions を狙った広域サプライチェーン攻撃（11/10~11/12）に関する注意喚起",
+          "url": "https://blog.flatt.tech/entry/github_actions_widespread_supply_chain_attack",
+          "summary_ja": "11月10〜12日に多数の GitHub リポジトリで悪性コミットによりワークフローへ infostealer が注入され、CI 環境のシークレットが C2 サーバーや Telegram Bot に送信された事案を GMO Flatt Security が分析。文書 PR を装った侵入から収集・送信までの段階、影響確認とクレデンシャルのローテーション手順、IoC をまとめている。"
+        }
+      ]
+    },
+    {
+      "name": "開発/JS・TS",
+      "items": [
+        {
+          "title_ja": "「Node.js」にセキュリティ更新　16件の脆弱性を修正、HTTP/2関連が多数",
+          "url": "https://forest.watch.impress.co.jp/docs/news/2155706.html",
+          "summary_ja": "Node.js の v22.23.5・v24.22.3・v26.13.1 が公開され、HTTP/2 関連を中心に16件の脆弱性が修正された。サポート中の各系列で更新が必要。 ※本文抽出が不十分なため見出し情報から要約"
+        },
+        {
+          "title_ja": "kysely-scoped-helperで Kysely のトランザクションとコネクションを await using でフラットに管理する",
+          "url": "https://zenn.dev/juners/articles/e89fcdacce1299",
+          "summary_ja": "型安全な SQL クエリビルダ Kysely のコールバック式のコネクション・トランザクション管理を、TypeScript の Explicit Resource Management（await using）でフラットに書くためのヘルパーを紹介。Kysely 標準クラスをそのまま await using に渡すと陥る罠と、その回避方法を解説している。"
+        }
+      ]
+    },
+    {
+      "name": "開発/データスタック",
+      "items": [
+        {
+          "title_ja": "メダリオンアーキテクチャのLanding ZoneはBronzeレイヤーなのか考えてみる",
+          "url": "https://zenn.dev/penginpenguin/articles/d69e7602b5459b",
+          "summary_ja": "メダリオンアーキテクチャで Landing Zone を Bronze に含めるかという問いを、2冊の書籍の定義比較と実案件での判断から考察。スキーマ検証の位置や拒否データの保管先、障害時の再構築起点が変わるため、「Bronze に何を保証させるか」で決めるべきだと結論づけている。"
+        }
+      ]
+    },
+    {
+      "name": "開発/インフラ・ツール",
+      "items": [
+        {
+          "title_ja": "そのヤバいDockerイメージをいつまで使うのか",
+          "url": "https://scrapbox.io/keroxp/%E3%81%9D%E3%81%AE%E3%83%A4%E3%83%90%E3%81%84Docker%E3%82%A4%E3%83%A1%E3%83%BC%E3%82%B8%E3%82%92%E3%81%84%E3%81%A4%E3%81%BE%E3%81%A7%E4%BD%BF%E3%81%86%E3%81%AE%E3%81%8B",
+          "summary_ja": "「Docker だから安全」は誤りで、コンテナに閉じてもアプリケーションレベルの RCE リスクは解決しないと指摘。シェルなど攻撃に使える道具を多く含む肥大化したベースイメージを使い続ける危険性を論じ、イメージを最小化する重要性を訴えている。"
+        },
+        {
+          "title_ja": "Mozkey（もずきー）｜書くことに集中できる、日本語入力",
+          "url": "https://koyasi777.com/mozkey/",
+          "summary_ja": "Mozc をベースに、ローカル AI の Zenz による文脈補正とライブ変換を組み合わせたオープンソースの日本語 IME。Windows・macOS に対応し、使うほどユーザーの選択を学習して変換が馴染むことをうたっている。"
+        }
+      ]
+    },
+    {
+      "name": "キャリア・組織",
+      "items": [
+        {
+          "title_ja": "Jane Street のソフトウェアエンジニア面接が少し変わる",
+          "url": "https://news.ycombinator.com/item?id=50467297",
+          "summary_ja": "LLM がコードを書くだけでなく読解・デバッグ・レビューにも日常的に使われるようになったことを受け、Jane Street がコーディング面接の形式を見直すと発表。コード生成が安くなった今、問題の解き方・構造化・コミュニケーションをどう見るかという観点から変更の意図を説明している。"
+        }
+      ]
+    },
+    {
+      "name": "その他",
+      "items": [
+        {
+          "title_ja": "マイクロソフトで接続障害が発生　Outlook・Teams・Copilot など世界各地に影響",
+          "url": "https://news.web.nhk/newsweb/na/nd-20261113de75121",
+          "summary_ja": "Microsoft 365 で世界各地に影響する接続障害が発生し、Outlook・Teams・Copilot などが利用しづらくなった。メールが送れないなどビジネスへの影響も報じられ、Hacker News でも大きな議論になっている。"
+        },
+        {
+          "title_ja": "NVIDIA、フアンCEOが辞任　クレスCFOが暫定CEOに",
+          "url": "https://www.itmedia.co.jp/news/article/2611/12/2000003160/",
+          "summary_ja": "1993年の共同創業以来 NVIDIA を率いてきたジェンスン・フアン氏が社長兼 CEO と取締役を即日辞任し、CFO のコレット・クレス氏が暫定 CEO に就任した。Hacker News では2500ポイント超を集め、取締役会は社内外から正式な後任を選定するとしている。"
+        }
+      ]
+    }
+  ]
+}
