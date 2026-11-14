@@ -1,0 +1,275 @@
+{
+  "date": "2026-11-15",
+  "categories": [
+    {
+      "name": "AIツール/エージェント開発・実装",
+      "items": [
+        {
+          "title_ja": "常時稼働エージェントの作り方",
+          "url": "https://claude.com/resources/articles/building-always-on-agents",
+          "summary_ja": "常時稼働型のエージェントを、イベント受信箱・タイマー・メモリ・権限・アウトボックスの5要素で構成し、短い実行を繰り返して動かす設計を解説しています。状態を耐久性のあるストアに置くことでワーカーが止まっても作業を再開でき、日本語の資料化スライドも話題になりました。"
+        },
+        {
+          "title_ja": "AIエージェントが決定を勝手に変えてしまった5つのパターンと工夫",
+          "url": "https://zenn.dev/dress_code/articles/568fd547315abe",
+          "summary_ja": "提案が決定扱いされる、質問が仕様変更として記録される、確認済みの決定が未決に戻るなど、エージェントが決定事項を書き換えてしまう5つのパターンを紹介しています。対策として、決定を日付と状態付きで1件ずつ記録し、エージェントが作業前にCLIで関係する決定だけを検索できる仕組みを作っています。"
+        }
+      ]
+    },
+    {
+      "name": "AIツール/エージェント実行基盤",
+      "items": [
+        {
+          "title_ja": "AWS、AIエージェント向けの隔離環境を備えた軽量VM「AWS Nitro Sandboxes」を提供開始",
+          "url": "https://www.publickey1.jp/blog/26/awsaiec2vmaws_nitro_sandboxes.html",
+          "summary_ja": "EC2上でほぼネイティブな性能を持ちつつ、Nitroによるハードウェアレベルの隔離を備えた軽量VMで、AIエージェントが生成した信頼できないコードの安全な実行を想定しています。EKSのPodとして既存のコンテナイメージやデプロイの仕組みをそのまま使えるのが特徴です。"
+        }
+      ]
+    },
+    {
+      "name": "AIツール/コーディングツール",
+      "items": [
+        {
+          "title_ja": "Modern Web Guidance 1.0：コーディングエージェントに欠けているウェブプラットフォームの専門知識",
+          "url": "https://developer.chrome.com/blog/modern-web-guidance-v1?hl=ja",
+          "summary_ja": "Chromeチームが、コーディングエージェントにWeb開発のベストプラクティスやブラウザ互換性データを与える「Modern Web Guidance」の安定版1.0を公開しました。コードベースの近代化ワークフローが加わり、FirefoxやEdgeのチームも開発に参加しています。"
+        }
+      ]
+    },
+    {
+      "name": "AIツール/業務活用",
+      "items": [
+        {
+          "title_ja": "脆弱性の影響調査を Devin Automations で自動化した話",
+          "url": "https://zenn.dev/rescuenow/articles/2ee1c4b66ecec8",
+          "summary_ja": "Devin Automationsで毎日NVDから一定のCVSS以上のCVEを取り込み、社内の全リポジトリを読み取り専用で横断調査してNotionに記録する仕組みを紹介しています。一次調査の工数は減った一方、「影響なし」の誤判定やリポジトリ外のマネージドサービスの調査が課題として挙げられています。"
+        }
+      ]
+    },
+    {
+      "name": "AIモデル/ローカルLLM",
+      "items": [
+        {
+          "title_ja": "llama.cpp v1.0.0：ローカルAIエコシステムのより強固な基盤へ",
+          "url": "https://huggingface.co/blog/ggml-org/llama-cpp-v1",
+          "summary_ja": "llama.cppとggmlがそろってv1.0.0となり、今後はAPI/ABIの非互換変更をメジャーバージョンで明示する方針になりました。ローカルLLMを支える基盤ライブラリが安定版として扱えるようになる節目で、Hacker Newsでも大きな注目を集めました。"
+        },
+        {
+          "title_ja": "Qwen3.8 Flash Nextに混ざる中国語を、出力層の書き換えで消した：27%→0%",
+          "url": "https://zenn.dev/caphtech/articles/qwen38-zh-ban",
+          "summary_ja": "日本語の回答に中国語が混ざる問題に対し、出力層の中国語トークン2万5千行余りだけを未使用行の写しに置き換えることで、医療系60問での混入率を27%から0%にしたと報告しています。他の重みは一切変えていない一方、評価規模の小ささやMLX版以外での検証は今後の課題とされています。"
+        },
+        {
+          "title_ja": "2台のNVIDIA DGX StationでGLM-5.3をvLLMにより607.8 tok/sで提供する",
+          "url": "https://news.ycombinator.com/item?id=50497155",
+          "summary_ja": "約464GBのGLM-5.3を2台のDGX StationにRDMA接続とテンソル並列で分割し、vLLMで単一のAPIエンドポイントとして提供する手順を解説しています。同時実行数16で全体スループットは約608 tok/sに達した一方、32では低下しており、オンプレでの大型オープンモデル運用の目安になります。"
+        }
+      ]
+    },
+    {
+      "name": "AIモデル/論文・研究",
+      "items": [
+        {
+          "title_ja": "『検索システム』『推薦システム』とLLM時代の検索推薦",
+          "url": "https://joisino.hatenablog.com/entry/searchrecbook",
+          "summary_ja": "LLM時代の検索・推薦手法を扱う2冊組の教科書を紹介する書評記事です。LLMによる内容ベースの推薦はユーザーデータが少ないサービスでも機能するため、協調フィルタリングと組み合わせて段階的に導入できる点が強調されています。"
+        },
+        {
+          "title_ja": "行動者か、審判か、教師か？長期タスクのエージェントにおける意思決定モデルの役割",
+          "url": "https://huggingface.co/papers/2611.17167",
+          "summary_ja": "意思決定モデルは行動者としては順序のあるサブゴールを誤りやすい一方、エピソード後に軌跡全体を見て行動の有効性を評価させると、強化学習の教師として有効に働くことを示した論文です。行動を選ぶ能力と結果を評価する能力が別物であることを示唆しており、エージェント設計の参考になります。"
+        }
+      ]
+    },
+    {
+      "name": "AI倫理/安全性",
+      "items": [
+        {
+          "title_ja": "幻覚がひどいAIでも言葉遣いが洗練されていれば人を簡単に騙せることが判明",
+          "url": "https://gigazine.net/news/20261114-llm-fluency-credible/",
+          "summary_ja": "ラドバウド大学の研究で、誤情報を含むAIの回答でも流暢な言葉遣いであれば、正しい回答と同程度に信頼されやすいことが分かりました。被験者の多くは誤りに気づかず、研究者は不確実性の明示をテクノロジー企業に義務づけるべきだと主張しています。"
+        }
+      ]
+    },
+    {
+      "name": "AI倫理/プライバシー",
+      "items": [
+        {
+          "title_ja": "テック企業はまたしてもプライバシーの概念そのものを変えようとしている",
+          "url": "https://news.ycombinator.com/item?id=50496602",
+          "summary_ja": "EFFは、Meta・Google・Apple・Amazonなどが、周囲の人が同意も拒否もできないまま会話を記録・文字起こしする常時監視型のAIデバイスを広めていると批判しています。技術的な保護は装着者本人にしか及ばないため、法や技術だけでなく利用者自身の配慮が必要だと訴えています。"
+        }
+      ]
+    },
+    {
+      "name": "AI倫理/社会的受容",
+      "items": [
+        {
+          "title_ja": "ゲームのコードのわずか0.1%未満にAIを使用したことを公表しただけで400件以上の低評価レビューが殺到",
+          "url": "https://gigazine.net/news/20261113-indie-game-used-ai-bad-review/",
+          "summary_ja": "インディーゲーム「Big Walk」の開発元が、描画の処理速度低下の修正にコード全体の0.1%未満で生成AIを使ったと公表したところ、Steamで400件以上の低評価が殺到しました。ゲーム開発者の4割が生成AIを使う一方でそれ以上が有害と考えているという調査もあり、AI利用の開示をめぐる難しさが浮き彫りになっています。"
+        }
+      ]
+    },
+    {
+      "name": "AI倫理/社会的影響",
+      "items": [
+        {
+          "title_ja": "生成AIは英語以外のテキストでより多くのエネルギーを消費する",
+          "url": "https://news.ycombinator.com/item?id=50441444",
+          "summary_ja": "Qwen 3・Gemma 3・Llama 3.1を使った測定で、英語以外のテキストは英語よりエネルギー消費が大きく、精度も低い傾向があると報告されています。HNでは英語偏重の学習データやトークナイザーによるトークン数増加が原因として議論され、測定対象のモデルが古い点への指摘もありました。※元記事は取得不可のためHNコメントページから要約"
+        }
+      ]
+    },
+    {
+      "name": "AI倫理/教育",
+      "items": [
+        {
+          "title_ja": "AIについての追記（東京大学 今野北斗）",
+          "url": "https://www.ms.u-tokyo.ac.jp/~konno/grad_ai.html",
+          "summary_ja": "数学者の今野氏が大学院志望者向けに、AIは数学の理解を深める助けになる一方で思考そのものを委ねてはならず、他者に完璧に説明できるかを理解の基準にすべきだと述べています。AIの時代になっても人間が世界を理解したいと願う限り、数学の営みは続くと結論づけています。"
+        }
+      ]
+    },
+    {
+      "name": "Security/AI生成アプリ",
+      "items": [
+        {
+          "title_ja": "Lovableで作られたアプリが旅券情報や20万件超の非公開メッセージを露出",
+          "url": "https://news.ycombinator.com/item?id=50499017",
+          "summary_ja": "Lovableで生成された多くのアプリがSupabaseのアクセス制御を適切に設定しておらず、ログインなしで機密データを取得できる状態だったと報告されています。調査した2万4千超のサイトのうち7,403件で個人情報が確認され、一部では旅券番号や契約書も閲覧可能で、バイブコーディング製アプリのセキュリティ課題を示す事例です。"
+        }
+      ]
+    },
+    {
+      "name": "Security/AI×攻撃",
+      "items": [
+        {
+          "title_ja": "Cognitoの自己サインアップが有効だと誰でもAWSの一時認証情報を取得できる：AI攻撃ツールARTEXの事例と確認したい設定3点",
+          "url": "https://dev.classmethod.jp/articles/cognito-self-signup-agentic-attack/",
+          "summary_ja": "AI攻撃ツールARTEXが、自己サインアップ可能な公開Cognitoユーザープールに登録してIDプール経由の一時認証情報でAWS環境を探索した事例を解説しています。自己サインアップの要否、認可に使う属性の書き込み権限、認証済みロールの権限の3点を確認し、CloudTrailでSignUpの急増を監視するよう勧めています。"
+        }
+      ]
+    },
+    {
+      "name": "Security/サプライチェーン",
+      "items": [
+        {
+          "title_ja": "Cursor、最近のセキュリティインシデントの続報を公表",
+          "url": "https://cursor.com/blog/security-incident-update",
+          "summary_ja": "Fireworksに発行したアクセスキーが悪用され、トレースデータや一部の認証情報、サポートデータが流出したと発表しました。さらに悪意あるClaude Code拡張機能の複製がマーケットプレイスに約11時間公開され、最大5,000人が影響を受けた可能性があるとして、認証情報のローテーションと顧客への通知を進めています。"
+        }
+      ]
+    },
+    {
+      "name": "Security/脆弱性・インシデント",
+      "items": [
+        {
+          "title_ja": "マーケ支援のプレイド、不正アクセスで「KARTE」の全サービスを停止",
+          "url": "https://plaid.co.jp/news/20261113/",
+          "summary_ja": "プレイドは第三者によるKARTEへの不正アクセスを検知し、緊急メンテナンスとして全サービスを順次停止して調査を進めていると発表しました。多くの企業サイトに組み込まれているCXプラットフォームのため、メール配信などの処理停止を含め利用企業への影響が広がっています。"
+        }
+      ]
+    },
+    {
+      "name": "Security/インシデント対応",
+      "items": [
+        {
+          "title_ja": "インシデント調査報告書チェックリスト（JPCERT/CC）",
+          "url": "https://jpcertcc.github.io/ir_report_checklist/",
+          "summary_ja": "JPCERT/CCが、マルウェア感染などのネットワーク侵害を対象に、調査を依頼する組織と調査担当者が調査方針や報告書の内容を共通認識のもとで進めるためのチェックリストを公開しました。ユーザー向け・レポーター向けのチェックリストとサンプル報告書が用意されていますが、内部不正のケースには適用できない項目もあります。"
+        }
+      ]
+    },
+    {
+      "name": "開発/JS・TS",
+      "items": [
+        {
+          "title_ja": "テストフレームワーク「Playwright」がBunを正式サポート",
+          "url": "https://www.publickey1.jp/blog/26/playwrightbun.html",
+          "summary_ja": "Playwright v1.65.0でテストランナーをBun上で実行することが正式にサポートされ、BunがTypeScriptをトランスパイルするためBabelが不要になります。ただしWatch ModeやUI Modeの自動再実行など、Node.jsとの非互換な部分も残っています。"
+        }
+      ]
+    },
+    {
+      "name": "開発/インフラ・ツール",
+      "items": [
+        {
+          "title_ja": "PyPI、セキュリティシグナルを分かりやすくしたプロジェクトページの刷新を完了",
+          "url": "https://news.ycombinator.com/item?id=50497892",
+          "summary_ja": "PyPIのプロジェクトページに「Security」タブが追加され、各リリースファイルの出所（プロビナンス）や証明（アテステーション）を確認できるようになりました。プロビナンスに不整合や変化があると警告が表示されるため、サプライチェーン攻撃への備えとしても有用です。"
+        },
+        {
+          "title_ja": "AWSでゼロトラスト構成を作る手順を5つのパートに分けて整理してみた",
+          "url": "https://qiita.com/yama3133/items/11a360fc97ed3ec09742",
+          "summary_ja": "証明書による外部サーバー認証、サービス間認可、データ経路の制限、VPNなしのアプリアクセス判定、操作の記録と検知の5パートに分けて、AWSでゼロトラスト構成を作る手順をCLIコマンド付きで整理しています。なお実機で検証したのは証明書作成のパートのみと明記されています。"
+        }
+      ]
+    },
+    {
+      "name": "開発/データスタック",
+      "items": [
+        {
+          "title_ja": "Databricks Free Edition で権限を IaC で管理した",
+          "url": "https://zenn.dev/kkk555/articles/databricks-permissions",
+          "summary_ja": "取り込み・変換の処理ごとにサービスプリンシパルを分け、各処理が担当のテーブルにしか書き込めないようにした構成を紹介しています。スキーマとUnity Catalogの権限はTerraformで、ジョブなどはbundleで管理し、plan で差分を確認できるようにしています。"
+        }
+      ]
+    },
+    {
+      "name": "開発/言語",
+      "items": [
+        {
+          "title_ja": "マイクロソフト、.NET 11を正式リリース。C#に共用型を導入",
+          "url": "https://www.publickey1.jp/blog/26/net_11cjitaot.html",
+          "summary_ja": "C# 15の共用体型、JITとAOTコンパイラの高速化、ツールチェーン管理ツール「dotnetup」などを盛り込んだ.NET 11が正式公開されました。STS版でサポート期間は2年のため、長期利用には引き続きLTS版の.NET 10が推奨されています。"
+        }
+      ]
+    },
+    {
+      "name": "キャリア・組織",
+      "items": [
+        {
+          "title_ja": "人間＋AIを「チーム」としてプロセスを再設計する",
+          "url": "https://speakerdeck.com/littlehands/ai-kudou-keiei-suraido-20261112-0eeda77b-3c60-4af9-b059-2eb1ff3ef2c1",
+          "summary_ja": "AI駆動の組織づくりを、組織開発のGRPIフレームワーク（ゴール・役割・プロセス・関係性）で整理したスライドです。AI化そのものをゴールにせず、説明責任は人に残したまま確かめ方を変え、評価できる大きさで試してから大きく任せることを説いています。"
+        },
+        {
+          "title_ja": "AIチームを率いるとは、どういうこと？ with プログラマー・起業家 amachang",
+          "url": "https://theupdate.coffee/episodes/0J7UP7922ZXV6NBTt7w9Jl/",
+          "summary_ja": "複数のAIチームを一人で率いるamachang氏が、AIを組織化した開発基盤1つが約10人のエンジニアチームに匹敵すると語るインタビューです。作るコストが下がりボトルネックが「何が必要か」を見極める側に移ったため、AIに資金や顧客事情、優先順位まで共有することが重要だとしています。"
+        },
+        {
+          "title_ja": "AWS Emulatorと、エージェントがコードを書く時代のエンジニアの仕事",
+          "url": "https://www.allthingsdistributed.com/2026/11/aws-emulator-and-the-engineers-job-when-agents-write-the-code.html",
+          "summary_ja": "AWSのCTOヴァーナー・ヴォゲルス氏が、200以上のサービスに対応するAWS Emulator自体をエージェントが書き、実AWSとの比較テストで検証した経緯を紹介しています。エンジニアの役割は、エージェントが自律的に働ける環境を整え、仕様・テスト・マージゲートなどのガードレールで成果の正しさを判断することへ移っていると論じています。"
+        },
+        {
+          "title_ja": "お客様の前に立つフロント人材になるために、技術以外の最小構成",
+          "url": "https://future-architect.github.io/articles/20261111a/",
+          "summary_ja": "お客様の前に立つには、前提の目線合わせや論点化、技術評価のビジネス言語への翻訳といった会議での振る舞いと、計画策定・予実管理などプロジェクト全体の視点が必要だと整理しています。これらは才能ではなく、手順に分解すれば身につけられるスキルだと結論づけています。"
+        },
+        {
+          "title_ja": "マネジメントされる側の仕事は「文句」を言うこと",
+          "url": "https://speakerdeck.com/riyaamemiya/slides-export-013b776f-8661-4e92-bac0-1ac4285999f9",
+          "summary_ja": "部下の仕事は1on1で違和感や不満を率直に伝えることだと説くスライドです。黙って我慢した末に突然辞められることが会社にとって最大の損失であり、不満を組織の課題として提起し、上司とキャリアの方向性をすり合わせるべきだとしています。"
+        }
+      ]
+    },
+    {
+      "name": "その他",
+      "items": [
+        {
+          "title_ja": "全米の空港で運航停止措置、欠航1万便超で解除後も混乱続く",
+          "url": "https://news.web.nhk/newsweb/na/nd-20261114de75764",
+          "summary_ja": "通信障害の影響で、日本時間11月14日朝から約4時間半にわたり米国内の全空港で航空機の運航が停止され、欠航は1万便を超えました。海外報道では銅線の更新作業が原因とされており、措置解除後も混乱が続いています。"
+        },
+        {
+          "title_ja": "Firefoxの内蔵VPNを通信量無制限で提供、2027年1月31日まで",
+          "url": "https://gigazine.net/news/20261113-firefox-vpn/",
+          "summary_ja": "Mozillaは、Firefox内蔵VPNの月50GBの通信量上限を2026年11月10日から2027年1月31日まで撤廃すると発表しました。デスクトップ版とAndroid版が対象で、保護されるのはFirefox内の通信のみです。"
+        }
+      ]
+    }
+  ]
+}
