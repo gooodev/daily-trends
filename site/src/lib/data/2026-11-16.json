@@ -1,0 +1,230 @@
+{
+  "date": "2026-11-16",
+  "categories": [
+    {
+      "name": "AIツール/コーディングツール",
+      "items": [
+        {
+          "title_ja": "Claude Codeに同じ調査を繰り返させないためのメモの残し方",
+          "url": "https://qiita.com/kentasatomi/items/06ccfbf7f6a2a24883ff",
+          "summary_ja": "Anthropicのエージェントメモリ解説を手がかりに、Claude Codeへ残すメモを「確認済みの事実」と「未検証の推測」に分け、根拠や前提条件を添えて後から訂正できる形にする書き方を、開発例と依頼文の例で紹介している。"
+        },
+        {
+          "title_ja": "Claude CodeとCodexが3ドルのArduino経由で1994年式ジープのECUをリバースエンジニアリング",
+          "url": "https://news.ycombinator.com/item?id=50463399",
+          "summary_ja": "古いジープのエンジン制御ユニットをAIコーディングエージェントに解析させ、スモッグ検査に関わる燃料マップの挙動を読み解くまでを追った動画。HNでは、ディーラー依存のキー登録など車のソフトウェアを利用者の手に取り戻せる可能性を評価する声が多い。 ※元動画は取得不可のためHNコメントから要約"
+        }
+      ]
+    },
+    {
+      "name": "AIツール/エージェント開発・実装",
+      "items": [
+        {
+          "title_ja": "Chromeチームが Edge・Firefox・MDN と共同で、コーディングエージェントにモダンWebのベストプラクティスを教えるスキルを公開",
+          "url": "https://www.reddit.com/r/webdev/comments/1xw9yw4/showoff_saturday_my_team_at_chrome_worked_with/",
+          "summary_ja": "エージェントが popover や @starting-style などのモダンな HTML/CSS を使わず古い書き方をしがちな問題に対し、ブラウザベンダー横断で「Modern Web Guidance」スキルの安定版をOSSで公開。評価で見られた旧来実装の具体例も紹介されている。"
+        },
+        {
+          "title_ja": "あなたのエージェントは「改造できる方」を選ぶ",
+          "url": "https://news.ycombinator.com/item?id=50510799",
+          "summary_ja": "AIでファームウェアを書くコストが激減したことで、FM-1シンセのように所有者が独自ファームに置き換える文化が広がっていると指摘。今後は購買判断もAIエージェントを通るため、ソフトを差し替えられるハードウェアほど選ばれるようになると論じている。"
+        }
+      ]
+    },
+    {
+      "name": "AIツール/業務活用",
+      "items": [
+        {
+          "title_ja": "個人開発で5週間150万DL、AIと爆速で作るCAD「SolidCraft」",
+          "url": "https://fabscene.com/new/interview/solidcraft-open-source-cad-ai",
+          "summary_ja": "農業関連の本業を持つ開発者がAIコーディングツールを使い、公開5週間で58回リリース・150万DL・1万6000スターに達したOSSのパラメトリック3D CADを作ったインタビュー。Linuxやブラウザで動き、AIエージェントがCADを直接操作できる点も特徴。"
+        }
+      ]
+    },
+    {
+      "name": "AIモデル/論文・研究",
+      "items": [
+        {
+          "title_ja": "LLMの位置埋め込みを理解する（Sebastian Raschka）",
+          "url": "https://news.ycombinator.com/item?id=50506376",
+          "summary_ja": "学習済み絶対位置埋め込みからRoPEまで、LLMがトークン位置を表現する手法を図解・数式・PyTorch実装で解説し、2026年のオープンウェイトモデルがどの方式を採用・省略しているかも整理した技術記事。"
+        },
+        {
+          "title_ja": "数千の会話は言語モデルの内部でどう見えるか",
+          "url": "https://news.ycombinator.com/item?id=50481321",
+          "summary_ja": "Qwen3-1.7Bの残差ストリームを可視化し、100トピック・4言語の会話が内部表現空間でどう配置されるかを探索できるインタラクティブなアトラスを作成。同じ概念が言語をまたいで近い領域に集まる様子などを示している。"
+        }
+      ]
+    },
+    {
+      "name": "AIモデル/オープンモデル",
+      "items": [
+        {
+          "title_ja": "EUのオープンAIモデル「EUROPA」、約1兆パラメータを目指す",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xwr917/europa_the_eus_open_ai_model_is_aiming_for_nearly/",
+          "summary_ja": "欧州委員会のFrontier AI Grand Challengeで選ばれたイタリアのDomynが、スーパーコンピュータJUPITERで約9519億パラメータ構成の学習試験を実施。重みと学習手法は公開予定だがリリース時期は未定。"
+        }
+      ]
+    },
+    {
+      "name": "AIモデル/ローカルLLM",
+      "items": [
+        {
+          "title_ja": "Basalt 0.4.0 リリース：RTX 5090でQwen 27Bが最大770 tok/s",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xx1cu9/basalt_040_more_models_still_as_fast_qwen_27b_up/",
+          "summary_ja": "ローカル推論エンジンBasaltが初の密モデルとしてQwen 3.8 27Bに対応し、構造化出力で最大776 tok/s・BF16比トップ1一致率92.8%を達成。マルチモデル/ルーター、動画・ファイル入力などにも対応した。"
+        }
+      ]
+    },
+    {
+      "name": "AIモデル/評価・監視",
+      "items": [
+        {
+          "title_ja": "時事プローブと公式直結基準でAPI中継のモデル劣化を検知する",
+          "url": "https://zenn.dev/folkbench/articles/c90bdf45161bf2",
+          "summary_ja": "サードパーティのAPI中継経由でClaude CodeやCodexを使う際、モデルの差し替えや推論削減・文脈切り詰めといった死活監視では見えない劣化を、時事プローブとモデル指紋、公式直結のベースラインとの比較で継続検知する手法を解説している。"
+        }
+      ]
+    },
+    {
+      "name": "AI倫理/著作権",
+      "items": [
+        {
+          "title_ja": "AIが生成したコードはすべてオープンソースであるべきだ",
+          "url": "https://news.ycombinator.com/item?id=50507303",
+          "summary_ja": "AIモデルがOSSやCCライセンスのコードを無断で学習していることと、人間が書いていないコードは著作権保護されにくいことを根拠に、AI生成コードはOSSまたはCC0で公開すべきと主張する記事。HNで975ポイントを集め、賛否の議論が活発。"
+        }
+      ]
+    },
+    {
+      "name": "AI倫理/雇用・スキルへの影響",
+      "items": [
+        {
+          "title_ja": "AIが便利になればなるほど深刻になる「自動化の皮肉」に人間はどう対処すべきか",
+          "url": "https://gigazine.net/news/20261115-ai-isnt-replacing-sres-its-deskilling/",
+          "summary_ja": "AIがインシデント対応の大半を担うことで、人間が対処すべき稀で複雑な障害への対応力が衰える「デスキリング」や、若手がそもそも経験を積めない「ネバースキリング」がSREで起きつつあると指摘。意図的に人が手を動かす機会を設けるなどの対策を提案している。"
+        }
+      ]
+    },
+    {
+      "name": "AI倫理/安全性",
+      "items": [
+        {
+          "title_ja": "評価認識と評価パラノイア",
+          "url": "https://news.ycombinator.com/item?id=50465676",
+          "summary_ja": "モデルが「評価されている」と気づいて振る舞いを変える評価認識（eval awareness）と、それを過度に疑って評価結果を信用できなくなる懸念の間のバランスを論じたLessWrongの記事。 ※本文取得不可のためタイトル・HN情報のみから要約"
+        }
+      ]
+    },
+    {
+      "name": "Security/AI×攻撃",
+      "items": [
+        {
+          "title_ja": "PixelLeak：AIコーディングエージェントが社内スクリーンショットを公開GitHubに流出させていた",
+          "url": "https://www.reddit.com/r/cybersecurity/comments/1xtj0qk/engineers_yoni_gottesman_and_noam_kesten_from/",
+          "summary_ja": "PRに変更前後のスクリーンショットを添付する際、エージェントが公開リポジトリなどに画像を置いてしまい、300超の組織から1万3000枚以上の未公開画面が公開状態になっていたとGlowが報告。研究者によるAMAでエージェントのセキュリティ統制の置き場所も議論されている。"
+        },
+        {
+          "title_ja": "オープンソースのAIペンテストツール「Cairn」が自律型サイバー攻撃に悪用された",
+          "url": "https://www.reddit.com/r/cybersecurity/comments/1xwrwfs/how_cairn_an_opensource_ai_penetration_testing/",
+          "summary_ja": "Unit 42によると、中国語話者の攻撃者がOSSのAIペネトレーションテスト基盤CairnをGLM・DeepSeekと組み合わせ、19組織に25回の自律攻撃を実施し、半導体・防衛関連を含む10組織で認証情報や100万件超の個人データの取得に成功した。"
+        }
+      ]
+    },
+    {
+      "name": "Security/脆弱性・インシデント",
+      "items": [
+        {
+          "title_ja": "Check Pointのゲートウェイが PHP2Shell 経由で侵害、VMware ESXi を狙うワイパーを展開",
+          "url": "https://www.reddit.com/r/cybersecurity/comments/1xw8lfa/check_point_gateways_hacked_via_php2shell_to/",
+          "summary_ja": "10月30日以降、PHPの脆弱性（CVE-2026-109618/109619）でMobile Accessゲートウェイに侵入し、CVE-2026-123039でroot権限を奪ってESXiに横展開、データを消去するワイパーを展開した攻撃をCheck Pointが報告。複数脆弱性の連鎖の危険性を示す事例。"
+        },
+        {
+          "title_ja": "Microsoft 365 障害に便乗したフィッシング、「24時間以内にメールを削除する」と脅迫",
+          "url": "https://www.reddit.com/r/cybersecurity/comments/1xwxfrv/microsoft_warns_of_phishing_attack_exploiting_365/",
+          "summary_ja": "11月12日のExchange Online障害の実際のインシデント番号を引用し、遅延メールが削除されると偽ってリンクを踏ませる認証情報窃取キャンペーンをMicrosoft Threat Intelligenceが警告した。"
+        }
+      ]
+    },
+    {
+      "name": "Security/サプライチェーン",
+      "items": [
+        {
+          "title_ja": "Fireworks AI のセキュリティインシデントについて調べてみた — 何が起き、どこに影響したのか",
+          "url": "https://zenn.dev/pollenjp/articles/2026-11-10-fireworks-ai-incident",
+          "summary_ja": "推論基盤Fireworks AIで10月に2度の侵入があり、評価ジョブに預けられた第三者のAPIキーや一部顧客データに到達された経緯を時系列で整理。影響が確認されたのはNotionのみで、預けた鍵は発行元で再発行が必要と指摘している。"
+        }
+      ]
+    },
+    {
+      "name": "開発/JS・TS",
+      "items": [
+        {
+          "title_ja": "脱WordPress：10年超の個人ブログをAstro + Cloudflare Workersへ移行しPageSpeed 100点を実現",
+          "url": "https://zenn.dev/unsoluble_sugar/articles/8cdf1efc01e6cb",
+          "summary_ja": "PHPの脆弱性を機に、約2000記事のWordPressブログをURLを変えずにAstroの静的サイトへ移行し、Cloudflare Workersで配信。表示断は約40秒、PageSpeedはスマホ66点から100点に改善し、作業の大半をClaudeに任せた進め方も紹介している。"
+        }
+      ]
+    },
+    {
+      "name": "開発/インフラ・運用",
+      "items": [
+        {
+          "title_ja": "独プールで15人体調不良　マイクロソフト障害影響",
+          "url": "https://news.jp/i/1494496378441958289",
+          "summary_ja": "Microsoft 365の大規模障害で安全管理システムの警報メールがOutlookに届かず、ドイツのテーマパークのプールで塩素濃度の異常上昇に気付けず15人が体調不良を訴えた。業務クラウドへの単一依存が物理的な安全にまで波及した事例で、インド政府機関はほぼ影響を受けなかったとの報道も出ている。"
+        }
+      ]
+    },
+    {
+      "name": "開発/インフラ・ツール",
+      "items": [
+        {
+          "title_ja": "544のメンテ停止PyPIパッケージがPython 3.12+で import 失敗するのに月1億DL超",
+          "url": "https://www.reddit.com/r/programming/comments/1xwyhpm/544_unmaintained_pypi_packages_with_imports_that/",
+          "summary_ja": "Python 3.12/3.13で削除された distutils や imp など25の標準モジュールを依然importするPyPIプロジェクトを調査し、上位6万件中852件が該当、そのうち544件は2年以上リリースがないと報告。依存関係の放置リスクを示している。"
+        }
+      ]
+    },
+    {
+      "name": "開発/データスタック",
+      "items": [
+        {
+          "title_ja": "AWSから見たSnowflake Storage for Iceberg",
+          "url": "https://zenn.dev/penginpenguin/articles/36a822bfd124d7",
+          "summary_ja": "Managed Icebergのデータを自分のS3に置く場合とSnowflake管理ストレージに預ける場合を比較し、選択は「Icebergを使うか」ではなく「ファイルを自分のAWSアカウントで扱う必要があるか」で決まると整理している。"
+        }
+      ]
+    },
+    {
+      "name": "キャリア・組織/キャリア・組織",
+      "items": [
+        {
+          "title_ja": "今、ソフトウェアエンジニアとして何を思うか",
+          "url": "https://note.com/at_sushi_at/n/n2e6ea3453e37",
+          "summary_ja": "1年前はAIを侮っていた筆者が、今ではOpusの判断を自分より優先することが多くなったと率直に吐露。AIが動きやすい環境づくりやゲートキーパー役にも将来性は薄いとし、プロダクトの意思決定、AI開発基盤のプロ、業界を去るという3つの方向性を考察している。"
+        },
+        {
+          "title_ja": "作るのがこんなに簡単になった今、誰がインディー製品にお金を払うのか？",
+          "url": "https://www.reddit.com/r/indiehackers/comments/1xuid2t/who_the_hell_will_pay_for_indie_products_when/",
+          "summary_ja": "AIで2週間ごとに新しいアプリを作れるようになった個人開発者が、SEOや宣伝など定石をこなしても顧客がほとんど獲得できないと悩みを投稿。誰もが自分用アプリを作れる時代の個人開発の収益化の難しさが議論されている。"
+        }
+      ]
+    },
+    {
+      "name": "その他/その他",
+      "items": [
+        {
+          "title_ja": "スペースXの「スターシップ」が発射台に初帰還、第15回飛行試験でキャッチ成功",
+          "url": "https://sorae.info/space/20261115-starship-15.html",
+          "summary_ja": "第15回飛行試験でStarlink V3衛星26機を放出した後、約21時間半の飛行を終えたStarship宇宙船を発射台のアームで初めて空中回収し、全段再使用に向けた大きな節目となった。HNでも1600ポイント超を集めた。"
+        },
+        {
+          "title_ja": "マザーボードは、ほぼ壊れない ―組み立て2,400台とサポート43,000件で見えた、PCの故障の順序",
+          "url": "https://clivelab.jp/blogs/news/motherboard-rarely-fails",
+          "summary_ja": "PC2400台の組み立てと4万3000件のサポート経験から、故障はファン・ポンプ→SSD→電源→GPUの順に起きやすく、マザーボード単独の故障は稀だと解説。保護回路や固体コンデンサの普及など、壊れなくなった背景も掘り下げている。"
+        }
+      ]
+    }
+  ]
+}
