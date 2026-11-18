@@ -1,0 +1,235 @@
+{
+  "date": "2026-11-19",
+  "categories": [
+    {
+      "name": "AIツール/業務活用",
+      "items": [
+        {
+          "title_ja": "部下がClaudeっぽいスライドしか出してこなくてウンザリしてる上司はこれを使わせなさい",
+          "url": "https://qiita.com/nuco_d/items/b279477cbcdbe5921abd",
+          "summary_ja": "指示なしでAIにスライドを作らせると、学習データの「無難なデザイン」への分布収束と公式pptxスキルの量産型レシピによって、カード並び・過剰な強調・文字過多の“Claudeっぽい”資料になる理由を解説。そう見せないために使わせるべきスキルと指示の出し方を、実際の生成比較とともに紹介している。"
+        },
+        {
+          "title_ja": "認知負荷の減らし方 ～開発にも日常業務にも活かせるノウハウ～（みのるん）",
+          "url": "https://speakerdeck.com/minorun365/2026-11-lab-datsubotorunekku-ningen",
+          "summary_ja": "AIが並列で大量の成果物を出す時代のボトルネックは人間の判断だとして、3行を超える報告はHTML化させ、自作の閲覧サイト「HTML共有くん」に集約してスマホでも読めるようにする運用を紹介。CLAUDE.mdへのルール記述やAWSサーバーレスでの実装、判断ポイントのハイライトなど具体的な工夫がまとまっている。"
+        },
+        {
+          "title_ja": "Geminiが電話も支払いも代行する「タスク」モード、日本でも無料で提供開始",
+          "url": "https://www.techno-edge.net/article/2026/11/18/5756.html",
+          "summary_ja": "GeminiアプリにChatから切り替えて使う「Task」モードが日本を含む6か国で無料提供開始。販売店への同時電話予約、パスワードマネージャー経由での請求明細調査、AP2による決済などを、アカウントごとの専用仮想マシン内で実行し、Webページに仕込まれた指示（プロンプトインジェクション）を検出するフィルターも備える。"
+        }
+      ]
+    },
+    {
+      "name": "AIツール/コーディングツール",
+      "items": [
+        {
+          "title_ja": "最近、コードを真面目に読まなくなった",
+          "url": "https://zenn.dev/hiromoo/articles/reading-less-preparing-more",
+          "summary_ja": "前提を整えればAIの出すコードは大体正しいと感じるようになり、差分を毎回精読するより、要件・制約・暗黙の当たり前（使用言語など）をAIに伝える準備に時間を使うべきだという考察。動作確認やテストで判断し、影響の大きい箇所だけコードまで掘るという時間配分の見直しを提案している。"
+        }
+      ]
+    },
+    {
+      "name": "AIツール/エージェント開発・実装",
+      "items": [
+        {
+          "title_ja": "Show HN: Mastra Factory ― Mastra自身の開発に使っているオープンソースの“ソフトウェア工場”",
+          "url": "https://news.ycombinator.com/item?id=50548660",
+          "summary_ja": "TypeScript製エージェントフレームワークMastraのチームが、Slackから@で呼べるエージェント型カンバン「Factory」をOSS化。永続エージェント・会話メモリ・出典付きWiki・PRコメント購読・クラウドサンドボックスを組み合わせ、先週は人間の630件と並んで238件のPRをマージしたという。外部コントリビュートを閉じて詳細なissue再現を求めるようになった運用変化にも触れている。"
+        }
+      ]
+    },
+    {
+      "name": "AIモデル/ローカルLLM",
+      "items": [
+        {
+          "title_ja": "ローカルLLM入門",
+          "url": "https://zenn.dev/port_inc/articles/ff974c7456f4db",
+          "summary_ja": "大学でのゲスト講義を基に、モデル＝重みファイルという基本から、クラウド/オンプレ/ローカルの置き場所の違い、生成速度を決めるのはメモリ帯域であること、量子化、WebGPU・WebLLMによるブラウザ実行、小型モデルを判定用途に使う方法までを体系的に整理。手元で動くのは「半年〜1年前の最上位級」という現在地も示している。"
+        },
+        {
+          "title_ja": "180Bパラメータを32GB RAMで：TransformersでMoE推論を限界まで攻める",
+          "url": "https://huggingface.co/blog/moe-expert-streaming",
+          "summary_ja": "MoEモデルの重みの9割以上を占めるエキスパートをSSDから直接ストリーミングすることで、121GB分のエキスパートを持つQwen3.8-Flash-Nextを32GBメモリのMacでTransformersから動かした実験記。トークン生成速度は専用推論エンジンStrataとの差6%以内まで迫ったという。"
+        }
+      ]
+    },
+    {
+      "name": "AIモデル/オープンモデル",
+      "items": [
+        {
+          "title_ja": "DaisyRose-27B：1,200タスクの強化学習でQwen3.8のTerminal-Bench 4.1スコアを5.6%→12%に",
+          "url": "https://www.radixark.com/blog/daisyrose-27b",
+          "summary_ja": "RadixArkがQwen3.8-27Bに長時間エージェントタスク（最大100万トークン・100回超のツール呼び出し）で強化学習を施したDaisyRose-27Bを公開。元モデルの失敗を引き出すよう設計し難易度を調整した約1,200タスクだけで、H200×144基・18日の限られた計算量でもTerminal-Benchのpass@1を倍増させた手法を解説しており、BF16/FP8/NVFP4版が公開されている。"
+        }
+      ]
+    },
+    {
+      "name": "AIモデル/論文・研究",
+      "items": [
+        {
+          "title_ja": "Energy-Based Reasoners：ループ型推論モデルはエネルギーベースモデルであるべき",
+          "url": "https://news.ycombinator.com/item?id=50543989",
+          "summary_ja": "潜在状態に対するエネルギー関数を学習し、ループ更新をその勾配降下として定式化することで、推論の進捗評価・停止判定・候補選択を可能にした研究。Sudoku-Extremeで99.9%の正答率を、次点モデルの345分の1の推論計算量で達成し、複数解ベンチマークでも最高水準の解の網羅性を示した。"
+        },
+        {
+          "title_ja": "Claudeはタンパク質配列を大規模に学習していた",
+          "url": "https://news.ycombinator.com/item?id=50541619",
+          "summary_ja": "ほとんど論文のない細菌タンパク質で「次のアミノ酸」を予測させ、シャッフルした配列との差を測ったところ、Claude Fable 5.2とOpus 5.5だけが配列そのものの知識を示し、Fable 5.2は既存のオープンなタンパク質言語モデルをすべて上回った。学習カットオフ後に公開された配列でも予測でき、GPT-6.2系などには同様の兆候が見られなかったという。"
+        }
+      ]
+    },
+    {
+      "name": "AI倫理/社会的受容",
+      "items": [
+        {
+          "title_ja": "GoogleのAI回答で検索流入が40%減少",
+          "url": "https://news.ycombinator.com/item?id=50540178",
+          "summary_ja": "Google検索のAI回答によってWebサイトへの検索流入が約40%減っているとする分析記事がHNで500超のコメントを集めた。HNでは「答えだけ欲しいユーザーには合理的」「SEOがWebを殺し、AIがSEOを殺した」「発見の場としてのWebが失われる」など、Webのエコシステムへの影響をめぐって議論が分かれた。※本文取得不可（レート制限）のため HN コメントから要約"
+        },
+        {
+          "title_ja": "ケンブリッジ辞典、2026年の今年の単語に「human」を選出",
+          "url": "https://news.ycombinator.com/item?id=50546914",
+          "summary_ja": "AIと人間の境界が問われた年として、Cambridge Dictionaryが今年の単語に「human」を選んだ。ビル・ゲイツの「人間のために残す仕事」論やヒントン、教皇レオ14世の発言、アーティストによる人間の創造性擁護キャンペーンなど、AI時代に「人間らしさ」を守ろうとする動きが選定理由として挙げられている。"
+        }
+      ]
+    },
+    {
+      "name": "AI倫理/雇用・スキルへの影響",
+      "items": [
+        {
+          "title_ja": "KPMGの監査実験、AIエージェントが人間の監査チームより良い質問をする場面も",
+          "url": "https://news.ycombinator.com/item?id=50547777",
+          "summary_ja": "KPMG UKがFTSE 250企業の財務諸表を対象に100以上のAIエージェントを監査プロセス全体に投入した「Project Exponential」で、エージェントが人間チームより深く論点を掘り下げ、人間が提起しなかった質問をするケースがあったと報告。監査という労働集約的な専門職の経済構造が変わる可能性を示している。"
+        }
+      ]
+    },
+    {
+      "name": "AI倫理/ガバナンス・企業導入",
+      "items": [
+        {
+          "title_ja": "社長のAI活用で現場が疲弊　「コンサル頼み経営」の二の舞いからどう抜け出す",
+          "url": "https://www.itmedia.co.jp/enterprise/articles/2611/18/news017.html",
+          "summary_ja": "社長がAIと壁打ちして作った何千行ものMarkdown指示書が現場に降ってきて疲弊する構図を、かつての「コンサル直結型」経営の再来として分析。現場の業務を知らない経営者にはAIが「よしなに補填」した出力を検証できないことを問題とし、経営と現場の間に置くべき役割を考察している（記事後半は会員限定）。"
+        }
+      ]
+    },
+    {
+      "name": "Security/脆弱性・インシデント",
+      "items": [
+        {
+          "title_ja": "NGINXに認証不要のリモートコード実行脆弱性（CVE-2026-123633 / CVE-2026-123007）",
+          "url": "https://www.wiz.io/blog/nginx-http2-rce-vulnerabilities",
+          "summary_ja": "Wiz・Rapid7・Xintなど複数チームが独立に発見した、HTTP/2有効時のNGINXでRCEにつながる2件の脆弱性（CVSS 4.0で9.2）。片方は2015年のNGINX 1.9.5まで遡り、11月18日にF5が修正版を公開したため、HTTP/2を有効にしている環境は早急な更新が必要。XintはOpenAIと協力して「NGINX2Root」として公表し、バグバウンティでは30万ドル相当とも言われている。"
+        },
+        {
+          "title_ja": "NewsPicks漏えい、Metabase脆弱性が原因　パッチ適用前日にデータ窃取、JPCERT/CC公表「不審IPアドレス」で攻撃発覚",
+          "url": "https://www.itmedia.co.jp/news/article/2611/18/2000003300/",
+          "summary_ja": "ユーザベースは、認証前に悪用できるMetabaseのSQLインジェクション（CVSS 10.0）を突かれ、修正版適用の前日にデータを窃取されていたと報告。攻撃者は多要素認証付きSSOを迂回して管理者APIキーを作成し、パッチ後も残ったキーで偵察を継続していたが、JPCERT/CCが公表した不審IPリストをもとにした調査で発覚した。カード情報の一部36万件超などの確定件数も公表された。"
+        },
+        {
+          "title_ja": "三菱UFJグループで漏えい相次ぐ　銀行は委託先への不正アクセスで顧客情報約650万件流出",
+          "url": "https://news.web.nhk/newsweb/na/nd-20261118de77737",
+          "summary_ja": "三菱UFJ銀行が、アプリやWebサイトの案内業務を委託する「プレイド」への不正アクセスにより約650万件の顧客情報が漏えいしたと発表。グループの三菱UFJ eスマート証券でも証券口座番号約6万件の漏えいが明らかになっており、委託先経由のサプライチェーンリスクが改めて浮き彫りになった。※本文の一部のみ取得のため見出しとはてブ情報から要約"
+        }
+      ]
+    },
+    {
+      "name": "Security/サプライチェーン",
+      "items": [
+        {
+          "title_ja": "Microsoft Agent FrameworkのPyPIパッケージに33分間で2つの悪意あるリリース",
+          "url": "https://www.aikido.dev/blog/two-malicious-agent-framework-releases-hit-pypi-in-33-minutes",
+          "summary_ja": "月19万DLのagent-framework 1.26.1/1.26.2が11月17日に悪意ある版として公開され、Pythonの起動ごとにAzure・Azure DevOps・GitHub ActionsのシークレットやOIDCトークンを窃取する仕組みが仕込まれていた。約45分間に緩い依存指定でインストールしたCIや開発機が対象で、1.26.0への固定と全シークレットのローテーションが推奨されている。"
+        }
+      ]
+    },
+    {
+      "name": "Security/AI×攻撃",
+      "items": [
+        {
+          "title_ja": "Octopus、Gecko、Tortoise：AIツールのAPIキーを狙う3種類のスキャナー",
+          "url": "https://news.ycombinator.com/item?id=50550461",
+          "summary_ja": "GPTBotやClaudeBotなど32種のAIクローラー名を騙って/.envを探す「Octopus」や、.claude/settings.jsonや.cursor/mcp.jsonなどClaude Code・Cursor・Codex等の鍵ファイルを狙う「Gecko」など、AIツールの認証情報を狙うスキャナーを10サイトで2か月観測した報告。サイトのフレームワークに応じて探索パスを変える手口や、ログで検知するための目印をまとめている。"
+        }
+      ]
+    },
+    {
+      "name": "開発/インフラ・ネットワーク",
+      "items": [
+        {
+          "title_ja": "CloudflareがなぜパブリックDNSはブロックされるべきではないのかを説明",
+          "url": "https://gigazine.net/news/20261118-cloudflare-explain-dns-blocking/",
+          "summary_ja": "海賊版サイトのブロック命令に応じずフランスで制裁金を科されたCloudflareが、Quad9のフランス撤退を受けて、DNSブロッキングは無関係なサイトまで巻き込む大雑把な手段で、迂回も容易なため権利侵害の総量を減らす証拠がないと説明。グローバルに運用されるパブリックリゾルバーを国別命令に合わせて作り変えると、性能・耐障害性・プライバシーが損なわれると主張している。"
+        }
+      ]
+    },
+    {
+      "name": "開発/インフラ・ツール",
+      "items": [
+        {
+          "title_ja": "Terraform 0 to 100：100個以上のリポジトリを常に最新にし続けるための自動化",
+          "url": "https://speakerdeck.com/sue445/terraform-0-to-100",
+          "summary_ja": "ピクシブでTerraformを何もない状態から導入し、115個（アーカイブ含め150個超）のリポジトリにまで増えるまでの道のりを0→1、1→10、10→50、50→100の段階ごとに紹介。GitLab/GitHubを前提に、多数のリポジトリの運用負荷を下げるために使ったツールや自作ツールを、クラウドを問わず適用できる知見としてまとめている。"
+        }
+      ]
+    },
+    {
+      "name": "開発/データスタック",
+      "items": [
+        {
+          "title_ja": "マイクロソフト、PostgreSQL互換のミッションクリティカル向けDB「Azure HorizonDB」正式リリース",
+          "url": "https://www.publickey1.jp/blog/26/postgresqlazure_horizondb.html",
+          "summary_ja": "Microsoft Ignite 2026で、最大3072vCPUまでのスケールアウトと128TBまでの自動拡張ストレージ、マルチゾーンでもミリ秒以下のコミットレイテンシを備えるPostgreSQL互換DBが正式リリース。通常のPostgreSQL比で最大8倍のトランザクション性能をうたい、pgvectorやDiskANNインデックスも使える。OLTPとOLAPに対応するサーバレス版「Fabric HorizonDB」もプレビュー公開された。"
+        },
+        {
+          "title_ja": "Lakegres：既存のHudi/Iceberg等のオープンテーブルでベクトル検索",
+          "url": "https://news.ycombinator.com/item?id=50549438",
+          "summary_ja": "OnehouseがLakegresに、オープンテーブル内部にネイティブなインデックスを持つベクトル検索を追加し、Postgresエンドポイントからデータレイク上の既存テーブルを直接検索できるようにした。SnowflakeやDatabricks、S3 Vectorsなどがインデックスをテーブル外に持つのに対し、レイク規模のデータをDBへコピーせずに済む点を強調している。"
+        }
+      ]
+    },
+    {
+      "name": "開発/JS・TS",
+      "items": [
+        {
+          "title_ja": "suzume：ブラウザやネイティブアプリ向けの軽量な日本語トークナイザー",
+          "url": "https://github.com/libraz/suzume",
+          "summary_ja": "MeCabのような詳細な形態素解析ではなく、検索や表示に使いやすい単位（「経済成長」「3人」など）で分割しつつ品詞と原形も返す日本語トークナイザー。辞書を内蔵し、WebAssembly・Node.js・Python・Go・C++から同じように使え、ユーザー辞書やキーワード抽出にも対応する。"
+        }
+      ]
+    },
+    {
+      "name": "キャリア・組織",
+      "items": [
+        {
+          "title_ja": "「YouTube200万再生」でバズったプロトタイプのゲーム、初動売上は500本弱──開発者が“売る準備”の大切さを反省",
+          "url": "https://automaton-media.com/articles/newsjp/20261118-479880/",
+          "summary_ja": "ゲームジャム作品がYouTubeで200万回以上再生されたにもかかわらず、当時Steamページを用意していなかったために勢いを逃し、正式版の初週販売が474本にとどまった個人開発者の振り返り。ジャンルの進化に追随できなかったことや安すぎる価格設定、クリエイターへの事前連絡不足も反省点に挙げており、個人開発で「鉄は熱いうちに打て」の教訓となっている。"
+        },
+        {
+          "title_ja": "すべてが変わってしまった今、私たちは次に何をすべきか",
+          "url": "https://news.ycombinator.com/item?id=50551503",
+          "summary_ja": "CSS-Tricksに寄せられた、AIで激変したWeb業界で働く人への提言。AI利用の強制は落ち着いたものの、必要かどうかに関係なく量を求める圧力は残り、業界全体で働く人の幸福度が下がっている現状を率直に描いたうえで、この状況をどう乗り切るかを考えている。"
+        }
+      ]
+    },
+    {
+      "name": "その他",
+      "items": [
+        {
+          "title_ja": "Suicaペンギン後継キャラはB案「紫のうさぎ」　愛称募集を開始",
+          "url": "https://www.watch.impress.co.jp/docs/news/2157432.html",
+          "summary_ja": "JR東日本は2027年3月で卒業するSuicaのペンギンの後継キャラクターに、166万票超の投票で最多を得た紫のうさぎ（B案）を決定し、12月15日まで愛称を募集する。Suicaを「移動のデバイス」から「生活のデバイス」へ広げる「Suicaルネサンス」の一環と位置付けられている。"
+        },
+        {
+          "title_ja": "Show HN: ボイジャー1号を1つのメモリチップまで分解してみる",
+          "url": "https://news.ycombinator.com/item?id=50548161",
+          "summary_ja": "1977年に打ち上げられ今も星間空間から地球と交信を続けるボイジャー探査機を、現在位置の表示とともに、構成部品をメモリチップ1個の単位まで分解して見られるインタラクティブなWebサイト。※本文取得不可のためページ概要とHN情報から要約"
+        }
+      ]
+    }
+  ]
+}
