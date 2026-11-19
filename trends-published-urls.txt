@@ -1,5 +1,6 @@
 https://aba.hatenablog.com/entry/2026/10/22/194027
 https://about.gitlab.com/ja-jp/blog/whats-new-in-git-2-56-0/
+https://agilejourney.uzabase.com/entry/2026/11/19/103000
 https://alpinelinux.org/posts/2026-11-05-openssh-password-authentication-bypass/
 https://amix-design.com/tl/web-darkp/
 https://anond.hatelabo.jp/20261028103922
@@ -8,6 +9,7 @@ https://arclamp.hatenablog.com/entry/2026/11/14/224526
 https://article.auone.jp/090465f4-bbd4-4e07-8236-ac82cebd9552
 https://arxiv.org/abs/2610.37741
 https://ascii.jp/elem/000/004/440/4440100/
+https://ascii.jp/elem/000/004/452/4452982/
 https://ashunar0.dev/posts/does-your-project-need-nextjs/
 https://astro.build/blog/astro-730/
 https://atlasum.net/blog/cve-2026-98432-linux-ipv4-tcp-uaf
@@ -21,6 +23,7 @@ https://atmarkit.itmedia.co.jp/ait/articles/2609/24/news032.html
 https://atmarkit.itmedia.co.jp/ait/articles/2611/08/news001.html
 https://atmarkit.itmedia.co.jp/ait/articles/2611/13/news013.html
 https://automaton-media.com/articles/newsjp/20261026-475703/
+https://automaton-media.com/articles/newsjp/20261116-479523/
 https://automaton-media.com/articles/newsjp/20261118-479880/
 https://aws.amazon.com/blogs/security/building-your-ai-vulnerability-harness-part-1/
 https://aws.amazon.com/jp/blogs/news/aws-jpps-seminar-2026-july/
@@ -68,6 +71,7 @@ https://codezine.jp/article/detail/30105
 https://coliss.com/wp-content/cache/all/articles/build-websites/operation/work/7-adobe-apps-open-sourced.html/index.html
 https://collusion.wiki/
 https://comcomponent.com/blog/ada-vs-rust-safety/
+https://comemo.nikkei.com/n/nb6e629d1a85c
 https://corp.helpfeel.com/news/news-20260916-1
 https://cursor.com/blog/security-incident-update
 https://daiksy.hatenablog.jp/entry/2026/09/16/183544
@@ -114,6 +118,7 @@ https://forest.watch.impress.co.jp/docs/news/2154982.html
 https://forest.watch.impress.co.jp/docs/news/2155706.html
 https://forest.watch.impress.co.jp/docs/news/2155719.html
 https://forest.watch.impress.co.jp/docs/news/2156900.html
+https://forest.watch.impress.co.jp/docs/news/2156904.html
 https://forest.watch.impress.co.jp/docs/review/localai/2137694.html
 https://four.htmx.org/announcements/2026-08-28-htmx-4.0.0-is-released
 https://frontier.replit.com/sandbox-engine-microvms-part-1/
@@ -190,6 +195,8 @@ https://gigazine.net/news/20261115-ai-isnt-replacing-sres-its-deskilling/
 https://gigazine.net/news/20261117-infect-malware-optimizely/
 https://gigazine.net/news/20261117-musician-copyright-hell/
 https://gigazine.net/news/20261118-cloudflare-explain-dns-blocking/
+https://gigazine.net/news/20261118-xestrata/
+https://gigazine.net/news/20261119-simcity-high-score/
 https://giginet.hateblo.jp/entry/2026/09/22/114642
 https://gihyo.jp/article/2026/10/ai-security-defense
 https://gihyo.jp/article/2026/10/anatomy
@@ -231,6 +238,7 @@ https://huggingface.co/papers/2610.37161
 https://huggingface.co/papers/2611.17167
 https://huggingface.co/papers/2611.20218
 https://huggingface.co/papers/2611.21003
+https://huggingface.co/papers/2611.23068
 https://inside.pixiv.blog/2026/10/22/193321
 https://internet.watch.impress.co.jp/docs/column/security/2138390.html
 https://internet.watch.impress.co.jp/docs/news/2141538.html
@@ -262,6 +270,7 @@ https://k-tai.watch.impress.co.jp/docs/news/2148168.html
 https://k-tai.watch.impress.co.jp/docs/news/2156449.html
 https://kaminashi-developer.hatenablog.jp/entry/2026/09/07/ai-era-engineer-interviews
 https://kawarimidoll.com/posts/202610051/
+https://kawarimidoll.com/posts/202610182/
 https://kawasin73.hatenablog.com/entry/2026/09/05/092056
 https://konifar-zatsu.hatenadiary.jp/entry/2026/09/22/112134
 https://koyasi777.com/mozkey/
@@ -586,6 +595,14 @@ https://news.ycombinator.com/item?id=50548660
 https://news.ycombinator.com/item?id=50549438
 https://news.ycombinator.com/item?id=50550461
 https://news.ycombinator.com/item?id=50551503
+https://news.ycombinator.com/item?id=50556287
+https://news.ycombinator.com/item?id=50557537
+https://news.ycombinator.com/item?id=50557870
+https://news.ycombinator.com/item?id=50558533
+https://news.ycombinator.com/item?id=50561508
+https://news.ycombinator.com/item?id=50562262
+https://news.ycombinator.com/item?id=50562500
+https://news.ycombinator.com/item?id=50563148
 https://newsdig.tbs.co.jp/articles/-/2990268
 https://newsdig.tbs.co.jp/articles/-/3020110
 https://newsletter.dancohen.org/archive/the-slow-formation-of-durable-software/
@@ -606,6 +623,8 @@ https://note.com/srt_taka/n/nff6c2d40c11b
 https://note.com/suh_sunaneko/n/n23ed6981ff6a
 https://note.com/takahiroanno/n/n4accbde18d56
 https://note.com/uchita_success/n/nfc53d1ef5f81
+https://note.com/wakabame/n/nc76b65a187bb
+https://note.com/y_hirano/n/nc986ab18b90e
 https://note.com/yoshiki_shibata/n/n185f3d9e13bc
 https://note.com/yubais/n/nd4505991a6d6
 https://note.com/yuiseki/n/nabf4625e58bc
@@ -643,6 +662,7 @@ https://piyolog.hatenadiary.jp/entry/2026/11/11/125745
 https://piyolog.hatenadiary.jp/entry/2026/11/13/114230
 https://piyolog.hatenadiary.jp/entry/2026/11/13/162738
 https://piyolog.hatenadiary.jp/entry/2026/11/17/030254
+https://piyolog.hatenadiary.jp/entry/2026/11/20/003148
 https://plaid.co.jp/news/20261113/
 https://pola.rs/posts/release-polars-2/
 https://portablecode.info/2026/09/23/herdr-annotate-ai-review/
@@ -663,6 +683,7 @@ https://qiita.com/k2_naka/items/fa87685231377f15e7e3
 https://qiita.com/kentasatomi/items/06ccfbf7f6a2a24883ff
 https://qiita.com/kikuziro/items/53465eeb52b464757555
 https://qiita.com/konaito/items/16a6d2c5da7d144efe95
+https://qiita.com/kotowazaman/items/9ee7c475a475e7527b0e
 https://qiita.com/ktdatascience/items/02b6b45e2ca7d34ad146
 https://qiita.com/ktdatascience/items/666a82fcdf3dc4af00d7
 https://qiita.com/nabe2030/items/ad2b6c223e5992ba78e4
@@ -768,6 +789,7 @@ https://tech.dentsusoken.com/entry/2026/08/31/%E3%83%8F%E3%83%BC%E3%83%8D%E3%82%
 https://tech.every.tv/entry/2026/10/30/124255
 https://tech.layerx.co.jp/entry/2026/09/18/185816
 https://tech.layerx.co.jp/entry/haro-alert-loop
+https://tech.layerx.co.jp/entry/haro-et-agent
 https://tech.layerx.co.jp/entry/typespec-in-aiworkforce
 https://tech.mntsq.co.jp/entry/2026/11/10/113203
 https://tech.newmo.me/entry/2026/10/27/100000
@@ -812,6 +834,7 @@ https://wirelesswire.jp/2026/11/94903/
 https://www.47news.jp/15170379.html
 https://www.47news.jp/15215887.html
 https://www.afpbb.com/articles/-/3654276
+https://www.aihero.dev/the-home-repo-pattern
 https://www.aikido.dev/blog/compromised-flutter-package-on-pub-dev-contains-xcsset-malware
 https://www.aikido.dev/blog/cve-spike-remediation-problem
 https://www.aikido.dev/blog/dark-figure-supply-chain-detection
@@ -915,6 +938,10 @@ https://www.itmedia.co.jp/news/article/2611/17/2000003241/
 https://www.itmedia.co.jp/news/article/2611/17/2000003254/
 https://www.itmedia.co.jp/news/article/2611/17/2000003258/
 https://www.itmedia.co.jp/news/article/2611/18/2000003300/
+https://www.itmedia.co.jp/news/article/2611/19/2000003310/
+https://www.itmedia.co.jp/news/article/2611/19/2000003316/
+https://www.itmedia.co.jp/news/article/2611/19/2000003351/
+https://www.itmedia.co.jp/pcuser/articles/2611/19/news047.html
 https://www.jiji.com/jc/article?k=2026091100447&g=flash
 https://www.jpcert.or.jp/at/2026/at260030.html
 https://www.kimi.ai/blog/kimi-k3-1-pro
@@ -966,6 +993,7 @@ https://www.publickey1.jp/blog/26/rustcctstier_1.html
 https://www.publickey1.jp/blog/26/slackaislack_code.html
 https://www.publickey1.jp/blog/26/supabase1sqlitetursoaidb.html
 https://www.publickey1.jp/blog/26/vercelnextjscloudflare_workersaws_lambdavercelvinext_10.html
+https://www.publickey1.jp/blog/26/vmhyperlight-unikraft.html
 https://www.radixark.com/blog/daisyrose-27b
 https://www.rakuten-sec.co.jp/web/info/info20261117-02.html
 https://www.reddit.com/r/LocalLLaMA/comments/1w5ozl4/perplexity_opensourced_their_mac_inference_server/
@@ -1091,6 +1119,7 @@ https://zenn.dev/knowledgesense/articles/bd917ed6829121
 https://zenn.dev/kodomo_news/articles/53-strict-type-checked-gradual
 https://zenn.dev/koheip/articles/ai-agent-stop-keyless-visible
 https://zenn.dev/koheiwada/articles/houritsu-japanese-laws-as-git
+https://zenn.dev/kusuke/articles/98e178e6824cac
 https://zenn.dev/lambda_funtaro/articles/493c7143876ad8
 https://zenn.dev/luvtechno/articles/isucon2026-competition-day
 https://zenn.dev/mana_mrl/articles/f1e503f153fb66
@@ -1120,6 +1149,7 @@ https://zenn.dev/oryo_data/articles/f94473ed24ef95
 https://zenn.dev/penginpenguin/articles/36a822bfd124d7
 https://zenn.dev/penginpenguin/articles/d69e7602b5459b
 https://zenn.dev/persimmoq/articles/deepseek-v41-flash-1017-fact-check
+https://zenn.dev/pivotmedia/articles/risk-based-testing-for-uat
 https://zenn.dev/pksha/articles/5a1dc6470019d6
 https://zenn.dev/pollenjp/articles/2026-11-10-fireworks-ai-incident
 https://zenn.dev/polyco/articles/26624b38c951b5
