@@ -1,0 +1,205 @@
+{
+  "date": "2026-11-21",
+  "categories": [
+    {
+      "name": "AIツール/エージェント開発・実装",
+      "items": [
+        {
+          "title_ja": "自分の代わりに動くAgentへ。Claude CodeとCodexで作る自律改善ハーネス",
+          "url": "https://zenn.dev/nttdata_tech/articles/9562962cc181a1",
+          "summary_ja": "Claude CodeとCodexに開発・調査・資料作成まで任せるため、4か月運用してきた個人用ハーネスの設計を紹介する記事です。規約・台帳・文脈・記録・検査を1つのGitリポジトリに集め、プロンプトを磨くより「フォルダと概念の置き場」を作ることで、どのセッションのAgentも同じ規約を読み、自分で記録を整理できるようにしている点が肝です。"
+        },
+        {
+          "title_ja": "Vercel、複数AIエージェントの作業を調整する「Vercel Board」を実験公開",
+          "url": "https://codezine.jp/article/detail/30424",
+          "summary_ja": "複数のAIエージェント間でタスク・進捗・ログを共有するヘッドレスなメッセージストアで、CLIやJavaScript SDK経由でClaude Code、Codex、Mastra、LangChainなどハーネスを問わず連携できます。チャンネル/スレッド構成、タスク依存関係、ウォッチャーによる起動、Slack・GitHubとの双方向同期、ボード単位の権限管理を備えます。"
+        }
+      ]
+    },
+    {
+      "name": "AIツール/コーディングツール",
+      "items": [
+        {
+          "title_ja": "Codex App の Computer Use はどういう仕組みで動いているのか",
+          "url": "https://qiita.com/TaigoKuriyama/items/850a26760fc3c8d111ad",
+          "summary_ja": "macOS版Codex AppのComputer Useについて、OpenAIのドキュメントとプラグインに含まれるSkill、MCPサーバー定義、ローカル実行ファイルを手がかりに、画面認識から操作までの仕組みを読み解く記事です。デモ止まりと思われがちだったComputer Useが実用水準になってきた背景を具体的に理解できます。"
+        },
+        {
+          "title_ja": "DreamCoder：『Mastering Emacs』著者によるコーディングハーネス兼IDE",
+          "url": "https://news.ycombinator.com/item?id=50581110",
+          "summary_ja": "Mastering Emacsの著者が15か月かけて開発したAIコーディングハーネス兼IDEの発表です。Claude Codeに代表されるターミナル型エージェントが主流になったことへの違和感を出発点に、Emacsの歴史も振り返りながら、既存ツールとは異なる操作体験を目指した設計思想を語っています。"
+        }
+      ]
+    },
+    {
+      "name": "AIツール/業務活用",
+      "items": [
+        {
+          "title_ja": "ドンキのAI社員「近藤あい」が正式デビュー　販促POPや動画で活躍へ",
+          "url": "https://www.itmedia.co.jp/news/article/2611/20/2000003369/",
+          "summary_ja": "ドン・キホーテを運営するPPIHが、生成AIで制作したAI社員「近藤あい」を11月23日に正式デビューさせ、店頭POPや商品紹介動画、SNSの宣伝担当として起用します。7月から試験運用しており、従来の販促物制作の負荷やタレント起用の課題を背景に、「裏に20人ぐらいいる」体制で運用していると担当者が明かしています。"
+        }
+      ]
+    },
+    {
+      "name": "AIモデル/論文・研究",
+      "items": [
+        {
+          "title_ja": "Claudeとの協働でリーマン予想（一般化リーマン予想を含む）の証明を主張、Lean形式化も公開",
+          "url": "https://news.ycombinator.com/item?id=50574968",
+          "summary_ja": "数学者Levent AlpögeがClaudeと共同でリーマン予想、さらに一般化リーマン予想の証明を発見し、仮定なしでLeanによる形式化まで完了したと発表しました。HNでは2000ポイント超の大反響で、本人の実績から信頼性を評価する声の一方、膨大なLeanコードを誰が理解できるのかという疑問や、Scott Aaronsonの「確率的オウムがリーマン予想を証明したらしい」という記事を巡る議論も起きています。"
+        },
+        {
+          "title_ja": "AIが追加学習なしで自らのウェイトを書き換えて「自分自身を賢くする」ことに成功",
+          "url": "https://gigazine.net/news/20261120-large-language-model-can-rewrite-itself/",
+          "summary_ja": "オープンな27Bモデルに自身の重み・採点済み回答・自己実行の能力を与えると、勾配計算や追加学習なしに自分の失敗を診断して重みを書き換え、性能を向上できたとする論文の紹介です。モデル自身がオプティマイザになる「self-rewriting」として、再帰的自己改善につながる可能性が議論されています（HNでも295ポイント）。"
+        },
+        {
+          "title_ja": "Frostbite：AIが発見・設計・検証した新しいCPUアーキテクチャ",
+          "url": "https://news.ycombinator.com/item?id=50572503",
+          "summary_ja": "Interaction netsの性質を活かした新命令セットの汎用CPUを、AIシステムがコンパイラ・ISA・マイクロアーキテクチャ・RTL・検証・GDSまで自律的に反復して設計したという発表です。25のワークロードで既存のスーパースカラCPUコア比4.59倍の電力性能を達成したとし、AIによるハードウェア設計の可能性を示しています。"
+        }
+      ]
+    },
+    {
+      "name": "AIモデル/ローカルLLM",
+      "items": [
+        {
+          "title_ja": "Thinking Machines、ノートPCで動くループ型Transformer「Inkling 2 Mini」を公開",
+          "url": "https://news.ycombinator.com/item?id=50581260",
+          "summary_ja": "中間層を1トークンあたり3回ループさせるlooped transformerで、総パラメータ約26B・アクティブ3BのマルチモーダルMoEです。100B未満のオープンウェイトモデルでDeepSWE v1.1など各種ベンチマーク首位とされ、1Mトークン文脈、NVFP4/MXFP8の混合精度配布、投機的デコード用ドラフターも同梱し、Hugging FaceもQwen 3.8 27B並みのローカル向けモデルと評価しています。"
+        }
+      ]
+    },
+    {
+      "name": "AI倫理/安全性",
+      "items": [
+        {
+          "title_ja": "OpenAI、敵対的蒸留への対策と業界向けの教訓を公表",
+          "url": "https://news.ycombinator.com/item?id=50581242",
+          "summary_ja": "フロンティアモデルの出力を無断で学習に使い、安全対策のないモデルとして能力を再現する「敵対的蒸留」について、OpenAIが検知・妨害の手法と、保護された推論過程の抽出を防ぐ強化策を説明しました。サイバー攻撃能力の蒸留などのリスクを挙げ、生物・サイバー分野と同水準のセーフガードを適用しているとしています。"
+        },
+        {
+          "title_ja": "AIは誰にでも同じアドバイスをしている",
+          "url": "https://news.ycombinator.com/item?id=50577872",
+          "summary_ja": "65のAIに同じ質問をした実験で、人生を変える本は73%が『夜と霧』、投資先は98%がインデックスファンドなど回答が極端に収束し、架空の人物の69%が34歳になるといった偏りが見つかりました。この癖は事前学習ではなくアシスタント化の学習段階で生まれ、Geminiが創作する名前がGitHubプロジェクトに広がるなど、画一化が実社会に波及していると指摘しています。"
+        }
+      ]
+    },
+    {
+      "name": "AI倫理/ガバナンス・企業導入",
+      "items": [
+        {
+          "title_ja": "Google社員、AIを拒否する学校への罰則撤回を経営陣に要求",
+          "url": "https://news.ycombinator.com/item?id=50577901",
+          "summary_ja": "GoogleがGemini AIツールを無効化した学校に対し来年から検索エンジンへのアクセスを制限する方針を示したことを受け、数百人の社員が撤回を求める署名を経営陣に提出しました。全米各地で「NO AI IN MY SCHOOL」を掲げる抗議活動も起きており、教育現場へのAI導入の強制が問題視されています。"
+        }
+      ]
+    },
+    {
+      "name": "Security/脆弱性・インシデント",
+      "items": [
+        {
+          "title_ja": "「KARTE」への不正アクセスに関する調査結果と、サービス再開の見通し",
+          "url": "https://plaid.co.jp/news/20261120/",
+          "summary_ja": "プレイドは、11月13日にデータ取得用の公開経路の内部処理の脆弱性が悪用され、不正取得された認証情報でKARTE管理画面に侵入されたとの調査結果を公表し、システム構造の見直し後にサービス再開を目指すとしました。利用企業約2200社に影響が及び、三井住友銀行で最大約1400万件、丸井グループで延べ1733万件、ZOZOで延べ2918万人分の漏えいが相次いで発表されるなど、SaaS委託先経由の大規模被害に発展しています。"
+        },
+        {
+          "title_ja": "政府の内部資料流出か、基幹システムに不正アクセス　デジタル庁発表",
+          "url": "https://www.asahi.com/articles/ASVCN30WCVCNULFA01NM.html",
+          "summary_ja": "デジタル庁は、政府の基幹ネットワーク「ガバメントソリューションサービス（GSS）」内のファイル共有サービスが少なくとも7月30日から11月12日まで不正アクセスを受け、個人情報を含む内部資料が漏えいした可能性があると発表しました。流出件数や内容は調査中です。"
+        },
+        {
+          "title_ja": "POS端末700台超がマルウェア感染、Windowsの脆弱性悪用でカード情報100万件超が流出",
+          "url": "https://news.mynavi.jp/techplus/article/20261120-5367457/",
+          "summary_ja": "20か国以上の700台超のPOS端末にRATが感染し、100万枚超のカード情報が窃取されていたことを、攻撃者が公開状態にしていたサーバーからCyberNewsが突き止めました。悪用されたのは修正済みのWindows CLFSドライバーの権限昇格脆弱性CVE-2024-49138で、パッチ未適用の端末が被害拡大の要因となりました。"
+        },
+        {
+          "title_ja": "「httpS://」だと暗号化されず平文で送信……PHPに約20年潜んでいた脆弱性が修正",
+          "url": "https://forest.watch.impress.co.jp/docs/serial/yajiuma/2158241.html",
+          "summary_ja": "PHPのHTTP/FTPストリームラッパーで、file_get_contents()などに渡すURLのスキームを「HTTPS://」「httpS://」のように大文字で書くとTLSがスキップされ、トークンやPOSTボディが平文で送られていた欠陥が、8.2.36〜8.6.0で修正されました。同じリリースではセッションハンドラーのRCE「phpAfterShell」（CVE-2026-126714）など計17件も修正されています。"
+        }
+      ]
+    },
+    {
+      "name": "開発/データスタック",
+      "items": [
+        {
+          "title_ja": "PostgreSQL 19 リリース",
+          "url": "https://www.postgresql.org/about/news/postgresql-19-released-3449/",
+          "summary_ja": "運用を止めずにテーブルを最適化できるREPACK (CONCURRENTLY)、実行計画の安定性を制御するpg_plan_advice拡張、スタンバイでのread-your-writes一貫性、「get or create」動作などを備えたメジャーリリースです。HNではブラウザ上で実行できるサンプル付きの新機能ツアー記事も話題になりました。"
+        }
+      ]
+    },
+    {
+      "name": "開発/JS・TS",
+      "items": [
+        {
+          "title_ja": "外部ライブラリゼロ！Web Crypto API だけで UUID v7 / ULID・HMAC-SHA256・JWTデコードを実装する",
+          "url": "https://zenn.dev/t_shamoji/articles/28f0bc6915dd27",
+          "summary_ja": "ブラウザ・Node.js・Deno・Cloudflare Workersで標準搭載のWeb Crypto API（crypto.getRandomValues / crypto.subtle）だけを使い、時系列ソート可能なUUID v7やULID、Webhook署名検証用のHMAC-SHA256、JWTのデコードを数十行のTypeScriptで実装する方法を解説しています。依存パッケージを減らしたい場面で参考になります。"
+        }
+      ]
+    },
+    {
+      "name": "開発/インフラ・ツール",
+      "items": [
+        {
+          "title_ja": "はてなエンジニアの自作RSSリーダーをご紹介します 2026",
+          "url": "https://developer.hatenastaff.com/entry/2026/11/20/162322",
+          "summary_ja": "はてなのエンジニアたちが業務外で自作しているRSSリーダーを、使用技術（gofeed、oapi-codegenなど）やコンセプトとともに紹介する記事です。10年以上稼働しているものから生成AIで手軽に作ったものまで、自作のハードルが下がった今の個人開発のあり方が見えます。"
+        },
+        {
+          "title_ja": "ログの種別を整理して、何をどこまで残すか決めた話",
+          "url": "https://zenn.dev/dress_code/articles/a3bf34274af03f",
+          "summary_ja": "人事・労務データを扱う業務SaaSで「誰がいつ何をしたか」を説明できるよう、公開ガイドラインを参考にログを洗い出して種別を定義し直し、参照ログやログイン試行をどこまで残すかを決めた設計事例です。監査ログ設計の網羅性を確保する考え方として参考になります。"
+        },
+        {
+          "title_ja": "メモリ圧縮を使えばCPUの処理能力を少し犠牲にするだけでメモリ使用量を大幅に削減できる",
+          "url": "https://gigazine.net/news/20261120-memory-compress/",
+          "summary_ja": "Linuxのzramを有効にして32GB RAMのPCで大量のタブを開いた検証で、約5.7GBのデータが約1.7GBに圧縮（約3.35対1）され、約4GB分のメモリを節約できたという紹介です。CPU負荷が低くメモリ不足になりがちなクラウド運用でも、メモリ圧縮でサーバー増強を避けられる可能性があると指摘しています。"
+        }
+      ]
+    },
+    {
+      "name": "キャリア・組織",
+      "items": [
+        {
+          "title_ja": "「あと10年もたないかもしれない」Rubyの父 まつもとゆきひろが危惧するOSS文化の消滅",
+          "url": "https://type.jp/et/feature/32219/",
+          "summary_ja": "PHPやOpenJDKで重大な脆弱性が相次ぐなか、まつもとゆきひろ氏が、無給ボランティアに依存するOSSのセキュリティ対応の苦しさや、無保証のOSSに社会的責任を求める風潮への違和感を語ったインタビューです。このままではOSS文化が10年ももたず、技術を引き継ぎ、直し、学ぶ自由も失われかねないと危機感を示しています。"
+        },
+        {
+          "title_ja": "斜め上からやってきた「SaaSの死」",
+          "url": "https://note.com/aatoku/n/n129df4db50ba",
+          "summary_ja": "KARTEの大規模漏えいを受け、経営者が「顧客データや連携情報を外部SaaSに預けてよいのか」と考え始めることで、これまでSaaSを支えてきたロックインやデータ集約の前提が揺らぐのではないかと論じる記事です。AIによる内製化の流れとは別方向からの「SaaSの死」として、SaaSビジネスへの影響を考察しています。"
+        },
+        {
+          "title_ja": "コードを書かなくなると、レビューする力も衰える",
+          "url": "https://news.ycombinator.com/item?id=50573886",
+          "summary_ja": "どの分野でも練習をやめれば技能は落ちるのに、ソフトウェア開発だけはAIに指示してレビューするだけで力を維持できると考えられていると批判するエッセイです。難しい問題をLLMに任せ続けると問題解決の訓練機会を失い、結果としてレビュー能力も落ちると警鐘を鳴らしています。"
+        },
+        {
+          "title_ja": "開発者を知らぬ間にアーキテクトへ昇格させていた",
+          "url": "https://news.ycombinator.com/item?id=50579331",
+          "summary_ja": "同僚がバイブコーディングしたログ処理がAPI呼び出しを連鎖させ、ウェルカム画面の表示に15秒かかっていた事例から、AIは要件に反論せずユーザーも知らないため設計判断はできないと指摘します。コーディングの仕事は減っても、要件に押し返し、データモデルを設計してAIをそこに縛るアーキテクトの役割が開発者に求められていると論じています。"
+        }
+      ]
+    },
+    {
+      "name": "その他",
+      "items": [
+        {
+          "title_ja": "「Microsoft To Do」アプリが2027年6月で廃止、法人向けは「Planner」が後継",
+          "url": "https://forest.watch.impress.co.jp/docs/news/2158040.html",
+          "summary_ja": "Wunderlistの流れをくむタスク管理アプリ「Microsoft To Do」が、Web・Windows・Mac・iOS・Android版とも2027年6月30日で終了します。職場・学校アカウントはPlannerが後継となる一方、個人アカウントには後継アプリがなく、別のタスク管理アプリへの乗り換えが必要です。"
+        },
+        {
+          "title_ja": "なぜiOSにはいまだにWebKit以外のブラウザが存在しないのか",
+          "url": "https://news.ycombinator.com/item?id=50575644",
+          "summary_ja": "EUのDMAによりiOSでも代替ブラウザエンジンが認められたものの、Appleが課す条件が厳しく、MozillaはGecko版Firefoxを提供できていないと説明するMozillaの政策ブログです。DMA以降iOSでのFirefox利用は倍増しているとし、実質的な選択肢を阻むAppleのルールを批判しています。"
+        }
+      ]
+    }
+  ]
+}
