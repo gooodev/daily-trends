@@ -1,0 +1,240 @@
+{
+  "date": "2026-11-22",
+  "categories": [
+    {
+      "name": "AIツール/開発プロセス",
+      "items": [
+        {
+          "title_ja": "ソフトウェアファクトリーとコード設計と顧客価値",
+          "url": "https://kosui.me/posts/2026/11/15/code-design-after-agents",
+          "summary_ja": "エージェントがコードを書く「ソフトウェアファクトリー」の時代でも、顧客が機能を理解できる速度には限界があり、差別化要因は機能適合性を含む品質になると論じています。PRDのビジネス上の関心とコード構造を近づけるため、入出力を端に寄せて業務の状態と遷移を一か所に集める関数型ドメインモデリングを提案しています。"
+        },
+        {
+          "title_ja": "andon：AIコーディングエージェントが台帳から課題を取りレビュー・マージまで進める「一人用ソフトウェアファクトリー」",
+          "url": "https://github.com/mitaku/andon",
+          "summary_ja": "カンバン台帳の課題をエージェントが独立した作業領域で実装し、別系統モデルのレビューとルールベースのゲートを通ったものだけを自動マージする仕組みです。人間が呼ばれるのは、何を作るか・外部への約束・取り返しのつかないリスクなど本人にしか決められない判断のときだけ、という役割分担が特徴です。"
+        },
+        {
+          "title_ja": "なぜヘンリーのE2Eリポジトリは整理されないまま膨らみ続けたのか。AIで加速した開発とガードレール",
+          "url": "https://dev.henry.jp/entry/e2e-repository",
+          "summary_ja": "AIで誰でもPRを出せるようになった結果、PlaywrightのE2Eリポジトリでドキュメントやルールが整理されないまま増え続けた経緯と、その立て直しを紹介しています。Working Groupを立ち上げてドキュメントを34から7に削減し、ガードをOxlintカスタムルール（7→23）に移すなど、機械的に効くガードレールへ寄せたのがポイントです。"
+        }
+      ]
+    },
+    {
+      "name": "AIツール/エージェント設計",
+      "items": [
+        {
+          "title_ja": "手順書は「お願い」、フックは「決まり」——CLAUDE.md・AGENTS.md・SKILL.md と機械で断る関所を比べる",
+          "url": "https://zenn.dev/zeuslab/articles/df65e8457149ea",
+          "summary_ja": "CLAUDE.mdなどの手順書は会話の要約後に守られなくなることがある一方、ツール呼び出し前に走るフックは終了コードで処理を確実に止められる、と自身の記録（1,431回の呼び出し中2回をフックが遮断）をもとに比較しています。SKILL.mdの形式は機械で検査し、起きてはならないことはフックで機械的に断る設計を勧めています。"
+        }
+      ]
+    },
+    {
+      "name": "AIツール/コーディングツール",
+      "items": [
+        {
+          "title_ja": "どれだけGeminiが賢くなってもAIオタクが避ける理由、ついに解消の可能性",
+          "url": "https://smhn.info/202611-gemini-subscription-third-party-harness-december-2",
+          "summary_ja": "Geminiの定額プランは現状Google純正のAntigravityでしか使えず、他社製ハーネス経由の利用は規約違反でアカウント停止のリスクがあることが敬遠の理由になっていました。GoogleのLogan Kilpatrick氏が任意のハーネスで使えるようにする方向を示唆し、12月2日に「最初の一歩」を踏み出すと投稿したことを伝えています。"
+        }
+      ]
+    },
+    {
+      "name": "AIモデル/ローカルLLM",
+      "items": [
+        {
+          "title_ja": "Inkling-2-Miniを5.4GBのメモリで動かす量子化コンパイラ「LookAtMyQuant」",
+          "url": "https://news.ycombinator.com/item?id=50591853",
+          "summary_ja": "モデルの部位ごとに圧縮時の出力劣化を測り、指定サイズ内で損失が最小になるよう量子化方式を割り当てるツールで、Inkling-2-Miniを18.89GBから5.38GBに圧縮し同サイズの既存GGUFより高精度だと報告しています。Apple Silicon上で通常デコード約75 tok/s、投機的デコードで約124 tok/sに達したとしています（いずれも作者による報告値）。"
+        }
+      ]
+    },
+    {
+      "name": "AIモデル/エージェント向け学習",
+      "items": [
+        {
+          "title_ja": "Hugging Face、ハーネスごとにモデルを適応させる「ハーネスアダプター」を発表",
+          "url": "https://huggingface.co/blog/harness-adapters-at-scale",
+          "summary_ja": "Qwen3.8-27Bに対し、Pi・OpenCode・Hermes Agentという各エージェントハーネス内の実タスクでRL学習したLoRAアダプターを作成し、ベースモデルより高い成功率と少ないツール呼び出し・トークン使用量を実現しました。3つを1つにマージした「スーパーアダプター」も全ハーネスでベースモデルを上回ったと報告しています。"
+        }
+      ]
+    },
+    {
+      "name": "AIモデル/能力検証",
+      "items": [
+        {
+          "title_ja": "LLMは16進ダンプから実行ファイルをバイト単位で読み書きできる",
+          "url": "https://news.ycombinator.com/item?id=50546587",
+          "summary_ja": "GPT-6.1 Solがツールなしで16進ダンプだけから実行ファイルを読み解き、既存プログラムへの機能追加やゼロからのバイナリ作成、マルウェアの通信先・挙動の解析までこなせたという検証記事です。ただし対象は小規模なプログラムに限られ、扱えるサイズはコンテキストウィンドウに制約されるとしています。"
+        }
+      ]
+    },
+    {
+      "name": "AI倫理/ガバナンス・企業導入",
+      "items": [
+        {
+          "title_ja": "マイクロソフト、AIが生成したアプリを企業内で安全に実行する「Copilot Managed Runtime」正式リリース",
+          "url": "https://www.publickey1.jp/blog/26/aicopilot_managed_runtime.html",
+          "summary_ja": "AIで作られた業務アプリをMicrosoft 365と同じテナント内にデプロイし、Entra IDによる認証・アクセス制御・ポリシー適用・監査ログの下で動かせるマネージド基盤です。情報部門が稼働中のアプリを一覧・監視でき、現場のバイブコーディングを統制下に置く仕組みとして注目されます。"
+        },
+        {
+          "title_ja": "「名ばかりFDE」を見抜けるか？ 依頼検討時に確認したい10項目",
+          "url": "https://www.itmedia.co.jp/enterprise/articles/2611/20/news028.html",
+          "summary_ja": "FDE（Forward Deployed Engineer）を名乗るAIサービス国内40社のWebサイトを調べ、依頼前に確認すべき10項目の掲載状況をまとめています。料金を公開していたのは12社のみで、成果の定義やフェーズごとの継続可否、途中解約・返金条件を契約前に確認するよう勧めています。"
+        },
+        {
+          "title_ja": "Anthropicがナスダック上場 期待と不安が交錯、「価値観と矛盾」との声も",
+          "url": "https://xtech.nikkei.com/atcl/nxt/column/18/00001/12193/",
+          "summary_ja": "Anthropicは11月19日にナスダックへ上場し初日終値は公開価格を17%上回った一方、本社近くで抗議デモが起き、安全性重視の理念と上場が矛盾するとの指摘も出ています。翌日にはAI株売りでナスダックが年初来の上昇分を失うなど、市場の過熱感も議論になっています。※本文の大部分が会員限定のため公開部分から要約"
+        }
+      ]
+    },
+    {
+      "name": "AI倫理/雇用・経営",
+      "items": [
+        {
+          "title_ja": "AIで成果を出す企業ほど「人を増やす」？ “通説”を否定する調査結果をIDCが発表",
+          "url": "https://www.itmedia.co.jp/enterprise/articles/2611/21/news003.html",
+          "summary_ja": "AIで50%以上のROIを得ている企業ほど従業員を増やす傾向があるというIDCの調査結果です。AIが置き換えるのは労働者ではなく「仕事」であり、企業は人員数ではなく作業の配分を見直すべきだと提言しています。"
+        }
+      ]
+    },
+    {
+      "name": "AI倫理/安全性",
+      "items": [
+        {
+          "title_ja": "OpenAI、「敵対的蒸留」への対策を公表",
+          "url": "https://openai.com/index/combatting-adversarial-distillation",
+          "summary_ja": "高性能モデルの出力を無断で使い安全対策のないモデルを作る「敵対的蒸留」に対し、推論過程の保護、入出力の分類器、API上の制限、組織的キャンペーンの摘発といった対策を説明しています。内部評価では推論過程を抽出する攻撃の成功率が54.0%から0.2%に下がったとしています。"
+        }
+      ]
+    },
+    {
+      "name": "Security/脆弱性対応・運用",
+      "items": [
+        {
+          "title_ja": "「パッチ地獄」が米IT障害誘発、AIがせかす脆弱性修正 銀行や空港停止",
+          "url": "https://www.nikkei.com/article/DGXZQOGN18CYM0Y6A111C2000000/",
+          "summary_ja": "AIが大量の脆弱性を見つけることで企業がパッチ適用を急がされ、それが米国の銀行・航空・大手IT企業で相次ぐシステム障害の背景になっていると指摘する記事です。日本のインフラも同様のリスクを抱えるとし、専門家からは「12月はさらに深刻になる」との声も出ています。※本文の大部分が会員限定のため見出しと冒頭から要約"
+        }
+      ]
+    },
+    {
+      "name": "Security/AI×攻撃",
+      "items": [
+        {
+          "title_ja": "2026年のAIインシデント：暴走エージェント、盗まれた鍵、そしておなじみの話",
+          "url": "https://www.aikido.dev/blog/ai-incidents-root-causes-patterns",
+          "summary_ja": "2026年に報告されたAI関連のセキュリティインシデント50件を、AIが標的・攻撃ツール・権限の緩いエージェントの3類型に分けて分析しています。根本原因は露出した認証情報や過剰な権限、不十分な隔離、サプライチェーン侵害といった従来型の問題で、AIは被害の速度と規模を増幅しているにすぎないと結論づけています。"
+        }
+      ]
+    },
+    {
+      "name": "Security/脆弱性・インシデント",
+      "items": [
+        {
+          "title_ja": "GnuPGのGPGMEにリモートコード実行の恐れがある脆弱性",
+          "url": "https://news.ycombinator.com/item?id=50587208",
+          "summary_ja": "GPGME 2.3.0より前の全バージョンで、非常に長いユーザーIDを含む細工されたOpenPGP鍵により二重解放が起き、データ漏えいやリモートコード実行につながる恐れがあります。修正版はGPGME 2.3.1で、ライブラリとして静的リンクしているアプリケーションも更新が必要です。"
+        },
+        {
+          "title_ja": "Upload2Shell：GhostscriptのType 1フォント処理にサンドボックス突破の脆弱性（CVE-2026-125396）",
+          "url": "https://news.ycombinator.com/item?id=50592097",
+          "summary_ja": "Ghostscriptのフォントローダーのuse-after-freeにより、細工された文書で-dSAFERサンドボックスを突破してコマンドを実行される恐れがあります。CUPS、Roundcube、WordPressプラグイン、MediaWikiなど文書変換にGhostscriptを使う多数のアプリで実行が確認されており、修正版は10.08.0です。"
+        },
+        {
+          "title_ja": "デジ庁の政府向けファイル共有で漏洩の恐れ、7月末から第三者がアクセス",
+          "url": "https://xtech.nikkei.com/atcl/nxt/news/24/03483/",
+          "summary_ja": "デジタル庁は、政府向けファイル共有サービス（GSS）に保存されたファイルの一部が外部に漏洩した恐れがあると発表しました。本来の共有相手ではない第三者が7月30日から11月12日まで不正アクセスしていたとされ、個人情報保護委員会への報告と警察・外部専門家との調査を進めています。"
+        }
+      ]
+    },
+    {
+      "name": "Security/権限設計",
+      "items": [
+        {
+          "title_ja": "AWS STS、実行時に権限を絞り込む「GetScopedCredentials」を発表",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/sts-getscopedcredentials/",
+          "summary_ja": "既存の一時認証情報から、権限とセッション期間を絞り込んだ専用の認証情報を実行時に発行できる新APIです。エージェントやサブエージェントに必要最小限の権限だけを渡す用途を想定しており、元の呼び出し元IDは保持され、すべての呼び出しがCloudTrailに記録されます。"
+        }
+      ]
+    },
+    {
+      "name": "開発/データスタック",
+      "items": [
+        {
+          "title_ja": "Databricks Genie ZeroOps vs Snowflake Cortex ― データ基盤の自律化はどこまで来たか",
+          "url": "https://zenn.dev/elm_carl/articles/02f0391053a51a",
+          "summary_ja": "パイプライン障害の原因特定と修正案提示を自律的に行う運用エージェントGenie ZeroOpsと、多段階の分析エージェント基盤であるSnowflake Cortex Agentsを比較しています。両者は対象レイヤーが異なり、どちらも本番変更には人の承認を残すため、導入では自律度より「どこで人が止めるか」の設計が重要だとしています。"
+        }
+      ]
+    },
+    {
+      "name": "開発/インフラ・運用",
+      "items": [
+        {
+          "title_ja": "M365の世界的障害、重なった3つの要因とは？ 日本マイクロソフトが説明",
+          "url": "https://www.itmedia.co.jp/enterprise/articles/2611/20/news023.html",
+          "summary_ja": "11月12日のMicrosoft 365大規模障害はAIが原因ではなく、3カ月以上放置されていた高負荷時の潜在バグ、プライマリゲートウェイへの切り替えによる負荷の偏り、切り替え時の別問題によるゲートウェイの約14時間停止という3要因が重なったものだと説明されました。"
+        }
+      ]
+    },
+    {
+      "name": "開発/データベース",
+      "items": [
+        {
+          "title_ja": "gopgext：GoでPostgreSQL拡張を書く",
+          "url": "https://news.ycombinator.com/item?id=50591260",
+          "summary_ja": "TinyGoを使い、関数に//gopgext:functionと注釈するだけでCのグルーコード、インストールスクリプト、コントロールファイルを自動生成してPostgreSQL拡張を作れるツールです。実験段階で、ランタイムのバグがサーバーのクラッシュやデータ破損を招く恐れがあるため本番利用は推奨されていません。"
+        }
+      ]
+    },
+    {
+      "name": "開発/テスト",
+      "items": [
+        {
+          "title_ja": "決定論的シミュレーションテストは誰のためのものでもある",
+          "url": "https://news.ycombinator.com/item?id=50574264",
+          "summary_ja": "分散システム向けと思われがちな決定論的シミュレーションテスト（DST）を、Webアプリや組み込みにも広く適用すべきだと主張する記事です。中核ロジックを決定論的に保ち、入力・ネットワーク・時間・ストレージを模擬することで、シード値から失敗を確実に再現できるとしています。"
+        }
+      ]
+    },
+    {
+      "name": "開発/OSS",
+      "items": [
+        {
+          "title_ja": "ブラジル連邦税務局、税額計算ツールをMITライセンスでGitHubに公開",
+          "url": "https://news.ycombinator.com/item?id=50532613",
+          "summary_ja": "消費税改革に伴う税額計算ツール「Calculadora de Tributos」のソースコードを、同局として初めてMITライセンスで公開しました。企業や開発者が公式と同じ計算ロジックを自社システムに組み込めるようになり、透明性と法的安定性の向上が期待されています。"
+        }
+      ]
+    },
+    {
+      "name": "キャリア・組織/キャリア・組織",
+      "items": [
+        {
+          "title_ja": "Ask HN：経験15年なのに2年間無職、どうすればいいか",
+          "url": "https://news.ycombinator.com/item?id=50583761",
+          "summary_ja": "レイオフを見越して退職後、2年間職が見つからない米国のシニアエンジニアの相談に600件超のコメントが集まりました。ギャップを隠さず説明すること、元同僚経由の紹介の重要性、AIで作った成果物の見せ方や経歴の誇張の是非などが議論され、AI時代の採用市場の厳しさを映すスレッドになっています。"
+        }
+      ]
+    },
+    {
+      "name": "その他/その他",
+      "items": [
+        {
+          "title_ja": "1万円のシンセをAIで魔改造。電子楽器のファームウェア開放が始まった",
+          "url": "https://www.gizmodo.jp/article/0b0516f2-94f8-442e-bdae-2987f090be13/",
+          "summary_ja": "M-VAVEの小型FMシンセ「FM-1」で、AIコーディングツールを使ったユーザーによるカスタムファームウェア開発が急増し、メーカーがSDKとソースを公開する「FM1 Open」で後押しを始めました。AKAIやBEHRINGERも同様の開放を打ち出しており、AIによる開発の民主化がハード製品の育て方を変えつつあります。"
+        },
+        {
+          "title_ja": "ClawDOS：DOSで動くAIコーディングエージェント",
+          "url": "https://news.ycombinator.com/item?id=50586292",
+          "summary_ja": "IBM PC XT（8088・640KB RAM）上で動くAIコーディングエージェントで、HARNESS.EXEがClaude Messages APIへのリクエスト作成、ストリーミング応答の解析、ツール実行、会話履歴の保存までを担います。TLS通信だけは別マシンのトンネルに任せるという、エージェントハーネスの本質を最小構成で示す遊び心あるプロジェクトです。"
+        }
+      ]
+    }
+  ]
+}

@@ -25,6 +25,7 @@ https://atmarkit.itmedia.co.jp/ait/articles/2611/13/news013.html
 https://automaton-media.com/articles/newsjp/20261026-475703/
 https://automaton-media.com/articles/newsjp/20261116-479523/
 https://automaton-media.com/articles/newsjp/20261118-479880/
+https://aws.amazon.com/about-aws/whats-new/2026/11/sts-getscopedcredentials/
 https://aws.amazon.com/blogs/security/building-your-ai-vulnerability-harness-part-1/
 https://aws.amazon.com/jp/blogs/news/aws-jpps-seminar-2026-july/
 https://azukiazusa.dev/blog/json-render-jev/
@@ -87,6 +88,7 @@ https://dev.classmethod.jp/articles/aws-emulator-local-try/
 https://dev.classmethod.jp/articles/aws-security-bulletin-2026-137-kvm-kernel/
 https://dev.classmethod.jp/articles/cognito-self-signup-agentic-attack/
 https://dev.classmethod.jp/articles/local-llm-guide-2026-summer/
+https://dev.henry.jp/entry/e2e-repository
 https://dev.ponkotsu.dev/entry/claude-code-settings-local-secrets
 https://devblogs.microsoft.com/typescript/announcing-typescript-7-0-rc/
 https://devblogs.microsoft.com/typescript/announcing-typescript-7-0/
@@ -216,6 +218,7 @@ https://github.com/ayghri/i-have-adhd
 https://github.com/google-research/harness2
 https://github.com/libraz/suzume
 https://github.com/minorun365/agent-builder-skills
+https://github.com/mitaku/andon
 https://github.com/mizorewww/laya-mlx
 https://github.com/thisisme6598/gemini_files/
 https://gmo-cybersecurity.com/blog/20261019/
@@ -230,6 +233,7 @@ https://huggingface.co/blog/FINAL-Bench/qwen-models
 https://huggingface.co/blog/ariG23498/funes-lance
 https://huggingface.co/blog/bartowski/per-tensor-layout-maps-for-gguf-quantization
 https://huggingface.co/blog/ggml-org/llama-cpp-v1
+https://huggingface.co/blog/harness-adapters-at-scale
 https://huggingface.co/blog/ibm-granite/granite-4-2
 https://huggingface.co/blog/moe-expert-streaming
 https://huggingface.co/blog/quao627/your-inference-server-is-secretly-a-learner-reef
@@ -279,6 +283,7 @@ https://kawarimidoll.com/posts/202610051/
 https://kawarimidoll.com/posts/202610182/
 https://kawasin73.hatenablog.com/entry/2026/09/05/092056
 https://konifar-zatsu.hatenadiary.jp/entry/2026/09/22/112134
+https://kosui.me/posts/2026/11/15/code-design-after-agents
 https://koyasi777.com/mozkey/
 https://krebsonsecurity.com/2026/10/shinyhunters-extorted-boeing-spin-off-prior-to-arrests/
 https://ktlog.net/posts/claude-code-ai-ecosystem
@@ -586,6 +591,7 @@ https://news.ycombinator.com/item?id=50510799
 https://news.ycombinator.com/item?id=50522980
 https://news.ycombinator.com/item?id=50529612
 https://news.ycombinator.com/item?id=50532191
+https://news.ycombinator.com/item?id=50532613
 https://news.ycombinator.com/item?id=50533270
 https://news.ycombinator.com/item?id=50535230
 https://news.ycombinator.com/item?id=50535238
@@ -595,6 +601,7 @@ https://news.ycombinator.com/item?id=50538240
 https://news.ycombinator.com/item?id=50540178
 https://news.ycombinator.com/item?id=50541619
 https://news.ycombinator.com/item?id=50543989
+https://news.ycombinator.com/item?id=50546587
 https://news.ycombinator.com/item?id=50546914
 https://news.ycombinator.com/item?id=50547777
 https://news.ycombinator.com/item?id=50548161
@@ -612,6 +619,7 @@ https://news.ycombinator.com/item?id=50562500
 https://news.ycombinator.com/item?id=50563148
 https://news.ycombinator.com/item?id=50572503
 https://news.ycombinator.com/item?id=50573886
+https://news.ycombinator.com/item?id=50574264
 https://news.ycombinator.com/item?id=50574968
 https://news.ycombinator.com/item?id=50575644
 https://news.ycombinator.com/item?id=50577872
@@ -620,6 +628,12 @@ https://news.ycombinator.com/item?id=50579331
 https://news.ycombinator.com/item?id=50581110
 https://news.ycombinator.com/item?id=50581242
 https://news.ycombinator.com/item?id=50581260
+https://news.ycombinator.com/item?id=50583761
+https://news.ycombinator.com/item?id=50586292
+https://news.ycombinator.com/item?id=50587208
+https://news.ycombinator.com/item?id=50591260
+https://news.ycombinator.com/item?id=50591853
+https://news.ycombinator.com/item?id=50592097
 https://newsdig.tbs.co.jp/articles/-/2990268
 https://newsdig.tbs.co.jp/articles/-/3020110
 https://newsletter.dancohen.org/archive/the-slow-formation-of-durable-software/
@@ -652,6 +666,7 @@ https://nowokay.hatenablog.com/entry/2026/11/13/101644
 https://nyosegawa.com/posts/data-leak-era/
 https://nyosegawa.com/posts/qiita-writing-before-after-ai/
 https://openai.com/index/ai-agent-link-safety/
+https://openai.com/index/combatting-adversarial-distillation
 https://openai.com/index/hugging-face-incident-and-the-road-ahead/
 https://opusfived.dev/
 https://oxc.rs/blog/2026-11-17-faster-type-aware-linting-with-tsrs
@@ -747,6 +762,7 @@ https://simedw.com/2026/10/21/world-model-terminal/
 https://simonkoeck.com/writeups/google-devsite-flask-session-pickle-rce
 https://sizu.me/laiso/posts/k59is4cnd77f
 https://slides.yusu.ke/honoconf-2026
+https://smhn.info/202611-gemini-subscription-third-party-harness-december-2
 https://songmu.jp/riji/entry/2026-10-11-github-actions-artifact-attestations.html
 https://songmu.jp/riji/entry/2026-10-24-scaling-github-actions-runners-with-ghalet.html
 https://sorae.info/space/20261115-starship-15.html
@@ -856,6 +872,7 @@ https://www.47news.jp/15170379.html
 https://www.47news.jp/15215887.html
 https://www.afpbb.com/articles/-/3654276
 https://www.aihero.dev/the-home-repo-pattern
+https://www.aikido.dev/blog/ai-incidents-root-causes-patterns
 https://www.aikido.dev/blog/compromised-flutter-package-on-pub-dev-contains-xcsset-malware
 https://www.aikido.dev/blog/cve-spike-remediation-problem
 https://www.aikido.dev/blog/dark-figure-supply-chain-detection
@@ -896,6 +913,7 @@ https://www.fnn.jp/articles/-/1112450
 https://www.getdbt.com/blog/dbt-context-engineering
 https://www.getdbt.com/blog/dbt-state-is-ga
 https://www.getdbt.com/blog/dbt-v2-is-ga
+https://www.gizmodo.jp/article/0b0516f2-94f8-442e-bdae-2987f090be13/
 https://www.hageatama.org/20261112/1794464751
 https://www.idcf.jp/news/topics/20261008001
 https://www.ipa.go.jp/digital/kaihatsu/youkyu-kanri.html
@@ -917,6 +935,9 @@ https://www.itmedia.co.jp/enterprise/articles/2609/07/news015.html
 https://www.itmedia.co.jp/enterprise/articles/2609/08/news022.html
 https://www.itmedia.co.jp/enterprise/articles/2609/21/news023.html
 https://www.itmedia.co.jp/enterprise/articles/2611/18/news017.html
+https://www.itmedia.co.jp/enterprise/articles/2611/20/news023.html
+https://www.itmedia.co.jp/enterprise/articles/2611/20/news028.html
+https://www.itmedia.co.jp/enterprise/articles/2611/21/news003.html
 https://www.itmedia.co.jp/news/article/2608/28/2000000897/
 https://www.itmedia.co.jp/news/article/2608/30/2000000949/
 https://www.itmedia.co.jp/news/article/2609/04/2000001161/
@@ -984,6 +1005,7 @@ https://www.nikkei.co.jp/nikkeiinfo/news/information/1554.html
 https://www.nikkei.com/article/DGXZQOGM165SP0W6A111C2000000/
 https://www.nikkei.com/article/DGXZQOGN101I30Q6A011C2000000/
 https://www.nikkei.com/article/DGXZQOGN122UY0S6A910C2000000/
+https://www.nikkei.com/article/DGXZQOGN18CYM0Y6A111C2000000/
 https://www.nikkei.com/article/DGXZQOSG120C30S6A910C2000000/
 https://www.nikkei.com/article/DGXZQOUC160I20W6A910C2000000/
 https://www.nikkei.com/article/DGXZQOUC2315K0T21C26A0000000/
@@ -999,6 +1021,7 @@ https://www.pospome.work/entry/2026/11/07/192125
 https://www.postgresql.org/about/news/postgresql-19-released-3449/
 https://www.preferred.jp/ja/blog/tech/1798
 https://www.preferred.jp/ja/blog/tech/plamo-3-translate-product-release
+https://www.publickey1.jp/blog/26/aicopilot_managed_runtime.html
 https://www.publickey1.jp/blog/26/awsaiec2vmaws_nitro_sandboxes.html
 https://www.publickey1.jp/blog/26/claude_codeagentsmdclaudemd.html
 https://www.publickey1.jp/blog/26/denocloudflaredenocloudflare_workersdurable_objects.html
@@ -1083,12 +1106,14 @@ https://www.yomiuri.co.jp/science/20260912-GYT1T00169/
 https://www.zaikei.co.jp/article/20261111/877067.html
 https://xlii.space/eng/malicious-software-on-google-ads/
 https://xtech.nikkei.com/atcl/nxt/column/18/00001/11984/
+https://xtech.nikkei.com/atcl/nxt/column/18/00001/12193/
 https://xtech.nikkei.com/atcl/nxt/column/18/00148/082000451/
 https://xtech.nikkei.com/atcl/nxt/column/18/00157/082500110/
 https://xtech.nikkei.com/atcl/nxt/column/18/00166/091600208/
 https://xtech.nikkei.com/atcl/nxt/column/18/00682/091900217/
 https://xtech.nikkei.com/atcl/nxt/column/18/00989/091700221/
 https://xtech.nikkei.com/atcl/nxt/column/18/03723/082000002/
+https://xtech.nikkei.com/atcl/nxt/news/24/03483/
 https://yedhu.me/posts/commit-description-as-a-thinking-tool/
 https://yurinchi2525.com/20261025emdash/
 https://zenn.dev/7nohe/articles/agents-on-guren-round-2
@@ -1107,6 +1132,7 @@ https://zenn.dev/dress_code/articles/568fd547315abe
 https://zenn.dev/dress_code/articles/a3bf34274af03f
 https://zenn.dev/edash_tech_blog/articles/4577f7d4780bef
 https://zenn.dev/edash_tech_blog/articles/6250fc61ccf009
+https://zenn.dev/elm_carl/articles/02f0391053a51a
 https://zenn.dev/emilk1225/articles/73356c9b0e156d
 https://zenn.dev/emilk1225/articles/d37feb664ed8e5
 https://zenn.dev/facraft/articles/aws-org-security-for-enterprise-saas
@@ -1226,5 +1252,6 @@ https://zenn.dev/yucco/articles/client-server-logic-drift
 https://zenn.dev/yui/articles/97597aa13b9802
 https://zenn.dev/yuiseki/articles/54b01670841898
 https://zenn.dev/yusukebe/articles/3d3dc6605ca1b1
+https://zenn.dev/zeuslab/articles/df65e8457149ea
 https://zenn.dev/zhaojiayi/articles/d5ad38fc02091a
 https://zenn.dev/zundamon_tools/articles/claude-code-advanced-guide-1
