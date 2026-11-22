@@ -27,6 +27,7 @@ https://automaton-media.com/articles/newsjp/20261116-479523/
 https://automaton-media.com/articles/newsjp/20261118-479880/
 https://aws.amazon.com/about-aws/whats-new/2026/11/sts-getscopedcredentials/
 https://aws.amazon.com/blogs/security/building-your-ai-vulnerability-harness-part-1/
+https://aws.amazon.com/jp/blogs/news/aidm-introducing-reverse-spec-flow/
 https://aws.amazon.com/jp/blogs/news/aws-jpps-seminar-2026-july/
 https://azukiazusa.dev/blog/json-render-jev/
 https://azukiazusa.dev/blog/pstack-agent-skills/
@@ -42,6 +43,7 @@ https://blog.cybozu.io/entry/logos-overview
 https://blog.flatt.tech/entry/github_actions_widespread_supply_chain_attack
 https://blog.flatt.tech/entry/package_registry_history
 https://blog.flatt.tech/entry/php2shell
+https://blog.jxck.io/entries/2026-11-19/cyber-security-emergency-package.html
 https://blog.kushii.net/archives/2026/11/17/211328
 https://blog.lai.so/2026-11-13/
 https://blog.lai.so/eli5-archify-explainer-skills/
@@ -70,6 +72,7 @@ https://cloud.watch.impress.co.jp/docs/news/2154360.html
 https://codeandcake.dev/posts/2026-10-22-docker-is-weird
 https://codezine.jp/article/detail/30105
 https://codezine.jp/article/detail/30424
+https://codezine.jp/article/detail/30438
 https://coliss.com/wp-content/cache/all/articles/build-websites/operation/work/7-adobe-apps-open-sourced.html/index.html
 https://collusion.wiki/
 https://comcomponent.com/blog/ada-vs-rust-safety/
@@ -205,6 +208,7 @@ https://gigazine.net/news/20261118-xestrata/
 https://gigazine.net/news/20261119-simcity-high-score/
 https://gigazine.net/news/20261120-large-language-model-can-rewrite-itself/
 https://gigazine.net/news/20261120-memory-compress/
+https://gigazine.net/news/20261122-ai-will-not-make-you-rich/
 https://giginet.hateblo.jp/entry/2026/09/22/114642
 https://gihyo.jp/article/2026/10/ai-security-defense
 https://gihyo.jp/article/2026/10/anatomy
@@ -214,6 +218,7 @@ https://gihyo.jp/book/2026/978-4-297-15875-0
 https://github.blog/changelog/2026-10-15-agentic-autofix-for-code-scanning-alerts-general-availability/
 https://github.com/anthropics/code-migration-kit-with-claude-code
 https://github.com/argonautlabsai/deltafin
+https://github.com/awslabs/codekb
 https://github.com/ayghri/i-have-adhd
 https://github.com/google-research/harness2
 https://github.com/libraz/suzume
@@ -291,6 +296,7 @@ https://kubernetes.io/blog/2026/09/08/kubernetes-v1-37-advancing-workload-aware-
 https://kubernetes.io/blog/2026/09/15/kubernetes-v1-37-pod-level-resource-managers-beta/
 https://kubernetes.io/blog/2026/09/16/kubernetes-v1-37-hardening-container-storage/
 https://kubernetes.io/blog/2026/09/21/kubernetes-v1-37-pvc-last-used-time/
+https://kubernetes.io/blog/2026/11/16/ipvs-removal/
 https://labo.hatenastaff.com/entry/2026/09/30/151500
 https://layer3intel.com/blog/residential-proxies-white-house-network
 https://leaddev.com/ai/meta-tried-to-shrink-engineering-teams-around-ai
@@ -318,6 +324,7 @@ https://news.web.nhk/newsweb/na/nd-20261110de73285
 https://news.web.nhk/newsweb/na/nd-20261113de75121
 https://news.web.nhk/newsweb/na/nd-20261114de75764
 https://news.web.nhk/newsweb/na/nd-20261118de77737
+https://news.web.nhk/newsweb/na/nd-20261122de79936
 https://news.yahoo.co.jp/articles/743e16ce8d8b3f48908d0248d48f4d15c913b90e
 https://news.yahoo.co.jp/articles/f0008179ada16d57148d0998c5c2a62872b7bb1a
 https://news.yahoo.co.jp/expert/articles/5e8495cadb5412ac2ca85a7253509eadf5360471
@@ -609,6 +616,7 @@ https://news.ycombinator.com/item?id=50548660
 https://news.ycombinator.com/item?id=50549438
 https://news.ycombinator.com/item?id=50550461
 https://news.ycombinator.com/item?id=50551503
+https://news.ycombinator.com/item?id=50555002
 https://news.ycombinator.com/item?id=50556287
 https://news.ycombinator.com/item?id=50557537
 https://news.ycombinator.com/item?id=50557870
@@ -628,12 +636,19 @@ https://news.ycombinator.com/item?id=50579331
 https://news.ycombinator.com/item?id=50581110
 https://news.ycombinator.com/item?id=50581242
 https://news.ycombinator.com/item?id=50581260
+https://news.ycombinator.com/item?id=50582069
 https://news.ycombinator.com/item?id=50583761
 https://news.ycombinator.com/item?id=50586292
 https://news.ycombinator.com/item?id=50587208
 https://news.ycombinator.com/item?id=50591260
 https://news.ycombinator.com/item?id=50591853
 https://news.ycombinator.com/item?id=50592097
+https://news.ycombinator.com/item?id=50596133
+https://news.ycombinator.com/item?id=50597612
+https://news.ycombinator.com/item?id=50600838
+https://news.ycombinator.com/item?id=50601525
+https://news.ycombinator.com/item?id=50601823
+https://news.ycombinator.com/item?id=50602947
 https://newsdig.tbs.co.jp/articles/-/2990268
 https://newsdig.tbs.co.jp/articles/-/3020110
 https://newsletter.dancohen.org/archive/the-slow-formation-of-durable-software/
@@ -704,6 +719,7 @@ https://portalshit.net/2026/10/03/ai-is-eating-product-management
 https://prtimes.jp/main/html/rd/p/000000268.000045379.html
 https://ptyhard.co.jp/blog/2026/10/code-review
 https://pwn.ai/blog/firecracker-escape
+https://pwn.ai/upload2shell
 https://qiita.com/Dingu-suke/items/b5318ef2040a9f59224a
 https://qiita.com/TaigoKuriyama/items/850a26760fc3c8d111ad
 https://qiita.com/Y-Y-dev/items/d526fb7cdbe35a3f9384
@@ -738,6 +754,7 @@ https://qiita.com/take-yoda/items/e5d9ce6618523af1ffc5
 https://qiita.com/tetsuro731/items/1f91493cfddbd53343b3
 https://qiita.com/xeje/items/48c9835a3e5c7b3d5489
 https://qiita.com/yama3133/items/11a360fc97ed3ec09742
+https://qiita.com/yamamoto_a_genee/items/76562c5c80032ad9e962
 https://qiita.com/yasu1109/items/53b294aa9c288ace8c59
 https://qiita.com/yukihirop/items/e0d8ffb121c1a753075a
 https://qiita.com/yushibats/items/16b6b3c8ec5acd6bdc8b
@@ -768,6 +785,8 @@ https://songmu.jp/riji/entry/2026-10-24-scaling-github-actions-runners-with-ghal
 https://sorae.info/space/20261115-starship-15.html
 https://speakerdeck.com/22mi/how-to-design-self-improvement-for-ai-agents
 https://speakerdeck.com/akiratom/ai-kudou-kaihatsu-ha-doko-made-kita-no-ka-no-saishin-jittai-chousa-de-yomitoku-genzaichi-devin-con-tokyo
+https://speakerdeck.com/azukiazusa1/slide-ca142a4a-9ec4-4750-91c1-07892c44a423
+https://speakerdeck.com/bengo4com/20261122-jsconfjp2026-coverage-100
 https://speakerdeck.com/colorful12/gyoumu-jikangai-mo-ai-ni-hatarai-te-morau-hanashi
 https://speakerdeck.com/falken/boku-no-claude-code-no-tsukaikata
 https://speakerdeck.com/flatt_security/security-risks-and-countermeasures-in-the-development-and-provision-of-ai-agents
@@ -798,7 +817,9 @@ https://speakerdeck.com/tkikuc/vibes-containers-ai-de-kawaru-kontena-sekkei-to-u
 https://speakerdeck.com/twada/debt-metaphor-in-agentic-engineering-age-202609-edition
 https://speakerdeck.com/upsider_tech/enjinia-ha-doko-made-ekkyou-surubeki-ka-take
 https://speakerdeck.com/yda/50-dai-de-hatsutenshoku-shita-hanashi
+https://sre-magazine.net/articles/7/aoto/
 https://sshhole.com/
+https://sumahodigest.com/?p=76937
 https://syu-m-5151.hatenablog.com/entry/2026/09/19/112330
 https://syu-m-5151.hatenablog.com/entry/2026/09/20/120746
 https://syu-m-5151.hatenablog.com/entry/2026/09/21/104258
@@ -1097,6 +1118,7 @@ https://www.wiz.io/blog/ai-infrastructure-honeypot
 https://www.wiz.io/blog/artifactory-under-attack-in-the-wild-exploitation-of-cve-2026-42016-cve-2026-4201
 https://www.wiz.io/blog/building-an-ai-detection-engine-for-agent-intent
 https://www.wiz.io/blog/cloud-risk-report-2026
+https://www.wiz.io/blog/malicious-version-of-microsofts-agent-framework-published-to-pypi
 https://www.wiz.io/blog/nginx-http2-rce-vulnerabilities
 https://www.wiz.io/blog/off-guard-breaking-litellm-from-authentication-bypass-to-cloud-compromise
 https://www.wiz.io/blog/vcs-dfir-threat-hunting-github-gitlab-azure-devops
@@ -1158,6 +1180,7 @@ https://zenn.dev/juners/articles/e89fcdacce1299
 https://zenn.dev/junoha/articles/251a72a244fc67
 https://zenn.dev/karamage/articles/2ef2c2aea7dfdf
 https://zenn.dev/karamage/articles/5c3f8370b2b370
+https://zenn.dev/karamage/articles/73027ee36796dc
 https://zenn.dev/kas_blog/articles/20260826-apache-license-2-ai-compliance
 https://zenn.dev/kas_blog/articles/20260828-codex-subagents-parallel-work
 https://zenn.dev/kas_blog/articles/20260831-vlm-quantization-best-practices
@@ -1186,6 +1209,7 @@ https://zenn.dev/mizchi/articles/ai-coding-loop-formal
 https://zenn.dev/mizchi/articles/jev-lint-intro
 https://zenn.dev/mizchi/articles/laya-mlx-60fps
 https://zenn.dev/mizchi/articles/mutation-test-quality
+https://zenn.dev/mocchi_agent/articles/ceab2005012245
 https://zenn.dev/monyyy/articles/3c55e83a596ccb
 https://zenn.dev/moonlights0228/articles/c92cef1c37dc7c
 https://zenn.dev/muit_techblog/articles/6ea28887c79457

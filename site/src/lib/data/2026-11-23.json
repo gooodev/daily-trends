@@ -1,0 +1,205 @@
+{
+  "date": "2026-11-23",
+  "categories": [
+    {
+      "name": "AIツール/エージェント開発・実装",
+      "items": [
+        {
+          "title_ja": "[AI-Driven Modernization] 既存コードからAIエージェント向けの仕様書を起こす「Reverse Spec Flow」を公開",
+          "url": "https://aws.amazon.com/jp/blogs/news/aidm-introducing-reverse-spec-flow/",
+          "summary_ja": "AWS Japanが、仕様書のない・古いアプリのソースコードから、AIエージェントが読むための仕様書を段階的に起こすワークフロー「Reverse Spec Flow」をAWS Samplesで公開しました。根拠のない記述や抜け漏れ、現行技術の都合が仕様に混ざる問題に対し、確認済みの記述と未確認の記述を区別させる手続きでAIを縛るのが特徴です。"
+        },
+        {
+          "title_ja": "awslabs/codekb：タスクの説明から関連リポジトリを自動選定し、エージェントに組織横断のコード理解を与えるOSS",
+          "url": "https://github.com/awslabs/codekb",
+          "summary_ja": "数百〜数千のリポジトリを抱える企業で、タスクに関係するリポジトリを人手で選んでエージェントに渡す運用は破綻するとして、タスク記述から関連リポジトリを自動で選び、システム間の関係に基づいてエージェントを動かすためのツールです。影響分析だけでなく計画・機能開発・デバッグなど既存システム開発全般での利用を想定しています。"
+        },
+        {
+          "title_ja": "ワークフローからハーネスへ — Web フレームワークの作者たちが AI エージェントに向かう理由",
+          "url": "https://speakerdeck.com/azukiazusa1/slide-ca142a4a-9ec4-4750-91c1-07892c44a423",
+          "summary_ja": "Gatsby（Mastra）、Next.js（eve）、Astro（Flue）など、Webフレームワークの作り手が相次いでAIエージェントフレームワークを出している理由を考察したJSConf JP 2026の登壇資料です。エージェントの課題が「フレームワークの課題」になりつつあり、いまが抽象化のタイミングだと論じています。"
+        },
+        {
+          "title_ja": "Agent Harnessを理解するために、150行ほどのPythonで自作してみた",
+          "url": "https://qiita.com/yamamoto_a_genee/items/76562c5c80032ad9e962",
+          "summary_ja": "同じLLMでもツールによって精度や使い勝手が違う理由を「Agent = LLM + Harness」という整理で説明し、ツール実行やループ制御を担うハーネスを約150行のPythonで実装して役割を確かめた記事です。"
+        }
+      ]
+    },
+    {
+      "name": "AIツール/開発プロセス",
+      "items": [
+        {
+          "title_ja": "【TLA+】AIにテストケースを書かせるな。ルールを書け",
+          "url": "https://zenn.dev/karamage/articles/73027ee36796dc",
+          "summary_ja": "実装もテストも同じAIが書くと、オラクル（正解の基準）の誤解まで引き継がれる「自作自演の満点」になると指摘し、人間はテストケースではなく「守るべきルール」を書くべきだと主張しています。TLA+系言語Quintのサンプルで、ルールから機械にケースを探索させるやり方を示しています。"
+        }
+      ]
+    },
+    {
+      "name": "AIモデル/論文・研究",
+      "items": [
+        {
+          "title_ja": "OpenAI主任研究者「Perplexity and Intelligence」：パープレキシティを業界共通の安全指標に",
+          "url": "https://news.ycombinator.com/item?id=50601525",
+          "summary_ja": "OpenAIのJakub Pachocki氏が、事前学習の進捗を測る指標としてパープレキシティ（交差エントロピー損失）を開発各社で比較し、共通の安全基準に使うべきだと提案しました。その第一歩として、競合に手の内を見せるリスクを承知で自社の内部パープレキシティ測定値を公開しています。"
+        }
+      ]
+    },
+    {
+      "name": "AIモデル/ローカルLLM",
+      "items": [
+        {
+          "title_ja": "Hugging Face、180BのMoEモデルを32GBのMacで動かす手法を公開",
+          "url": "https://codezine.jp/article/detail/30438",
+          "summary_ja": "ルーターが選んだエキスパートだけをSSDから読み込み、全レイヤー共有のキャッシュで扱う手法をTransformersの「experts_offload」オプションとして実装し、1800億パラメータのMoEモデルを32GBのMacBookで約14トークン/秒で動かしました。専用推論エンジンとの速度差は約6%まで迫っています。"
+        }
+      ]
+    },
+    {
+      "name": "AI倫理/環境・社会への影響",
+      "items": [
+        {
+          "title_ja": "Anthropicの電力は2028年に87%がガス、11%が石炭由来になるとの試算",
+          "url": "https://news.ycombinator.com/item?id=50597612",
+          "summary_ja": "Better Data Center Projectが、Anthropicのデータセンターと付随する発電所を調べ、米国で再エネへの直接コミットがなく、2028年の電力の大半が自家発電（BYOP）のガスや石炭になると試算しました。HNでは「どのモデルが最良かばかり議論され、何を燃やして動いているかは語られない」との反応が集まっています。"
+        }
+      ]
+    },
+    {
+      "name": "AI倫理/信頼性",
+      "items": [
+        {
+          "title_ja": "AIが書いた参考文献の2割は存在しない ― 架空引用はなぜ起きるか",
+          "url": "https://zenn.dev/mocchi_agent/articles/ceab2005012245",
+          "summary_ja": "LLMは文献を検索しているのではなく「参考文献らしい文字列」を生成しているため、GPT-4oの文献レビューでも約2割が実在しない論文だったという先行研究を紹介しています。実在の論文に架空が混ざるため、使うなら全件を照合すべきだと説いています。"
+        }
+      ]
+    },
+    {
+      "name": "AI倫理/経済・産業",
+      "items": [
+        {
+          "title_ja": "AIが世界を変えてもAI企業が儲かるとは限らない、その理由とは？",
+          "url": "https://gigazine.net/news/20261122-ai-will-not-make-you-rich/",
+          "summary_ja": "元VCのジェリー・ニューマン氏が、PCの普及やコンテナ輸送などの技術革新を振り返り、技術が経済を変えることと開発企業・投資家が利益を得ることは別問題だと論じた記事の紹介です。カルロタ・ペレスの技術革命の段階論を引き、AIの利益が最終的に誰に渡るかを分析しています。"
+        }
+      ]
+    },
+    {
+      "name": "Security/サプライチェーン",
+      "items": [
+        {
+          "title_ja": "Microsoft Agent FrameworkのPyPIパッケージが侵害、Azure・CI認証情報を狙うスティーラー混入",
+          "url": "https://www.wiz.io/blog/malicious-version-of-microsofts-agent-framework-published-to-pypi",
+          "summary_ja": "週4万DLのagent-frameworkに悪意ある1.26.1／1.26.2が公開され、.pthファイル経由でPython起動のたびに認証情報窃取コードが動く仕組みでした（安全な最新版は1.26.0）。攻撃者はMicrosoftの署名基盤ESRPのクライアント証明書を奪っていたとみられ、Wizは攻撃者自身の進捗報告用webhookから手口の一部を観測しています。"
+        }
+      ]
+    },
+    {
+      "name": "Security/脆弱性・インシデント",
+      "items": [
+        {
+          "title_ja": "タワーレコード、不正アクセスで約1100万件の個人情報流出",
+          "url": "https://news.web.nhk/newsweb/na/nd-20261122de79936",
+          "summary_ja": "タワーレコードの通販サイトが不正アクセスを受け、顧客のメールアドレスや氏名などあわせて約1100万件の個人情報が流出したと発表されました。六花亭やプレイド「KARTE」経由の被害など、国内企業の情報漏えいが相次いでいます。"
+        },
+        {
+          "title_ja": "Upload2Shell：Ghostscriptの-dSAFERを突破するUAF脆弱性（CVE-2026-125396）",
+          "url": "https://pwn.ai/upload2shell",
+          "summary_ja": "Ghostscriptのフォント読み込みにあるuse-after-freeで、細工した文書がサンドボックスを抜けて任意コマンドを実行できる脆弱性です。印刷・メール・アップロードのプレビューなどでGhostscriptが裏で動くため、Googleの文書レンダラやWordPressのアップロード処理まで影響経路が確認されています。"
+        }
+      ]
+    },
+    {
+      "name": "Security/政策・対策",
+      "items": [
+        {
+          "title_ja": "「サイバーセキュリティ緊急対策パッケージ」の中身",
+          "url": "https://blog.jxck.io/entries/2026-11-19/cyber-security-emergency-package.html",
+          "summary_ja": "相次ぐ漏えいを受けて政府が11月6日に決定した緊急対策パッケージ（予備費約100億円）を、4本の柱と予算内訳から読み解いた解説です。「AIも活用した基本的な対策の徹底」や不要な個人情報を持たない方針、個人情報保護委員会のガイドライン改正予定などに触れています。"
+        }
+      ]
+    },
+    {
+      "name": "Security/プラットフォーム",
+      "items": [
+        {
+          "title_ja": "Androidの野良アプリ導入が2027年1月から世界規模で制限へ　Googleの開発者認証が本格展開",
+          "url": "https://sumahodigest.com/?p=76937",
+          "summary_ja": "Googleは開発者の本人確認制度と未認証アプリのサイドローディング制限を、2027年1月からGoogle Playに加えGalaxy StoreやXiaomiなどのメーカーストアにも広げます。未認証アプリも導入できますが、開発者オプションでの設定と24時間の待機が必要になります。"
+        }
+      ]
+    },
+    {
+      "name": "開発/JS・TS",
+      "items": [
+        {
+          "title_ja": "フロントエンドのテストカバレッジは 100%強制がいい",
+          "url": "https://speakerdeck.com/bengo4com/20261122-jsconfjp2026-coverage-100",
+          "summary_ja": "弁護士ドットコム（クラウドサイン）のチームが、Vitestのカバレッジ閾値を100%にしてCIで強制している運用とその利点を紹介したJSConf JP 2026の登壇資料です。"
+        }
+      ]
+    },
+    {
+      "name": "開発/インフラ・運用",
+      "items": [
+        {
+          "title_ja": "Google が実践する最先端の SRE",
+          "url": "https://sre-magazine.net/articles/7/aoto/",
+          "summary_ja": "GoogleのSREがシステム理論に基づく安全分析手法STAMP/STPAを取り入れた経緯を紹介した「The Evolution of SRE at Google」をもとに、従来のSREの限界と、大企業以外でもこの手法を使えるかを考察しています。"
+        },
+        {
+          "title_ja": "kube-proxyのIPVSバックエンド削除が予定に",
+          "url": "https://kubernetes.io/blog/2026/11/16/ipvs-removal/",
+          "summary_ja": "iptablesより高速なService実装を目指したkube-proxyのipvsバックエンドは、カーネルのIPVS APIがServiceの仕様と合わず端のケースに対応しきれなかったため、1.33でGAになったnftablesバックエンドに置き換えて削除される予定です。利用者には移行の準備が求められます。"
+        }
+      ]
+    },
+    {
+      "name": "開発/言語",
+      "items": [
+        {
+          "title_ja": "C++26が（再び）完成：2026年11月のISO C++会議レポート",
+          "url": "https://news.ycombinator.com/item?id=50600838",
+          "summary_ja": "3月にいったん完了したC++26の技術作業は、主にcontracts機能への各国コメントに対応するため再開され、今回の会議で再び完了しました。更新版を2回目の承認投票にかける予定で、C++29向けにはラベル付きbreak/continueやstd::ranges::any_viewなどが採択されています。"
+        }
+      ]
+    },
+    {
+      "name": "キャリア・組織",
+      "items": [
+        {
+          "title_ja": "シリコンバレーに何が起きたのか？",
+          "url": "https://news.ycombinator.com/item?id=50602947",
+          "summary_ja": "O'Reillyの記事で、シリコンバレーが顧客に価値を生む場所から株主のために価値を吸い上げる場所へ変わったのは個人ではなく株主資本主義という仕組みの問題だと論じています。AIも同じ構造を抱えているとして、オープンソースやオープンなプロトコルのように人間の繁栄を目標にした制度設計が必要だと説いています。"
+        },
+        {
+          "title_ja": "ソフトウェアは最初から人間には複雑すぎたのか？",
+          "url": "https://news.ycombinator.com/item?id=50601823",
+          "summary_ja": "リーマン予想がAI支援による1700万行のLeanコードで証明・認証された件を受け、ケンブリッジ大のAnil Madhavapeddy氏が、計算理論の理解を置き去りに人間がソフトウェアを社会に広げてきた結果、バグだらけのコードのツケを今払っているのではないかと問いかけています。"
+        },
+        {
+          "title_ja": "Ask HN：Web開発から組み込み・ファームウェアへ転身するコツは？",
+          "url": "https://news.ycombinator.com/item?id=50555002",
+          "summary_ja": "15年前にネイティブ開発をしていてここ10年はフルスタックWebという開発者が、C/C++/Rust中心の組み込み職への転身を相談したスレッドです。スキル習得自体は可能だが求人が少なく採用されるのが難しい、ESP32やRaspberry Pi Picoなどで実績を作るべき、といった助言が集まっています。"
+        }
+      ]
+    },
+    {
+      "name": "その他",
+      "items": [
+        {
+          "title_ja": "トヨタ・日産・ホンダ、コスト削減へ部品の標準化を開始",
+          "url": "https://news.ycombinator.com/item?id=50596133",
+          "summary_ja": "日本の大手自動車3社が、まず鋼材の品質基準、樹脂の規格、ワイヤーハーネスの色分けを統一し、部品の共通化でコストを下げます。国内サプライヤーとの協議から始め、海外サプライヤーにも広げる予定です。"
+        },
+        {
+          "title_ja": "膵臓がんの飲み薬daraxonrasib、「数十年で最大のブレイクスルー」と評価",
+          "url": "https://news.ycombinator.com/item?id=50582069",
+          "summary_ja": "KRAS阻害薬daraxonrasibが転移性膵臓がんの治療薬として期待され、長年化学療法しか選択肢がなかった分野の大きな進展として報じられました。HNでは、この世代のKRAS阻害薬は本当に画期的だという声や、AIによる医療の進歩への期待が寄せられています。（本文取得不可のため HN コメントから要約）"
+        }
+      ]
+    }
+  ]
+}
