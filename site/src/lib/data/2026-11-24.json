@@ -1,0 +1,235 @@
+{
+  "date": "2026-11-24",
+  "categories": [
+    {
+      "name": "AIツール/コーディングエージェント",
+      "items": [
+        {
+          "title_ja": "Claude Code を安全に「自走」させるなら Docker Sandboxes 一択では？という話",
+          "url": "https://note.com/yamac_/n/n198bdc344c64",
+          "summary_ja": "Claude Code や Codex を確認なしで自走させる際の、重要ファイル消去や .env 送信といった不安に対し、Dockerfile・ファイアウォール・プロキシを自前で組む代わりに Docker Sandboxes で隔離環境を手軽に用意する方法を紹介しています。エージェントの自律実行と安全性を両立させる実践的な選択肢として注目を集めました。"
+        }
+      ]
+    },
+    {
+      "name": "AIツール/エージェント開発・実装",
+      "items": [
+        {
+          "title_ja": "AIエージェントに送金を任せる前に――OSS「Agent Role Contracts」で実行前の矛盾を検査する",
+          "url": "https://thinkit.co.jp/article/39741",
+          "summary_ja": "人間の承認後に送金案が書き換えられるといった矛盾を、役割・権限・作業範囲・レビュー・引き継ぎの宣言と照合して実行前に検出する OSS「Agent Role Contracts」v1.0.0 の仕組みと使い方を解説しています。PASS が保証する範囲やソフトウェア開発への応用、導入判断の観点にも触れています。"
+        },
+        {
+          "title_ja": "Kong が「Token Vault」を一般提供、エージェントの権限判定と認証情報の保持を分離",
+          "url": "https://thinkit.co.jp/article/39751",
+          "summary_ja": "AI エージェントは自身の ID で Kong に認証し、Kong Identity がアクセス権限を判定、接続先の認証情報は Token Vault が実行時に仲介するため、エージェント自身は鍵を持たずに済みます。認証情報の管理・失効の簡素化や漏えい時の被害低減など、エージェントを業務システムにつなぐ際のガバナンス課題に応える機能です。"
+        },
+        {
+          "title_ja": "LLM はコンピューターをどう「見る」べきか：スクリーンショットとアクセシビリティツリーの比較",
+          "url": "https://news.ycombinator.com/item?id=50615520",
+          "summary_ja": "Greptile が7つのモデルで、スクリーンショットのみと、アクセシビリティツリー（画面のテキスト表現）併用の Computer Use 性能を比較し、その結果をもとに自社エージェントの画面認識方式を設計した経緯を解説しています。障害者支援技術として生まれたアクセシビリティ API の歴史にも触れ、強いモデルでもテキスト表現が有効かを検証しています。"
+        }
+      ]
+    },
+    {
+      "name": "AIツール/業務活用",
+      "items": [
+        {
+          "title_ja": "tsuzuri：意図を明示しながら日本語の文章を一文ずつ書き・レビューする Claude Code スキル",
+          "url": "https://github.com/MaryCache/tsuzuri",
+          "summary_ja": "AI が各文を書く前に「その文で読み手に何をさせたいか」という意図を記録し、文の役割・前文とのつながり・重要度をラベル付けするスキルとビューアアプリです。意図と実際の文を見比べてコメントし、AI に修正させるという文章レビューのワークフローを提供します。"
+        }
+      ]
+    },
+    {
+      "name": "AIモデル/オープンモデル",
+      "items": [
+        {
+          "title_ja": "GLM-5.4：初のループ型 Transformer で汎用コーディングを目指す",
+          "url": "https://news.ycombinator.com/item?id=50609685",
+          "summary_ja": "Z.ai が、同じ層を繰り返し通す「ループ型 Transformer」を採用した GLM-5.4 を発表しました。HN では、思考ループをアーキテクチャに組み込む試みとして期待する声の一方、ベンチマーク数値が事前学習段階の30Bモデル分しかない点や、中国系モデルにありがちな「マラソン思考」（過剰な長考）への懸念が議論されています。 ※本文取得不可のため HN コメントから要約"
+        }
+      ]
+    },
+    {
+      "name": "AIモデル/ローカルLLM",
+      "items": [
+        {
+          "title_ja": "Inkling・Qwen・Unsloth で始めるローカル AI 入門",
+          "url": "https://news.ycombinator.com/item?id=50603845",
+          "summary_ja": "クラウド LLM の利用制限やコスト・プライバシーへの不満から、Windows PC 上に Unsloth と Inkling／Qwen を使って家庭内で共有できる「自宅版 ChatGPT」を構築した手順を初心者向けに解説しています。オープンウェイトモデルの充実で、日常的なタスクはローカルで十分まかなえるという主張が議論を呼びました。"
+        },
+        {
+          "title_ja": "NariQ：Qwen3.8-27B を BF16 相当の性能のまま 10GB に量子化",
+          "url": "https://news.ycombinator.com/item?id=50611402",
+          "summary_ja": "Nari Labs が、実際のコーディングエージェントのトレースで較正したトレリス符号化量子化「NariQ」による Qwen3.8-27B の 3／2.5／2 ビット GGUF を公開しました。3ビット版（10.1GB）と2.5ビット版は DeepSWE や Terminal-Bench などの長期エージェントタスクで BF16（53.8GB）と同等のスコアを示し、単一 GPU で動作します（専用の llama.cpp フォークが必要）。"
+        }
+      ]
+    },
+    {
+      "name": "AIモデル/論文・研究",
+      "items": [
+        {
+          "title_ja": "Google DeepMind、エージェントと形式検証でより高速な量子アルゴリズムを発見",
+          "url": "https://deepmind.google/blog/finding-faster-quantum-algorithms-with-agents-and-formal-verification/",
+          "summary_ja": "Gemini 4 のエージェントチームを使って既知の量子アルゴリズムを改良し、核融合や化学・酵素のシミュレーションに必要な量子回路の資源量を削減しました。古典計算機では検証できない回路の正しさを Lean で数学的に証明しており、Lean ライブラリや問題仕様・検証済み解を GitHub で公開しています。"
+        },
+        {
+          "title_ja": "エージェント評価（agentic evaluation）の作り方と維持の仕方",
+          "url": "https://huggingface.co/blog/agentic-evals",
+          "summary_ja": "Hugging Face が、エージェント向け評価の設計（タスク定義・採点の信頼性・主張との整合性の検証）と継続的なメンテナンスの方法をまとめた解説です。評価をオープンに構築・共有することで誤りの発見や再利用が進むと主張し、Hub 上の評価データセットが1年で約16倍に増えた状況も紹介しています。"
+        }
+      ]
+    },
+    {
+      "name": "AI倫理/規制・オープンモデル",
+      "items": [
+        {
+          "title_ja": "ヤン・ルカン氏「ダリオ氏は危険を煽ってオープンモデルを違法化させ、支配を保とうとしている」",
+          "url": "https://news.ycombinator.com/item?id=50615308",
+          "summary_ja": "Meta のヤン・ルカン氏が X で、Anthropic のダリオ・アモデイ氏は GPT-2 の頃から危険性を誇張してオープンモデルを規制させ自らの支配を保とうとしてきたと批判し、オスマン帝国の印刷機禁止になぞらえました。AI 安全性の主張とオープンモデル規制をめぐる対立として、HN で大きな議論になっています。"
+        }
+      ]
+    },
+    {
+      "name": "AI倫理/社会への影響",
+      "items": [
+        {
+          "title_ja": "「ChatGPT にはセール対象店舗と書いてある」と主張する来店客、確認するとやはり対象外",
+          "url": "https://togetter.com/li/2774063",
+          "summary_ja": "店舗スタッフが、ChatGPT の誤回答を根拠にセール適用を求める客に対応し、周囲の客まで巻き込む騒ぎになった体験談のまとめです。生成 AI のハルシネーションが現場の接客トラブルにつながる事例として、AI の回答を公式情報より信じてしまう利用者の問題が話題になりました。"
+        }
+      ]
+    },
+    {
+      "name": "Security/AI×攻撃",
+      "items": [
+        {
+          "title_ja": "文書1つで Copilot を乗っ取る「ChatMate」攻撃、Microsoft が4万8000ドルの報奨金を支払った脆弱性",
+          "url": "https://www.itmedia.co.jp/enterprise/articles/2611/23/news001.html",
+          "summary_ja": "Rubrik Zero Labs が CODE BLUE 2026 で、Microsoft 365 Copilot に細工した文書を読ませるだけで、間接プロンプトインジェクション→安全機能の回避→サンドボックス脱出→攻撃者との双方向チャネル確立へと至る「リモートプロンプト実行」攻撃を解説しました。特権アクセス・信頼できないコンテンツ・外部通信の「Lethal Trifecta」がそろう AI アシスタント共通のリスクを示す事例で、脆弱性は修正済みです。"
+        },
+        {
+          "title_ja": "野放しのエージェント型攻撃：攻撃用 AI フレームワーク「ARTEX」の実態",
+          "url": "https://www.wiz.io/blog/agentic-attacks-artex-offensive-ai-frameworks",
+          "summary_ja": "Wiz Research が、中国系攻撃者による ARTEX を使ったサプライチェーン侵害など、エージェント型攻撃フレームワークの動向を継続調査した続報です。「Black October」以降の3週間でさらに20件の関連インシデントが公表され、Wiz の CIRT への対応依頼も3倍に増えるなど、エージェント型攻撃が急増していると警告しています。"
+        }
+      ]
+    },
+    {
+      "name": "Security/脆弱性・インシデント",
+      "items": [
+        {
+          "title_ja": "なぜ11月に日本のサイバー事故は「爆発」したのか――605件を数えて見えたこと",
+          "url": "https://qiita.com/songchong/items/073f202bb0ca65611b30",
+          "summary_ja": "国内で公表されたセキュリティ事故605件を時期と規模で可視化し、11月に急増した背景を分析しています。KARTE のように1件の事故から多数の企業が公表に至るケースなど、「日本が狙われている」だけでは説明できない SaaS 連携起点の連鎖構造を指摘しています。"
+        }
+      ]
+    },
+    {
+      "name": "Security/サプライチェーン",
+      "items": [
+        {
+          "title_ja": "セキュリティ地獄の次の階層（Gentoo 開発者の考察）",
+          "url": "https://news.ycombinator.com/item?id=50610334",
+          "summary_ja": "Gentoo のパッケージメンテナーが、脆弱性報告が前例のないペースで増える中、依存関係ツリーの各所でパッチ対応に追われ、修正の試みがかえって新たな弱点を生む状況を論じています。数年前に書いた「現代のパッケージャーのセキュリティ悪夢」から事態はむしろ悪化しているとし、OSS 保守の限界とサプライチェーンの持続性に警鐘を鳴らしています。"
+        }
+      ]
+    },
+    {
+      "name": "Security/対策・運用",
+      "items": [
+        {
+          "title_ja": "SSH 鍵をディスクに置くのはやめよう",
+          "url": "https://news.ycombinator.com/item?id=50609579",
+          "summary_ja": "相次ぐ脆弱性報告や侵害を受け、セルフホスト環境の不要サービス整理や Tailscale 配下への移行に続き、個人端末でも SSH 秘密鍵をディスクに平文で置かずパスワードマネージャーやハードウェアキーで管理する方法を紹介しています。端末侵害時の被害を抑えるための身近な実践例です。"
+        }
+      ]
+    },
+    {
+      "name": "開発/形式検証",
+      "items": [
+        {
+          "title_ja": "著名な Rust 製 OSS を Lean 4 で形式検証したら、バグがたくさん見つかった話",
+          "url": "https://zenn.dev/koukyosyumei/articles/31c8fcf4da45b7",
+          "summary_ja": "Rust の Axum ベースのアプリを Lean 4 に変換して認可やデータ分離などの性質を証明するフレームワーク h5i を使い、実在の有名 OSS を検証するベンチマークを作ったところ、実際のセキュリティ脆弱性が複数見つかったという報告です。形式検証が研究段階を超えて実務のバグ発見に効くことを示す事例として注目されました。"
+        },
+        {
+          "title_ja": "なぜ今、形式検証なのか",
+          "url": "https://zenn.dev/ncdc/articles/dcec80b0c067b0",
+          "summary_ja": "形式検証や Lean という言葉を最近よく見かけることから、その考え方をキャッチアップした記録です。単体・統合・E2E テストと比較しながら、仕様と実装の性質を論理で証明する形式検証の位置づけを整理しており、AI 時代に注目される背景を理解する入門として読めます。"
+        }
+      ]
+    },
+    {
+      "name": "開発/Web・ブラウザ",
+      "items": [
+        {
+          "title_ja": "独自エンジンのブラウザ「Ladybird」がアルファ版に",
+          "url": "https://news.ycombinator.com/item?id=50614249",
+          "summary_ja": "既存エンジンのフォークではなく一から開発した独自エンジンを持つブラウザ Ladybird が、macOS と Linux 向けにアルファ版を公開しました。ローリング配信で自動更新され、壊れたサイトの報告やクラッシュレポート機能を備え、セキュリティ研究者による攻撃・報告も歓迎するとしています。"
+        }
+      ]
+    },
+    {
+      "name": "開発/インフラ・ツール",
+      "items": [
+        {
+          "title_ja": "Kubernetes v1.38 の主な変更点プレビュー",
+          "url": "https://kubernetes.io/blog/2026/11/23/kubernetes-v1-38-sneak-peek/",
+          "summary_ja": "次期 v1.38 で予定されている非推奨化・削除や新機能をまとめた事前告知です。kubectl の exec／attach／port-forward などで WebSocket 利用を無効化する環境変数が削除されるなど、アップグレード前に確認すべき変更点が挙げられています。"
+        }
+      ]
+    },
+    {
+      "name": "開発/データスタック",
+      "items": [
+        {
+          "title_ja": "Databricks、Spark Structured Streaming から Lakebase Postgres へのネイティブシンクを一般提供",
+          "url": "https://www.databricks.com/blog/announcing-general-availability-native-lakebase-postgres-sink-spark-structured-streaming",
+          "summary_ja": "独自の foreach ライターを書かずに、writeStream 1回で計算結果をサーバーレス PostgreSQL「Lakebase」に書き込めるようになりました。Real-Time Mode と組み合わせ、500万ユーザー分・約2万件/秒の特徴量を p99 500ms 未満で upsert する例を示し、不正検知やリアルタイムパーソナライズ向けのパイプライン構築を簡素化します。"
+        }
+      ]
+    },
+    {
+      "name": "キャリア・組織/キャリア・組織",
+      "items": [
+        {
+          "title_ja": "優秀な人が小さくまとまる現象",
+          "url": "https://www.pospome.work/entry/2026/11/23/125036",
+          "summary_ja": "カミナシの VPoE が、経験を積んでリスクを予測できるようになった優秀な人ほど、失敗を避けて「できることしかやらない」状態に陥り成長が頭打ちになる現象を論じています。リスクを取ってリターンを得る姿勢や「とりあえずやってみる」マインド、致命傷になる「爆死ライン」の見極め方を提案しています。"
+        },
+        {
+          "title_ja": "AI時代、「食いっぱぐれるエンジニア」と「生き残るエンジニア」を分けるものは何か",
+          "url": "https://rokujyouhitoma.hatenablog.com/entry/2026/11/23/135112",
+          "summary_ja": "仕様通りにコードを書くだけの仕事は AI に淘汰される一方、AI を「自動販売機」ではなく「重機」として操縦できるエンジニアには面白く価値の高い時代になると論じています。分かれ目はプロンプト術やツール知識ではなく、使い手である人間側の気概だと主張しています。"
+        },
+        {
+          "title_ja": "AI時代のエンジニアはどんな強みを、どう育てるべきか（デブスト2026 注目セッション）",
+          "url": "https://codezine.jp/article/detail/30351",
+          "summary_ja": "12月12日開催の Developers Boost 2026 のセッション紹介で、コーディングを AI に任せられる時代に、採用・人事の視点から「問いを立てる力」「関係を構築する力」などエンジニアが育てるべき強みを議論する内容です。"
+        }
+      ]
+    },
+    {
+      "name": "その他/業界動向",
+      "items": [
+        {
+          "title_ja": "ジェンスン・フアン氏、11日間の不在を経て NVIDIA の CEO に復帰",
+          "url": "https://www.techno-edge.net/article/2026/11/23/5793.html",
+          "summary_ja": "NVIDIA の取締役会が全会一致で、創業者ジェンスン・フアン氏の社長兼 CEO・取締役への復帰を承認しました。取締役会は協議・面談を経て同氏の誠実さと経営能力に納得したとし、米国政府からも国家安全保障上のリスクはないとの判断を得たと説明しています（HN でも1700ポイント超の話題に）。"
+        }
+      ]
+    },
+    {
+      "name": "その他/プラットフォーム",
+      "items": [
+        {
+          "title_ja": "9年続いたオープンソースアプリ FSNotes が EU の App Store から削除された",
+          "url": "https://news.ycombinator.com/item?id=50616933",
+          "summary_ja": "ノートアプリ FSNotes の開発者が、10月の売上支払いの問題をきっかけに欧州全域の App Store からアプリを削除され、DSA 関連の情報や事業者登録書類を提出してもサポートから11月5日以降応答がないと訴えています。明確な説明のない削除に対し、HN ではプラットフォーム独占と個人開発者の立場の弱さが議論されています。"
+        }
+      ]
+    }
+  ]
+}

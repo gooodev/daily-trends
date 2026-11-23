@@ -71,6 +71,7 @@ https://cloud.watch.impress.co.jp/docs/column/techwatch/2147521.html
 https://cloud.watch.impress.co.jp/docs/news/2154360.html
 https://codeandcake.dev/posts/2026-10-22-docker-is-weird
 https://codezine.jp/article/detail/30105
+https://codezine.jp/article/detail/30351
 https://codezine.jp/article/detail/30424
 https://codezine.jp/article/detail/30438
 https://coliss.com/wp-content/cache/all/articles/build-websites/operation/work/7-adobe-apps-open-sourced.html/index.html
@@ -82,6 +83,7 @@ https://cursor.com/blog/security-incident-update
 https://daiksy.hatenablog.jp/entry/2026/09/16/183544
 https://dbushell.com/2026/10/03/deno-to-node/
 https://debiru.hatenablog.com/entry/20260831/jcom-plume-dns-blocking
+https://deepmind.google/blog/finding-faster-quantum-algorithms-with-agents-and-formal-verification/
 https://deno.com/blog/clawpatrol
 https://deno.com/blog/v2.9
 https://desertant.com/blog/introducing-desert-ant-labs/
@@ -216,6 +218,7 @@ https://gihyo.jp/article/2026/10/emudhra-ca-key-compromise-dev-tools-fixes
 https://gihyo.jp/article/2026/10/life-with-ai-agents-01
 https://gihyo.jp/book/2026/978-4-297-15875-0
 https://github.blog/changelog/2026-10-15-agentic-autofix-for-code-scanning-alerts-general-availability/
+https://github.com/MaryCache/tsuzuri
 https://github.com/anthropics/code-migration-kit-with-claude-code
 https://github.com/argonautlabsai/deltafin
 https://github.com/awslabs/codekb
@@ -235,6 +238,7 @@ https://hightouch.com/blog/llm-judges-identity-resolution
 https://hiraoku.dev/blog/mcp-cli-cloud/
 https://huggingface.co/blog/Banaxi-Tech/bananamind-2-pro-weve-almost-matched-smollm2-at-20
 https://huggingface.co/blog/FINAL-Bench/qwen-models
+https://huggingface.co/blog/agentic-evals
 https://huggingface.co/blog/ariG23498/funes-lance
 https://huggingface.co/blog/bartowski/per-tensor-layout-maps-for-gguf-quantization
 https://huggingface.co/blog/ggml-org/llama-cpp-v1
@@ -297,6 +301,7 @@ https://kubernetes.io/blog/2026/09/15/kubernetes-v1-37-pod-level-resource-manage
 https://kubernetes.io/blog/2026/09/16/kubernetes-v1-37-hardening-container-storage/
 https://kubernetes.io/blog/2026/09/21/kubernetes-v1-37-pvc-last-used-time/
 https://kubernetes.io/blog/2026/11/16/ipvs-removal/
+https://kubernetes.io/blog/2026/11/23/kubernetes-v1-38-sneak-peek/
 https://labo.hatenastaff.com/entry/2026/09/30/151500
 https://layer3intel.com/blog/residential-proxies-white-house-network
 https://leaddev.com/ai/meta-tried-to-shrink-engineering-teams-around-ai
@@ -649,6 +654,15 @@ https://news.ycombinator.com/item?id=50600838
 https://news.ycombinator.com/item?id=50601525
 https://news.ycombinator.com/item?id=50601823
 https://news.ycombinator.com/item?id=50602947
+https://news.ycombinator.com/item?id=50603845
+https://news.ycombinator.com/item?id=50609579
+https://news.ycombinator.com/item?id=50609685
+https://news.ycombinator.com/item?id=50610334
+https://news.ycombinator.com/item?id=50611402
+https://news.ycombinator.com/item?id=50614249
+https://news.ycombinator.com/item?id=50615308
+https://news.ycombinator.com/item?id=50615520
+https://news.ycombinator.com/item?id=50616933
 https://newsdig.tbs.co.jp/articles/-/2990268
 https://newsdig.tbs.co.jp/articles/-/3020110
 https://newsletter.dancohen.org/archive/the-slow-formation-of-durable-software/
@@ -672,6 +686,7 @@ https://note.com/takahiroanno/n/n4accbde18d56
 https://note.com/uchita_success/n/nfc53d1ef5f81
 https://note.com/wakabame/n/nc76b65a187bb
 https://note.com/y_hirano/n/nc986ab18b90e
+https://note.com/yamac_/n/n198bdc344c64
 https://note.com/yoshiki_shibata/n/n185f3d9e13bc
 https://note.com/yubais/n/nd4505991a6d6
 https://note.com/yuiseki/n/nabf4625e58bc
@@ -744,6 +759,7 @@ https://qiita.com/rawajifu8752/items/71f1c6ac68350683556e
 https://qiita.com/ryosuke_ohori/items/5c560c086d8c92173ac7
 https://qiita.com/shahin0809/items/81e6a6737b2254bdc6ed
 https://qiita.com/shun123/items/260b4fa2c791da70f263
+https://qiita.com/songchong/items/073f202bb0ca65611b30
 https://qiita.com/songchong/items/252947681e7914cd9e2c
 https://qiita.com/songchong/items/8b48962aa6d5408abe86
 https://qiita.com/songchong/items/94df4fbdeabaaf8f8ef5
@@ -763,6 +779,7 @@ https://quesma.com/blog/qwen38-27b-quantizations-benchmarked/
 https://reflection.ai/blog/introducing-beam
 https://rikiyat.github.io/blog/weight-space-programming/
 https://rocket-boys.co.jp/security-measures-lab/contact_form_7_624_security_update_20261030/
+https://rokujyouhitoma.hatenablog.com/entry/2026/11/23/135112
 https://ryanmadden.net/gpt-56-beats-factorio/
 https://s.conao3.com/blog/2026/f681b9
 https://satoweb.net/2026/09/p-18390/
@@ -869,6 +886,8 @@ https://thinkit.co.jp/article/39471
 https://thinkit.co.jp/article/39495
 https://thinkit.co.jp/article/39536
 https://thinkit.co.jp/article/39539
+https://thinkit.co.jp/article/39741
+https://thinkit.co.jp/article/39751
 https://togetter.com/li/2746142
 https://togetter.com/li/2753949
 https://togetter.com/li/2756939
@@ -876,6 +895,7 @@ https://togetter.com/li/2757306
 https://togetter.com/li/2757347
 https://togetter.com/li/2770045
 https://togetter.com/li/2770106
+https://togetter.com/li/2774063
 https://trailofbits.com/2026/08/26/vms-wont-contain-cyber-capable-agents/
 https://type.jp/et/feature/31685/
 https://type.jp/et/feature/31834/
@@ -926,6 +946,7 @@ https://www.cloudflare.com/ja-jp/press/press-releases/2026/cloudflare-announces-
 https://www.cncf.io/blog/2026/09/04/cpu-gpu-why-ai-platform-engineering-is-a-heterogeneous-infrastructure-problem/
 https://www.conductor.build/announcement
 https://www.cscloud.co.jp/news/report/202610099351/
+https://www.databricks.com/blog/announcing-general-availability-native-lakebase-postgres-sink-spark-structured-streaming
 https://www.digital.go.jp/news/2026-0911-01
 https://www.docker.com/blog/ai-agent-security-systems-problem/
 https://www.docker.com/blog/what-is-yolo-mode/
@@ -959,6 +980,7 @@ https://www.itmedia.co.jp/enterprise/articles/2611/18/news017.html
 https://www.itmedia.co.jp/enterprise/articles/2611/20/news023.html
 https://www.itmedia.co.jp/enterprise/articles/2611/20/news028.html
 https://www.itmedia.co.jp/enterprise/articles/2611/21/news003.html
+https://www.itmedia.co.jp/enterprise/articles/2611/23/news001.html
 https://www.itmedia.co.jp/news/article/2608/28/2000000897/
 https://www.itmedia.co.jp/news/article/2608/30/2000000949/
 https://www.itmedia.co.jp/news/article/2609/04/2000001161/
@@ -1039,6 +1061,7 @@ https://www.planned-obsolescence.org/p/ai-is-dramatically-accelerating-ai
 https://www.pospome.work/entry/2026/08/24/223309
 https://www.pospome.work/entry/2026/09/28/152221
 https://www.pospome.work/entry/2026/11/07/192125
+https://www.pospome.work/entry/2026/11/23/125036
 https://www.postgresql.org/about/news/postgresql-19-released-3449/
 https://www.preferred.jp/ja/blog/tech/1798
 https://www.preferred.jp/ja/blog/tech/plamo-3-translate-product-release
@@ -1108,12 +1131,14 @@ https://www.techno-edge.net/article/2026/09/07/5471.html
 https://www.techno-edge.net/article/2026/10/12/5574.html
 https://www.techno-edge.net/article/2026/11/17/5741.html
 https://www.techno-edge.net/article/2026/11/18/5756.html
+https://www.techno-edge.net/article/2026/11/23/5793.html
 https://www.theregister.com/security/2026/11/03/north-korean-fake-job-interview-led-to-63b-binance-heist/5307398
 https://www.uber.com/in/en/blog/postgres-to-mysql-migration/
 https://www.watch.impress.co.jp/docs/news/2136632.html
 https://www.watch.impress.co.jp/docs/news/2148547.html
 https://www.watch.impress.co.jp/docs/news/2154508.html
 https://www.watch.impress.co.jp/docs/news/2157432.html
+https://www.wiz.io/blog/agentic-attacks-artex-offensive-ai-frameworks
 https://www.wiz.io/blog/ai-infrastructure-honeypot
 https://www.wiz.io/blog/artifactory-under-attack-in-the-wild-exploitation-of-cve-2026-42016-cve-2026-4201
 https://www.wiz.io/blog/building-an-ai-detection-engine-for-agent-intent
@@ -1193,6 +1218,7 @@ https://zenn.dev/knowledgesense/articles/bd917ed6829121
 https://zenn.dev/kodomo_news/articles/53-strict-type-checked-gradual
 https://zenn.dev/koheip/articles/ai-agent-stop-keyless-visible
 https://zenn.dev/koheiwada/articles/houritsu-japanese-laws-as-git
+https://zenn.dev/koukyosyumei/articles/31c8fcf4da45b7
 https://zenn.dev/kusuke/articles/98e178e6824cac
 https://zenn.dev/lambda_funtaro/articles/493c7143876ad8
 https://zenn.dev/luvtechno/articles/isucon2026-competition-day
@@ -1213,6 +1239,7 @@ https://zenn.dev/mocchi_agent/articles/ceab2005012245
 https://zenn.dev/monyyy/articles/3c55e83a596ccb
 https://zenn.dev/moonlights0228/articles/c92cef1c37dc7c
 https://zenn.dev/muit_techblog/articles/6ea28887c79457
+https://zenn.dev/ncdc/articles/dcec80b0c067b0
 https://zenn.dev/nexta_/articles/42a828ca2b8a02
 https://zenn.dev/nonejp/articles/c7dd2859872f9d
 https://zenn.dev/nrs/articles/6ce38891833998
