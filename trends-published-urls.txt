@@ -211,6 +211,8 @@ https://gigazine.net/news/20261119-simcity-high-score/
 https://gigazine.net/news/20261120-large-language-model-can-rewrite-itself/
 https://gigazine.net/news/20261120-memory-compress/
 https://gigazine.net/news/20261122-ai-will-not-make-you-rich/
+https://gigazine.net/news/20261124-google-gbench-benchmarking-framework/
+https://gigazine.net/news/20261124-riemann-hypothesis-mathematician/
 https://giginet.hateblo.jp/entry/2026/09/22/114642
 https://gihyo.jp/article/2026/10/ai-security-defense
 https://gihyo.jp/article/2026/10/anatomy
@@ -275,6 +277,7 @@ https://japan.cnet.com/article/35253656/
 https://japan.cnet.com/article/35254103/
 https://japan.cnet.com/article/35254251/
 https://japan.cnet.com/article/35254549/
+https://japan.cnet.com/article/35255329/
 https://japan.zdnet.com/article/35252229/
 https://japan.zdnet.com/article/35252683/
 https://jbpress.ismedia.jp/articles/-/96703
@@ -302,6 +305,7 @@ https://kubernetes.io/blog/2026/09/16/kubernetes-v1-37-hardening-container-stora
 https://kubernetes.io/blog/2026/09/21/kubernetes-v1-37-pvc-last-used-time/
 https://kubernetes.io/blog/2026/11/16/ipvs-removal/
 https://kubernetes.io/blog/2026/11/23/kubernetes-v1-38-sneak-peek/
+https://lab.ndl.go.jp/news/2026/2026-11-24/
 https://labo.hatenastaff.com/entry/2026/09/30/151500
 https://layer3intel.com/blog/residential-proxies-white-house-network
 https://leaddev.com/ai/meta-tried-to-shrink-engineering-teams-around-ai
@@ -659,10 +663,20 @@ https://news.ycombinator.com/item?id=50609579
 https://news.ycombinator.com/item?id=50609685
 https://news.ycombinator.com/item?id=50610334
 https://news.ycombinator.com/item?id=50611402
+https://news.ycombinator.com/item?id=50611576
 https://news.ycombinator.com/item?id=50614249
 https://news.ycombinator.com/item?id=50615308
 https://news.ycombinator.com/item?id=50615520
 https://news.ycombinator.com/item?id=50616933
+https://news.ycombinator.com/item?id=50624497
+https://news.ycombinator.com/item?id=50627340
+https://news.ycombinator.com/item?id=50629231
+https://news.ycombinator.com/item?id=50629962
+https://news.ycombinator.com/item?id=50630594
+https://news.ycombinator.com/item?id=50630809
+https://news.ycombinator.com/item?id=50633922
+https://news.ycombinator.com/item?id=50634734
+https://news.ycombinator.com/item?id=50635246
 https://newsdig.tbs.co.jp/articles/-/2990268
 https://newsdig.tbs.co.jp/articles/-/3020110
 https://newsletter.dancohen.org/archive/the-slow-formation-of-durable-software/
@@ -808,6 +822,7 @@ https://speakerdeck.com/colorful12/gyoumu-jikangai-mo-ai-ni-hatarai-te-morau-han
 https://speakerdeck.com/falken/boku-no-claude-code-no-tsukaikata
 https://speakerdeck.com/flatt_security/security-risks-and-countermeasures-in-the-development-and-provision-of-ai-agents
 https://speakerdeck.com/freee/freee-niokeru-software-factory
+https://speakerdeck.com/goyoki/building-up-of-quality
 https://speakerdeck.com/goyoki/shift-left-approach-for-team-improvement
 https://speakerdeck.com/hi120ki/mercari-ai-security-conference-2026
 https://speakerdeck.com/hirosi1900day/rogu-kensaku-taiken-kara-gyakusan-suru-rogu-kiban-sekkei
@@ -877,6 +892,7 @@ https://techblog.kazaneya.com/20261030-agent-skills/
 https://techblog.tver.co.jp/entry/shiroma/history-of-test-automation
 https://techblog.zozo.com/entry/cc-plugin-marketplace
 https://techblog.zozo.com/entry/verify-ai-agent-coding-rules-with-archunit
+https://techracho.bpsinc.jp/hachi8833/2026_11_24/161424
 https://terriblesoftware.org/2026/10/02/the-brain-sandwich/
 https://terrytao.wordpress.com/2026/09/11/a-severe-misalignment-of-ai-in-mathematics/
 https://terrytao.wordpress.com/2026/10/18/will-it-be-a-golden-age-or-a-dark-age-for-mathematics-and-science/
@@ -966,6 +982,7 @@ https://www.itmedia.co.jp/aiplus/article/2609/11/2000001400/
 https://www.itmedia.co.jp/aiplus/article/2609/20/2000001664/
 https://www.itmedia.co.jp/aiplus/article/2610/02/2000001965/
 https://www.itmedia.co.jp/aiplus/article/2611/12/2000003140/
+https://www.itmedia.co.jp/aiplus/article/2611/24/2000003406/
 https://www.itmedia.co.jp/business/articles/2609/11/news072.html
 https://www.itmedia.co.jp/business/articles/2610/01/news040.html
 https://www.itmedia.co.jp/business/articles/2610/24/news009.html
@@ -1028,16 +1045,20 @@ https://www.itmedia.co.jp/news/article/2611/19/2000003310/
 https://www.itmedia.co.jp/news/article/2611/19/2000003316/
 https://www.itmedia.co.jp/news/article/2611/19/2000003351/
 https://www.itmedia.co.jp/news/article/2611/20/2000003369/
+https://www.itmedia.co.jp/news/article/2611/24/2000003427/
 https://www.itmedia.co.jp/pcuser/articles/2611/19/news047.html
 https://www.jiji.com/jc/article?k=2026091100447&g=flash
 https://www.jpcert.or.jp/at/2026/at260030.html
+https://www.katelynlesse.com/blog/new-problems-for-engineers-to-solve
 https://www.kimi.ai/blog/kimi-k3-1-pro
 https://www.kobonemi.com/entry/2026/10/03/macOS-27-Full-Disk-Access-Additional-Controls
 https://www.m3tech.blog/entry/2026/08/25/080000
 https://www.m3tech.blog/entry/2026/08/26/110000
 https://www.m3tech.blog/entry/2026/09/18/160000
 https://www.m3tech.blog/entry/2026/10/14/133340
+https://www.m3tech.blog/entry/contract-programming-in-lean
 https://www.m3tech.blog/entry/embulk-to-dlt-dbt
+https://www.mcdonalds.co.jp/company/info/261120a/
 https://www.megamouth.info/entry/2026/11/06/165305
 https://www.microsoft.com/en-us/security/blog/2026/10/21/storm-0940-uses-artex-agentic-ai-connectwise-supply-chain-compromise/
 https://www.mobtown.jp/article/old-engineer/
@@ -1050,6 +1071,7 @@ https://www.nikkei.com/article/DGXZQOGN101I30Q6A011C2000000/
 https://www.nikkei.com/article/DGXZQOGN122UY0S6A910C2000000/
 https://www.nikkei.com/article/DGXZQOGN18CYM0Y6A111C2000000/
 https://www.nikkei.com/article/DGXZQOSG120C30S6A910C2000000/
+https://www.nikkei.com/article/DGXZQOSG244FZ0U6A121C2000000/
 https://www.nikkei.com/article/DGXZQOUC160I20W6A910C2000000/
 https://www.nikkei.com/article/DGXZQOUC2315K0T21C26A0000000/
 https://www.nikkei.com/article/DGXZQOUC30A460Q6A031C2000000/
@@ -1072,6 +1094,7 @@ https://www.publickey1.jp/blog/26/denocloudflaredenocloudflare_workersdurable_ob
 https://www.publickey1.jp/blog/26/duckdbducklabsawsduckdbmit.html
 https://www.publickey1.jp/blog/26/google_antigravityaiai.html
 https://www.publickey1.jp/blog/26/jetbrainsmacjunie_localclaude_sonnet_45rtx5909.html
+https://www.publickey1.jp/blog/26/jquery_41queryselectoralljquery_3xjquery_38.html
 https://www.publickey1.jp/blog/26/mcpaihttp.html
 https://www.publickey1.jp/blog/26/net_11cjitaot.html
 https://www.publickey1.jp/blog/26/net_11netaot.html
@@ -1079,6 +1102,7 @@ https://www.publickey1.jp/blog/26/nextjs_163turbopack90ssr22typescript_7.html
 https://www.publickey1.jp/blog/26/openaianthropicapiagent_routerlinux_foundation.html
 https://www.publickey1.jp/blog/26/planetscalepostgresql11800qpsdbneki.html
 https://www.publickey1.jp/blog/26/playwrightbun.html
+https://www.publickey1.jp/blog/26/postgresql_19repackio.html
 https://www.publickey1.jp/blog/26/postgresqlazure_horizondb.html
 https://www.publickey1.jp/blog/26/rustcctstier_1.html
 https://www.publickey1.jp/blog/26/slackaislack_code.html
@@ -1087,6 +1111,7 @@ https://www.publickey1.jp/blog/26/vercelnextjscloudflare_workersaws_lambdavercel
 https://www.publickey1.jp/blog/26/vmhyperlight-unikraft.html
 https://www.radixark.com/blog/daisyrose-27b
 https://www.rakuten-sec.co.jp/web/info/info20261117-02.html
+https://www.rakuten-sec.co.jp/web/info/info20261124-04.html
 https://www.reddit.com/r/LocalLLaMA/comments/1w5ozl4/perplexity_opensourced_their_mac_inference_server/
 https://www.reddit.com/r/LocalLLaMA/comments/1xswmb7/the_surprising_effectiveness_of_deleting_weights/
 https://www.reddit.com/r/LocalLLaMA/comments/1xvh4ag/weight_space_programming_for_quantization_nace/
@@ -1138,6 +1163,7 @@ https://www.watch.impress.co.jp/docs/news/2136632.html
 https://www.watch.impress.co.jp/docs/news/2148547.html
 https://www.watch.impress.co.jp/docs/news/2154508.html
 https://www.watch.impress.co.jp/docs/news/2157432.html
+https://www.watch.impress.co.jp/docs/news/2158698.html
 https://www.wiz.io/blog/agentic-attacks-artex-offensive-ai-frameworks
 https://www.wiz.io/blog/ai-infrastructure-honeypot
 https://www.wiz.io/blog/artifactory-under-attack-in-the-wild-exploitation-of-cve-2026-42016-cve-2026-4201
@@ -1189,15 +1215,18 @@ https://zenn.dev/finatext/articles/dbt-snowflake-and-tag
 https://zenn.dev/folkbench/articles/c90bdf45161bf2
 https://zenn.dev/gangy/articles/04597efe1b64c5
 https://zenn.dev/gitmame00/articles/a8f5f300d4ea86
+https://zenn.dev/gixo/articles/engineer-learning-three-layers
 https://zenn.dev/glaciermelt/articles/prisma-postgres-rls-interactive-transaction
 https://zenn.dev/goat_eat_any/articles/claude-code-cloud-sessions
 https://zenn.dev/hampen2929/books/ai-dev-team-guide
 https://zenn.dev/hampen2929/books/claude-code-production-guide
 https://zenn.dev/helloyuki/articles/e1e312796f35ed
 https://zenn.dev/herp_inc/articles/90d6052024a30f
+https://zenn.dev/hirahara/articles/tidb-to-postgresql-cutover
 https://zenn.dev/hirayuki/articles/3b8c944818f630
 https://zenn.dev/hiromoo/articles/flutter-riverpod-agent-skill-evaluation
 https://zenn.dev/hiromoo/articles/reading-less-preparing-more
+https://zenn.dev/honabochi/articles/claude-codex-development-letters
 https://zenn.dev/jnch/articles/18cf3f1893ee5b
 https://zenn.dev/jtcc/articles/7e74fef42580a1
 https://zenn.dev/jtechjapan_pub/articles/local-llm-qwen-flash-next-eval
@@ -1219,6 +1248,7 @@ https://zenn.dev/kodomo_news/articles/53-strict-type-checked-gradual
 https://zenn.dev/koheip/articles/ai-agent-stop-keyless-visible
 https://zenn.dev/koheiwada/articles/houritsu-japanese-laws-as-git
 https://zenn.dev/koukyosyumei/articles/31c8fcf4da45b7
+https://zenn.dev/kurosaki_ren/articles/typescript-7-vs-6-type-check-speed
 https://zenn.dev/kusuke/articles/98e178e6824cac
 https://zenn.dev/lambda_funtaro/articles/493c7143876ad8
 https://zenn.dev/luvtechno/articles/isucon2026-competition-day
@@ -1274,6 +1304,7 @@ https://zenn.dev/snowflakejp/articles/parquet-direct-pruning-benchmark
 https://zenn.dev/socialplus/articles/f5d9e28470eb99
 https://zenn.dev/sompojapan_dx/articles/846c6038fee45d
 https://zenn.dev/sunsun_eng/articles/api-key-leak-routes-env-scan
+https://zenn.dev/t_azk/articles/judge-by-exit-code-not-by-llm
 https://zenn.dev/t_shamoji/articles/28f0bc6915dd27
 https://zenn.dev/t_tokunaga/articles/2026-10-20-ai-support-accountability
 https://zenn.dev/takumaichida/articles/d4cd24282518be
