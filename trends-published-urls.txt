@@ -1,3 +1,5 @@
+http://takagi-hiromitsu.jp/diary/20261124.html
+https://1password.com/blog/update-on-nov-2026-security-incident
 https://aba.hatenablog.com/entry/2026/10/22/194027
 https://about.gitlab.com/ja-jp/blog/whats-new-in-git-2-56-0/
 https://agilejourney.uzabase.com/entry/2026/11/19/103000
@@ -213,6 +215,7 @@ https://gigazine.net/news/20261120-memory-compress/
 https://gigazine.net/news/20261122-ai-will-not-make-you-rich/
 https://gigazine.net/news/20261124-google-gbench-benchmarking-framework/
 https://gigazine.net/news/20261124-riemann-hypothesis-mathematician/
+https://gigazine.net/news/20261125-anthropic-openai-employees-fear-unreleased-ai-models/
 https://giginet.hateblo.jp/entry/2026/09/22/114642
 https://gihyo.jp/article/2026/10/ai-security-defense
 https://gihyo.jp/article/2026/10/anatomy
@@ -278,6 +281,7 @@ https://japan.cnet.com/article/35254103/
 https://japan.cnet.com/article/35254251/
 https://japan.cnet.com/article/35254549/
 https://japan.cnet.com/article/35255329/
+https://japan.cnet.com/article/35255356/
 https://japan.zdnet.com/article/35252229/
 https://japan.zdnet.com/article/35252683/
 https://jbpress.ismedia.jp/articles/-/96703
@@ -677,11 +681,20 @@ https://news.ycombinator.com/item?id=50630809
 https://news.ycombinator.com/item?id=50633922
 https://news.ycombinator.com/item?id=50634734
 https://news.ycombinator.com/item?id=50635246
+https://news.ycombinator.com/item?id=50635783
+https://news.ycombinator.com/item?id=50637220
+https://news.ycombinator.com/item?id=50637686
+https://news.ycombinator.com/item?id=50637890
+https://news.ycombinator.com/item?id=50638032
+https://news.ycombinator.com/item?id=50642086
+https://news.ycombinator.com/item?id=50642939
+https://news.ycombinator.com/item?id=50647161
 https://newsdig.tbs.co.jp/articles/-/2990268
 https://newsdig.tbs.co.jp/articles/-/3020110
 https://newsletter.dancohen.org/archive/the-slow-formation-of-durable-software/
 https://nolanlawson.com/2026/10/28/the-ai-cost-of-javascript-frameworks/
 https://nono.sh/credential-injection
+https://note.com/_snsk/n/n9473a6e95b1c
 https://note.com/aatoku/n/n129df4db50ba
 https://note.com/at_sushi_at/n/n2e6ea3453e37
 https://note.com/kirik/n/n8e7920167c3f
@@ -693,6 +706,7 @@ https://note.com/postdoc_career/n/nc9dcfe5ea3d3
 https://note.com/shi3zblog/n/na7a590b9908e
 https://note.com/shi3zblog/n/nadf4c6873d6d
 https://note.com/shi3zblog/n/ncb38d2978074
+https://note.com/shikimi_crypto/n/n35d0bb54e6fb
 https://note.com/shinshiro/n/n45c9931a88e5
 https://note.com/srt_taka/n/nff6c2d40c11b
 https://note.com/suh_sunaneko/n/n23ed6981ff6a
@@ -709,6 +723,7 @@ https://note.com/yukukotani/n/n5607be0f8f4f
 https://nowokay.hatenablog.com/entry/2026/11/13/101644
 https://nyosegawa.com/posts/data-leak-era/
 https://nyosegawa.com/posts/qiita-writing-before-after-ai/
+https://onk.hatenablog.jp/entry/2026/11/25/022804
 https://openai.com/index/ai-agent-link-safety/
 https://openai.com/index/combatting-adversarial-distillation
 https://openai.com/index/hugging-face-incident-and-the-road-ahead/
@@ -771,6 +786,7 @@ https://qiita.com/nogataka/items/d6a54f3694726b9141f3
 https://qiita.com/nuco_d/items/b279477cbcdbe5921abd
 https://qiita.com/rawajifu8752/items/71f1c6ac68350683556e
 https://qiita.com/ryosuke_ohori/items/5c560c086d8c92173ac7
+https://qiita.com/shahin0809/items/05a6c7431ee7e5b6e520
 https://qiita.com/shahin0809/items/81e6a6737b2254bdc6ed
 https://qiita.com/shun123/items/260b4fa2c791da70f263
 https://qiita.com/songchong/items/073f202bb0ca65611b30
@@ -781,7 +797,9 @@ https://qiita.com/songchong/items/f80fad42b5a134fa3c14
 https://qiita.com/superdora-cloud/items/8cad27487cd0e67d088c
 https://qiita.com/suwa_nobu/items/bc2e80a8c1d61b0b2cfe
 https://qiita.com/take-yoda/items/e5d9ce6618523af1ffc5
+https://qiita.com/teppei19980914/items/205353ed847956c45dd2
 https://qiita.com/tetsuro731/items/1f91493cfddbd53343b3
+https://qiita.com/tofu_frontend/items/6a1bb7d80a58736eef0e
 https://qiita.com/xeje/items/48c9835a3e5c7b3d5489
 https://qiita.com/yama3133/items/11a360fc97ed3ec09742
 https://qiita.com/yamamoto_a_genee/items/76562c5c80032ad9e962
@@ -835,6 +853,7 @@ https://speakerdeck.com/lycorptech_jp/aidlc-aidd-workshop
 https://speakerdeck.com/minodriven/invisible-requirement-thinking
 https://speakerdeck.com/minorun365/2026-11-lab-datsubotorunekku-ningen
 https://speakerdeck.com/nakanao/ai-ni-makaseta-hinshitsu-ha-dare-ga-mitateru-no-ka-ai-jidai-no-tesuto-manejimento
+https://speakerdeck.com/nrslib/from-observer-to-practitioner-going-deep-into-domains-in-the-age-of-ai
 https://speakerdeck.com/ogidow/layerx-go-6-graceful-shutdown
 https://speakerdeck.com/pei0804/data-engineering-for-ai-ready-business
 https://speakerdeck.com/pospome/ai-jidai-ni-motomerareru-yuushuuna-techlead-no-furumai-2
@@ -849,6 +868,7 @@ https://speakerdeck.com/tkikuc/vibes-containers-ai-de-kawaru-kontena-sekkei-to-u
 https://speakerdeck.com/twada/debt-metaphor-in-agentic-engineering-age-202609-edition
 https://speakerdeck.com/upsider_tech/enjinia-ha-doko-made-ekkyou-surubeki-ka-take
 https://speakerdeck.com/yda/50-dai-de-hatsutenshoku-shita-hanashi
+https://speakerdeck.com/yuukiyo/building-teams-that-resist-cognitive-surrender-in-ai-dlc
 https://sre-magazine.net/articles/7/aoto/
 https://sshhole.com/
 https://sumahodigest.com/?p=76937
@@ -935,6 +955,7 @@ https://www.aikido.dev/blog/cve-spike-remediation-problem
 https://www.aikido.dev/blog/dark-figure-supply-chain-detection
 https://www.aikido.dev/blog/gitlab-email-push-to-main
 https://www.aikido.dev/blog/graphalgo-terraform-go-modules
+https://www.aikido.dev/blog/hugging-face-phishing-pages
 https://www.aikido.dev/blog/popular-code-generator-for-tanstack-query-hit-by-supply-chain-worm
 https://www.aikido.dev/blog/shai-hulud-npm-resurfaces
 https://www.aikido.dev/blog/software-supply-chain-security-decisions-not-defaults
@@ -950,7 +971,9 @@ https://www.anthropic.com/research/employment-at-anthropic
 https://www.anthropic.com/research/formalizing-fermats-last-theorem
 https://www.anthropic.com/research/intelligence-targeting-conventional-weapons-capabilities
 https://www.anthropic.com/research/launching-opt-in-vuln-finding-service-for-open-source
+https://www.anthropic.com/research/migrating-api-to-rust
 https://www.anthropic.com/research/multiagent-systems
+https://www.anthropic.com/research/working-with-ai
 https://www.anthropic.com/threat-intelligence-report-september-2026
 https://www.asahi.com/articles/ASVCN30WCVCNULFA01NM.html
 https://www.ben54.jp/news/3850
@@ -998,6 +1021,8 @@ https://www.itmedia.co.jp/enterprise/articles/2611/20/news023.html
 https://www.itmedia.co.jp/enterprise/articles/2611/20/news028.html
 https://www.itmedia.co.jp/enterprise/articles/2611/21/news003.html
 https://www.itmedia.co.jp/enterprise/articles/2611/23/news001.html
+https://www.itmedia.co.jp/enterprise/articles/2611/24/news014.html
+https://www.itmedia.co.jp/enterprise/articles/2611/25/news016.html
 https://www.itmedia.co.jp/news/article/2608/28/2000000897/
 https://www.itmedia.co.jp/news/article/2608/30/2000000949/
 https://www.itmedia.co.jp/news/article/2609/04/2000001161/
@@ -1046,6 +1071,7 @@ https://www.itmedia.co.jp/news/article/2611/19/2000003316/
 https://www.itmedia.co.jp/news/article/2611/19/2000003351/
 https://www.itmedia.co.jp/news/article/2611/20/2000003369/
 https://www.itmedia.co.jp/news/article/2611/24/2000003427/
+https://www.itmedia.co.jp/news/article/2611/25/2000003421/
 https://www.itmedia.co.jp/pcuser/articles/2611/19/news047.html
 https://www.jiji.com/jc/article?k=2026091100447&g=flash
 https://www.jpcert.or.jp/at/2026/at260030.html
@@ -1089,6 +1115,7 @@ https://www.preferred.jp/ja/blog/tech/1798
 https://www.preferred.jp/ja/blog/tech/plamo-3-translate-product-release
 https://www.publickey1.jp/blog/26/aicopilot_managed_runtime.html
 https://www.publickey1.jp/blog/26/awsaiec2vmaws_nitro_sandboxes.html
+https://www.publickey1.jp/blog/26/awsdynamodbextenddb10.html
 https://www.publickey1.jp/blog/26/claude_codeagentsmdclaudemd.html
 https://www.publickey1.jp/blog/26/denocloudflaredenocloudflare_workersdurable_objects.html
 https://www.publickey1.jp/blog/26/duckdbducklabsawsduckdbmit.html
@@ -1165,6 +1192,7 @@ https://www.watch.impress.co.jp/docs/news/2154508.html
 https://www.watch.impress.co.jp/docs/news/2157432.html
 https://www.watch.impress.co.jp/docs/news/2158698.html
 https://www.wiz.io/blog/agentic-attacks-artex-offensive-ai-frameworks
+https://www.wiz.io/blog/agentic-offensive-frameworks-intent-ids-artex-cairn
 https://www.wiz.io/blog/ai-infrastructure-honeypot
 https://www.wiz.io/blog/artifactory-under-attack-in-the-wild-exploitation-of-cve-2026-42016-cve-2026-4201
 https://www.wiz.io/blog/building-an-ai-detection-engine-for-agent-intent
@@ -1243,6 +1271,7 @@ https://zenn.dev/kazuki_izutani/articles/1709552ca099f1
 https://zenn.dev/kkk555/articles/databricks-health-architecture
 https://zenn.dev/kkk555/articles/databricks-permissions
 https://zenn.dev/km100/articles/0a482487c9cb0e
+https://zenn.dev/knowledgesense/articles/68128456fe7d28
 https://zenn.dev/knowledgesense/articles/bd917ed6829121
 https://zenn.dev/kodomo_news/articles/53-strict-type-checked-gradual
 https://zenn.dev/koheip/articles/ai-agent-stop-keyless-visible
@@ -1269,6 +1298,7 @@ https://zenn.dev/mocchi_agent/articles/ceab2005012245
 https://zenn.dev/monyyy/articles/3c55e83a596ccb
 https://zenn.dev/moonlights0228/articles/c92cef1c37dc7c
 https://zenn.dev/muit_techblog/articles/6ea28887c79457
+https://zenn.dev/ncdc/articles/7199d618ad4c87
 https://zenn.dev/ncdc/articles/dcec80b0c067b0
 https://zenn.dev/nexta_/articles/42a828ca2b8a02
 https://zenn.dev/nonejp/articles/c7dd2859872f9d

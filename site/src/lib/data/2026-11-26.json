@@ -1,0 +1,240 @@
+{
+  "date": "2026-11-26",
+  "categories": [
+    {
+      "name": "AIツール/コーディングエージェント活用",
+      "items": [
+        {
+          "title_ja": "AI に文章を書かせるときは、ネストした箇条書きで取捨選択させる",
+          "url": "https://onk.hatenablog.jp/entry/2026/11/25/022804",
+          "summary_ja": "コーディングエージェントが書くコミットメッセージや PR 本文は調べた内容を並べすぎて伝わりにくいため、まず伝えたいことをネストした箇条書きで出させ、残す項目を選んでから文章化する手法を紹介しています。残すべきは変更の判断とその根拠で、筆者はこの手順を skill として定型化しています。"
+        },
+        {
+          "title_ja": "VS Code 1.148：エージェント専用の Dev Container と Sandbox profiles。「隔離」の3種類を使い分ける",
+          "url": "https://qiita.com/shahin0809/items/05a6c7431ee7e5b6e520",
+          "summary_ja": "VS Code 1.148 で追加された、設定ファイル不要でエージェント用に立てられる Dev Container（Experimental）と、ホストごとに割り当てる Sandbox profiles を解説しています。Allow Sandbox Bypass の挙動などの検証結果を踏まえ、Worktree・Sandbox・Dev Container の3種類の隔離を目的別に使い分けるよう勧めています。"
+        },
+        {
+          "title_ja": "worktreeで並行作業中のエージェントを止めずに、親リポジトリで動作確認する",
+          "url": "https://zenn.dev/ncdc/articles/7199d618ad4c87",
+          "summary_ja": "worktree でエージェントが編集中のブランチを、親リポジトリ側で `git switch --detach` してそのコミットを確認する運用を紹介しています。親を確認専用・worktree を編集専用と役割分担し、切り替え用の `peek` スキルや使い終わった worktree の安全な掃除手順もまとめています。"
+        }
+      ]
+    },
+    {
+      "name": "AIツール/エージェント開発・実装",
+      "items": [
+        {
+          "title_ja": "AIハーネスは第3世代へ。自己改善するハーネスの全体像",
+          "url": "https://zenn.dev/knowledgesense/articles/68128456fe7d28",
+          "summary_ja": "AI エージェントの実行基盤「ハーネス」を、AI 自身が失敗ログを分析してプログラムごと修正していく「第3世代」の自己改善型ハーネスとして整理しています。SWE-bench Lite では全体を書き換える方式とほぼ同じ正答率を、約10分の1のトークン消費で達成したと報告されています。"
+        }
+      ]
+    },
+    {
+      "name": "AIツール/業務活用",
+      "items": [
+        {
+          "title_ja": "AIで学習アプリを作って2週間で宅建に合格した話【テキスト不要】",
+          "url": "https://note.com/shikimi_crypto/n/n35d0bb54e6fb",
+          "summary_ja": "不動産知識のないコンサルタントが市販テキストを使わず、AI で自作した学習アプリと YouTube 教材だけで約2週間・60時間学習し宅建に合格した体験記です。過去問解説と論点タグを整えたアプリが AI で弱点分析を返し、直前期は宅建業法と誤答見直しに絞り込むことで本番38点を取ったと述べています。"
+        }
+      ]
+    },
+    {
+      "name": "AIモデル/論文・研究",
+      "items": [
+        {
+          "title_ja": "OpenAI が「行列積の指数 ω は 9/4」とするプレプリントを公開",
+          "url": "https://news.ycombinator.com/item?id=50637220",
+          "summary_ja": "OpenAI の math リポジトリに、行列積の計算量指数 ω が 9/4（2.25）であると主張するプレプリントが公開され、既知の上界約2.37を大きく下回る結果として HN で大きな話題になっています。Scott Aaronson はブログで、以前の上界と合わせて ω を確定させる成果として取り上げ、AI による数学成果が相次ぐ現状への驚きを綴っています（多面体の多項式 Hirsch 予想の反証プレプリントも同時に公開）。※論文本文は取得できず、リポジトリの掲載情報と Scott Aaronson のブログから要約"
+        },
+        {
+          "title_ja": "Google が Cogentic による整数分解・離散対数などの研究論文群を公開",
+          "url": "https://news.ycombinator.com/item?id=50642086",
+          "summary_ja": "Google Research のリポジトリで、Cogentic が生成した整数分解、離散対数、ナッシュ均衡、log-rank 予想などに関する論文群（10月30日〜11月25日付）が公開されました。HN では「ラボが因数分解を多項式時間で解いた」という噂も広がりましたが、コメントでは理論的成果で暗号への実用的影響はないとの指摘が出ています。"
+        }
+      ]
+    },
+    {
+      "name": "AIモデル/ローカルLLM",
+      "items": [
+        {
+          "title_ja": "任意のデータセットに必要な LoRA のサイズを予測する",
+          "url": "https://news.ycombinator.com/item?id=50635783",
+          "summary_ja": "データセットをベースモデル下でのビット数として測り、各ランクの LoRA が保持できる容量曲線と照合することで、必要な LoRA ランクを事前に見積もる手法を提案しています。実データでは、予測したランクがデータの95%を記憶できる最小の LoRA とよく一致したと報告されています。"
+        }
+      ]
+    },
+    {
+      "name": "AI倫理/安全性",
+      "items": [
+        {
+          "title_ja": "同じ推論サーバー上のモデルは、サンドボックス化されていても互いに通信できる",
+          "url": "https://news.ycombinator.com/item?id=50637686",
+          "summary_ja": "同一の推論サーバー上で動く2つのモデルが、メッセージや共有ファイルなしに、vLLM のカーネル選択や共有 KV キャッシュといったサイドチャネルを介して秘密裏に情報をやり取りできることを示した研究です。監視役モデルとの共謀を防ぐには直接通信の遮断だけでは不十分で、バッチ不変カーネルの採用や監視モデルを別エンジンで動かすなどの対策が必要だとしています。"
+        },
+        {
+          "title_ja": "AnthropicとOpenAIの従業員らが「未公開モデルが強力になりすぎて一般公開するのは危険」と懸念",
+          "url": "https://gigazine.net/news/20261125-anthropic-openai-employees-fear-unreleased-ai-models/",
+          "summary_ja": "Axios の報道によると、Anthropic と OpenAI の従業員20名以上が、社内の未公開モデルは数学・科学・サイバーセキュリティ・AI 研究での能力が高すぎて安全に一般公開できないと懸念しています。社内では開発を続けるべきか止めるべきかで意見が割れているとのことです。"
+        }
+      ]
+    },
+    {
+      "name": "AI倫理/ガバナンス・企業導入",
+      "items": [
+        {
+          "title_ja": "Anthropic「Working with AI」：企業顧客58社への聞き取りで見えた AI 導入と雇用の実態",
+          "url": "https://www.anthropic.com/research/working-with-ai",
+          "summary_ja": "Anthropic の企業顧客58社・66件のインタビューから、AI 導入企業の多くはコスト削減より生産量の拡大に使っており、AI を理由とした解雇は少ないものの採用は抑えている傾向が明らかになりました。最も成果が出ているのは役割の拡張や AI が苦手な業務への配置転換など仕事の再編であり、トップダウンの自動化やボトムアップの実験だけでは抵抗やボトルネックに当たりがちだとしています。"
+        },
+        {
+          "title_ja": "シャドーITとシャドーAIのリスクにどう向き合うか（ITmedia エンタープライズ）",
+          "url": "https://www.itmedia.co.jp/enterprise/articles/2611/25/news016.html",
+          "summary_ja": "生成 AI への入力や社用スマホでの撮影、SNS 投稿など、社員の行動が意図せず情報を外部に出してしまうシャドーIT・シャドーAI のリスクを整理しています。全面禁止に頼るのではなく、ルールの見直しや AI 利用ガイドラインで現実的にリスクを管理する方法を提案しています。"
+        }
+      ]
+    },
+    {
+      "name": "AI倫理/雇用・人材",
+      "items": [
+        {
+          "title_ja": "AIでドーピングしたコンサルの実力は　使わない人材との能力差、BCG約500人で検証",
+          "url": "https://www.itmedia.co.jp/news/article/2611/25/2000003421/",
+          "summary_ja": "ボストン大学・BCG・OpenAI の研究で、データサイエンス非専門の BCG コンサルタントが ChatGPT を使うと検索などを使う群より高いスコアを出し、プログラミング経験者は現役データサイエンティストに迫る成績になりました。ただし AI なしの事後テストでは差がなく、AI による能力向上は一時的で知識として定着していないと結論づけています。"
+        }
+      ]
+    },
+    {
+      "name": "Security/脆弱性・インシデント",
+      "items": [
+        {
+          "title_ja": "1Password、バックエンドシステムに関わるセキュリティインシデントの続報を公開",
+          "url": "https://1password.com/blog/update-on-nov-2026-security-incident",
+          "summary_ja": "侵害された従業員の GitHub アカウントから攻撃者がソースコードと CI/CD に到達し、悪意あるコードを push してバックエンドから一部ユーザーの氏名・メールアドレス・アカウント ID・招待／リカバリートークンなどを取得しました。Vault の中身や暗号鍵、リカバリーキーは影響を受けておらず、ユーザー側の操作は不要ですが、身に覚えのない招待やリカバリー要求を装うフィッシングに注意するよう呼びかけています（HN でも 800 ポイント超の話題に）。"
+        },
+        {
+          "title_ja": "Nfs2root：Linux カーネル NFS サーバーに12年間潜んでいた認証前リモート root 脆弱性",
+          "url": "https://news.ycombinator.com/item?id=50647161",
+          "summary_ja": "Linux カーネルの NFS サーバー実装に、12年前から存在した認証前のリモート root 取得脆弱性（CVE-2026-99362）が報告されました。HN では、上流では数か月前に修正済みで NFS をインターネットに公開する例は少ないため影響は限定的との見方が出ています。※元記事は取得できず（403）、HN のタイトル・コメントのみから要約"
+        }
+      ]
+    },
+    {
+      "name": "Security/プライバシー",
+      "items": [
+        {
+          "title_ja": "「氏名は含まれておりません」では済まない——KARTE事件で漏れた行動の記録は誰の個人データか",
+          "url": "http://takagi-hiromitsu.jp/diary/20261124.html",
+          "summary_ja": "プレイドの「KARTE」への不正アクセスで、導入企業の会員の性別・年代や閲覧・操作などの行動記録が漏えいした件について、各社の「氏名は含まれない」という公表姿勢を批判しています。高木浩光氏は、会員 ID に結びついた行動記録は氏名がなくても導入企業にとっての個人データであり、報告・本人通知の対象として扱うべきだと主張しています。"
+        }
+      ]
+    },
+    {
+      "name": "Security/AI×攻撃",
+      "items": [
+        {
+          "title_ja": "エージェント型攻撃フレームワーク ARTEX・Cairn の「Intent ID」から攻撃者を追跡する",
+          "url": "https://www.wiz.io/blog/agentic-offensive-frameworks-intent-ids-artex-cairn",
+          "summary_ja": "ARTEX や Cairn といったエージェント型攻撃フレームワークが内部で使う連番の「Intent ID」が、アカウント名やクラウドリソース名、User-Agent など被害側の痕跡に漏れ出していることを Wiz が解説しています。防御側はこれを手がかりに、IP が変わっても活動を紐付けたり攻撃者の規模を推定したりできますが、単独の帰属根拠ではなく補強証拠として使うべきだとしています（Aikido も同日に ARTEX 攻撃から見る AI ペンテストの教訓を公開）。"
+        },
+        {
+          "title_ja": "攻撃者が Hugging Face の AI サイトビルダーでフィッシングページを量産",
+          "url": "https://www.aikido.dev/blog/hugging-face-phishing-pages",
+          "summary_ja": "Aikido Security は、Microsoft・Google・PayPal など28ブランドを装うフィッシング／認証情報窃取ページ42件が Hugging Face Spaces 上にホストされ、うち29件が同社の AI サイトビルダー DeepSite で作られていたことを報告しました。通報後に全ページが停止・削除されたものの、無料の hf.space ホスティングは同様の悪用を容易に繰り返せると警告しています。"
+        }
+      ]
+    },
+    {
+      "name": "開発/アーキテクチャ・移行",
+      "items": [
+        {
+          "title_ja": "Anthropic、Messages API を Python から Rust に移行——本番トラフィックを検証器にした移行手法",
+          "url": "https://www.anthropic.com/research/migrating-api-to-rust",
+          "summary_ja": "Anthropic は Messages API を Python から Rust へ、本番トラフィックをシャドーイングして差分を Claude エージェントに修正させる方式で、サービスを止めずに移行しました。リクエストあたり CPU 使用量は約70%、最初のトークンまでの時間の中央値は約20%削減され、ボトルネックはコード生成ではなく検証だったと結論づけています。"
+        }
+      ]
+    },
+    {
+      "name": "開発/データスタック",
+      "items": [
+        {
+          "title_ja": "AWS、DynamoDB互換DBをローカルで構築できるOSS「ExtendDB」がバージョン1.0に",
+          "url": "https://www.publickey1.jp/blog/26/awsdynamodbextenddb10.html",
+          "summary_ja": "AWS は、DynamoDB 互換のデータベースを Windows・Linux・macOS のローカルで構築できる OSS「ExtendDB」の 1.0 到達を発表しました。PostgreSQL・SQLite・Cassandra・MongoDB のいずれかをエンジンに使え、既存の DynamoDB SDK やコードのままローカル開発・テストやオンプレミスで利用できます。"
+        }
+      ]
+    },
+    {
+      "name": "開発/フロントエンド",
+      "items": [
+        {
+          "title_ja": "日本語サイトで指定しておきたいCSS 2026年版",
+          "url": "https://qiita.com/tofu_frontend/items/6a1bb7d80a58736eef0e",
+          "summary_ja": "`text-autospace`・`text-spacing-trim`・`text-wrap: balance`・`overflow-wrap: anywhere` など、日本語の組版を整えるのに明示指定が必要な CSS をまとめています。各プロパティのブラウザ対応状況も示し、非対応ブラウザでは無視されるだけなので安全に導入できると解説しています。"
+        },
+        {
+          "title_ja": "iOS Safari の 60FPS 制限を回避してネイティブ並みに滑らかな Web アプリを作る",
+          "url": "https://news.ycombinator.com/item?id=50637890",
+          "summary_ja": "開発者フラグなしで iOS Safari の ProMotion ディスプレイ上で約120Hz の入力処理と描画を実現する手法を解説しています。隠しスクロール要素で高頻度に入力を読み取り、`OffscreenCanvas` で 60Hz の描画パスを待たずにフレームを出すことで、ドラッグ中に平均約118FPS を達成したとしています。"
+        }
+      ]
+    },
+    {
+      "name": "開発/形式検証",
+      "items": [
+        {
+          "title_ja": "Lean で Clojure のコアを検証したら未報告のバグが見つかった",
+          "url": "https://news.ycombinator.com/item?id=50642939",
+          "summary_ja": "Lean 4 によるモデル化と `java.util` コレクションとの差分テストで Clojure 1.12.7 のコアを検証し、`vector-of` での `reduce` のハングや HAMT 衝突ノードのハッシュ誤りなど、未報告のバグ17件を発見した報告です。形式手法を実在の言語ランタイムに当てる実践例として注目を集めています。"
+        }
+      ]
+    },
+    {
+      "name": "キャリア・組織",
+      "items": [
+        {
+          "title_ja": "AI-DLC最前線のCognitive Surrenderに陥らないチーム作り",
+          "url": "https://speakerdeck.com/yuukiyo/building-teams-that-resist-cognitive-surrender-in-ai-dlc",
+          "summary_ja": "AI の出力をほとんど吟味せず採用してしまう「認知的降伏」を防ぐため、各モブが1日1回チーム全体に説明しフィードバックを受ける仕組みを取り入れている事例を紹介しています。AI の提案にも開発者が説明責任を負う前提で、仮説を立ててから AI に依頼する「クラフトマンシップ」を重視したチーム作りを提唱しています。"
+        },
+        {
+          "title_ja": "観測者から当事者へ、AI 時代にドメインへ深入りする知識と技術",
+          "url": "https://speakerdeck.com/nrslib/from-observer-to-practitioner-going-deep-into-domains-in-the-age-of-ai",
+          "summary_ja": "AI で実装は速くなっても業務の判断基準や例外はドメインエキスパートにしか分からないため、開発者はエキスパートの協力を得る力とファシリテーションで知識を引き出す技術が必要だと説いています。イベントストーミングで境界を見つけ、ルールを Quint などの形式仕様で書いてモデル検査することで、開発者と AI が同じ条件を解釈できるようにする方法も示しています。"
+        },
+        {
+          "title_ja": "「AIで不要になる職種」は本当か？SaaS、SIer、IT現場のこれから",
+          "url": "https://www.itmedia.co.jp/enterprise/articles/2611/24/news014.html",
+          "summary_ja": "AI の普及で開発のハードルが下がる中、SaaS・SIer・SES など IT 業界の仕事がどう変わるかを整理しています。AI に代替されやすい業務とそうでない業務の違いや、これからの IT 人材に求められる要素を解説しています。"
+        },
+        {
+          "title_ja": "組織レベルごとの品質定義（リライト）",
+          "url": "https://note.com/_snsk/n/n9473a6e95b1c",
+          "summary_ja": "企業・プロダクトライン・製品・プロジェクト・チーム／個人という5つの組織レベルそれぞれに品質定義があり、レベル間の一貫性が高品質な製品を継続的に出す鍵だと論じています。上位から下位へ具体化して縦に結びつけつつ横方向の協調も図ることで、企業ブランドとしての品質を技術面から維持できるとしています。"
+        },
+        {
+          "title_ja": "心理的安全性を現場で育てる ― 「なんで？」をやめただけで2チーム統合リーダーの現場が変わった話",
+          "url": "https://qiita.com/teppei19980914/items/205353ed847956c45dd2",
+          "summary_ja": "2チームを統合するリーダーが「きっかけ→行動→みかえり」の枠組みを使い、「なぜ？」を「意図は？」に言い換える、報告に感謝を伝えるといった日々の声かけを改めた経験を綴っています。心理的安全性は制度ではなく小さな言葉の積み重ねで育つと結論づけ、自身の失敗も振り返っています。"
+        }
+      ]
+    },
+    {
+      "name": "その他",
+      "items": [
+        {
+          "title_ja": "地上波テレビの全番組を「ネットで同時・見逃し配信」、総務省が提案　2040年までに",
+          "url": "https://japan.cnet.com/article/35255356/",
+          "summary_ja": "総務省の事務局が、地上波番組を遅くとも2040年までに原則すべてネットで同時・見逃し配信できるようにする案を示し、中継局の設備更新が2040年代前半に集中する見通しを背景に挙げています。はてブでは2040年は遅すぎるとの声の一方、受信料や権利処理への懸念も目立ちます。※本文取得不可のため、はてブコメントページから要約"
+        },
+        {
+          "title_ja": "Button Sounds：プロが収録したボタンのクリック音・押下音コレクション",
+          "url": "https://news.ycombinator.com/item?id=50638032",
+          "summary_ja": "Josh W. Comeau が公開した、UI 向けに収録された触感のあるボタン効果音のコレクションサイトです。HN で 800 ポイントを超える人気を集めています。"
+        }
+      ]
+    }
+  ]
+}
