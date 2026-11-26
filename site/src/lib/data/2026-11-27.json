@@ -1,0 +1,260 @@
+{
+  "date": "2026-11-27",
+  "categories": [
+    {
+      "name": "AIツール/コーディングエージェント活用",
+      "items": [
+        {
+          "title_ja": "個人開発 with AI",
+          "url": "https://zenn.dev/holygrail/scraps/dec6ae85d06b4f",
+          "summary_ja": "並行セッションで個人開発する筆者が、CLAUDE.md に書いている「ユーザーへの報告ルール」を公開したスクラップ。冒頭に現在地と残作業を置く、判断の依頼は1回1問にする、手順は1手ずつ案内するなど、人間側の認知負荷を下げる書き方の指示が具体的にまとまっている。"
+        },
+        {
+          "title_ja": "AIの返答が理解しづらいので、自分の認知特性をAIに分析させてSkillにした",
+          "url": "https://blog.shibayu36.org/entry/2026/11/17/120000",
+          "summary_ja": "「案Bって何だっけ？」と聞き返しがちな短期記憶の弱さを自覚した筆者が、過去のやりとりから自分の認知特性を Claude Code に分析させ、それに合わせて返答を書かせる Skill を作った事例。before/after と作り方の手順が紹介されている。"
+        },
+        {
+          "title_ja": "CLAUDE.md / AGENTS.md を Claude Code に継続的に書かせる",
+          "url": "https://anond.hatelabo.jp/20261126144022",
+          "summary_ja": "モデルやハーネスの性能は日々変わるため、CLAUDE.md の中身を人が固定で書くのではなく、「望ましい出力例」のセットを用意して claude -p で試しながら最小限の CLAUDE.md を Claude 自身に書き直させ、これを毎週定期実行するという運用の提案。"
+        }
+      ]
+    },
+    {
+      "name": "AIツール/エージェント開発・実装",
+      "items": [
+        {
+          "title_ja": "理解をあきらめないAI駆動開発 ――開発の流れに「理解の工程」を織り込む6つの実践",
+          "url": "https://note.com/assuredjp/n/n6ec5f6544e0c",
+          "summary_ja": "アーキテクチャカンファレンス2026の登壇内容。「AIが書いたPRの設計理由を自分の言葉で説明できるか」という問いを起点に、AI駆動開発のフローに人がコードを理解する工程を意図的に組み込む6つの実践を紹介している。"
+        }
+      ]
+    },
+    {
+      "name": "AIツール/業務活用",
+      "items": [
+        {
+          "title_ja": "MetaのAIエージェント Muse を1ヶ月使い倒してわかったこと",
+          "url": "https://dev.sin5d.com/meta-muse-usage",
+          "summary_ja": "Meta のクラウド型AIエージェント「Muse」を1ヶ月使い込んだレビュー。Muse Spark から Muse Wonder までのモデルの変遷を整理しつつ、GrokBot など他のクラウドエージェントと比べた使い勝手や得意分野をまとめている。"
+        }
+      ]
+    },
+    {
+      "name": "AIモデル/論文・研究",
+      "items": [
+        {
+          "title_ja": "Scott Aaronson「HOLY SHIT」：AIによる数学的ブレイクスルーの規模について",
+          "url": "https://news.ycombinator.com/item?id=50646108",
+          "summary_ja": "計算量理論の第一人者 Scott Aaronson が、OpenAI と Anthropic による VP≠VNP の証明、行列積の指数 ω=9/4 の下界証明など、AIが立て続けに出している数学的成果の衝撃を改めて綴ったブログ。特に ω>2 という下界をAIが証明できたこと自体が最大の驚きだと述べており、HN では1,700件超のコメントで議論が白熱している。"
+        }
+      ]
+    },
+    {
+      "name": "AIモデル/ローカルLLM",
+      "items": [
+        {
+          "title_ja": "24KBの「LLM専用OS」が登場　全てアセンブリでLinuxを排し、llama.cppより最大54%高速",
+          "url": "https://www.techno-edge.net/article/2026/11/26/5824.html",
+          "summary_ja": "Qwen3-0.6B を動かすためだけに作られた約24KBのOS「asm-llm-os」の紹介。ブートからドライバ、推論エンジンまで全て x86-64 アセンブリで書かれ、Linux なしで0.1秒未満に起動し、作者計測では llama.cpp より最大54%高速。HN でも「Bare Metal Qwen」として話題になった。"
+        },
+        {
+          "title_ja": "AMD GPU 向けに特化した llama.cpp のフォーク",
+          "url": "https://news.ycombinator.com/item?id=50657265",
+          "summary_ja": "AMD の RDNA GPU 向けに最適化した llama.cpp フォーク「llama-cpp-rdna-boosts」を試したところ、生成速度が35→55 tokens/s、プリフィルが700→1300 tokens/s に向上したという報告。汎用推論エンジンに対し、特定ハードウェア専用の推論エンジンが LLM の助けで続々生まれている潮流にも触れている。"
+        }
+      ]
+    },
+    {
+      "name": "AIモデル/オープンモデル",
+      "items": [
+        {
+          "title_ja": "日本人の\"相づちと間\"を再現した会話AI「Haru-4B」を国内ベンチャーが無償公開",
+          "url": "https://www.techno-edge.net/article/2026/11/26/5819.html",
+          "summary_ja": "国内スタートアップ higurashi が、相手の声を聞きながら同時に話せる全二重方式の Speech-to-Speech モデル「Haru-4B」を公開。ターン制ではなく相づちや発話の重なりを含む自然な日本語会話が可能で、重みは Hugging Face、コードは GitHub で公開されている。"
+        },
+        {
+          "title_ja": "Google がオープンモデル「Gemma 4」のファインチューニング情報を網羅したページを公開、専用スキルも",
+          "url": "https://gigazine.net/news/20261126-gemma-4-fine-tune/",
+          "summary_ja": "Google が Gemma 4 シリーズのファインチューニング手法・ツール・データ準備などをまとめたドキュメントページを公開した。コーディングエージェントからファインチューニングを実行するためのスキルも用意されている。"
+        }
+      ]
+    },
+    {
+      "name": "AI倫理/規制・法律",
+      "items": [
+        {
+          "title_ja": "飲食店の\"AI商品画像\"は景品表示法違反にならないの？　弁護士の見解",
+          "url": "https://www.itmedia.co.jp/news/article/2611/26/2000003447/",
+          "summary_ja": "生成AIで作ったメニュー画像と景品表示法の関係を弁護士が解説。AI生成かどうかで判断基準は変わらず、実物より著しく優良に見せる画像は「優良誤認表示」として違法になり得るため、実物との乖離に注意が必要だとしている。"
+        }
+      ]
+    },
+    {
+      "name": "AI倫理/著作権・肖像権",
+      "items": [
+        {
+          "title_ja": "「知らない〝私〟が血を流し罵倒」中国AI短編ドラマで「顔盗用」急増　俳優は泣き寝入り",
+          "url": "https://www.sankei.com/article/20261126-SZTQ2RJW5ZKU3GJ4GQKJAORUPE/",
+          "summary_ja": "AI短編ドラマが急増する中国で、AI俳優に顔や声を無断で使われたと実在の俳優・モデルが訴えるトラブルが多発している。規制が追いつかず泣き寝入りするケースが多く、中国政府は管理強化に乗り出している。"
+        },
+        {
+          "title_ja": "音楽配信サービス TIDAL、AI生成楽曲の一律禁止を発表。約2700万曲を削除へ",
+          "url": "https://internet.watch.impress.co.jp/docs/yajiuma/2159409.html",
+          "summary_ja": "TIDAL が12月9日付で完全AI生成楽曲を禁止し、配信楽曲の約6.3%にあたる約2700万曲を削除すると発表。新規アップロードの60%がAI生成になっていた一方、対象曲の96%は直近90日の再生がゼロだったという。ラベル付けで許容する Spotify などとは対照的な対応となる。"
+        }
+      ]
+    },
+    {
+      "name": "AI倫理/ガバナンス・企業導入",
+      "items": [
+        {
+          "title_ja": "Google、AIエージェントに自社の Workspace MCP サーバー経由のアクセスを義務化。だが Gmail 用はメールを送れない",
+          "url": "https://news.ycombinator.com/item?id=50653477",
+          "summary_ja": "Google は Workspace の MCP サーバー8種を GA にし、2027年2月1日から「AIエージェントであるか、それに駆動される」ツールはこれらの MCP サーバー経由でのアクセスを必須とする規約を追加した。ところが Gmail サーバーは検索・閲覧・下書き作成はできても送信ができないなど機能が限られており、既存のエージェント連携の見直しが必要になると指摘している。"
+        }
+      ]
+    },
+    {
+      "name": "AI倫理/安全性",
+      "items": [
+        {
+          "title_ja": "日本ファクトチェックセンターが誤情報、AI（NotebookLM）が抽出した発言を確認せず掲載",
+          "url": "https://japan.cnet.com/article/35255447/",
+          "summary_ja": "JFC が衆院選の党首討論を検証した記事で、NotebookLM が抽出した「発言」を元動画と照合しないまま掲載し、実在しない発言を政治家のものとして載せていた。11月25日に経緯の報告書と、公開前に編集者2人以上の承認を求める再発防止計画を公表した。"
+        }
+      ]
+    },
+    {
+      "name": "Security/脆弱性・インシデント",
+      "items": [
+        {
+          "title_ja": "1Passwordへの不正アクセスについてまとめてみた",
+          "url": "https://piyolog.hatenadiary.jp/entry/2026/11/26/153937",
+          "summary_ja": "従業員の業務用 GitHub アカウントを起点に、ソースコードやバックエンドのサービスへアクセスされ一部顧客の氏名・メールアドレスなどの管理データが取得された1Passwordの事案を時系列で整理。保管庫やその鍵は無事とされる一方、招待・復旧メールを装ったフィッシングへの注意が呼びかけられている。"
+        },
+        {
+          "title_ja": "iPhone、広告を1回タップするだけでマルウェアに感染の恐れ　日本が主要な標的に",
+          "url": "https://news.mynavi.jp/techplus/article/20261125-5406233/",
+          "summary_ja": "広告セキュリティ企業 Confiant が、悪質広告から iOS の脆弱性を突いてマルウェアに感染させる大規模攻撃「MoldyRoost」を公表した。未更新の iPhone では1回のタップでパスワードや暗号資産ウォレット情報などが窃取される恐れがあり、日本向けの広告ドメイン数は香港に次いで多かった。"
+        },
+        {
+          "title_ja": "東京都が子育て支援で配った QUOカードPay、約9000万円分が「残高ゼロ」に　不正流出か",
+          "url": "https://www.tokyo-np.co.jp/article/530676",
+          "summary_ja": "都の子育て支援事業「赤ちゃんファーストギフト」で配布したデジタル商品券 QUOカードPay の約9000万円分が使えなくなっており、都は外部への不正流出の可能性もあるとして警視庁に相談。委託先への不正アクセスが関係しているとみられる。"
+        }
+      ]
+    },
+    {
+      "name": "Security/AI×攻撃",
+      "items": [
+        {
+          "title_ja": "脆弱性の発見数、1年で2倍超　Microsoft製品も月100件から1000件超に……AIで一変",
+          "url": "https://www.itmedia.co.jp/news/article/2611/26/2000003446/",
+          "summary_ja": "Microsoft の11月の月例更新で修正された脆弱性は1093件に達し、2026年に発見された脆弱性は全体で10万件超と前年の倍以上になった。AIにより発見も悪用も激増するなかで、パッチを適用する側がどう優先順位を付けて対処すべきかを考察している。"
+        },
+        {
+          "title_ja": "AIエージェントを騙す：一見安全だが危険なGitHubリポジトリをAIエージェントにセットアップさせてみた",
+          "url": "https://engineers.ntt.com/entry/202610-offsec-intern/entry",
+          "summary_ja": "NTTドコモグループのオフェンシブセキュリティ系インターンで、見た目は無害なリポジトリのセットアップをAIエージェントに任せると攻撃者のコードが実行されてしまう攻撃シナリオを、隔離環境で検証した体験記。コーディングエージェントにリポジトリを触らせる際のリスクが具体的に分かる。"
+        }
+      ]
+    },
+    {
+      "name": "開発/データスタック",
+      "items": [
+        {
+          "title_ja": "minipg：PostgreSQL を単一の実行ファイルに",
+          "url": "https://news.ycombinator.com/item?id=50650892",
+          "summary_ja": "サーバー設定不要で PostgreSQL を使える単一実行ファイル「minipg」。.pgdb ディレクトリにデータ・設定・認証情報・バージョンが収まり、必要時だけサーバーが起動してアイドル時に自動停止する。postgres:18-alpine イメージを Plan 9 カーネル系の h9 上で直接動かすため、Linux カーネルも VM も Docker も不要という仕組みも面白い。"
+        }
+      ]
+    },
+    {
+      "name": "開発/インフラ・ツール",
+      "items": [
+        {
+          "title_ja": "AWS Emulator を使用してローカルで AWS に対してアプリケーションをテストする",
+          "url": "https://aws.amazon.com/jp/blogs/news/test-your-applications-against-aws-locally-with-aws-emulator/",
+          "summary_ja": "AWS 公式のローカルエミュレーター「AWS Emulator」の紹介。AWS CLI・SDK・コーディングエージェントが本番と同じ API でローカルの HTTPS エンドポイントと通信でき、環境変数を切り替えるだけでアプリのコードを変えずにテストできる。追加料金はなくソースは GitHub で公開されている。"
+        }
+      ]
+    },
+    {
+      "name": "開発/言語・エコシステム",
+      "items": [
+        {
+          "title_ja": "Rubyを安心して使い続けるために",
+          "url": "https://www.ruby.or.jp/ja/news/20261125",
+          "summary_ja": "AIによって脆弱性の発見から悪用までが数日〜数時間に縮んだ状況を受け、Ruby アソシエーションが利用者向けに出した呼びかけ。サポート中の Ruby 4.0／3.4／3.3 を使うこと（3.3 は2027年3月末で終了予定）、フレームワークや gem も含めてセキュリティリリースを速やかに適用することを求めている。"
+        }
+      ]
+    },
+    {
+      "name": "開発/形式検証",
+      "items": [
+        {
+          "title_ja": "バイブ形式手法のハマりどころ2選",
+          "url": "https://blog.kuniwak.com/entry/vibe-fm",
+          "summary_ja": "形式手法の知識なしにAIとの対話だけで Lean や TLA+ などを使う「バイブ形式手法」では、自分が思っている保証範囲と実際の保証範囲がずれることがあると指摘。オラクルの言語化・感度分析・忠実さの検査という3つの手順と、その効果を確かめた実験を紹介している。"
+        }
+      ]
+    },
+    {
+      "name": "開発/JS・TS",
+      "items": [
+        {
+          "title_ja": "Jev で実現する Generative UI",
+          "url": "https://speakerdeck.com/azukiazusa1/slide-efc59f7e-336f-4e6c-8919-27211ebc3d07",
+          "summary_ja": "Claude や ChatGPT が回答をチャートなどの UI で返し始めた流れを踏まえ、AIが UI を生成して返す「Generative UI」とは何か、なぜ Jev と相性が良いのかを実例を交えて解説したスライド。"
+        }
+      ]
+    },
+    {
+      "name": "キャリア・組織",
+      "items": [
+        {
+          "title_ja": "ソフトウェアファクトリーを前提に、サービス開発はどう変わるか",
+          "url": "https://note.com/suthio/n/n91e27ebb133d",
+          "summary_ja": "AIで実装は速くなったが規模が大きくなるとレビューが渋滞するという問題意識から、製造業の工程内検査や Lauren Tan 氏の講演を手がかりに、AIの成果を検証しやすくして検証からリリースまでを組み立てる考え方を論じている。DORA 2025 の「AIは組織の強みも弱みも増幅する」という指摘も引いている。"
+        },
+        {
+          "title_ja": "サービスチーム全員で2年半続けているドメインモデリングのリアル",
+          "url": "https://speakerdeck.com/kaminashi/domain-modeling-with-the-whole-service-team",
+          "summary_ja": "カミナシの PdM・デザイナー・エンジニア全員で2024年から続けてきたドメインモデリングの変遷を紹介したスライド。職種間の認識がそろい手戻りがほぼなくなった一方、ユースケースが増えて全員で議論する時間自体がボトルネックになった経緯と、AIの活用方法を語っている。"
+        },
+        {
+          "title_ja": "10年先も食べていくための海図を書きました ― 新刊『職業としてのITエンジニア』12月16日発売",
+          "url": "https://comemo.nikkei.com/n/nd532d55c26c5",
+          "summary_ja": "久松剛氏が新刊『職業としてのITエンジニア――市場・採用・年収のアルゴリズム』を紹介。企業向けだった前作に対し今作はエンジニア本人向けで、AIに仕事を奪われる不安も踏まえ、転職市場や年収の仕組みをどう読むかを整理している。"
+        },
+        {
+          "title_ja": "\"チャッピーに聞く\"でも\"ググる\"でもない、エンジニアが選ぶ「知識が身に付く情報源」トップは？",
+          "url": "https://atmarkit.itmedia.co.jp/ait/articles/2611/24/news015.html",
+          "summary_ja": "＠ITが実施したエンジニア323人への情報収集に関する調査結果。業務の調べ物では検索エンジンや生成AIが多く使われる一方、「知識が身に付く」と評価された情報源のトップはそのどちらでもなかったという意外な結果を紹介している。（※本文の文字化けのためタイトル・概要から要約）"
+        },
+        {
+          "title_ja": "IBM、H-1B・グリーンカード保持者に「3週間以内に米国外へ移転するか退職を」と通告",
+          "url": "https://news.ycombinator.com/item?id=50658170",
+          "summary_ja": "IBM のコンサルティング部門がビザ・グリーンカードのスポンサーを大半の職種で打ち切り、該当社員に3週間以内の国外移転（主な移転先はインド）か、退職金3ヶ月分を受け取って12月31日付で退職するかの選択を迫っていると報じられた。"
+        }
+      ]
+    },
+    {
+      "name": "その他",
+      "items": [
+        {
+          "title_ja": "45°Cの入水温度がチラーを殺した。ほとんどの人はまだ気づいていない",
+          "url": "https://news.ycombinator.com/item?id=50655278",
+          "summary_ja": "SC26 のレポートとして、スーパーコンピューターや AI データセンターの液冷で45°Cの温水を入水に使えるようになり、冷水を作るチラーが不要になりつつある変化を論じた The Register の記事。HN では冷却効率や排熱再利用をめぐって議論が起きている。（※本文の一部のみ取得できたため概要中心の要約）"
+        },
+        {
+          "title_ja": "適切な時に、適切な場所にいた──RPGの礎を築いた『Wizardry』の生みの親、ロバート・ウッドヘッドが振り返る45年の歳月",
+          "url": "https://news.denfaminicogamer.jp/interview/261125w",
+          "summary_ja": "1981年に Apple II で登場し、ドラクエや FF を含む後のRPGに大きな影響を与えた『Wizardry』の生みの親、ロバート・ウッドヘッド氏へのロングインタビュー。開発当時の状況から45年のキャリアまでを振り返っている。"
+        }
+      ]
+    }
+  ]
+}
