@@ -225,6 +225,8 @@ https://gigazine.net/news/20261124-google-gbench-benchmarking-framework/
 https://gigazine.net/news/20261124-riemann-hypothesis-mathematician/
 https://gigazine.net/news/20261125-anthropic-openai-employees-fear-unreleased-ai-models/
 https://gigazine.net/news/20261126-gemma-4-fine-tune/
+https://gigazine.net/news/20261126-openai-matrix-multiplication/
+https://gigazine.net/news/20261127-d2/
 https://giginet.hateblo.jp/entry/2026/09/22/114642
 https://gihyo.jp/article/2026/10/ai-security-defense
 https://gihyo.jp/article/2026/10/anatomy
@@ -246,6 +248,7 @@ https://github.com/thisisme6598/gemini_files/
 https://gmo-cybersecurity.com/blog/20261019/
 https://go.dev/blog/http-connection-reuse
 https://go.dev/blog/jsonv2
+https://golden-lucky.hatenablog.com/entry/2026/11/27/111643
 https://harnesstax.github.io/
 https://helentech.jp/news-google-bans-videostrong-xcpe-backdoor/
 https://hightouch.com/blog/llm-judges-identity-resolution
@@ -272,6 +275,9 @@ https://huggingface.co/papers/2611.17167
 https://huggingface.co/papers/2611.20218
 https://huggingface.co/papers/2611.21003
 https://huggingface.co/papers/2611.23068
+https://huggingface.co/papers/2611.30494
+https://huggingface.co/papers/2611.34813
+https://ikotaslabs.com/news/2026-11-27
 https://inside.pixiv.blog/2026/10/22/193321
 https://internet.watch.impress.co.jp/docs/column/security/2138390.html
 https://internet.watch.impress.co.jp/docs/news/2141538.html
@@ -329,6 +335,7 @@ https://levtech.jp/media/detail_911/
 https://levtech.jp/media/detail_965/
 https://linear.app/now/ci-bottleneck-reworked
 https://logmi.jp/main/management/333618
+https://lolipop.jp/info/news/8279/
 https://mag.executive.itmedia.co.jp/executive/article/2608/26/2000000717/
 https://markezine.jp/news/detail/77595
 https://mashable.com/tech/anthropic-takes-steps-to-block-video-game-cloning-and-reverse-engineering
@@ -708,6 +715,14 @@ https://news.ycombinator.com/item?id=50653477
 https://news.ycombinator.com/item?id=50655278
 https://news.ycombinator.com/item?id=50657265
 https://news.ycombinator.com/item?id=50658170
+https://news.ycombinator.com/item?id=50660180
+https://news.ycombinator.com/item?id=50663089
+https://news.ycombinator.com/item?id=50664325
+https://news.ycombinator.com/item?id=50666279
+https://news.ycombinator.com/item?id=50668145
+https://news.ycombinator.com/item?id=50669765
+https://news.ycombinator.com/item?id=50670443
+https://news.ycombinator.com/item?id=50670855
 https://newsdig.tbs.co.jp/articles/-/2990268
 https://newsdig.tbs.co.jp/articles/-/3020110
 https://newsletter.dancohen.org/archive/the-slow-formation-of-durable-software/
@@ -757,6 +772,7 @@ https://pc.watch.impress.co.jp/docs/news/2147095.html
 https://pc.watch.impress.co.jp/docs/news/2147318.html
 https://pc.watch.impress.co.jp/docs/news/2153969.html
 https://pc.watch.impress.co.jp/docs/news/2155676.html
+https://pc.watch.impress.co.jp/docs/news/2159894.html
 https://pivotlake.io/blog/its-the-memory-latency-stupid/
 https://piyolog.hatenadiary.jp/entry/2026/08/23/033006
 https://piyolog.hatenadiary.jp/entry/2026/09/04/115554
@@ -856,6 +872,7 @@ https://songmu.jp/riji/entry/2026-10-24-scaling-github-actions-runners-with-ghal
 https://sorae.info/space/20261115-starship-15.html
 https://speakerdeck.com/22mi/how-to-design-self-improvement-for-ai-agents
 https://speakerdeck.com/akiratom/ai-kudou-kaihatsu-ha-doko-made-kita-no-ka-no-saishin-jittai-chousa-de-yomitoku-genzaichi-devin-con-tokyo
+https://speakerdeck.com/anizozina/akitekucha-kanfarensu-2026-atomawashi-dekiru-sekkei-maedaoshi-subeki-sekkei
 https://speakerdeck.com/azukiazusa1/slide-ca142a4a-9ec4-4750-91c1-07892c44a423
 https://speakerdeck.com/azukiazusa1/slide-efc59f7e-336f-4e6c-8919-27211ebc3d07
 https://speakerdeck.com/bengo4com/20261122-jsconfjp2026-coverage-100
@@ -870,9 +887,11 @@ https://speakerdeck.com/hirosi1900day/rogu-kensaku-taiken-kara-gyakusan-suru-rog
 https://speakerdeck.com/iwashi86/a-resume-from-the-employers-perspective
 https://speakerdeck.com/k1nakayama/sono-lambda-8-bun-de-kanrisha-kengen-made-ubawaremasu
 https://speakerdeck.com/kaminashi/domain-modeling-with-the-whole-service-team
+https://speakerdeck.com/kawasy/isucon2026-statemachine-replication-for-multi-region-in-memory-data-store-maruchi-rijon-kousei-niokeru-deta-no-in-memorika-e46becf2-a792-4df7-b614-7d36bae5e42e
 https://speakerdeck.com/kinopeee/hanesu-sekkei-nyuumon-kontekisuto-no-tsugi
 https://speakerdeck.com/kuracchi_enj1/yokohama-north-meetup-18
 https://speakerdeck.com/littlehands/ai-kudou-keiei-suraido-20261112-0eeda77b-3c60-4af9-b059-2eb1ff3ef2c1
+https://speakerdeck.com/littlehands/umtp-suraido-20261125
 https://speakerdeck.com/lycorptech_jp/aidlc-aidd-workshop
 https://speakerdeck.com/minodriven/invisible-requirement-thinking
 https://speakerdeck.com/minorun365/2026-11-lab-datsubotorunekku-ningen
@@ -889,6 +908,7 @@ https://speakerdeck.com/teru0x1/slack-ue-de-infura-o-toraburu-shuto-suru-agentic
 https://speakerdeck.com/terurou/ai-kudou-kaihatsu-no-jidai-ni-nata-node-toyota-seisan-houshiki-kara-minaosu
 https://speakerdeck.com/timakin/kodingu-jidouka-no-tsugi-he-hito-no-kainyuu-o-zero-ni-suru-to-sapoto-ai-niyoru-jissen
 https://speakerdeck.com/tkikuc/vibes-containers-ai-de-kawaru-kontena-sekkei-to-unyou
+https://speakerdeck.com/tkyowa/kakaku-com-ai-driven-system-renewal-202611
 https://speakerdeck.com/twada/debt-metaphor-in-agentic-engineering-age-202609-edition
 https://speakerdeck.com/upsider_tech/enjinia-ha-doko-made-ekkyou-surubeki-ka-take
 https://speakerdeck.com/yda/50-dai-de-hatsutenshoku-shita-hanashi
@@ -919,7 +939,9 @@ https://tech.classi.jp/entry/2026/10/26/163000
 https://tech.codmon.com/entry/2026/10/23/173909
 https://tech.dentsusoken.com/entry/2026/08/31/
 https://tech.dentsusoken.com/entry/2026/08/31/%E3%83%8F%E3%83%BC%E3%83%8D%E3%82%B9%E3%82%A8%E3%83%B3%E3%82%B8%E3%83%8B%E3%82%A2%E3%83%AA%E3%83%B3%E3%82%B0%E3%81%A8%E3%81%AF%E4%BD%95%E3%81%8B%E2%80%94%E2%80%94%22%E7%9B%9B%E3%82%8C%E3%81%B0%E5%8A%B9
+https://tech.dentsusoken.com/entry/2026/11/27/133501
 https://tech.every.tv/entry/2026/10/30/124255
+https://tech.kickflow.co.jp/entry/2026/11/27/154920
 https://tech.layerx.co.jp/entry/2026/09/18/185816
 https://tech.layerx.co.jp/entry/haro-alert-loop
 https://tech.layerx.co.jp/entry/haro-et-agent
@@ -960,6 +982,7 @@ https://trailofbits.com/2026/08/26/vms-wont-contain-cyber-capable-agents/
 https://type.jp/et/feature/31685/
 https://type.jp/et/feature/31834/
 https://type.jp/et/feature/32219/
+https://unaoya.github.io/lean-intro/
 https://unvalley.me/ja/blog/1793627906
 https://updates.gyazo.com/ja/gyazo-henobu-zheng-akusesuniyoruqing-bao-lou-einiguan-suruozhi-rasetoocha-bi-1g9tcc
 https://verdagon.dev/blog/valen-group-borrowing
@@ -1098,6 +1121,8 @@ https://www.itmedia.co.jp/news/article/2611/24/2000003427/
 https://www.itmedia.co.jp/news/article/2611/25/2000003421/
 https://www.itmedia.co.jp/news/article/2611/26/2000003446/
 https://www.itmedia.co.jp/news/article/2611/26/2000003447/
+https://www.itmedia.co.jp/news/article/2611/27/2000003503/
+https://www.itmedia.co.jp/news/article/2611/27/2000003517/
 https://www.itmedia.co.jp/pcuser/articles/2611/19/news047.html
 https://www.jiji.com/jc/article?k=2026091100447&g=flash
 https://www.jpcert.or.jp/at/2026/at260030.html
@@ -1192,6 +1217,7 @@ https://www.reddit.com/r/webdev/comments/1xw9yw4/showoff_saturday_my_team_at_chr
 https://www.ricursive.com/ripple
 https://www.ruby.or.jp/ja/news/20261125
 https://www.ryuzee.com/contents/blog/14628
+https://www.ryuzee.com/contents/blog/14629
 https://www.sankei.com/article/20260827-HJO7DKCWRNMB7MSDJCOSEMK4PY/
 https://www.sankei.com/article/20260909-YXTSWA7BWZA6VI3SCMGOQ3YMSM/
 https://www.sankei.com/article/20261126-SZTQ2RJW5ZKU3GJ4GQKJAORUPE/
@@ -1365,6 +1391,7 @@ https://zenn.dev/snowflakejp/articles/dynamic-tables-2026-use-cases
 https://zenn.dev/snowflakejp/articles/parquet-direct-pruning-benchmark
 https://zenn.dev/socialplus/articles/f5d9e28470eb99
 https://zenn.dev/sompojapan_dx/articles/846c6038fee45d
+https://zenn.dev/sugawara_ai/articles/ai-news-20261126
 https://zenn.dev/sunsun_eng/articles/api-key-leak-routes-env-scan
 https://zenn.dev/t_azk/articles/judge-by-exit-code-not-by-llm
 https://zenn.dev/t_shamoji/articles/28f0bc6915dd27
